@@ -25,6 +25,7 @@ Here we are taking the advantage of the Node-RED tool and the email service to b
 5. Configure Email Node
 
    Now we can configure the email node. I am using the Microsoft office email server. If you are using other email service providers, please check your server settings for setting up an `imap` client.
+
    ![node-red_email](http://www.lattepanda.com/wp-content/uploads/2016/02/node-red_email.png)
 
    And also if you are using *Gmail*, you need to create an application specific password for third-party application authentication.
