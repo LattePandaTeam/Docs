@@ -46,7 +46,7 @@ Let’s get started:
    This is not strictly necessary. In this tutorial I will not set an administrative password, but you may if you wish. If you set a password for this you will have to enter it before changing any configuration settings.
    When you are happy with your settings, click “OK”. Click “Finish” to exit the setup wizard.
 
-   ### Step 2 - Configuration
+### Step 2 - Configuration
 
    You should now see a new icon in your system tray. (If you don’t, try logging out and logging back in to your PC).
 
@@ -57,7 +57,7 @@ Let’s get started:
    Next, you will need to go on to the computer you would like to control the LattePanda with and using the same installation package, install TightVNC viewer. When you have successfully installed TightVNC viewer, check that you are on the same network as your LattePanda, otherwise it will not work!
    When you are certain that your computer and the LattePanda are on the same local network, proceed to step 3
 
-   ### Step 3 - Testing
+### Step 3 - Testing
 
    ![vnc_image009](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image009.png)
 
