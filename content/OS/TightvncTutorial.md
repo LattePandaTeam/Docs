@@ -6,7 +6,7 @@ VNC stands for “Virtual Network Computing”. It is a way of transmitting the 
 
 Let’s get started:
 
-### Step 1 - Installation
+# Step 1 - Installation
 
 1. Download and install TightVNC for Windows on your LattePanda. Choose 32-bit or 64-bit depending on your system architecture.
    (LattePanda Standard is 32-bit, LattePanda Enhanced is 64-bit)
@@ -44,7 +44,7 @@ Let’s get started:
    This is not strictly necessary. In this tutorial I will not set an administrative password, but you may if you wish. If you set a password for this you will have to enter it before changing any configuration settings.
    When you are happy with your settings, click “OK”. Click “Finish” to exit the setup wizard.
 
-### Step 2 - Configuration
+# Step 2 - Configuration
 
    You should now see a new icon in your system tray. (If you don’t, try logging out and logging back in to your PC).
 
@@ -55,7 +55,7 @@ Let’s get started:
    Next, you will need to go on to the computer you would like to control the LattePanda with and using the same installation package, install TightVNC viewer. When you have successfully installed TightVNC viewer, check that you are on the same network as your LattePanda, otherwise it will not work!
    When you are certain that your computer and the LattePanda are on the same local network, proceed to step 3
 
-### Step 3 - Testing
+# Step 3 - Testing
 
    ![vnc_image009](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image009.png)
 
@@ -72,6 +72,7 @@ Let’s get started:
 
 ![vnc_image011](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image011.png)
 
-You will be greeted by a window containing your LattePanda’s GUI! You may now control it remotely!
+# You will be greeted by a window containing your LattePanda’s GUI! You may now control it remotely!
+
 ![vnc_image012](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image012.png)
 This concludes the LattePanda VNC tutorial. If you have any questions or comments please let us know in the forum. I hope this has been of help to you.
