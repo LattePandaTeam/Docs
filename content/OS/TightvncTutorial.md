@@ -1,6 +1,4 @@
-## Setting up a VNC server on the LattePanda using TightVNC
-
-### Introduction
+# Introduction
 
 Using a VNC server will enable you to access the GUI of Windows running on your LattePanda from a different PC on your local network. TightVNC is a free and easy to set up service.
 
