@@ -44,6 +44,7 @@ Click Install to begin!
 6.TightVNC Server: Set Passwords
 
 ​    Password-based A
+
    ![vnc_image005](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image006.png)
 
 At this point it is wise to set a password for remote access. Point the radio button towards “Require password-based authentication” and choose a password. Retype it in the following box.
