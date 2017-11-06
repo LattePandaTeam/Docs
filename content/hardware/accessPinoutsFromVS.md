@@ -31,8 +31,6 @@ This class allows you to control Arduino GPIO from Windows apps, with features i
 
 # Step 2: Set up the Arduino
 
-### Set up the Arduino
-
 1. Open Arduino. And select the “StandardFirmata”
 
    ![image16](http://www.lattepanda.com/wp-content/uploads/2016/02/image16.png)
