@@ -51,7 +51,7 @@ This class allows you to control Arduino GPIO from Windows apps, with features i
 
 # Step 3: Blink your Board
 
-### Create a project or use the [sample project](http://www.lattepanda.com/wp-content/uploads/2016/02/blinkYourBoard.zip)
+Create a project or use the [sample project](http://www.lattepanda.com/wp-content/uploads/2016/02/blinkYourBoard.zip)
 
 #### Steps:
 
