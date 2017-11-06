@@ -32,7 +32,7 @@ node FirmateWebClient.js
 
 < h2 id="FirmateWebClient_ Usage">Usage Add these parameters to GET request to control the client, you can also see the following examples to learn how to use it.
 
-##### Set digital pin
+#### Set digital pin
 
 Write to a digital pin and set it to output mode
 
@@ -45,7 +45,7 @@ var url = {
 };
 ```
 
-##### Set PWM pin
+#### Set PWM pin
 
 Write to an analog pin using Pulse-width modulation (PWM)
 
@@ -59,7 +59,7 @@ var url = {
 
 ```
 
-##### Set servo pin
+#### Set servo pin
 
 Write the angle to a specified pin and set it to servo mode
 
@@ -72,7 +72,7 @@ var url = {
 };
 ```
 
-##### Sweep servo
+#### Sweep servo
 
 Sweep servo from 0-180 and repeat
 
@@ -83,10 +83,9 @@ var url = {
   path: '/sweep_servo/3',//command/Servo output pin(0~13)
   method: 'GET'
 };
-
 ```
 
-##### Stop servo
+#### Stop servo
 
 Stop a moving servo
 
@@ -100,7 +99,7 @@ var url = {
 
 ```
 
-##### Read all pins state
+#### Read all pins state
 
 It allow you to read all pins state and will return you a json object
 
