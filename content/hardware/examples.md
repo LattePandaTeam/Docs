@@ -1,6 +1,4 @@
-### Examples
-
-#### digitalWrite
+# digitalWrite
 
 In this example, we will blink the LED which is connected with digital pin (D0 - D13)
 
@@ -58,7 +56,7 @@ In this example, we will blink the LED which is connected with digital pin (D0 -
 1. Click Debug button to execute, the LED will start blinking.
 
 
-#### digitalRead
+# digitalRead
 
 This example detects the Button state through digital pin (D0-D13). **API required:**
 
@@ -113,7 +111,7 @@ This example detects the Button state through digital pin (D0-D13). **API requir
    `}`
 
 
-#### PWM
+# PWM
 
 This example assigns a pulse width modulation (PWM) value to an output pin (D3, D5, D6, D9, D10, D11) to dim or brighten an LED **API Required:**
 
@@ -174,7 +172,7 @@ This example assigns a pulse width modulation (PWM) value to an output pin (D3, 
 
 1. Click Debug to execute, you will find the LED brightness vary form dim to bright and then back again.
 
-#### analogRead
+# AnalogRead
 
 This example detect the value of analog pin (A0-A5) where a potentiometer is connected, and then print the value **API Required:**
 
@@ -232,7 +230,7 @@ This example detect the value of analog pin (A0-A5) where a potentiometer is con
 
 1. Click Debug to execute, the state of potentiometer will print when you rotate it.
 
-#### Servo
+# Servo
 
 In this example, we will sweep the servo motor back and forth across 180 degrees. **API Required:**
 
@@ -286,7 +284,7 @@ In this example, we will sweep the servo motor back and forth across 180 degrees
 
 1. Click debug to execute, you will find the motor sweeping forth and back continuously.
 
-#### I2C
+# I2C
 
 This example will show you how to use I2C to get the data form 3-axis accelerometer ADXL345 **API Required:**
 
