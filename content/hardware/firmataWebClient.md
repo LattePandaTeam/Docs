@@ -9,7 +9,7 @@ This project provides a minimum HTTP-based firmata controller for various hardwa
 
 This is just a few of the many possibilities. We welcome you build, extend and experiment with the features you need.
 
-# Install and run the client
+## Install and run the client
 
 You should have the following items ready before beginning the process:
 
