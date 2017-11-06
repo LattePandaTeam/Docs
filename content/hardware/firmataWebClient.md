@@ -1,5 +1,3 @@
-# FirmateWebClient: a simple way to access sensors and actuators
-
 ## Introduction
 
 This project provides a minimum HTTP-based firmata controller for various hardware, typically Arduino. This extends user's control and monitoring of the hardware using platform-independant URL requests. **Support list:**
