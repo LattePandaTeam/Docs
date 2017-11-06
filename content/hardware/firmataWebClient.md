@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 This project provides a minimum HTTP-based firmata controller for various hardware, typically Arduino. This extends user's control and monitoring of the hardware using platform-independant URL requests. **Support list:**
 
@@ -9,18 +9,13 @@ This project provides a minimum HTTP-based firmata controller for various hardwa
 
 This is just a few of the many possibilities. We welcome you build, extend and experiment with the features you need.
 
-## Install and run the client
+# Install and run the client
 
 You should have the following items ready before beginning the process:
 
 - [clone or Download](https://github.com/LattePandaTeam/LattePanda-Development-Support/tree/master/FirmateWebClient#introduction) this project files in the folder of your choice.
 
-  ​
-
 - Install [NodeJS.](https://nodejs.org/) Make sure that version of NodeJS is greater than 4.0.
-
-  ​
-
 - Open a new shell or Node.js command prompt and navigate to the folder where you placed the project files. Run the following commands to install `johnny-five` and `serialport` package.
 
 ```
