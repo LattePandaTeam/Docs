@@ -64,22 +64,30 @@ Create a project or use the [sample project](http://www.lattepanda.com/wp-conten
 4. Add the following code to Program.cs.
    - Add the following two lines code before the namespace blinkYourBoard.
      `using System.Threading;`
+
      `using LattePanda.Firmata;`
      The first namespace contributes to delay and second is LattePanda.Firmata class library namespace
+
    - Add the following code in the Main Function
-     `Arduino arduino = new Arduino();`
-     `arduino.pinMode(13, Arduino.OUTPUT);//Set the digital pin 13 as output`
-     `while (true)`
-     `{`
-     `// ==== set the led on or off`
-     `arduino.digitalWrite(13, Arduino.HIGH);//set the LED　on`
-     `Thread.Sleep(1000);//delay a seconds`
-     `arduino.digitalWrite(13, Arduino.LOW);//set the LED　off`
-     `Thread.Sleep(1000);//delay a seconds`
-     `}`
-     The complete code is as follows:
-     ![addCode](http://www.lattepanda.com/wp-content/uploads/2016/02/addCode.png)
-5. Finally debug your project
+
+
+```
+Arduino arduino = new Arduino();
+arduino.pinMode(13, Arduino.OUTPUT);//Set the digital pin 13 as output
+while (true)
+{
+// ==== set the led on or off
+arduino.digitalWrite(13, Arduino.HIGH);//set the LED　on
+Thread.Sleep(1000);//delay a seconds
+arduino.digitalWrite(13, Arduino.LOW);//set the LED　off
+Thread.Sleep(1000);//delay a seconds
+}
+```
+
+The complete code is as follows:
+![addCode](http://www.lattepanda.com/wp-content/uploads/2016/02/addCode.png)
+
+1. Finally debug your project
    Connect your Arduino and click Start
    ![start](http://www.lattepanda.com/wp-content/uploads/2016/02/start.png)
    Soon you will find the LED of your Arduino blinking
