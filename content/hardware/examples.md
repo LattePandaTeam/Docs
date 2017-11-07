@@ -25,12 +25,19 @@ In this example, we will blink the LED which is connected with digital pin (D0 -
 2. Main function code :
 
 `using System;`
+
 `using System.Collections.Generic;`
+
 `using System.Linq;`
+
 `using System.Text;`
+
 `using System.Threading.Tasks;`
+
 `using System.Threading;`
+
 `using LattePanda.Firmata;`
+
 `namespace blinkYourBoard//project name`
 `{`
 `class Program`
