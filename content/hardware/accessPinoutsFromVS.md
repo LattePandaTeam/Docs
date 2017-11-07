@@ -66,6 +66,7 @@ Create a project or use the [sample project](http://www.lattepanda.com/wp-conten
      `using System.Threading;`
 
      `using LattePanda.Firmata;`
+
      The first namespace contributes to delay and second is LattePanda.Firmata class library namespace
 
    - Add the following code in the Main Function
