@@ -114,7 +114,6 @@ This example detects the Button state through digital pin (D0-D13). **API requir
    }
    }
    }
-
    ```
 
    ​
@@ -177,7 +176,6 @@ This example assigns a pulse width modulation (PWM) value to an output pin (D3, 
    }
    }
    }
-
    ```
 
 **Test:**
