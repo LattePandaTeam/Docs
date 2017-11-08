@@ -38,33 +38,33 @@ This class allows you to control Arduino GPIO from Windows apps, with features i
 
 # Step 2: Set up the Arduino
 
-1. Open Arduino. And select the “StandardFirmata”
+ 1.Open Arduino. And select the “StandardFirmata”
 
    ![image16](http://www.lattepanda.com/wp-content/uploads/2016/02/image16.png)
 
-2. Select “Arduino Leonardo”
+ 2.Select “Arduino Leonardo”
    ![image17](http://www.lattepanda.com/wp-content/uploads/2016/02/image17.png)
 
-3. Select your COM port
+ 3.Select your COM port
    ![image18](http://www.lattepanda.com/wp-content/uploads/2016/02/image18.png)
 
-4. Upload the sketch
+ 4.Upload the sketch
    ![image19](http://www.lattepanda.com/wp-content/uploads/2016/02/image19.png)
 
-5. Upload Done!
+ 5.Upload Done!
    ![image20](http://www.lattepanda.com/wp-content/uploads/2016/02/image20.png)
 
 # Step 3: Blink your Board
 
 Create a project or use the [sample project](http://www.lattepanda.com/wp-content/uploads/2016/02/blinkYourBoard.zip)
 
-1. Open Visual Studio 2017 and create a new app:
+ 1.Open Visual Studio 2017 and create a new app:
    ![createProject1](http://www.lattepanda.com/wp-content/uploads/2016/02/createProject1.png)
    ![createProject2](http://www.lattepanda.com/wp-content/uploads/2016/02/createProject2.png)
-2. [Download the LattePanda.Firmata class library](https://github.com/LattePandaTeam/LattePanda-Development-Support/tree/master/LattePandaFirmata)
-3. Add the downloaded class library to your project Open your Solution Explorer and right-click in the blank area, then add existing item.
+ 2.[Download the LattePanda.Firmata class library](https://github.com/LattePandaTeam/LattePanda-Development-Support/tree/master/LattePandaFirmata)
+ 3.Add the downloaded class library to your project Open your Solution Explorer and right-click in the blank area, then add existing item.
    ![addClass1](http://www.lattepanda.com/wp-content/uploads/2016/02/addClass1.png)
-4. Add the following code to Program.cs.
+ 4.Add the following code to Program.cs.
    - Add the following two lines code before the namespace blinkYourBoard.
      `using System.Threading;`
 
