@@ -70,6 +70,7 @@ Set the Serial Port and BaudRate as AUTO and select the Printer Profile "Overlor
 ![](https://i.imgur.com/awBMEmn.png)
 
 When you connect to the Overlord successfully, you should see the following information.
+
 ![](https://i.imgur.com/qpo1Cbv.png)
 If Octoprint fails to connect try restarting your 3D printer, refresh the OctoPrint web interface or disconnect and reconnect the USB cable.
 
