@@ -41,30 +41,21 @@ You should have the following items ready before beginning the process:
 - Open the file **simple_sample_device.js** in a text editor.
 - Locate the following code in the file:
 
-```
-var connectionString = '[IoT Device Connection String]';
-```
+`var connectionString = '[IoT Device Connection String]';`
 
 - Replace `[IoT Device Connection String]` with the connection string for your device. Save the changes.
 
-- From the shell or command prompt you used earlier to run the **iothub-explorer** utility, use the following command to receive device-to-cloud messages from the sample application (Substitute`[iot hub connection string]` with the IoT Hub connection string you previously copied):
-
-  ```
-  iothub-explorer login "[iot hub connection string]"
-  ```
+- From the shell or command prompt you used earlier to run the **iothub-explorer** utility, use the following command to receive device-to-cloud messages from the sample application (Substitute`[iot hub connection string]` with the IoT Hub connection string you previously copied):`iothub-explorer login "[iot hub connection string]"`
 
 - Create a new device identity called `myDeviceId` with the command:
 
-  ```
-  iothub-explorer create myDeviceId --connection-string
-  ```
+  `iothub-explorer create myDeviceId --connection-string`
 
 - Open a new shell or Node.js command prompt and navigate to the folder where you placed the sample files. Run the sample application using the following commands:
 
-  ```
-  npm install
-  node simple_sample_device.js
-  ```
+  `npm install`
+
+  `node simple_sample_device.js`
 
 - The sample application will send messages to your IoT hub, and the **iothub-explorer** utility will display the messages as your IoT hub receives them.
 
@@ -140,10 +131,8 @@ The iothub-explorer tool is a cross-platform, command-line tool (written in Node
 
 2. Run the following command to register your device with your IoT hub. When you run the command, replace `[iothub connection string]` with the IoT Hub connection string from the previous step and replace `myDeviceId` with a name for your device such as **mydevice**.
 
-   ```
-   iothub-explorer login "[iothub connection string]"
-   iothub-explorer create myDeviceId --connection-string
-   ```
+   `iothub-explorer login "[iothub connection string]"`
+   `iothub-explorer create myDeviceId --connection-string`
 
 You should see a response like this: `Created device mydevice - ... - connectionString: HostName=<hostname>;DeviceId=mydevice;SharedAccessKey=<device-key>` Copy the device connection string information for later use. The samples in this repository use connection strings in the format: `HostName=<iothub-name>.azure-devices.net;DeviceId=<device-name>;SharedAccessKey=<device-key>.` To get help on using the iothub-explorer tool to perform other tasks such as listing devices, deleting devices, and sending commands to devices, enter the following command: `iothub-explorer --help` For further information about using the iothub-explorer tool to perform tasks such as disabling a device, monitoring a device, and sending commands to a device see:
 
