@@ -1,4 +1,4 @@
-# Turn a LattePanda in to a 3D Print Server Using Octoprint
+# Introduction
 
 In this tutorial we will discuss how to control and monitor a 3D printer remotely using OctoPrint and LattePanda.
 
@@ -19,64 +19,71 @@ The DREAMMAKER Overlord is a 3D printer that is affordable, smart and stylish. I
 4. Auto calibration
 5. Industrial Delta armature that enables a high level of repeated accuracy
 
-# The following section will walk through how to install OctoPrint and connect your 3D printer
+## Steps: 
 
-## Section 1: Install OctoPrint
+The following section will walk through how to install OctoPrint and connect your 3D printer, **Let’s get started:**
+
+### Step 1: Install OctoPrint
 To install OctoPrint follow the official tutorial:<BR>
+
 Windows https://github.com/foosel/OctoPrint/wiki/Setup-on-Windows
+
 In the tutorial you need to install Python 2.7 and Microsoft Visual C++ Compiler for Python 2.7 and then execute some command statements
 
-## Section 2: Start OctoPrint in a Web Browser
+### Step 2: Start OctoPrint in a Web Browser
 When you complete last step in the section 1, the command window will show some information as following figures show:
 
-![](..\resources\IpAddress.png)
+![](https://i.imgur.com/YWZ0woy.png)
 
 In the lower right corner of the command window there are two URLs `http://127.0.0.1:5000` and `http://192.168.2.104:5000` They are highlighted with red rectangles in the image.
 
 The first URL is your localhost URL. You may access the OctoPrint web UI on the PC connected to the Printer using this URL.
-![](..\resources\openOctoPrint.png)
+
+![](https://i.imgur.com/D1RD64p.png)
 
 The second URL is used to Connect to your 3D printer remotely from another PC on the same local Network as your LattePanda. The address 192.168.2.104 is actually your LattePanda's IP address. If the CMD window doesn't emerge the second URL, you can look for the IP address in Network and Sharing Center and attach the port number `:5000` at the end of IP address.
 
-### Please Note
+#### Please Note
 1. We recommend using Google Chrome as a browser. This has been tested in Microsoft Edge, and wasn't able to work without some further calibration.
 2. Do not close the command window when you attempt to open OctoPrint in your web browser, or you will see the following figure.
-![](..\resources\offline.png)
+
+  ![](https://i.imgur.com/ixkedGO.png)
 
 3. How to Start OctoPrint
 
 When we set up OctoPrint, there is no desktop icon or launcher. How can we open it when we need to use it? Just open the directory `F:\OctoPrint\venv\Scripts` and find the file `octoprint.exe`, double click it.
 Then the familiar command window will emerge where you can find the two URLs in the lower right corner. Input the URLs in to your web browser as before.
 
-## Section 3: Connect to your 3D Printer
+### Step3: Connect to your 3D Printer
 
-### Set OctoPrint
+#### Set OctoPrint
 
 1. Log in your account (create one if you don't have one) and click Settings. Select "Printer Profiles" to add your printer. Choose your printer name and set some parameters similar to the following:<BR>
 
-![](..\resources\addProfile.png)
+![](https://i.imgur.com/SjgmwWD.png)
 
-![](..\resources\addProfile2.png)
+![](https://i.imgur.com/gyzZ1Zq.png)
 
-### Connect to the Overlord
+#### Connect to the Overlord
 Set the Serial Port and BaudRate as AUTO and select the Printer Profile "Overlord" that you created on the previous step
-![](..\resources\connect.png)
+
+![](https://i.imgur.com/awBMEmn.png)
 
 When you connect to the Overlord successfully, you should see the following information.
-![](..\resources\succeed.png)
+![](https://i.imgur.com/qpo1Cbv.png)
 If Octoprint fails to connect try restarting your 3D printer, refresh the OctoPrint web interface or disconnect and reconnect the USB cable.
 
-## Section 4：How to Upload Files and Print
+## Step 4: How to Upload Files and Print
 
 Open the OctoPrint Web interface and press the upload button in the lower left corner to upload a .gcode file. When the upload is complete, you can click the print button, then the printer will begin to print the file. You can monitor the print time elapsed, remaining print time, nozzle temperature and also pause or cancel a running job as the following figure shows:
 
-![](..\resources\printState.png)
+![](https://i.imgur.com/7M3bE7S.png)
 
 You can now open OctoPrint on other computer or phone (connected to the same local Network as your LattePanda) and log in to monitor and control your printer remotely!
 
 Feel free to contact us if you have any queries. We will give advice as soon as we can.
 
-### References
+#### References
 1. http://www.dfrobot.com.cn/community/thread-13090-1-1.html
 2. https://github.com/foosel/OctoPrint/wiki/Setup-on-Windows
 3. http://www.lattepanda.com/product-detail/?pid=2
