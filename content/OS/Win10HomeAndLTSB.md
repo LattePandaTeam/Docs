@@ -58,28 +58,31 @@ We announced the LattePanda 4G/64GB version with with Enterprise License. The tu
 
 ### Installation Steps:
 
-- 1. Download the [LattePanda Win10 Enterprise LTSB Image](https://mega.nz/#!BKQHzCiI!X4ePjyzTmK2moYAb6MlfHbircHjwhzq4k2hN7-EZhmY).
+1.Download the [LattePanda Win10 Enterprise LTSB Image](https://mega.nz/#!BKQHzCiI!X4ePjyzTmK2moYAb6MlfHbircHjwhzq4k2hN7-EZhmY).
 
-   ![5bkNJQf.png](http://www.lattepanda.com/forum/download/file.php?id=307&sid=b025d7a9ce00eeb15bd1069c09ad8bd8)
+![5bkNJQf.png](http://www.lattepanda.com/forum/download/file.php?id=307&sid=b025d7a9ce00eeb15bd1069c09ad8bd8)
 
-- 2. Put all the files to the root directory of your USB flash disk. (You need to set your USB flash disk to be a bootable device. You can see the tutorial [here](https://technet.microsoft.com/en-us/library/jj200124%28v=ws.11%29.aspx).)
-- 3. Reboot the LattePanda, press 'Esc' continously to enter BIOS. Change the Boot Option Priorities to boot from the USB flash disk.
-- 4. Save & Reboot.
-- 5. Waiting for installation.
-- 6. Activate Your LattePanda
+2.Put all the files to the root directory of your USB flash disk. (You need to set your USB flash disk to be a bootable device. You can see the tutorial [here](https://technet.microsoft.com/en-us/library/jj200124%28v=ws.11%29.aspx).)
 
-   The activation code has been already put in the box. Take it out.
+3.Reboot the LattePanda, press 'Esc' continously to enter BIOS. Change the Boot Option Priorities to boot from the USB flash disk.
 
-   ![](https://i.imgur.com/UyYtL8x.png)
+4.Save & Reboot.
 
-   There are 6 steps to activate your LattePanda:
+5.Waiting for installation.
 
-   - Make sure your LattePanda has an active internet connection via WiFi or Ethernet
-   - Right click on the Windows button and select **System**
-   - Click **Acitvate Windows**
-   - Click **Change Product Key**
-   - Enter the product key number
-   - Click **Next**
+6.Activate Your LattePanda
 
+The activation code has been already put in the box. Take it out.
+
+![](https://i.imgur.com/UyYtL8x.png)
+
+There are 6 steps to activate your LattePanda:
+
+- Make sure your LattePanda has an active internet connection via WiFi or Ethernet
+- Right click on the Windows button and select **System**
+- Click **Acitvate Windows**
+- Click **Change Product Key**
+- Enter the product key number
+- Click **Next**
 
 
