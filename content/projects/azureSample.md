@@ -1,8 +1,4 @@
-## Run a simple Azure IoT Hub sample on LattePanda
-
-**About this document** This tutorial is adapted from [link](https://github.com/Azure/azure-iot-sdks) . The functions have been adapted for LattePanda. This samples uses Node.JS, [click](https://github.com/Azure/azure-iot-sdks) for more language platforms and further tutorials.**What’s Azure IoT Hub** Microsoft Azure is a cloud computing platform and infrastructure created by Microsoft for building, deploying, and managing applications and services through a global network of Microsoft-managed data centers. Azure IoT Hub is a fully managed service that enables reliable and secure bi-directional communications between millions of IoT devices and an application back end. Azure IoT Hub offers reliable device-to-cloud and cloud-to-device hyper-scale messaging, enables secure communications using per-device security credentials and access control, and includes device libraries for the most popular languages and platforms.
-
-### Introduction
+# Introduction
 
 This document describes how to build and run the Azure IoT Hub application on your LattePanda.
 
@@ -14,12 +10,20 @@ This multi-step process includes:
 - Build and deploy Azure IoT SDK on device
 - Run the Sample and send data to Azure IoT Hub.
 
-### 2 Steps to run Azure IoT Hub application on your LattePanda.
+**About this document**
+
+This tutorial is adapted from [link](https://github.com/Azure/azure-iot-sdks) . The functions have been adapted for LattePanda. This samples uses Node.JS, [click](https://github.com/Azure/azure-iot-sdks) for more language platforms and further tutorials.
+
+**What’s Azure IoT Hub** 
+
+Microsoft Azure is a cloud computing platform and infrastructure created by Microsoft for building, deploying, and managing applications and services through a global network of Microsoft-managed data centers. Azure IoT Hub is a fully managed service that enables reliable and secure bi-directional communications between millions of IoT devices and an application back end. Azure IoT Hub offers reliable device-to-cloud and cloud-to-device hyper-scale messaging, enables secure communications using per-device security credentials and access control, and includes device libraries for the most popular languages and platforms.
+
+## 2 Steps to run Azure IoT Hub application on your LattePanda
 
 - [Step 1: Prerequisites](http://www.lattepanda.com/docs/#IotHub_Prerequisites)
 - [Step 2: Build and Run the Sample](http://www.lattepanda.com/docs/#IotHub_Build)
 
-### Step 1: Prerequisites
+## Step 1: Prerequisites
 
 You should have the following items ready before beginning the process:
 
@@ -28,7 +32,7 @@ You should have the following items ready before beginning the process:
 - [Setup your IoT hub](http://www.lattepanda.com/docs/#Set_up_IoT_Hub)
 - [Provision your device and get its credentials](http://www.lattepanda.com/docs/#manage_iot_hub)
 
-#### Step 2: Build and Run the sample
+## Step 2: Build and Run the sample
 
 - Get the following sample files from https://github.com/azure/azure-iot-sdk-node
   - **package.json**
@@ -85,30 +89,34 @@ Before you can communicate with IoT Hub from a device you must create an IoT hub
 
 You can use the [Azure Portal](https://portal.azure.com/) to create an IoT hub to use with your devices.
 
-1. Log on to the [Azure Portal](https://portal.azure.com/).
+1.Log on to the [Azure Portal](https://portal.azure.com/).
 
-2. In the jumpbar, click **New**, then click **Internet of Things**, and then click **Azure IoT Hub**.
+2.In the jumpbar, click **New**, then click **Internet of Things**, and then click **Azure IoT Hub**.
 
-   ![create-iot-hub1](http://www.lattepanda.com/wp-content/uploads/2016/02/create-iot-hub1-1.png)
+![create-iot-hub1](http://www.lattepanda.com/wp-content/uploads/2016/02/create-iot-hub1-1.png)
 
-3. In the **New IoT Hub** blade, specify the desired configuration for the IoT Hub.
+3.In the **New IoT Hub** blade, specify the desired configuration for the IoT Hub.
 
-   ![create-iot-hub2](http://www.lattepanda.com/wp-content/uploads/2016/02/create-iot-hub2.png)
+![create-iot-hub2](http://www.lattepanda.com/wp-content/uploads/2016/02/create-iot-hub2.png)
 
-   - In the **Name** box, enter a name to identify your IoT hub. When the **Name** is validated, a green check mark appears in the **Name** box.
-   - Change the **Pricing and scale tier** as desired. The getting started samples do not require a specific tier.
-   - In the **Resource group** box, create a new resource group, or select and existing one. For more information, see [Using resource groups to manage your Azure resources](https://azure.microsoft.com/documentation/articles/resource-group-portal/).
-   - Use **Location** to specify the geographic location in which to host your IoT hub.
+- In the **Name** box, enter a name to identify your IoT hub. When the **Name** is validated, a green check mark appears in the **Name** box.
+- Change the **Pricing and scale tier** as desired. The getting started samples do not require a specific tier.
+- In the **Resource group** box, create a new resource group, or select and existing one. For more information, see [Using resource groups to manage your Azure resources](https://azure.microsoft.com/documentation/articles/resource-group-portal/).
+- Use **Location** to specify the geographic location in which to host your IoT hub.
 
-4. Once the new IoT hub options are configured, click **Create**. It can take a few minutes for the IoT hub to be created. To check the status, you can monitor the progress on the Startboard. Or, you can monitor your progress from the Notifications section.
-   ![create-iot-hub3](http://www.lattepanda.com/wp-content/uploads/2016/02/create-iot-hub3.png)
+4.Once the new IoT hub options are configured, click **Create**. It can take a few minutes for the IoT hub to be created. To check the status, you can monitor the progress on the Startboard. Or, you can monitor your progress from the Notifications section.
 
-5. After the IoT hub has been created successfully, open the blade of the new IoT hub, take note of the hostname URI, and click **Shared access policies**.
-   ![create-iot-hub4](http://www.lattepanda.com/wp-content/uploads/2016/02/create-iot-hub4.png)
+![create-iot-hub3](http://www.lattepanda.com/wp-content/uploads/2016/02/create-iot-hub3.png)
 
-6. Select the Shared access policy called **iothubowner**, then copy and take note of the connection string on the right blade. ![create-iot-hub5](http://www.lattepanda.com/wp-content/uploads/2016/02/create-iot-hub5.png)
+5.After the IoT hub has been created successfully, open the blade of the new IoT hub, take note of the hostname URI, and click **Shared access policies**.
 
-   Your IoT hub is now created, and you have the connection string you need to use the [iothub-explorer or the Device Explorer](http://www.lattepanda.com/docs/#manage_iot_hub) tool. This connection string enables applications to perform management operations on the IoT hub such as adding a new device to the IoT hub.
+![create-iot-hub4](http://www.lattepanda.com/wp-content/uploads/2016/02/create-iot-hub4.png)
+
+6.Select the Shared access policy called **iothubowner**, then copy and take note of the connection string on the right blade. 
+
+![create-iot-hub5](http://www.lattepanda.com/wp-content/uploads/2016/02/create-iot-hub5.png)
+
+Your IoT hub is now created, and you have the connection string you need to use the [iothub-explorer or the Device Explorer](http://www.lattepanda.com/docs/#manage_iot_hub) tool. This connection string enables applications to perform management operations on the IoT hub such as adding a new device to the IoT hub.
 
 ### Manage IoT Hub
 
