@@ -17,11 +17,11 @@ In this example, we will blink the LED which is connected with digital pin (D0 -
 
 1. LED inserted directly into pin 13
 
-   ![_example_blink](http://www.lattepanda.com/wp-content/uploads/2016/02/example_blink.png)
+   ![_example_blink](https://i.imgur.com/OvSjGUN.gif)
 
 **Code:**
 
-1. Create a new project in Visual Studio, Refer to [Create a project](http://www.lattepanda.com/docs/#BlinkyourBoard)
+1. Create a new project in Visual Studio, Refer to [Create a project](http://doc.mak12.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
 2. Main function code :
 
 ```
@@ -76,13 +76,13 @@ This example detects the Button state through digital pin (D0-D13). **API requir
 
 **Circuit:**
 
-1. Connect button to pin 12 as following figure shows
+1. Connect button to pin 9 as following figure shows
 
-![_example_button](http://www.lattepanda.com/wp-content/uploads/2016/02/example_button.png)
+![_example_button](https://i.imgur.com/4Un6VYO.png)
 
 **Code:**
 
-1. Create a new project in Visual Studio, refer to [Create a project](http://www.lattepanda.com/docs/#BlinkyourBoard)
+1. Create a new project in Visual Studio, refer to [Create a project](http://doc.mak12.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
 2. Main function code
 
 
@@ -101,8 +101,8 @@ class Program
 static Arduino arduino = new Arduino();//create an instance and initialize with the default parameters
 static void Main(string[] args)
 {
-arduino.pinMode(12, Arduino.INPUT);// Set the digital pin 12 as input
-int Value = arduino.digitalRead(12);// Read the state of pin 12 once.
+arduino.pinMode(9, Arduino.INPUT);// Set the digital pin 9 as input
+int Value = arduino.digitalRead(9);// Read the state of pin 9 once.
 Console.WriteLine(Value);
 arduino.digitalPinUpdated += Arduino_digitalPinUpdated;//
 Add Event Listeners and call it when the digital input update.
@@ -133,13 +133,13 @@ This example assigns a pulse width modulation (PWM) value to an output pin (D3, 
 
 **Circuit:**
 
-1. LED connected directly into pin 11 as following figure shows
+1. LED connected directly into pin 9 as following figure shows
 
-   ![_example_PWM](http://www.lattepanda.com/wp-content/uploads/2016/02/example_PWM.png)
+   ![_example_PWM](https://i.imgur.com/mxppTPx.gif)
 
 **Code:**
 
-1. Create a new project in Visual Studio, refer to [Create a project](http://www.lattepanda.com/docs/#BlinkyourBoard)
+1. Create a new project in Visual Studio, refer to [Create a project](http://doc.mak12.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
 2. Main function code
 
 ```
@@ -157,17 +157,17 @@ class Program
 static Arduino arduino = new Arduino();//create an instance and initialize with the default parameters
 static void Main(string[] args)
 {
-arduino.pinMode(11, Arduino.PWM);
+arduino.pinMode(9, Arduino.PWM);
 while (true)
 {
 for (int i = 0; i <= 255; i++)
 {
-arduino.analogWrite(11, i);
+arduino.analogWrite(9, i);
 Thread.Sleep(4);//delay 4ms
 }
 for (int i = 255; i >= 0; i--)
 {
-arduino.analogWrite(11, i);
+arduino.analogWrite(9, i);
 Thread.Sleep(4);//delay 4ms
 }
 }
@@ -194,13 +194,13 @@ This example detect the value of analog pin (A0-A5) where a potentiometer is con
 
 **Circuit:**
 
-1. Connect the potentiometer to pin 3 as following figure shows：
+1. Connect the potentiometer to pin 0 as following figure shows：
 
-   ![_example_analogRead](http://www.lattepanda.com/wp-content/uploads/2016/02/example_analogRead.png)
+   ![_example_analogRead](https://i.imgur.com/G0T4fFp.png)
 
 **Code :**
 
-1. Create a new project in Visual Studio, refer to [Create a project](http://www.lattepanda.com/docs/#BlinkyourBoard)
+1. Create a new project in Visual Studio, refer to [Create a project](http://doc.mak12.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
 2. Main function Code：
 
 ```
@@ -218,13 +218,13 @@ class Program
 static Arduino arduino = new Arduino();//create an instance and initialize with the default parameters
 static void Main(string[] args)
 {
-int Value = arduino.analogRead(3);//Read the state of pin 3
+int Value = arduino.analogRead(0);//Read the state of pin 0
 Console.WriteLine(Value);
 arduino.analogPinUpdated += Arduino_analogPinUpdated; ;//Add Event Listeners and call it when the analog input update.
 }
 private static void Arduino_analogPinUpdated(int pin, int value)
 {
-if(pin==3)
+if(pin==0)
 {
 Console.WriteLine(pin);
 Console.WriteLine(value);
@@ -260,7 +260,7 @@ In this example, we will sweep the servo motor back and forth across 180 degrees
 
 **Code :**
 
-1. Create a new project in Visual Studio, Refer to [Create a project](http://www.lattepanda.com/docs/#BlinkyourBoard)
+1. Create a new project in Visual Studio, Refer to [Create a project](http://doc.mak12.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
 2. Main function code:
 
 ```
@@ -319,7 +319,7 @@ This example will show you how to use I2C to get the data form 3-axis accelerome
 
 **Code :**
 
-1. Create a new project in Visual Studio, Refer to [Create a project](http://www.lattepanda.com/docs/#BlinkyourBoard)
+1. Create a new project in Visual Studio, Refer to [Create a project](http://doc.mak12.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
 2. Main function code:
 
 ```
