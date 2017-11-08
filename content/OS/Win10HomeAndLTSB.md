@@ -1,4 +1,4 @@
-# Introduction
+## Introduction
 
 In this section of the guide, you will know how to re-install LattePanda Operating system. We both provide Windows and Linux. Feel free to download the system you want.
 It's a simple and useful solution for the following situation:
@@ -9,7 +9,9 @@ It's a simple and useful solution for the following situation:
 
 You can also re-install your LattePanda if you just want to re-install it. 
 
-## Windows 10 Home 
+
+
+# Windows 10 Home 
 
 ### What you need
 
@@ -47,7 +49,7 @@ You can also re-install your LattePanda if you just want to re-install it.
 
 
 
-## Windows 10 Enterprise 
+# Windows 10 Enterprise 
 
 We announced the LattePanda 4G/64GB version with with Enterprise License. The tutorial below is provided by our kindly community member. Appreciate for his help, here's the [link of his original post](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=1388). If you have any other questions on installing a Windows Enterprise system or want know how to activate Windows key on your board, talk in this post! We are always ready to help you!!
 
