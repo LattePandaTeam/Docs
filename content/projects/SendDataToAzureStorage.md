@@ -6,6 +6,8 @@ This sample shows how to send data from a light sensor to Azure storage using a 
 - Configuring Azure Storage
 - Run the Sample and send light sensor data to Azure Storage.
 
+
+
 **About this document** 
 
 This tutorial is adapted from [link](https://github.com/Azure/azure-iot-sdks) . The functions have been adapted for LattePanda. This samples uses Node.JS, [click](https://github.com/Azure/azure-iot-sdks) for more language platforms and further tutorials.
