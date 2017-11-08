@@ -6,11 +6,13 @@ This sample shows how to send data from a light sensor to Azure storage using a 
 - Configuring Azure Storage
 - Run the Sample and send light sensor data to Azure Storage.
 
-##### About this document
+**About this document** 
 
-This tutorial is adapted from link . The functions have been adapted for LattePanda. This samples uses Node.JS, click for more language platforms and further tutorials. What’s Azure Storage
+This tutorial is adapted from [link](https://github.com/Azure/azure-iot-sdks) . The functions have been adapted for LattePanda. This samples uses Node.JS, [click](https://github.com/Azure/azure-iot-sdks) for more language platforms and further tutorials.
 
-Azure Storage is the cloud storage solution for modern applications that rely on durability, availability, and scalability to meet the needs of their customers. Azure Storage is massively scalable, so you can store and process hundreds of terabytes of data to support the big data scenarios required by scientific, financial analysis, and media applications. Or you can store the small amounts of data required for a small business website.
+**What’s Azure IoT Hub** 
+
+Microsoft Azure is a cloud computing platform and infrastructure created by Microsoft for building, deploying, and managing applications and services through a global network of Microsoft-managed data centers. Azure IoT Hub is a fully managed service that enables reliable and secure bi-directional communications between millions of IoT devices and an application back end. Azure IoT Hub offers reliable device-to-cloud and cloud-to-device hyper-scale messaging, enables secure communications using per-device security credentials and access control, and includes device libraries for the most popular languages and platforms.
 
 # 3 Steps to run Azure IoT Hub application on your LattePanda
 
