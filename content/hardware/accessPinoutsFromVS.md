@@ -12,15 +12,12 @@ This class allows you to control Arduino GPIO from Windows apps, with features i
 
 ## Step 1: Set up your PC
 
-1. [Download Visual Studio 2015 Here](https://www.visualstudio.com/downloads/download-visual-studio-vs)
-
+1. [Download Visual Studio 2017 Here](https://www.visualstudio.com/downloads/download-visual-studio-vs)
    ![image2](http://www.lattepanda.com/wp-content/uploads/2016/02/image2.jpeg)
 
 2. Enable developer mode on your operating system
 
-   ![image4](http://www.lattepanda.com/wp-content/uploads/2016/02/image4.jpeg)
-   ![image5](http://www.lattepanda.com/wp-content/uploads/2016/02/image5.jpeg)
-   ![image6](http://www.lattepanda.com/wp-content/uploads/2016/02/image6.jpeg)
+   ![image4](http://www.lattepanda.com/wp-content/uploads/2016/02/image4.jpeg)![image5](http://www.lattepanda.com/wp-content/uploads/2016/02/image5.jpeg)![image6](http://www.lattepanda.com/wp-content/uploads/2016/02/image6.jpeg)
 
 3. Download [LattePanda.Firmata](https://github.com/LattePandaTeam/LattePanda-Development-Support/tree/master/LattePandaFirmata)
 
