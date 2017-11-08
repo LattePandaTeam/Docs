@@ -17,6 +17,7 @@ Head over to https://www.visualstudio.com/products/visual-studio-professional-wi
 1) Head over to the site: http://www.opencv.org and download the latest version of OpenCV (shown in the following figure). Choose the version according to your operating system.
 
 In this tutorial we are going to install OpenCV 3.1 using Visual Studio 2015 professional on a 64-bit system running Windows 10.
+
 ![](https://i.imgur.com/Ll4CXAc.png)
 
 2) Extract the downloaded OpenCV file
@@ -26,9 +27,11 @@ Double click the downloaded OpenCV file, and then extract it
 ### Step 2: Set the Environment Variables
 
 1.To do this step, open the Control Panel and then System. Click the Advanced System Settings, last Environment Variables in turns as show in the following figure.
+
 ![](https://i.imgur.com/qNm3ioM.png)
 
 2.Edit the PATH environment variables and Add a new environment variable, then give it the value of `F:\opencv\build\x64\vc14\bin`. Note that change the value depends on the path where you have extracted your OpenCV in step 2.
+
 ![](https://i.imgur.com/mOF8J3H.png)
 
 ### Step 3: Create a new project in Visual Studio 2017
@@ -38,12 +41,15 @@ Double click the downloaded OpenCV file, and then extract it
 ![](https://i.imgur.com/Qf2XoKO.png)
 
 2.Select Win32 Console Application in Visual C++, then name your project and select a directory to store it
+
 ![](https://i.imgur.com/lQklQ4P.png)
 
 3.Choose the empty project and click finish
+
 ![](https://i.imgur.com/kNOg1Zh.png)
 
 4.Add a new cpp file
+
 ![](https://i.imgur.com/UwFWVKV.png)
 
 ![](https://i.imgur.com/29bzTUn.png)
@@ -51,6 +57,7 @@ Double click the downloaded OpenCV file, and then extract it
 ### Step 4: Configure OpenCV in Visual Studio 2015
 
 1.Open the Property Manager and double click Debug|Win64
+
 ![](https://i.imgur.com/tDaRcwr.png)
 
 2.Select "Include Directories", and give it the following values:
@@ -62,10 +69,12 @@ Double click the downloaded OpenCV file, and then extract it
 `F:\opencv\build\include\opencv2`
 
 Remember that change the value depending on the path you have extracted your OpenCV files to in step 2.
+
 ![](https://i.imgur.com/0Hp1zKD.png)
 
 3.Add Library Directories, give the value of
 `F:\opencv\build\x64\vc14\lib`. Remember that changing the values depends on the path where you have extracted your OpenCV in step 2
+
 ![](https://i.imgur.com/SyxIJOY.png)
 
 4.Add additional dependences
@@ -158,9 +167,11 @@ void detectAndDiapley(Mat frame)
 ```
 ### Step 6: Debug your Project
 Set two options as following figure shows:
+
 ![](https://i.imgur.com/JvHn331.png)
 
 Press F5 to execute the face detection project, your PC camera will turn on and your face and eyes will be highlighted like so:
+
 ![](https://i.imgur.com/PZLrE4O.png)
 
 ##  References:
