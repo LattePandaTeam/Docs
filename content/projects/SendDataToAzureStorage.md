@@ -16,7 +16,7 @@ This tutorial is adapted from [link](https://github.com/Azure/azure-iot-sdks) . 
 
 Microsoft Azure is a cloud computing platform and infrastructure created by Microsoft for building, deploying, and managing applications and services through a global network of Microsoft-managed data centers. Azure IoT Hub is a fully managed service that enables reliable and secure bi-directional communications between millions of IoT devices and an application back end. Azure IoT Hub offers reliable device-to-cloud and cloud-to-device hyper-scale messaging, enables secure communications using per-device security credentials and access control, and includes device libraries for the most popular languages and platforms.
 
-# 3 Steps to run Azure IoT Hub application on your LattePanda
+# 3 Steps to send the data
 
 ## Step 1: Prerequisites
 
