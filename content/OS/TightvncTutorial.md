@@ -8,7 +8,7 @@ VNC stands for “Virtual Network Computing”. It is a way of transmitting the 
 
 Let’s get started:
 
-## Step 1 - Installation
+### Step 1 - Installation
 
 1.Download and install TightVNC for Windows on your LattePanda. Choose 32-bit or 64-bit depending on your system architecture. (LattePanda Standard is 32-bit, LattePanda Enhanced is 64-bit)
 
