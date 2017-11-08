@@ -1,11 +1,4 @@
-## Send light sensor data to Azure storage
-
-**About this document**
-
-This tutorial is adapted from [link](https://github.com/azure/azure-iot-sdk-node) . The functions have been adapted for LattePanda. This samples uses Node.JS, [click](https://developer.microsoft.com/en-us/windows/iot/samples/azuredatauploader) for more language platforms and further tutorials. **What’s Azure Storage**
-Azure Storage is the cloud storage solution for modern applications that rely on durability, availability, and scalability to meet the needs of their customers. Azure Storage is massively scalable, so you can store and process hundreds of terabytes of data to support the big data scenarios required by scientific, financial analysis, and media applications. Or you can store the small amounts of data required for a small business website.
-
-### Introduction
+# Introduction
 
 This sample shows how to send data from a light sensor to Azure storage using a Node.JS app. This multi-step process includes:
 
@@ -13,13 +6,15 @@ This sample shows how to send data from a light sensor to Azure storage using a 
 - Configuring Azure Storage
 - Run the Sample and send light sensor data to Azure Storage.
 
-### 2 Steps to run Azure IoT Hub application on your LattePanda.
+#### About this document
 
-- [Step 1: Prerequisites](http://www.lattepanda.com/docs/#storage_Prerequisites)
-- [Step 2: Set up the hardware](http://www.lattepanda.com/docs/#storage_hardware)
-- [Step 3: Build and Run the Sample](http://www.lattepanda.com/docs/#storage_Build)
+This tutorial is adapted from link . The functions have been adapted for LattePanda. This samples uses Node.JS, click for more language platforms and further tutorials. What’s Azure Storage
 
-### Step 1: Prerequisites
+Azure Storage is the cloud storage solution for modern applications that rely on durability, availability, and scalability to meet the needs of their customers. Azure Storage is massively scalable, so you can store and process hundreds of terabytes of data to support the big data scenarios required by scientific, financial analysis, and media applications. Or you can store the small amounts of data required for a small business website.
+
+# 3 Steps to run Azure IoT Hub application on your LattePanda
+
+## Step 1: Prerequisites
 
 You should have the following items ready before beginning the process:
 
@@ -28,11 +23,11 @@ You should have the following items ready before beginning the process:
 - If you don’t have a storage account, follow [Setup your Azure Storage](https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/#create-a-storage-account) to set one up.
 - [Set up the Arduino](http://www.lattepanda.com/docs/#SetuptheArduino)(It is pre-installed, unless you changed the Arduino program)
 
-### Step 2: Set up the hardware
+## Step 2: Set up the hardware
 
 - Insert [Light Sensor](https://www.dfrobot.com/index.php?route=product/product&search=SEN0043&description=true&product_id=274) into LattePanda analog pin A0, The final setup should look something like this: ![BFC275558BF698A5C21E19A4E3A240D7_meitu_1](http://www.lattepanda.com/wp-content/uploads/2016/02/BFC275558BF698A5C21E19A4E3A240D7_meitu_1.jpg)
 
-### Step 3: Build and Run the sample
+## Step 3: Build and Run the sample
 
 - Creat a app.js file and copy the following code into it. be sure to enter valid values for accountName accountKey and arduinoPort. You may also change tableName. Place the file in the folder of your choice on your LattePanda
 
