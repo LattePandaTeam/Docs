@@ -74,7 +74,7 @@ When you connect to the Overlord successfully, you should see the following info
 ![](https://i.imgur.com/qpo1Cbv.png)
 If Octoprint fails to connect try restarting your 3D printer, refresh the OctoPrint web interface or disconnect and reconnect the USB cable.
 
-## Step 4: How to Upload Files and Print
+### Step 4: How to Upload Files and Print
 
 Open the OctoPrint Web interface and press the upload button in the lower left corner to upload a .gcode file. When the upload is complete, you can click the print button, then the printer will begin to print the file. You can monitor the print time elapsed, remaining print time, nozzle temperature and also pause or cancel a running job as the following figure shows:
 
