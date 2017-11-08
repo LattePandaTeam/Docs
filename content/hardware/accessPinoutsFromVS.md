@@ -2,13 +2,10 @@
 
 This class allows you to control Arduino GPIO from Windows apps, with features including:
 
-● Reading and writing to digital pins
-
-● Reading analog inputs
-
-● Controlling servo motors
-
-● Sending data to devices and receiving data form devices through the I2C Bus
+- Reading and writing to digital pins
+- Reading analog inputs
+- Controlling servo motors
+- Sending data to devices and receiving data form devices through the I2C Bus
 
 ## Step 1: Set up your PC
 
@@ -28,13 +25,10 @@ This class allows you to control Arduino GPIO from Windows apps, with features i
 
    [LattePanda.Firmata](https://github.com/LattePandaTeam/LattePanda-Development-Support/tree/master/LattePandaFirmata) is an open-source Firmata library provided by LattePanda, which is suitable for Windows apps developed in Visual Studio. This class allows you to control Arduino GPIO from Windows apps, with features including:
 
-   ● Reading and writing to digital pins
-
-   ● Reading analog inputs
-
-   ● Controlling servo motors
-
-   ● Sending data to devices and receiving data form devices through the I2C Bus
+- Reading and writing to digital pins
+- Reading analog inputs
+- Controlling servo motors
+- Sending data to devices and receiving data form devices through the I2C Bus
 
 # Step 2: Set up the Arduino
 
