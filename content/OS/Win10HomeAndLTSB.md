@@ -58,17 +58,19 @@ We announced the LattePanda 4G/64GB version with with Enterprise License. The tu
 
 ### Installation Steps:
 
-1. Download the [LattePanda Win10 Enterprise LTSB Image](https://mega.nz/#!BKQHzCiI!X4ePjyzTmK2moYAb6MlfHbircHjwhzq4k2hN7-EZhmY).![5bkNJQf.png](http://www.lattepanda.com/forum/download/file.php?id=307&sid=b025d7a9ce00eeb15bd1069c09ad8bd8)
+1.Download the [LattePanda Win10 Enterprise LTSB Image](https://mega.nz/#!BKQHzCiI!X4ePjyzTmK2moYAb6MlfHbircHjwhzq4k2hN7-EZhmY).
 
-2. Put all the files to the root directory of your USB flash disk. (You need to set your USB flash disk to be a bootable device. You can see the tutorial [here](https://technet.microsoft.com/en-us/library/jj200124%28v=ws.11%29.aspx).)
+   ![5bkNJQf.png](http://www.lattepanda.com/forum/download/file.php?id=307&sid=b025d7a9ce00eeb15bd1069c09ad8bd8)
 
-3. Reboot the LattePanda, press 'Esc' continously to enter BIOS. Change the Boot Option Priorities to boot from the USB flash disk.
+2.Put all the files to the root directory of your USB flash disk. (You need to set your USB flash disk to be a bootable device. You can see the tutorial [here](https://technet.microsoft.com/en-us/library/jj200124%28v=ws.11%29.aspx).)
 
-4. Save & Reboot.
+3.Reboot the LattePanda, press 'Esc' continously to enter BIOS. Change the Boot Option Priorities to boot from the USB flash disk.
 
-5. Waiting for installation.
+4.Save & Reboot.
 
-6. Activate Your LattePanda
+5.Waiting for installation.
+
+6.Activate Your LattePanda
 
    The activation code has been already put in the box. Take it out.
 
