@@ -15,7 +15,7 @@ In this example, we will blink the LED which is connected with digital pin (D0 -
 
 **Circuit:**
 
-1. LED inserted directly into pin 13
+1. LED inserted directly into pin 9
 
    ![_example_blink](https://i.imgur.com/OvSjGUN.gif)
 
@@ -39,13 +39,13 @@ class Program
 static Arduino arduino = new Arduino();//create an instance and initialize with the default parameters
 static void Main(string[] args)
 {
-arduino.pinMode(13, Arduino.OUTPUT);//Set the digital pin 13 as output
+arduino.pinMode(9, Arduino.OUTPUT);//Set the digital pin 9 as output
 while (true)
 {
 // ==== set the led on or off
-arduino.digitalWrite(13, Arduino.HIGH);//set the LED　on
+arduino.digitalWrite(9, Arduino.HIGH);//set the LED　on
 Thread.Sleep(1000);//delay a seconds
-arduino.digitalWrite(13, Arduino.LOW);//set the LED　off
+arduino.digitalWrite(9, Arduino.LOW);//set the LED　off
 Thread.Sleep(1000);//delay a seconds
 }
 }
