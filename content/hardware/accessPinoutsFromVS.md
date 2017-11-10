@@ -62,6 +62,7 @@ Create a project or use the [sample project](http://www.lattepanda.com/wp-conten
  4.Add the following code to Program.cs.
 
    - Add the following two lines code before the namespace blinkYourBoard.
+
      `using System.Threading;`
 
      `using LattePanda.Firmata;`
