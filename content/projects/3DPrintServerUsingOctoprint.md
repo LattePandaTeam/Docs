@@ -2,8 +2,8 @@
 
 In this tutorial we will discuss how to control and monitor a 3D printer remotely using OctoPrint and LattePanda.
 
-## What We Need
 Before we begin you will need to prepare the following equipment:
+
 1. LattePanda
 2. A 3D printer (We have opted for the Overlord 3D Printer from DREAMMAKER)
 
@@ -13,20 +13,19 @@ OctoPrint is an open source software which is designed to manage 3D printers. It
 
 ### What is the DREAMMAKER Overlord?
 The DREAMMAKER Overlord is a 3D printer that is affordable, smart and stylish. It has many advantages such as:
+
 1. A fusion of oriental classic and minimalism design
 2. Up to 16 Pantone standard colors for your unique taste
 3. Optimized operation on Windows/Mac OS/Linux
 4. Auto calibration
 5. Industrial Delta armature that enables a high level of repeated accuracy
 
-## Steps: 
-
-The following section will walk through how to install OctoPrint and connect your 3D printer, **Let’s get started:**
+## Get started: 
 
 ### Step 1: Install OctoPrint
 To install OctoPrint follow the official tutorial:<BR>
 
-Windows https://github.com/foosel/OctoPrint/wiki/Setup-on-Windows
+Windows [https://github.com/foosel/OctoPrint/wiki/Setup-on-Windows](https://github.com/foosel/OctoPrint/wiki/Setup-on-Windows)
 
 In the tutorial you need to install Python 2.7 and Microsoft Visual C++ Compiler for Python 2.7 and then execute some command statements
 
@@ -52,6 +51,7 @@ The second URL is used to Connect to your 3D printer remotely from another PC on
 3. How to Start OctoPrint
 
 When we set up OctoPrint, there is no desktop icon or launcher. How can we open it when we need to use it? Just open the directory `F:\OctoPrint\venv\Scripts` and find the file `octoprint.exe`, double click it.
+
 Then the familiar command window will emerge where you can find the two URLs in the lower right corner. Input the URLs in to your web browser as before.
 
 ### Step3: Connect to your 3D Printer
@@ -72,6 +72,7 @@ Set the Serial Port and BaudRate as AUTO and select the Printer Profile "Overlor
 When you connect to the Overlord successfully, you should see the following information.
 
 ![](https://i.imgur.com/qpo1Cbv.png)
+
 If Octoprint fails to connect try restarting your 3D printer, refresh the OctoPrint web interface or disconnect and reconnect the USB cable.
 
 ### Step 4: How to Upload Files and Print

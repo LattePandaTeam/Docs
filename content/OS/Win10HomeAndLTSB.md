@@ -51,7 +51,7 @@ You can also re-install your LattePanda if you just want to re-install it.
 
 ## Windows 10 Enterprise 
 
-We announced the LattePanda 4G/64GB version with with Enterprise License. The tutorial below is provided by our kindly community member. Appreciate for his help, here's the [link of his original post](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=1388). If you have any other questions on installing a Windows Enterprise system or want know how to activate Windows key on your board, talk in this post! We are always ready to help you!!
+We announced the LattePanda 4G/64GB version with with Enterprise License. The tutorial below is provided by our kindly community member. We are really appreciate for his help, here's the [link of his original post](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=1388). If you have any other questions on installing a Windows Enterprise system or want know how to activate Windows key on your board, discuss in this post! We are always ready to help you!!
 
 ### What you need
 
@@ -87,3 +87,24 @@ There are 6 steps to activate your LattePanda:
 - Click **Next**
 
 
+## **Ubuntu 16.04 LTS**
+
+This tutorial is also provided by one of our kindly community mumbers. We are really appreciate for his help. Here's the [link of his original post](http://www.lattepanda.com/forum/viewtopic.php?p=4988#p4988). If you have any questions on installing a Linux system , feel free to discuss in this post! We are always ready to help you!!
+
+### What you need
+
+1 x USB flash Drive (at least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
+
+### Installation Steps:
+
+1. Download [Ubuntu 16.04 LTS](http://releases.ubuntu.com/16.04/ubuntu-16.04.2-desktop-amd64.iso)
+
+2. Burn the iso to a USB drive. You can use our toolpack [here](https://www.dropbox.com/s/22gu489bu9ebe5z/Ubuntu%20WiFi%20Toolpack.rar?dl=0).
+
+3. Insert your USB drive to a free USB port on the LattePanda, and reboot the machine. When the LattePanda boots, you will be greeted by the installation process.
+
+4. Select Install Ubuntu
+
+5. When the system is installed, reboot the LattePanda.
+
+   ​

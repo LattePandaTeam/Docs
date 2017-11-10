@@ -37,20 +37,24 @@ This class allows you to control Arduino GPIO from Windows apps, with features i
    ![image16](http://www.lattepanda.com/wp-content/uploads/2016/02/image16.png)
 
  2.Select “Arduino Leonardo”
+
    ![image17](http://www.lattepanda.com/wp-content/uploads/2016/02/image17.png)
 
  3.Select your COM port
+
    ![image18](http://www.lattepanda.com/wp-content/uploads/2016/02/image18.png)
 
  4.Upload the sketch
+
    ![image19](http://www.lattepanda.com/wp-content/uploads/2016/02/image19.png)
 
  5.Upload Done!
+
    ![image20](http://www.lattepanda.com/wp-content/uploads/2016/02/image20.png)
 
 # Step 3: Blink your Board
 
-Create a project or use the [sample project](http://www.lattepanda.com/wp-content/uploads/2016/02/blinkYourBoard.zip)
+Create a project or use the [sample project.](http://www.lattepanda.com/wp-content/uploads/2016/02/blinkYourBoard.zip) You can find more GPIO example [here.](http://doc.mak12.com/content/hardware/examples/)
 
  1.Open Visual Studio 2017 and create a new app:
    ![createProject1](http://www.lattepanda.com/wp-content/uploads/2016/02/createProject1.png)
@@ -86,6 +90,7 @@ Thread.Sleep(1000);//delay a seconds
 ```
 
 The complete code is as follows:
+
 ![addCode](http://www.lattepanda.com/wp-content/uploads/2016/02/addCode.png)
 
 5.Finally debug your project

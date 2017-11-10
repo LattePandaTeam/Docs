@@ -121,3 +121,38 @@ You will receive an object like this
     "data":{"0":"false",..."13":"false","A0":"0.75",..."A5":"0.67"}
 }
 ```
+## Examples
+
+You can see all the examples in `/examples` folder. [Click to see more user experience.](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=977)
+
+##### Turn on a LED
+
+In this example, we will turn on the LED which has connected on digital pin 13.
+
+- Open a new shell or Node.js command prompt and navigate to `/examples` folder
+- Run the sample using the following commands: `node set_digital.js`
+
+##### Set PWM
+
+This example assigns a pulse width modulation (PWM) value to an output pin (D3, D5, D6, D9, D10, D11) to dim or brighten a LED. In this sample, we use the onboard LED which connects to digital pin 13.
+
+- Open a new shell or Node.js command prompt and navigate to `/examples` folder
+- Run the sample using the following commands: `node set_pwm.js`
+
+##### Set Servo
+
+In this example, we will set the servo motor to 20 degree.
+
+- Open a new shell or Node.js command prompt and navigate to `/examples` folder
+- Insert servo into pin D9
+- Run the sample using the following commands: `node set_servo.js`
+
+##### Read Light Sensor Output
+
+This example detect the value of a light sensor via analog pin(A0~A5)
+
+- Open a new shell or Node.js command prompt and navigate to `/examples` folder
+- Connect a [Light Sensor](http://www.lattepanda.com/product-details/?pid=6) to analog pin A0
+- Run the sample using the following commands: `node read_analog.js`
+- the value of the sensor will be printed out.
+

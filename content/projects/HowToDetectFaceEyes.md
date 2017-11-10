@@ -1,4 +1,6 @@
 # Introduction
+In this article, you will learn an easy way to detect your face and eyes by using OpenCV. 
+
 OpenCV (Open Source Computer Vision) is released under a BSD license and hence it’s free for both academic and commercial use. It has C++, C, Python and Java interfaces and supports Windows, Linux, Mac OS, iOS and Android. OpenCV was designed for computational efficiency and with a strong focus on real-time applications. Written in
 optimized C/C++, the library can take advantage of multi-core processing.
 
@@ -6,9 +8,9 @@ Adopted all around the world, OpenCV has more than 47 thousand people of user co
 
 ## Steps:
 
-### Step 1：Install  Visual Studio 2015 and OpenCV
+### Step 1：Install  Visual Studio 2017 and OpenCV
 
-1.Install Visual Studio 2015 on your computer
+1.Install Visual Studio 2017 on your computer
 
 Head over to https://www.visualstudio.com/products/visual-studio-professional-with-msdn-vs and download Visual Studio Professional 2015. Unzip the downloaded file and double-click the 'vs_professional.exe', then the installation process will begin.
 
@@ -54,7 +56,7 @@ Double click the downloaded OpenCV file, and then extract it
 
 ![](https://i.imgur.com/29bzTUn.png)
 
-### Step 4: Configure OpenCV in Visual Studio 2015
+### Step 4: Configure OpenCV in Visual Studio 2017
 
 1.Open the Property Manager and double click Debug|Win64
 

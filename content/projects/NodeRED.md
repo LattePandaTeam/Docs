@@ -11,21 +11,21 @@ Here we are taking the advantage of the Node-RED tool and the email service to b
 
 ### Software setup
 
-[Flash Firmata into Your Uno Board](http://www.lattepanda.com/docs/#SetuptheArduino)
+1.[Flash Firmata into Your Uno Board](http://www.lattepanda.com/docs/#SetuptheArduino)
 
-1.[Install Node-RED](http://nodered.org/docs/getting-started/installation).
+2.[Install Node-RED](http://nodered.org/docs/getting-started/installation).
 
-2.Please follow the [official Arduino documentation from Node-RED](http://nodered.org/docs/hardware/arduino).
+3.Please follow the [official Arduino documentation from Node-RED](http://nodered.org/docs/hardware/arduino).
 
 As soon as you get past the first blinking example, you can start to go to the IOT part.
 
-3.Build Control flow.
+4.Build Control flow.
 
 Here is the simple flow setup.
 
 ![node-red_flow](http://www.lattepanda.com/wp-content/uploads/2016/02/node-red_flow.png)
 
-4.Configure Email Node
+5.Configure Email Node
 
 Now we can configure the email node. I am using the Microsoft office email server. If you are using other email service providers, please check your server settings for setting up an `imap` client.
 
@@ -33,7 +33,7 @@ Now we can configure the email node. I am using the Microsoft office email serve
 
 And also if you are using *Gmail*, you need to create an application specific password for third-party application authentication.
 
-5.Configure Function Node
+6.Configure Function Node
 
 We need a tiny bit of code to interpret the email messages before relay that on to your Arduino board. Specifically, we are using the email's **subject** to control our Arduino board. Because some server may automatically attach or transform the email **body** content or format for better user experience (in its own opinion), it would be easier to write working code for our example using only the **email subject**.
 Here is the code
@@ -46,11 +46,11 @@ Here is the code
 
 ![node-red_function](http://www.lattepanda.com/wp-content/uploads/2016/02/node-red_function.png)
 
-6.Configure the Arduino LED Node You should have configured the LED node on pin 13 already if you have passed the example. But here is a screenshot just in case.
+7.Configure the Arduino LED Node You should have configured the LED node on pin 13 already if you have passed the example. But here is a screenshot just in case.
 
 ![node-red_pin](http://www.lattepanda.com/wp-content/uploads/2016/02/node-red_pin.png)
 
-7.Test
+### Test
 
 Now you can send an email to your account, with the subject of a single digit: 1( or 0 if your pin 13 LED is already turned on). You should see the LED on the board change after about 10 or 20 seconds after you have sent the email.
 

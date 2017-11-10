@@ -33,6 +33,8 @@ You should have the following items ready before beginning the process:
 
 - Get the following sample files from https://github.com/azure/azure-iot-sdk-node
   - **package.json**
+
+
   - **simple_sample_device.js**
 - Place the files in the folder of your choice on the target machine/device
 - Open the file **simple_sample_device.js** in a text editor.
@@ -129,6 +131,7 @@ The iothub-explorer tool is a cross-platform, command-line tool (written in Node
 2. Run the following command to register your device with your IoT hub. When you run the command, replace `[iothub connection string]` with the IoT Hub connection string from the previous step and replace `myDeviceId` with a name for your device such as **mydevice**.
 
    `iothub-explorer login "[iothub connection string]"`
+
    `iothub-explorer create myDeviceId --connection-string`
 
 You should see a response like this: `Created device mydevice - ... - connectionString: HostName=<hostname>;DeviceId=mydevice;SharedAccessKey=<device-key>` Copy the device connection string information for later use. The samples in this repository use connection strings in the format: `HostName=<iothub-name>.azure-devices.net;DeviceId=<device-name>;SharedAccessKey=<device-key>.` To get help on using the iothub-explorer tool to perform other tasks such as listing devices, deleting devices, and sending commands to devices, enter the following command: `iothub-explorer --help` For further information about using the iothub-explorer tool to perform tasks such as disabling a device, monitoring a device, and sending commands to a device see:

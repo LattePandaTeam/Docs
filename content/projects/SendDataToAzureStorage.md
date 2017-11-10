@@ -16,9 +16,9 @@ This tutorial is adapted from [link](https://github.com/Azure/azure-iot-sdks) . 
 
 Microsoft Azure is a cloud computing platform and infrastructure created by Microsoft for building, deploying, and managing applications and services through a global network of Microsoft-managed data centers. Azure IoT Hub is a fully managed service that enables reliable and secure bi-directional communications between millions of IoT devices and an application back end. Azure IoT Hub offers reliable device-to-cloud and cloud-to-device hyper-scale messaging, enables secure communications using per-device security credentials and access control, and includes device libraries for the most popular languages and platforms.
 
-# 3 Steps to send the data
+## 3 Steps to send the data
 
-## Step 1: Prerequisites
+### Step 1: Prerequisites
 
 You should have the following items ready before beginning the process:
 
@@ -27,13 +27,13 @@ You should have the following items ready before beginning the process:
 - If you don’t have a storage account, follow [Setup your Azure Storage](https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/#create-a-storage-account) to set one up.
 - [Set up the Arduino](http://www.lattepanda.com/docs/#SetuptheArduino)(It is pre-installed, unless you changed the Arduino program)
 
-## Step 2: Set up the hardware
+### Step 2: Set up the hardware
 
 - Insert [Light Sensor](https://www.dfrobot.com/index.php?route=product/product&search=SEN0043&description=true&product_id=274) into LattePanda analog pin A0, The final setup should look something like this: 
 
   ![BFC275558BF698A5C21E19A4E3A240D7_meitu_1](http://www.lattepanda.com/wp-content/uploads/2016/02/BFC275558BF698A5C21E19A4E3A240D7_meitu_1.jpg)
 
-## Step 3: Build and Run the sample
+### Step 3: Build and Run the sample
 
 - Creat a app.js file and copy the following code into it. be sure to enter valid values for accountName accountKey and arduinoPort. You may also change tableName. Place the file in the folder of your choice on your LattePanda
 

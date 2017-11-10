@@ -1,5 +1,3 @@
-# Troubleshooting & FAQs
-
 ## How do I know LattePanda is on?
 
 There is one LED under LattePanda. When LP is on, you should see the PWR LED light up continuous and bright.
@@ -59,69 +57,72 @@ Good power supply can ensure stable work of lattepanda. If you can’t start it,
 
 We tested some common adapter and USB cable so that it is convenient for your selection. The results are shown in the table below.
 
-### Adapter:
+### Recommend Adapter:
 
-**Model: **AUKEY PA-T9 (American Standard)
+- **Model: **AUKEY PA-T9 (American Standard)
 
-**Test Results: **available
+  **Test Results:** available
 
-**Peak current: **3.0A
+  **Peak current:**3.0A
 
-**link: **[Amazon](https://www.amazon.com/Charge-Charger-Galaxy-Qualcomm-Certified/dp/B018RR30TK/ref=sr_1_1?ie=UTF8&qid=1466745738&sr=8-1&keywords=AUKEY+PA-T9) **Model: **AUKEY PA-T9-DE (European Standard)
+- **link: **[Amazon](https://www.amazon.com/Charge-Charger-Galaxy-Qualcomm-Certified/dp/B018RR30TK/ref=sr_1_1?ie=UTF8&qid=1466745738&sr=8-1&keywords=AUKEY+PA-T9) **Model: **AUKEY PA-T9-DE (European Standard)
 
-**Test Results: **available
+  **Test Results: **available
 
-**Peak current: **3.0A
+  **Peak current: **3.0A
 
-**link: **[Amazon](https://www.amazon.de/AUKEY-Ladeger%C3%A4t-Port-schwarz-schnell/dp/B01AHWOH54/ref=sr_1_1?ie=UTF8&qid=1469606331&sr=8-1&keywords=PA-T9) **Model: **NILLKIN 5V@2A USB Adapter
+- **link: **[Amazon](https://www.amazon.de/AUKEY-Ladeger%C3%A4t-Port-schwarz-schnell/dp/B01AHWOH54/ref=sr_1_1?ie=UTF8&qid=1469606331&sr=8-1&keywords=PA-T9) **Model:**NILLKIN 5V@2A USB Adapter
 
-**Test Results: **available
+  **Test Results:**available
 
-**Peak current: **2.5A
+  **Peak current:**2.5A
 
-**link: **[DFRobot](http://www.dfrobot.com/index.php?route=product/product&product_id=933&search=lattepanda&description=true#.V1UDL2OxhVo), [Amazon](http://www.amazon.com/Adapter-Nillkin%C2%AEUS-Standard-Charger-Samsung/dp/B015SL0Y3I/ref=sr_1_1?ie=UTF8&qid=1465189045&sr=8-1&keywords=NILLKIN+5V+2A+USB) **Model: **APPLE ipad 10W usb power adapter
+- **link: **[DFRobot](http://www.dfrobot.com/index.php?route=product/product&product_id=933&search=lattepanda&description=true#.V1UDL2OxhVo), [Amazon](http://www.amazon.com/Adapter-Nillkin%C2%AEUS-Standard-Charger-Samsung/dp/B015SL0Y3I/ref=sr_1_1?ie=UTF8&qid=1465189045&sr=8-1&keywords=NILLKIN+5V+2A+USB) **Model: **APPLE ipad 10W usb power adapter
 
-**Test Results: **available
+  **Test Results: **available
 
-**Peak current: **2.8A
+  **Peak current: **2.8A
 
-**link: **[Amazon](http://www.amazon.com/Apple-A1357-Power-Adapter-iPhone/dp/B008QYIMO8/ref=sr_1_1?ie=UTF8&qid=1465189264&sr=8-1&keywords=APPLE+10W++adapter) **Model: **JDB 5500
 
-**Test Results: **available
+- **link: **[Amazon](http://www.amazon.com/Apple-A1357-Power-Adapter-iPhone/dp/B008QYIMO8/ref=sr_1_1?ie=UTF8&qid=1465189264&sr=8-1&keywords=APPLE+10W++adapter) **Model: **JDB 5500
 
-**Peak current: **2.8A
+  **Test Results: **available
 
-**link: **[Amazon](http://www.amazon.com/Charger-JDB-Charge-Adapter-Samsung/dp/B00R26VRHA/ref=sr_1_1?ie=UTF8&qid=1465189309&sr=8-1&keywords=JDB+5500) **Model: **HUAWEI HW-050200C3W
+  **Peak current: **2.8A
 
-**Test Results: **available
 
-**Peak current: **2.5A
+- **link: **[Amazon](http://www.amazon.com/Charger-JDB-Charge-Adapter-Samsung/dp/B00R26VRHA/ref=sr_1_1?ie=UTF8&qid=1465189309&sr=8-1&keywords=JDB+5500) **Model: **HUAWEI HW-050200C3W
 
-**link: **[Amazon](http://www.amazon.com/Huawei-Original-Travel-Charger-Micro/dp/B017M0LNYC/ref=sr_1_1?ie=UTF8&qid=1465189465&sr=8-1&keywords=HW-050200C3W) **Model: **HUAWEI HW-059200CHQ
+  **Test Results: **available
 
-**Test Results: **unavailable
+  **Peak current: **2.5A
+
+
+- **link: **[Amazon](http://www.amazon.com/Huawei-Original-Travel-Charger-Micro/dp/B017M0LNYC/ref=sr_1_1?ie=UTF8&qid=1465189465&sr=8-1&keywords=HW-050200C3W) **Model: **HUAWEI HW-059200CHQ
+
+  **Test Results: **unavailable
 
 ### USB cable:
 
-**Model: **LattePanda Double Sided Micro USB Cable
+- **Model: **LattePanda Double Sided Micro USB Cable
 
-**Test Results: **available
+  **Test Results: **available
 
-**Wire Diameter: **0.9mm
+  **Wire Diameter: **0.9mm
 
-**link: **[DFRobot](http://www.dfrobot.com/index.php?route=product/product&product_id=1430&search=lattepanda&description=true#.V1UEk2OxhVo) **Model: **REMAX RC-025T
+- **link: **[DFRobot](http://www.dfrobot.com/index.php?route=product/product&product_id=1430&search=lattepanda&description=true#.V1UEk2OxhVo) **Model: **REMAX RC-025T
 
-**Test Results: **available
+  **Test Results: **available
 
-**Wire Diameter: **0.8mm
+  **Wire Diameter: **0.8mm
 
-**link: **[Amazon](http://www.amazon.com/REMAX-RC-025t-Charger-Charging-Smartphone/dp/B01CNG4UHW/ref=sr_1_1?ie=UTF8&qid=1465189542&sr=8-1&keywords=REMAX+RC-025T) **Model: **JDB 5500
+- **link: **[Amazon](http://www.amazon.com/REMAX-RC-025t-Charger-Charging-Smartphone/dp/B01CNG4UHW/ref=sr_1_1?ie=UTF8&qid=1465189542&sr=8-1&keywords=REMAX+RC-025T) **Model: **JDB 5500
 
-**Test Results: **available
+  **Test Results: **available
 
-**Wire Diameter: **0.7mm
+  **Wire Diameter: **0.7mm
 
-**link: **[Amazon](http://www.amazon.com/Charger-JDB-Charge-Adapter-Samsung/dp/B00R26VRHA/ref=sr_1_1?ie=UTF8&qid=1465189309&sr=8-1&keywords=JDB+5500)
+  **link: **[Amazon](http://www.amazon.com/Charger-JDB-Charge-Adapter-Samsung/dp/B00R26VRHA/ref=sr_1_1?ie=UTF8&qid=1465189309&sr=8-1&keywords=JDB+5500)
 
 ### Other
 

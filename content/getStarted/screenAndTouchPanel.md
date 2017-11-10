@@ -1,5 +1,3 @@
-## Connect with 7“ Display and Touch Panel Overlay
-
 ![img](http://www.lattepanda.com/wp-content/uploads/2016/08/bitmap.png)**Note:Please connect it with LattePanda BEFORE power-on. And make sure the Golden Finger face the right side. The contacts on FPC are so compact and in order. Please be careful that any dislocation connection may cause the LattePanda short circuit and the IPS display abnormal like ghosting or flicker.**
 
 1. Lift up the actuator. Use thumb or index finger might be easier.
