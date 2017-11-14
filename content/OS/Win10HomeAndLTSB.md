@@ -9,6 +9,8 @@ It's a simple and useful solution for the following situation:
 
 You can also re-install your LattePanda if you just want to re-install it. 
 
+
+
 ## Windows 10 Home 
 
 ### What you need

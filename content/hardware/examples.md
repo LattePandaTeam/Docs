@@ -53,8 +53,6 @@ Thread.Sleep(1000);//delay a seconds
 }
 ```
 
-
-
 **Test：**
 
 1. Click Debug button to execute, the LED will start blinking.
