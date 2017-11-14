@@ -54,7 +54,7 @@ This class allows you to control Arduino GPIO from Windows apps, with features i
 
 # Step 3: Blink your Board
 
-Create a project or use the [sample project.](http://www.lattepanda.com/wp-content/uploads/2016/02/blinkYourBoard.zip) You can find more GPIO example [here.](http://doc.mak12.com/content/hardware/examples/)
+Create a project or use the [sample project.](http://www.lattepanda.com/wp-content/uploads/2016/02/blinkYourBoard.zip) You can find more GPIO example [here.](http://docs.lattepanda.com/content/hardware/examples/)
 
  1.Open Visual Studio 2017 and create a new app:
    ![createProject1](http://www.lattepanda.com/wp-content/uploads/2016/02/createProject1.png)
