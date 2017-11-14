@@ -1,6 +1,6 @@
 In this article we will discuss the images of the Lattepanda. Below is a basic diagram that displays all the pins:
 
-![image1](http://www.lattepanda.com/wp-content/uploads/2017/08/PINOUT.png)
+![image1](https://i.imgur.com/QCrLM6d.png)
 
 Pinouts in area U1 are assigned to the X-Z8300 core.
 
