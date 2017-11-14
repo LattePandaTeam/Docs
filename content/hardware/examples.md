@@ -21,7 +21,7 @@ In this example, we will blink the LED which is connected with digital pin (D0 -
 
 **Code:**
 
-1. Create a new project in Visual Studio, Refer to [Create a project](http://doc.mak12.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
+1. Create a new project in Visual Studio, Refer to [Create a project](http://docs.lattepanda.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
 2. Main function code :
 
 ```
@@ -82,7 +82,7 @@ This example detects the Button state through digital pin (D0-D13). **API requir
 
 **Code:**
 
-1. Create a new project in Visual Studio, refer to [Create a project](http://doc.mak12.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
+1. Create a new project in Visual Studio, refer to [Create a project](http://docs.lattepanda.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
 2. Main function code
 
 
@@ -139,7 +139,7 @@ This example assigns a pulse width modulation (PWM) value to an output pin (D3, 
 
 **Code:**
 
-1. Create a new project in Visual Studio, refer to [Create a project](http://doc.mak12.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
+1. Create a new project in Visual Studio, refer to [Create a project](http://docs.lattepanda.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
 2. Main function code
 
 ```
@@ -200,7 +200,7 @@ This example detect the value of analog pin (A0-A5) where a potentiometer is con
 
 **Code :**
 
-1. Create a new project in Visual Studio, refer to [Create a project](http://doc.mak12.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
+1. Create a new project in Visual Studio, refer to [Create a project](http://docs.lattepanda.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
 2. Main function Code：
 
 ```
@@ -260,7 +260,7 @@ In this example, we will sweep the servo motor back and forth across 180 degrees
 
 **Code :**
 
-1. Create a new project in Visual Studio, Refer to [Create a project](http://doc.mak12.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
+1. Create a new project in Visual Studio, Refer to [Create a project](http://docs.lattepanda.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
 2. Main function code:
 
 ```
@@ -319,7 +319,7 @@ This example will show you how to use I2C to get the data form 3-axis accelerome
 
 **Code :**
 
-1. Create a new project in Visual Studio, Refer to [Create a project](http://doc.mak12.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
+1. Create a new project in Visual Studio, Refer to [Create a project](http://docs.lattepanda.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
 2. Main function code:
 
 ```
