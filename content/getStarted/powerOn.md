@@ -4,7 +4,7 @@ You can power your LattePanda through the micro USB port or through the CN2 head
 **Note: Check your power adapter and USB cable connection before use - insufficient or unstable current may prevent your LattePanda from initializing. **
 A power adapter will not be bundled with the board, but you may get one from our online store or any electronics retailer.
 
-[Here’s our list of recommended power adapters and cables](http://docs.lattepanda.com/content/troubleshooting/Troubleshooting/#recommend-adapter) 
+[Here’s our list of recommended power adapters and cables](http://docs.lattepanda.com/content/troubleshooting/Troubleshooting/#common-adapters-and-usb-cable-recommendations) 
 
 **MicroUSB**
 

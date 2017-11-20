@@ -54,7 +54,7 @@ Good power supply can ensure stable work of lattepanda. If you can’t start it,
 
 We tested some common adapter and USB cable so that it is convenient for your selection. The results are shown in the table below.
 
-### Recommend Adapter:
+#### Recommend Adapter:
 
 - **Model: **AUKEY PA-T9 (American Standard)
 
@@ -99,7 +99,7 @@ We tested some common adapter and USB cable so that it is convenient for your se
 
   **Test Results: **unavailable
 
-### Recommend USB cable:
+#### Recommend USB cable:
 
 - **Model: **LattePanda Double Sided Micro USB Cable
 
