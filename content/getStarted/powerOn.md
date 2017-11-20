@@ -14,7 +14,7 @@ When you have an adapter and micro USB cable ready, follow the instructions belo
 
 1.Connect the USB into the USB power adapter, and the microUSB into the micro USB port of the LattePanda (The micro USB port is located next to the SD card socket).
 
-[If you are using the 7" display/touch panel, please connect it before powering on your device](http://www.lattepanda.com/docs/#Connect_With_7“_Display_And_Touch_Panel_Overlay)
+[If you are using the 7" display/touch panel, please connect it before powering on your device](http://docs.lattepanda.com/content/getStarted/screenAndTouchPanel/)
 
 ![img](http://www.lattepanda.com/wp-content/uploads/2016/05/plug-USB.jpg) 
 

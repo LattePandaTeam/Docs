@@ -4,7 +4,7 @@
 
 This guide will show you how to use LattePanda to start up your little drive first. And kick-off your adventure of software plus hardware development.
 
-
+<u>**If you have any problems when viewing our DOCS, feel free to contact us and discuss [through the forum](http://www.lattepanda.com/topic-f16t1713.html). We, together with our community members, are always ready to help you!**</u>
 
 The guide is broken down into four parts:
 

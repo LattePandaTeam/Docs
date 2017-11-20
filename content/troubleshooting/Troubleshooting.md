@@ -1,3 +1,7 @@
+# Problems On DOCS?
+
+If you have any problems when viewing our DOCS, feel free to contact us and discuss [through the forum](http://www.lattepanda.com/topic-f16t1713.html). We, together with our community members, are always ready to help you!
+
 ## How do I know LattePanda is on?
 
 There is one LED under LattePanda. When LP is on, you should see the PWR LED light up continuous and bright.
@@ -54,7 +58,7 @@ Good power supply can ensure stable work of lattepanda. If you can’t start it,
 
 We tested some common adapter and USB cable so that it is convenient for your selection. The results are shown in the table below.
 
-#### Recommend Adapter:
+### Recommend Adapter:
 
 - **Model: **AUKEY PA-T9 (American Standard)
 
