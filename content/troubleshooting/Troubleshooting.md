@@ -99,7 +99,7 @@ We tested some common adapter and USB cable so that it is convenient for your se
 
   **Test Results: **unavailable
 
-### USB cable:
+### Recommend USB cable:
 
 - **Model: **LattePanda Double Sided Micro USB Cable
 
