@@ -91,6 +91,8 @@ There are 6 steps to activate your LattePanda:
 
 This tutorial is also provided by one of our kindly community mumbers. We are really appreciate for his help. Here's the [link of his original post](http://www.lattepanda.com/forum/viewtopic.php?p=4988#p4988). If you have any questions on installing a Linux system , feel free to discuss in this post! We are always ready to help you!!
 
+**Note:** It's only available for LattePanda 4G/64GB. To get WiFi and Bluetooth modules running under Ubuntu, see [this post](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=58&start=140#p4807).
+
 ### What you need
 
 1 x USB flash Drive (at least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
