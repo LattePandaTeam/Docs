@@ -99,7 +99,7 @@ This tutorial is also provided by one of our kindly community mumbers. We are re
 
 ### Installation Steps:
 
-1. Download [Ubuntu 16.04 LTS](http://releases.ubuntu.com/16.04/ubuntu-16.04.2-desktop-amd64.iso)
+1. Download [Ubuntu 16.04 LTS](http://releases.ubuntu.com/16.04/ubuntu-16.04.3-desktop-amd64.iso)
 
 2. Burn the iso to a USB drive. You can use our toolpack [here](https://www.dropbox.com/s/22gu489bu9ebe5z/Ubuntu%20WiFi%20Toolpack.rar?dl=0).
 
