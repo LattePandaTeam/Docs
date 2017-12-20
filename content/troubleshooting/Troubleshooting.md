@@ -27,7 +27,7 @@ Please follow the steps below to re-install Windows 10 to its "out of the box" s
 
 [x86 version for CR110 z8350 2GB+32GB](https://drive.google.com/file/d/0BzUYTecbiooHdVhHbFVZak4xREk/view)
 
-[x64 version for CR110 z8350 4GB+64GB/ all CR200 z8350](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view)
+[x64 version for CR110 z8350 4GB+64GB/ **all CR200 z8350**](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view)
 
 2.Format your USB disk to FAT32 and change the drive name to "WINPE"
 
