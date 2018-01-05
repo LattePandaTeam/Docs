@@ -131,9 +131,44 @@ Specific to embedded and robot applications scenarios, lattepanda also provides 
 
 ## Common Problems & Solutions
 
-###  Activated problems.
+### Activated problems :
 
-1.  2G version. Please check [here](http://www.lattepanda.com/topic-f10t1271.html).
+- *2G version.* 
 
+​        --Please check [here](http://www.lattepanda.com/topic-f10t1271.html).
 
-2.  4G enterprise version. Please make sure you have got the license card form the box.
+- *4G enterprise version.*
+
+   --Please make sure you have got the license card form the box.
+
+### Boot problems :
+
+- *The Blue LED blinks after the button pressed.*
+
+   --Please make sure you press the right button , the power button is the white one which next to the 20pins, not the silver one.
+
+- *The Red LED light on all time.* 
+
+  --Please check [here](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=386).
+
+### Accessories :
+
+- *Touchpanel  isn't working properly.* 
+
+  --Please check [here](http://www.lattepanda.com/topic-f10t1178p5008.html#p5008).
+
+- *No HDMI output.*
+
+  --Please check [here](http://www.lattepanda.com/topic-f10t1175.html).
+
+### Other :
+
+- *Power the board via CN2 headers.* 
+
+  --Please check [here](http://www.lattepanda.com/topic-f10t797.html).
+
+- *Change resolution.*
+
+  --Please check [here](http://www.lattepanda.com/topic-f10t1736.html).
+
+  ​
