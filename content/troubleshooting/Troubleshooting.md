@@ -128,3 +128,10 @@ We tested some common adapter and USB cable so that it is convenient for your se
 ### Other
 
 Specific to embedded and robot applications scenarios, lattepanda also provides two pairs of external power supply pin of 5v and Gnd, check pinout diagram to find the external power connector beside the MicroUSB connector.
+
+## Common Problems & Solutions
+
+###  Problems and solution:
+
+1. LattePanda 2G version activated problem.[http://www.lattepanda.com/topic-f10t1271.html]()
+
