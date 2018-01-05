@@ -131,7 +131,9 @@ Specific to embedded and robot applications scenarios, lattepanda also provides 
 
 ## Common Problems & Solutions
 
-###  Problems and solution:
+###  Activated problems.
 
-1.[LattePanda 2G version activated problem.](http://www.lattepanda.com/topic-f10t1271.html)
+1.  2G version. Please check [here](http://www.lattepanda.com/topic-f10t1271.html).
 
+
+2.  4G enterprise version. Please make sure you have got the license card form the box.
