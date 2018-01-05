@@ -133,5 +133,6 @@ Specific to embedded and robot applications scenarios, lattepanda also provides 
 
 ###  Problems and solution:
 
-1. LattePanda 2G version activated problem.[http://www.lattepanda.com/topic-f10t1271.html]()
+1. LattePanda 2G version activated problem.[http://www.lattepanda.com/topic-f10t1271.html](1111)
+2. LattePanda 2G version activated problem.[1111](http://www.lattepanda.com/topic-f10t1271.html)
 
