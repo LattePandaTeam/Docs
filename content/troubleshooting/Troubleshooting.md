@@ -27,7 +27,7 @@ Please follow the steps below to re-install Windows 10 to its "out of the box" s
 
 [x86 version for CR110 z8350 2GB+32GB](https://drive.google.com/file/d/0BzUYTecbiooHdVhHbFVZak4xREk/view)
 
-[x64 version for CR110 z8350 4GB+64GB/ all CR200 z8350](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view)
+[x64 version for CR110 z8350 4GB+64GB/ **all CR200 z8350**](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view)
 
 2.Format your USB disk to FAT32 and change the drive name to "WINPE"
 
@@ -128,3 +128,31 @@ We tested some common adapter and USB cable so that it is convenient for your se
 ### Other
 
 Specific to embedded and robot applications scenarios, lattepanda also provides two pairs of external power supply pin of 5v and Gnd, check pinout diagram to find the external power connector beside the MicroUSB connector.
+
+## Common Problems & Solutions
+
+### Activated problems :
+
+- *2G version.*  --Please check [here](http://www.lattepanda.com/topic-f10t1271.html).
+
+
+- *4G enterprise version.*  --Please make sure you have got the license card form the box.
+
+### Boot problems :
+
+- *The Blue LED blinks after the button pressed.*  --Please make sure you press the right button , the power button is the white one which next to the 20pins, not the silver one.
+- *The Red LED light on all time.*   --Please check [here](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=386).
+
+### Accessories :
+
+- *Touchpanel  isn't working properly.*   --Please check [here](http://www.lattepanda.com/topic-f10t1178p5008.html#p5008).
+- *No HDMI output.*  --Please check [here](http://www.lattepanda.com/topic-f10t1175.html).
+
+### Other :
+
+- *Power the board via CN2 headers.*   --Please check [here](http://www.lattepanda.com/topic-f10t797.html).
+
+- *Change resolution.*  --Please check [here](http://www.lattepanda.com/topic-f10t1736.html).
+
+  ​
+
