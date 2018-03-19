@@ -87,6 +87,20 @@ There are 6 steps to activate your LattePanda:
 - Click **Next**
 
 
+
+
+##**Update Windows**
+
+If you want to update to the latest version of Windows 10, please follow the steps below.
+
+1. [Download the Update Assistant here.](https://www.microsoft.com/en-us/software-download/windows10) To get started, click **Update now**.
+2. Run the Update Assistant.
+3. Wait for update. (This will take a will, you can keep working.)
+
+**Note:** The latest Version of Windows 10 Enterprise LTSB is 1607.
+
+
+
 ## **Ubuntu 16.04 LTS**
 
 This tutorial is also provided by one of our kindly community mumbers. We are really appreciate for his help. Here's the [link of his original post](http://www.lattepanda.com/forum/viewtopic.php?p=4988#p4988). If you have any questions on installing a Linux system , feel free to discuss in this post! We are always ready to help you!!
