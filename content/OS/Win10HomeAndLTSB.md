@@ -95,8 +95,8 @@ If you want to update to the latest version of Windows 10, please follow the ste
 
 1. [Download the Update Assistant here.](https://www.microsoft.com/en-us/software-download/windows10) To get started, click **Update now**.
 2. Run the Update Assistant.
-3. Wait for update. (This will take a will, you can keep working.
-4. When the update is done, delete the Windows.old file in C:/ .
+3. Wait for update. (This will take a will, you can keep working.)
+4. When the update is done, delete the Windows.old folder in C:/ . ([Click here to see how to delete Windows.old folder](http://www.lattepanda.com/topic-f6t7136.html))
 
 ![](https://i.imgur.com/ClxdfZw.png)
 
