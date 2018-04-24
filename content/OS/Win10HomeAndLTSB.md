@@ -37,7 +37,7 @@ You can also re-install your LattePanda if you just want to re-install it.
 
 [x64 version for all **CR200** z8350  (2GB+32GB and 4GB+64GB)](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view)
 
-Tips：please check your board version carefully !
+Tips：Please check your board version carefully !
 
 2.Format your USB disk to FAT32 and change the drive name to "WINPE"
 
