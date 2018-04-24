@@ -15,7 +15,7 @@ You can also re-install your LattePanda if you just want to re-install it.
 
 ### What you need
 
-1 x USB flash Drive (at least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
+1 x USB flash Drive (*at* least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
 
 
 
@@ -31,9 +31,13 @@ You can also re-install your LattePanda if you just want to re-install it.
 
 [x64 version for z8300 4GB+64GB](https://drive.google.com/file/d/0B5YJ8UIGswVqSm5qWF91MG1NWnc/view)
 
-[x86 version for CR110 z8350 2GB+32GB](https://drive.google.com/file/d/0BzUYTecbiooHdVhHbFVZak4xREk/view)
+[x86 version for **CR110** z8350 2GB+32GB](https://drive.google.com/file/d/0BzUYTecbiooHdVhHbFVZak4xREk/view)
 
-[x64 version for CR110 z8350 4GB+64GB/ **all CR200 z8350**](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view)
+[x64 version for **CR110** z8350 4GB+64GB](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view)
+
+[x64 version for all **CR200** z8350  (2GB+32GB and 4GB+64GB)](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view)
+
+Tips：please check your board version carefully !
 
 2.Format your USB disk to FAT32 and change the drive name to "WINPE"
 
