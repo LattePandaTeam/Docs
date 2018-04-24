@@ -13,6 +13,7 @@ Let’s get started:
 1. Download and install TightVNC for Windows on your LattePanda. Choose 32-bit or 64-bit depending on your system architecture.
    (LattePanda Standard is 32-bit, LattePanda Enhanced is 64-bit)
    [Download](http://www.tightvnc.com/download.php)
+
    ![vnc_image001](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image001.png)
 
 2. End-User Licence Agreement

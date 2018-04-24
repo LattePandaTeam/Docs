@@ -63,7 +63,7 @@ We announced the LattePanda 4G/64GB version with with Enterprise License. The tu
 
 ### Installation Steps:
 
-1.Download the [LattePanda Win10 Enterprise LTSB Image](https://mega.nz/#!BKQHzCiI!X4ePjyzTmK2moYAb6MlfHbircHjwhzq4k2hN7-EZhmY).
+1.Download the [LattePanda Win10 Enterprise LTSB Image](http://bit.ly/2EC7GRi).
 
 ![5bkNJQf.png](http://www.lattepanda.com/forum/download/file.php?id=307&sid=b025d7a9ce00eeb15bd1069c09ad8bd8)
 
@@ -89,6 +89,23 @@ There are 6 steps to activate your LattePanda:
 - Click **Change Product Key**
 - Enter the product key number
 - Click **Next**
+
+
+
+
+##**Update Windows**
+
+If you want to update to the latest version of Windows 10, please follow the steps below.
+
+1. [Download the Update Assistant here.](https://www.microsoft.com/en-us/software-download/windows10) To get started, click **Update now**.
+2. Run the Update Assistant.
+3. Wait for update. (This will take a will, you can keep working.)
+4. When the update is done, delete the Windows.old folder in C:/ . ([Click here to see how to delete Windows.old folder](http://www.lattepanda.com/topic-f6t7136.html))
+
+![](https://i.imgur.com/ClxdfZw.png)
+
+**Note:** The latest Version of Windows 10 Enterprise LTSB is 1607.
+
 
 
 ## **Ubuntu 16.04 LTS**
