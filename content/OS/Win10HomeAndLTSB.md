@@ -120,7 +120,7 @@ After tested the beta Linux OS for a month with our forum members, we collected 
 
 1. USB flash Drive (at least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
 2. [Download the newest BIOS here](https://github.com/LattePandaTeam/LattePanda-Win10-Software/tree/master/Bios/LattePanda%20V1.2%20for%20CR200%20Z8350%20only/BIOS%20for%20Ubuntu)
-3. [Download image here](http://bit.ly/2q43PZ3)
+3. [Download image here](http://bit.ly/2JcDtiQ)
 
 **Note**: 
 
@@ -152,7 +152,7 @@ After tested the beta Linux OS for a month with our forum members, we collected 
 
 #### Install Ubuntu
 
-Step 1: [Download the Linux image](http://bit.ly/2q43PZ3).
+Step 1: [Download the Linux image](http://bit.ly/2JcDtiQ).
 
 Step 2: Create a bootable USB flash drive.
 
