@@ -53,9 +53,13 @@ You can also re-install your LattePanda if you just want to re-install it.
 
 We announced the LattePanda 4G/64GB version with with Enterprise License. The tutorial below is provided by our kindly community member. We are really appreciate for his help, here's the [link of his original post](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=1388). If you have any other questions on installing a Windows Enterprise system or want know how to activate Windows key on your board, discuss in this post! We are always ready to help you!!
 
+
+
 ### What you need
 
 1 x USB flash Drive (at least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
+
+
 
 ### Installation Steps:
 
@@ -106,24 +110,127 @@ If you want to update to the latest version of Windows 10, please follow the ste
 
 ## **Ubuntu 16.04 LTS**
 
-This tutorial is also provided by one of our kindly community mumbers. We are really appreciate for his help. Here's the [link of his original post](http://www.lattepanda.com/forum/viewtopic.php?p=4988#p4988). If you have any questions on installing a Linux system , feel free to discuss in this post! We are always ready to help you!!
-
-**Note:** It's only available for LattePanda 4G/64GB. To get WiFi and Bluetooth modules running under Ubuntu, see [this post](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=58&start=140#p4807).
+After tested the beta Linux OS for a month with our forum members, we collected the all problems that our forum members meet. Now, we published the newest BIOS to fix all the bug. The following topic will show you the official Ubuntu installation tutorial. If you still have any questions when using Linux on LattePanda, [feel free to post your question here](https://www.lattepanda.com/topic-f16t8363.html), we are always ready to help you!
 
 ### What you need
 
-1 x USB flash Drive (at least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
+1. USB flash Drive (at least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
+2. [Download the newest BIOS here](https://github.com/LattePandaTeam/LattePanda-Win10-Software/tree/master/Bios/LattePanda%20V1.2%20for%20CR200%20Z8350%20only/BIOS%20for%20Ubuntu)
+3. [Download image here](http://bit.ly/2q43PZ3)
 
-### Installation Steps:
+**Note**: 
 
-1. Download [Ubuntu 16.04 LTS](http://releases.ubuntu.com/16.04/ubuntu-16.04.3-desktop-amd64.iso)
+1. backup your data files if you need before installation.
+2. It takes about 15-20 mins for complete installation.
 
-2. Burn the iso to a USB drive. You can use our toolpack [here](https://www.dropbox.com/s/22gu489bu9ebe5z/Ubuntu%20WiFi%20Toolpack.rar?dl=0).
 
-3. Insert your USB drive to a free USB port on the LattePanda, and reboot the machine. When the LattePanda boots, you will be greeted by the installation process.
+### Installation Steps
 
-4. Select Install Ubuntu
+#### Refresh BIOS
 
-5. When the system is installed, reboot the LattePanda.
+1. Format your USB flash disk to FAT32
 
-   ​
+2. Copy [BIOS files](https://github.com/LattePandaTeam/LattePanda-Win10-Software/tree/master/Bios/LattePanda%20V1.2%20for%20CR200%20Z8350%20only/BIOS%20for%20Ubuntu) directly to root of the USB flash disk
+
+3. Plug the USB flash disk in USB host
+
+4. Plugin the MicroUSB cable and power on the system
+
+5. Wait the refreshing the BIOS automatically until returning "fs1:\>"![Refresh BIOS successfully.jpg](http://www.lattepanda.com/wp-content/uploads/2016/04/Refresh-BIOS-successfully.jpg)
+
+6. Unplug the USB flash disk!
+
+7. Restart the system via pressing the reset button or "Ctrl+Alt+Del". Then finish refreshing.
+
+   **Note:**make sure that remove the USB flash disk before restarting the system!
+
+
+
+#### Install Ubuntu
+
+Step 1: [Download the Linux image](http://bit.ly/2q43PZ3).
+
+Step 2: Create a bootable USB flash drive.
+
+Download Rufus from [https://rufus.akeo.ie/.](https://rufus.akeo.ie/) Choose the Linux image and deploy to the USB flash drive.
+
+Note: **On Mac OS,** try Etcher. - [https://etcher.io/](https://etcher.io/)
+
+Step 3: Plug the USB disk in USB host
+
+Step 4: Power on the LattePanda, the installation GUI will automatically run
+
+Step 5: Select the first option
+
+![IMG_8401(20180330-110514)](https://i.imgur.com/iKV1qZb.jpg)
+
+Step 6: Choose the Language
+
+![IMG_8404(20180330-111333)](https://i.imgur.com/60Tz5nX.jpg)
+
+Step 7:  Choose the way your keyboard is laid out. If you are in North America just click enter. If you are not in North America your keyboard most likely has a different layout than the default chosen by Clonezilla. Choose the one that pertains to your country.
+
+![IMG_8407(20180330-111350)](https://i.imgur.com/4sffpBe.jpg)
+
+Step 8: Choose “Start_Clonezilla“. 
+
+![IMG_8409(20180330-111440)](https://i.imgur.com/hyQRNSb.jpg)
+
+Step 9: Choose "Beginner mode".
+
+![IMG_8411(20180330-111516)](https://i.imgur.com/11y2B43.jpg)
+
+Step 10:  Choose “restoredisk“. 
+
+![IMG_8412(20180330-111627)](https://i.imgur.com/3CGzDKR.jpg)
+
+Step 11: Select image
+
+Step 12: Choose the target disk (default disk)
+
+![IMG_8414(20180330-111707)](https://i.imgur.com/gM0meDL.jpg)
+
+Step 13: Select "Check the image before restoring"
+
+![IMG_8415(20180330-111726)](https://i.imgur.com/qD0CIs1.jpg)
+
+Step 14: Choose the action to perform when everything is finished, it's up to you. In this tutorial, we choose reboot.
+
+![IMG_8417(20180330-111746)](https://i.imgur.com/UcDS3gU.jpg)
+
+Step 15: Finally, Clonezilla will ask you twice if you would like to start the process. If you are sure the destination drive is empty, choose yes to start the process.
+
+![IMG_8422(20180330-111133)](https://i.imgur.com/rWVkog7.jpg)
+
+Step 16: The system will reboot after installation successfully. Notice to remove the USB storage following the installation guide.
+
+Step 17: For first time login, please check the password below: 
+
+​	Login account: admin
+
+​	Password: admin
+
+Step 18: Hands-on Ubuntu on LattePanda.
+
+
+
+
+### Important NOTES
+
+1. Recommended to config the display first before using. Please close MIPI output if you don't have LattePanda official IPS screen to avoid display the app window via MIPI video output instead of HDMI output
+
+2. Recommended to allow and update latest ubuntu source code via ubuntu updates first
+
+3. Modify hosts file. Check the details info below:
+
+   - That /etc/hosts has an entry for localhost. It should have something like:
+
+     127.0.0.1    localhost127.0.1.1    admin
+
+4. Please share your feedback or further requirement at [www.lattepanda.com/forum](file:///C:/Users/admin/AppData/Local/Temp/Rar$EXa0.884/www.lattepanda.com/forum)
+
+Enjoy tinkering!
+
+
+
+​
