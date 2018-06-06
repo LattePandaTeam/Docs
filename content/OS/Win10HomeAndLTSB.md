@@ -124,7 +124,7 @@ After tested the beta Linux OS for a month with our forum members, we collected 
 
 **Note**: 
 
-1. backup your data files if you need before installation.
+1. Backup your data files if you need before installation.
 2. It takes about 15-20 mins for complete installation.
 
 
