@@ -229,8 +229,4 @@ Step 18: Hands-on Ubuntu on LattePanda.
 
 4. Please share your feedback or further requirement at [www.lattepanda.com/forum](file:///C:/Users/admin/AppData/Local/Temp/Rar$EXa0.884/www.lattepanda.com/forum)
 
-Enjoy tinkering!
-
-
-
-​
+Enjoy tinkering!​!
