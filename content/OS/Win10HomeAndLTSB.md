@@ -114,7 +114,7 @@ If you want to update to the latest version of Windows 10, please follow the ste
 
 ## **Ubuntu 16.04 LTS**
 
-After tested the beta Linux OS for a month with our forum members, we collected the all problems that our forum members meet. Now, we published the newest BIOS to fix all the bug. The following topic will show you the official Ubuntu installation tutorial. If you still have any questions when using Linux on LattePanda, [feel free to post your question here](https://www.lattepanda.com/topic-f16t8363.html), we are always ready to help you!
+After tested the beta Linux OS for a month with our forum members, we collected the some problems that our forum members meet. Now, we published the newest BIOS to fix bug. The following topic will show you the official Ubuntu installation tutorial. If you still have any questions when using Linux on LattePanda, [feel free to post your question here](https://www.lattepanda.com/topic-f16t8363.html), we are always ready to help you!
 
 ### What you need
 
