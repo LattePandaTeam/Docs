@@ -116,35 +116,42 @@ If you want to update to the latest version of Windows 10, please follow the ste
 
 After tested the beta Linux OS for a month with our forum members, we collected the some problems that our forum members meet. Now, we published the newest BIOS to fix bug. The following topic will show you the official Ubuntu installation tutorial. If you still have any questions when using Linux on LattePanda, [feel free to post your question here](https://www.lattepanda.com/topic-f16t8363.html), we are always ready to help you!
 
+**Note**: 
+
+1. This BIOS is only for all **CR200 z8350**. Find your sticky paper on LattePanda board to check the version. 
+
+   ![z8350 mark](https://i.imgur.com/w1Ys5eG.png)
+
+2. Backup your data files if you need before installation.
+
+3. It takes about 15-20 mins for complete installation.
+
 ### What you need
 
 1. USB flash Drive (at least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
-2. [Download the newest BIOS here](https://github.com/LattePandaTeam/LattePanda-Win10-Software/tree/master/Bios/LattePanda%20V1.2%20for%20CR200%20Z8350%20only/BIOS%20for%20Ubuntu)
+2. [Download the newest BIOS here](https://github.com/LattePandaTeam/LattePanda-Win10-Software/tree/master/Bios/LattePanda%20V1.2%20for%20CR200%20Z8350%20only/BIOS%20for%20Ubuntu) (This BIOS is only for all **CR200 z8350**.)
 3. [Download image here](http://bit.ly/2JcDtiQ)
-
-**Note**: 
-
-1. Backup your data files if you need before installation.
-2. It takes about 15-20 mins for complete installation.
 
 
 ### Installation Steps
 
 #### Refresh BIOS
 
-1. Format your USB flash disk to FAT32
+1. **Check the verison of your LattePanda! This BIOS is only for CR200 z8350!** 
 
-2. Copy [BIOS files](https://github.com/LattePandaTeam/LattePanda-Win10-Software/tree/master/Bios/LattePanda%20V1.2%20for%20CR200%20Z8350%20only/BIOS%20for%20Ubuntu) directly to root of the USB flash disk
+2. Format your USB flash disk to FAT32
 
-3. Plug the USB flash disk in USB host
+3. Copy [BIOS files](https://github.com/LattePandaTeam/LattePanda-Win10-Software/tree/master/Bios/LattePanda%20V1.2%20for%20CR200%20Z8350%20only/BIOS%20for%20Ubuntu) directly to root of the USB flash disk
 
-4. Plugin the MicroUSB cable and power on the system
+4. Plug the USB flash disk in USB host
 
-5. Wait the refreshing the BIOS automatically until returning "fs1:\>"![Refresh BIOS successfully.jpg](http://www.lattepanda.com/wp-content/uploads/2016/04/Refresh-BIOS-successfully.jpg)
+5. Plugin the MicroUSB cable and power on the system
 
-6. Unplug the USB flash disk!
+6. Wait the refreshing the BIOS automatically until returning "fs1:\>"![Refresh BIOS successfully.jpg](http://www.lattepanda.com/wp-content/uploads/2016/04/Refresh-BIOS-successfully.jpg)
 
-7. Restart the system via pressing the reset button or "Ctrl+Alt+Del". Then finish refreshing.
+7. Unplug the USB flash disk!
+
+8. Restart the system via pressing the reset button or "Ctrl+Alt+Del". Then finish refreshing.
 
    **Note:**make sure that remove the USB flash disk before restarting the system!
 
