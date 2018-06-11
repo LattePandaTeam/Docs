@@ -118,12 +118,8 @@ After tested the beta Linux OS for a month with our forum members, we collected 
 
 **Note**: 
 
-1. This BIOS is only for all **CR200 z8350**. Find your sticky paper on LattePanda board to check the version. 
-
-   ![z8350 mark](https://i.imgur.com/w1Ys5eG.png)
-
+1. <u>This BIOS is only for all **CR200 z8350**. Find your sticky paper on LattePanda board to check the version.</u> ![z8350 mark](https://i.imgur.com/w1Ys5eG.png)
 2. Backup your data files if you need before installation.
-
 3. It takes about 15-20 mins for complete installation.
 
 ### What you need
@@ -137,7 +133,7 @@ After tested the beta Linux OS for a month with our forum members, we collected 
 
 #### Refresh BIOS
 
-1. **Check the verison of your LattePanda! This BIOS is only for CR200 z8350!** 
+1. <u>**Check the verison of your LattePanda! This BIOS is only for CR200 z8350!**</u> 
 
 2. Format your USB flash disk to FAT32
 
