@@ -147,7 +147,7 @@ After tested the beta Linux OS for a month with our forum members, we collected 
 
 5. Plugin the MicroUSB cable and power on the system
 
-6. Wait the refreshing the BIOS automatically until returning "fs1:\>"![Refresh BIOS successfully.jpg](http://www.lattepanda.com/wp-content/uploads/2016/04/Refresh-BIOS-successfully.jpg)
+6. Wait the refreshing the BIOS automatically until returning "fs1:\>"![Refresh BIOS successfully.jpg](https://i.imgur.com/L8j7lD3.jpg)
 
 7. Unplug the USB flash disk!
 
