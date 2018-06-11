@@ -118,7 +118,7 @@ After tested the beta Linux OS for a month with our forum members, we collected 
 
 **Note**: 
 
-1.This BIOS is only for all **CR200 z8350**. Find your sticky paper on LattePanda board to check the version.
+1.<u>This BIOS is only for all **CR200 z8350**. Find your sticky paper on LattePanda board to check the version.</u>
 
 ![Refresh BIOS successfully.jpg](https://i.imgur.com/w1Ys5eG.png)
 
