@@ -114,7 +114,7 @@ If you want to update to the latest version of Windows 10, please follow the ste
 
 ## **Ubuntu 16.04 LTS** (For S70CR200)
 
-**Official Supported Version: S70CR200.** See the picture below to find how to check the version. If you have a earlier version LattePanda like CR110 or CR100, you can [refer to the contribution in the Github here](https://github.com/mopplayer/lattepanda-mainline-4.11).
+**Official Supported Version: S70CR200.** See the picture below to find how to check the version. If you have a earlier version LattePanda like CR110 or CR100, you can [refer to the contribution in the Github here to install Linux.](https://github.com/mopplayer/lattepanda-mainline-4.11)
 
 After tested the beta Linux OS for a month with our forum members, we collected the some problems that our forum members meet. Now, we published the newest BIOS to fix the bug.  The following topic will show you the official Ubuntu installation tutorial. If you still have any questions when using Linux on LattePanda, [feel free to post your question here](https://www.lattepanda.com/topic-f16t8363.html), we are always ready to help you!
 
