@@ -2,7 +2,7 @@
 
 =======
 
-Here you'll find the documentation for the LattePanda platform, including the LattePanda, Pro/Ultra(Coming soon) and all official accessories (like display, cameras, cases and so on...).
+Here you'll find the documentation for the LattePanda platform, including the LattePanda, Delta/Alpha(Coming soon) and all official accessories (like display, cameras, cases and so on...).
 
 To view this documentation, visit [our website](https://www.lattepanda.com/), where the documentation is hosted.
 
