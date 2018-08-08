@@ -71,7 +71,7 @@ We announced the LattePanda 4G/64GB version with with Enterprise License. The tu
 
 ![5bkNJQf.png](https://i.imgur.com/Z0NOhLU.png)
 
-2.Put all the files to the root directory of your USB flash disk. (You need to set your USB flash disk to be a bootable device. You can see the tutorial [here](https://technet.microsoft.com/en-us/library/jj200124%28v=ws.11%29.aspx).)
+2.Put all the files to the root directory of your USB flash disk. (You need to set your USB flash disk to be a bootable device. You can see the tutorial [here](https://docs.microsoft.com/en-us/windows-server-essentials/install/create-a-bootable-usb-flash-drive).)
 
 3.Reboot the LattePanda, press 'Esc' continously to enter BIOS. Change the Boot Option Priorities to boot from the USB flash disk.
 
