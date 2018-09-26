@@ -231,6 +231,7 @@ Step 18: Hands-on Ubuntu on LattePanda.
 
 This tutorial is contributed by J. S. Evans from community. 
 Please check the link below to find details!
+
 [OpenSUSE installtion guide](https://cloudyday.tech.blog/2018/08/19/lattepanda/)
 
 
