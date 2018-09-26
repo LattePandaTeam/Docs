@@ -227,7 +227,11 @@ Step 17: For first time login, please check the password below:
 
 Step 18: Hands-on Ubuntu on LattePanda.
 
+## OpenSUSE on LattePanda
 
+This tutorial is contributed by J. S. Evans from community. 
+Please check the link below to find details!
+https://cloudyday.tech.blog/2018/08/19/lattepanda/
 
 
 ### Important NOTES
