@@ -52,7 +52,7 @@ We announced the LattePanda 4G/64GB version with Windows Key. If you need to kno
 
 If you are trying to install a different OS such as Linux, we have had some luck using multiarch images. We are still experimenting with this. We recommend looking on the [forum](http://www.lattepanda.com/forum/viewtopic.php?f=5&t=275) for more information.
 
-## Common Adapters and USB cable recommendations:
+## Tested Power Accessories
 
 Good power supply can ensure stable work of lattePanda. If you can’t start it, experience automatic shutdown and other problems in the process of using lattePanda, please check your adapter and USB cable so that whether they reach the specified requirements.
 

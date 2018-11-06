@@ -1,85 +1,91 @@
 # Introduction
 
-In this section of the guide, you will know how to re-install LattePanda Operating system. We both provide Windows and Linux. Feel free to download the system you want.
-It's a simple and useful solution for the following situation:
+In this section of the guide, you will know how to install different operating system, like Linux Ubunut, Windows 10 and Enterprise, on LattePanda, even some community contributions. Feel free to download the system you want. And still, response your questions via our forum.
+
+
+## Re-install Windows 10 Home 
+
+As LattePanda comes with Windows pre-installed, it's recommended to reinstall this system for the following situation:
 
 - You can't startup your Windows system properly.
 - Windows system crashes.
 - You need to recover the default Windows system after installing Android or Linux.
+- Lost some drivers somehow after tinkering hardware part.
 
 You can also re-install your LattePanda if you just want to re-install it. 
 
-
-
-## Windows 10 Home 
-
-### What you need
+### Hardware required
 
 1 x USB flash Drive (*at* least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
 
 
+### Steps:
 
-### Installation Steps:
+**Following this tutorial will help to recover your system back to the factory default settings. So it means a data or application backup is recommended before doing the steps below.**
 
-##### Please follow the steps below to re-install Windows 10 to its "out of the box" state.
-
-1.Download your LattePanda's official Windows 10 image
-
+1. Check your hardware version!
 ![z8350 mark](http://www.lattepanda.com/wp-content/uploads/2017/02/8350-stick.png)
 
-[x86 version for z8300 2GB+32GB](https://drive.google.com/file/d/0B5YJ8UIGswVqeXFsbnRnWi1xXzg/view)
+2. Choose and download the RIGHT LattePanda's official Windows 10 image, which matchs your hardware spec.
 
-[x64 version for z8300 4GB+64GB](https://drive.google.com/file/d/0B5YJ8UIGswVqSm5qWF91MG1NWnc/view)
+    * [x86 version for z8300 2GB+32GB](https://drive.google.com/file/d/0B5YJ8UIGswVqeXFsbnRnWi1xXzg/view)
 
-[x86 version for **CR110** z8350 2GB+32GB](https://drive.google.com/file/d/0BzUYTecbiooHdVhHbFVZak4xREk/view)
+    * [x64 version for z8300 4GB+64GB](https://drive.google.com/file/d/0B5YJ8UIGswVqSm5qWF91MG1NWnc/view)
 
-[x64 version for **CR110** z8350 4GB+64GB](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view)
+    * [x86 version for **CR110** z8350 2GB+32GB](https://drive.google.com/file/d/0BzUYTecbiooHdVhHbFVZak4xREk/view)
 
-[x64 version for all **CR200** z8350  (2GB+32GB and 4GB+64GB)](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view)
+    * [x64 version for **CR110** z8350 4GB+64GB](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view)
 
-Tips：Please check your board version carefully !
+    * [x64 version for all **CR200** z8350  (2GB+32GB and 4GB+64GB)](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view)
 
-2.Format your USB disk to FAT32 and change the drive name to "WINPE"
+!!! Notes
+    Please make sure that you download the right image for your board! You know, recovering process takes time. You won't like to waste time for downloading and installation again and again. ;)
 
-3.Unzip the image to root directory of your USB flash disk
+2. Format your USB disk to FAT32 and change the drive name to "WINPE"
 
-4.Plug the USB disk in USB host
+3. Unzip the image to root directory of your USB flash disk
 
-5.Power on the LattePanda
+4. Plug the USB disk in USB host
 
-6.The system will install the image automatically. Just wait until the recovery is finished. **Please note:** Your USB disk must be formatted to FAT32 and labelled "WINPE" in order for this to work
+5. Power on the LattePanda
+
+6. The system will install the image automatically. Just wait until the recovery is finished. **Please note:** Your USB disk must be formatted to FAT32 and labelled "WINPE" in order for this to work
 
 7.Unplug the USB disk. Reboot and enjoy.
 
 
 
-## Windows 10 Enterprise 
+## Windows 10 Enterprise for Commercial
 
-We announced the LattePanda 4G/64GB version with with Enterprise License. The tutorial below is provided by our kindly community member. We are really appreciate for his help, here's the [link of his original post](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=1388). If you have any other questions on installing a Windows Enterprise system or want know how to activate Windows key on your board, discuss in this post! We are always ready to help you!!
+We highly recommended Windows Enterprise OS for commercial applications! And the Windows 10 activate version 4G LattePanda comes with Enterprise OS pre-installed and activated. 
 
+This tutorial is provided by our kindly community member. We are really appreciate for his help, here's the [link of his original post](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=1388). We also think it is useful for people, who making small business or industry innovation based on LattePanda. So we share it here. 
 
+If you have any other questions about installing a Windows Enterprise system or how to activate Windows key on your board, discuss in forum topic share above! Support team will help you!!
 
-### What you need
+!!! Note
+    If you need Windows 10 Enterprise license for your mass production, you can contact with LattePanda business support team via email (lattepanda@outlook.com).
+
+### Hardware required
 
 1 x USB flash Drive (at least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
 
 
+### Steps
 
-### Installation Steps:
-
-1.Download the [LattePanda Win10 Enterprise LTSB Image](http://bit.ly/EnterpriseOsForLP).
+1. Download the [LattePanda Win10 Enterprise LTSB Image](http://bit.ly/EnterpriseOsForLP).
 
 ![5bkNJQf.png](https://i.imgur.com/Z0NOhLU.png)
 
-2.Put all the files to the root directory of your USB flash disk. (You need to set your USB flash disk to be a bootable device. You can see the tutorial [here](https://docs.microsoft.com/en-us/windows-server-essentials/install/create-a-bootable-usb-flash-drive).)
+2. Put all the files to the root directory of your USB flash disk. (You need to set your USB flash disk to be a bootable device. You can see the tutorial [here](https://docs.microsoft.com/en-us/windows-server-essentials/install/create-a-bootable-usb-flash-drive).)
 
-3.Reboot the LattePanda, press 'Esc' continously to enter BIOS. Change the Boot Option Priorities to boot from the USB flash disk.
+3. Reboot the LattePanda, press 'Esc' continously to enter BIOS. Change the Boot Option Priorities to boot from the USB flash disk.
 
-4.Save & Reboot.
+4. Save & Reboot.
 
-5.Waiting for installation.
+5. Waiting for installation.
 
-6.Activate Your LattePanda
+6. Activate Your LattePanda
 
 The activation code has been already put in the box. Take it out.
 
@@ -95,9 +101,7 @@ There are 6 steps to activate your LattePanda:
 - Click **Next**
 
 
-
-
-##**Update Windows**
+## Upgrade Windows
 
 If you want to update to the latest version of Windows 10, please follow the steps below.
 
@@ -108,25 +112,23 @@ If you want to update to the latest version of Windows 10, please follow the ste
 
 ![](https://i.imgur.com/ClxdfZw.png)
 
-**Note:** The latest Version of Windows 10 Enterprise LTSB is 1607.
+!!! Note 
+    The latest Version of Windows 10 Enterprise LTSB is 1607.
 
 
 
-## **Ubuntu 16.04 LTS** (For S70CR200 2G/32G version)
+## Linux Ubuntu 16.04 LTS
 
 **Official Supported Version: S70CR200 2G/32G version.** See the picture below to find how to check the version. If you have a earlier version LattePanda like CR110 or CR100, you can [refer to the contribution in the Github here to install Linux.](https://github.com/mopplayer/lattepanda-mainline-4.11) 
 
 After tested the beta Linux OS for a month with our forum members, we collected the some problems that our forum members meet. Most of the BUGs are fixed. And **we are still working on the image for S70CR200 4G/64G version, and it will be released in 2 weeks.** The following topic will show you the official Ubuntu installation tutorial. If you still have any questions when using Linux on LattePanda, [feel free to post your question here](https://www.lattepanda.com/topic-f16t8363.html), we are always ready to help you!
 
-**Note**: 
-
-1.<u>This BIOS is only for all **CR200 z8350**. Find your sticky paper on LattePanda board to check the version.</u>
-
-![Refresh BIOS successfully.jpg](https://i.imgur.com/w1Ys5eG.png)
-
-2.Backup your data files if you need before installation.
-
-3.It takes about 15-20 mins for complete installation.
+!!! Note
+    
+    1. This BIOS is only for all **CR200 z8350**. Find your sticky paper on LattePanda board to check the version.
+    ![Refresh BIOS successfully.jpg](https://i.imgur.com/w1Ys5eG.png)
+    2. Backup your data files if you need before installation.
+    3. It takes about 15-20 mins for complete installation.
 
 
 
@@ -137,11 +139,17 @@ After tested the beta Linux OS for a month with our forum members, we collected 
 3. [Download image here](http://bit.ly/2JcDtiQ)
 
 
-### Installation Steps
+### Steps
 
 #### Refresh BIOS
 
-1. <u>**Check the verison of your LattePanda! This BIOS is only for CR200 z8350!**</u> 
+This new BIOS fixs some small bugs of Linux Ubunut on LattePanda to improve the stability for long term usage, for example bluetooth stability issue after rebooting (reported from community).
+
+!!! Warning
+    
+    But, because of the potential risk when refreshing the BIOS, you skip this part! It won't bring big troubles for experiencing Ubuntu on LattePanda.
+
+1. Make sure to check the verison of your LattePanda! This BIOS is only for CR200 z8350!
 
 2. Format your USB flash disk to FAT32
 
@@ -157,11 +165,12 @@ After tested the beta Linux OS for a month with our forum members, we collected 
 
 8. Restart the system via pressing the reset button or "Ctrl+Alt+Del". Then finish refreshing.
 
-   **Note:**make sure that remove the USB flash disk before restarting the system!
+!!! Note
+    
+    make sure that remove the USB flash disk before restarting the system!
 
 
-
-#### Install Ubuntu
+#### Ubuntu OS Installation
 
 Step 1: [Download the Linux image](http://bit.ly/2JcDtiQ).
 
@@ -227,6 +236,18 @@ Step 17: For first time login, please check the password below:
 
 Step 18: Hands-on Ubuntu on LattePanda.
 
+!!! Info
+
+    1. Recommended to config the display first before using. Please close MIPI output if you don't have LattePanda official IPS screen to avoid display the app window via MIPI video output instead of HDMI output
+
+    2. Recommended to allow and update latest ubuntu source code via ubuntu updates first
+
+    3. Modify hosts file. Check the details info below:
+        - That /etc/hosts has an entry for localhost, like:
+        127.0.0.1    localhost127.0.1.1    admin
+    4. Please share your feedback or further requirement at [www.lattepanda.com/forum](https://www.lattepanda.com/forum)
+
+
 ## OpenSUSE
 
 This tutorial is contributed by J. S. Evans from community. 
@@ -235,18 +256,6 @@ Please check the link below to find details!
 [OpenSUSE installtion guide](https://cloudyday.tech.blog/2018/08/19/lattepanda/)
 
 
-### Important NOTES
 
-1. Recommended to config the display first before using. Please close MIPI output if you don't have LattePanda official IPS screen to avoid display the app window via MIPI video output instead of HDMI output
-
-2. Recommended to allow and update latest ubuntu source code via ubuntu updates first
-
-3. Modify hosts file. Check the details info below:
-
-   - That /etc/hosts has an entry for localhost. It should have something like:
-
-     127.0.0.1    localhost127.0.1.1    admin
-
-4. Please share your feedback or further requirement at [www.lattepanda.com/forum](file:///C:/Users/admin/AppData/Local/Temp/Rar$EXa0.884/www.lattepanda.com/forum)
 
 Enjoy tinkering!​
