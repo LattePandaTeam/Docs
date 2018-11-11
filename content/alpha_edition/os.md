@@ -9,7 +9,7 @@ Follow the steps below to install the Windows 10 system.
 ### What you need:
 
 1. 1 x USB flash Drive (*at* least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
-2. Download Windows10 image here.
+2. Download Windows10 image [here](https://www.dropbox.com/sh/d2d4xoe2nk7n0je/AACdzPN-bdwkwyHxe9KlSsiIa?dl=0).
 
 ### Installation Steps:
 
