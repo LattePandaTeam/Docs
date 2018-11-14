@@ -8,8 +8,8 @@
 | Models                                   | Models                                   | Models                                   |
 | 2G 32GB<br />4G 64GB<br />2G 32GB /w Windows 10 Home<br />4G 64GB /w Windows 10 Enterprise<br /> | 800 - 8G (No eMMC)<br />864 - 8G 64GB<br />864 - 8G 64GB /w Windows 10 Pro<br /> | 432 - 4G 32GB<br />432 - 4G 32GB /w Windows 10 Pro<br /> |
 
-  [1]: content/1st_edition/power_on
-  [2]: content/alpha_edition/power_on
+  [1]: content/1st_edition/power_on.md
+  [2]: content/alpha_edition/power_on.md
 
 This guide will show you how to use LattePanda products to start up your little drive first. And kick-off your adventure of software plus hardware development.
 
