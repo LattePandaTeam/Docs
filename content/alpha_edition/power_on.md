@@ -10,7 +10,7 @@ Note: Delta board only need one antenna.
 
 ![wifi](https://i.imgur.com/0i3tcAQ.gif)
 
-[Other ways to surf the Internet, click here.](C:\Users\admin\Desktop\3.5DOCS\Internet Connection.md)
+For other ways to connect to the Internet, click [here](content/alpha_edition/connectivity.md)
 
 ## Step 2: Connect Screen
 
@@ -18,7 +18,7 @@ The most common video display interface is HDMI, so we set a HDMI socket on the 
 
 ![hdmi](https://i.imgur.com/B8Ev5US.gif)
 
-If you want to use other display interface (eDP, DP, DVI, VGA), [see the tutorial here.](C:\Users\admin\Desktop\3.5DOCS\Display configuration.md)
+If you want to use other display interface (eDP, DP, DVI, VGA), [see the tutorial here.](content/alpha_edition/display_configuration.md)
 
 Want a screen?
 
