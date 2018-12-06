@@ -20,7 +20,7 @@ The most common display interface is HDMI, which is why there is one on the Latt
 
 If you want to use other display interfaces (eDP, DP, DVI, VGA), [see the tutorial here.](C:\Users\admin\Desktop\3.5DOCS\Display configuration.md)
 
-Want a screen? [Get a touch display at Amazon](https://www.amazon.com/LattePanda-7-inch-1024x600-IPS-Display/dp/B01GJL87NK/ref=sr_1_2?m=A2EH5PO307BR7O&s=merchant-items&ie=UTF8&qid=1543269402&sr=1-2&refinements=p_4%3ALattePanda)
+Want a eDP screen?  Available soon...
 
 ## Step 3: Connect Adapter & Power on
 
