@@ -16,7 +16,7 @@ This document describes the different ways you can power your LattePanda. It wil
 2. Connect the USB Type C connector to the LattePanda Alpha USB Type C port or to an attached USB Type C hub with Power Delivery pass through.
 
 # DC Input Port
-<img src="https://i.imgur.com/JFDTA4T.jpg" alt="drawing" width="300"/>
+<img src="https://github.com/chrislattepanda/Docs/blob/master/assets/images/DC_Input_Port_Alpha.jpg" alt="drawing" width="300"/>
 
 ## Input Specification
 **To be updated later**
@@ -26,17 +26,17 @@ This document describes the different ways you can power your LattePanda. It wil
 1. 
 
 # 10 Pin (10p) Battery Connector
-<img src="https://i.imgur.com/hgkTrS5.jpg" alt="drawing" width="300"/>
+<img src="https://github.com/chrislattepanda/Docs/blob/master/assets/images/Battery_Connector_Port_Alpha.jpg" alt="drawing" width="300"/>
 
 ## Input Specification
 * 7.4 - 8.2 V
 * Recommend at least 5 Ah battery
 
 ## 10p Drawing
-<img src="https://i.imgur.com/kAVvQFD.jpg" alt="drawing" width="600"/>
+<img src="https://github.com/chrislattepanda/Docs/blob/master/assets/images/Battery_Connector_Drawing_Alpha.jpg" alt="drawing" width="600"/>
 
 ## 10p Diagram
-<img src="https://i.imgur.com/hyUKbz4.jpg" alt="drawing" width="400"/>
+<img src="https://github.com/chrislattepanda/Docs/blob/master/assets/images/Battery_Connector_Pin_Diagram_Alpha.jpg" alt="drawing" width="400"/>
 
 ## Installation Steps
 
