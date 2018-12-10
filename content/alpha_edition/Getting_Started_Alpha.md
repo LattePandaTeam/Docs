@@ -25,6 +25,7 @@ To get started, you will need the following hardware:
 <img src="https://github.com/chrislattepanda/Docs/blob/master/assets/images/Power_On_LED_Alpha.gif" alt="drawing" width="250"/>
 5. Once the red LED light powers on and stops blinking, press and hold the power button for approximately 3 seconds. The device will power on.
 <img src="https://github.com/chrislattepanda/Docs/blob/master/assets/images/Power_On_Press_Button_Alpha.gif" alt="drawing" width="250"/>
+
 # Related Links
 * [Powering LattePanda Alpha](Powering_Alpha.md)
 * [Display and Touch Connections](Display_Touch_Connections_Alpha.md)
