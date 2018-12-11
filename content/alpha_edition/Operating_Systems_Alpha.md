@@ -111,6 +111,24 @@ Fill out your details to continue. You will be asked to restart your LP in order
 
 Wait for your LP to restart and then enter your password to login. Your Ubuntu 16.04 LTS should be fully functional on your LattePanda. Enjoy!
 
+# Android (Phoenix OS)
+
+The LattePanda Alpha is also capable of using x86 versions of Android. One such version, is Phoenix OS. This version provides a windows desktop like GUI for an android system while also allowing access to the Google Play store.
+
+## Bootable Drive
+* eMMC
+* M.2 M-key NVMe or SATA SSD 
+* USB Drive (Recommend USB 3.0 for best experience)
+
+## What you will need
+* [Phoenix OS Installer](http://www.phoenixos.com/download_x86)
+* Bootable Partition (With drive letter assigned) at least 4 GB
+
+## Installation Steps
+1. Download the Phoenix OS Installer.
+2. Launch the installation exe.
+3. There are two options: Install and U Install. Select U Install for installing on USB drive. Select Install for installing on eMMC or SSD partition.
+
 
 # Hackintosh (Mac OS)
 
