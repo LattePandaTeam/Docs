@@ -18,13 +18,13 @@ To get started, you will need the following hardware:
 **Warning: When touching the LattePanda board, make sure to ground yourself before touching the board. Failure to ground yourself may cause static discharge into board components damaging your LattePanda.**
 
 1. Connect Wifi antennas to sockets.
-<img src="https://github.com/chrislattepanda/Docs/blob/master/assets/images/Connect_Wifi_Antenna_Alpha.gif" alt="drawing" width="400"/>
+<img src="https://github.com/LattePandaTeam/Docs/tree/master/assets/images/Connect_Wifi_Antenna_Alpha.gif" alt="drawing" width="400"/>
 2. Connect the display cable to the LattePanda. Please see the [Display and Touch Connections](Display_Touch_Connections_Alpha.md) section for instructions on using different displays with your LattePanda.
 3. Connect the power supply to the LattePanda. Please see the [Powering LattePanda Alpha](Powering_Alpha.md) section for instructions on using different power supplies to power your LattePanda.
 4. A red and blue LED indicator light will blink when the power supply is connected. The LattePanda is initializing. Wait until the red LED light powers off, then turns on solid. This is typically a few seconds.
-<img src="https://github.com/chrislattepanda/Docs/blob/master/assets/images/Power_On_LED_Alpha.gif" alt="drawing" width="250"/>
+<img src="https://github.com/LattePandaTeam/Docs/tree/master/assets/images/Power_On_LED_Alpha.gif" alt="drawing" width="250"/>
 5. Once the red LED light powers on and stops blinking, press and hold the power button for approximately 3 seconds. The device will power on.
-<img src="https://github.com/chrislattepanda/Docs/blob/master/assets/images/Power_On_Press_Button_Alpha.gif" alt="drawing" width="250"/>
+<img src="https://github.com/LattePandaTeam/Docs/tree/master/assets/images/Power_On_Press_Button_Alpha.gif" alt="drawing" width="250"/>
 
 # Related Links
 * [Powering LattePanda Alpha](Powering_Alpha.md)
