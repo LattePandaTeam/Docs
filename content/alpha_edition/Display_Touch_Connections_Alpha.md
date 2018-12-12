@@ -48,7 +48,7 @@ While the LattePanda Alpha eDP display is officially supported, here are some ot
 * [15.6" Samsung Display](http://www.lattepanda.com/topic-p25460.html)
 
 # Touch Panel
-### What You Will Need
+## What You Will Need
 * LattePanda Alpha eDP display
 
 ## Installation Steps
