@@ -61,7 +61,7 @@ Run your LattePanda as a ‘virtual machine’ on any computer but faster, easie
 
    - [NoMachine(Windows, MacOS and Ubuntu)](https://www.nomachine.com/download), run it after installation
 
-      *(If you don’t connect a display to the HDMI interface of the Host, the GPU onboard will shut down and remote desktop will run slowly.  Please insert a [Headless HDMI adapter](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=headless+HDMI+adapter) to the Host to make the GPU work properly)*
+      *(If you don’t connect a display to the HDMI interface of the Host, it will disable the GPU acceleration and remote desktop will run slowly.  Please insert a [Headless HDMI adapter](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=headless+HDMI+adapter) to the Host to make the GPU work properly)*
 
 4. ##### **Finished, next time you can power on your Host directly** 
 
@@ -102,6 +102,6 @@ A:
 1. Please make sure you connect Streaming Cable to USB3.0 interface
 2. Please check the bandwidth of streaming cable in the network adapter panel, If the bandwidth is not 5G, please reconnect the Streaming Cable and try again.
 3. If you are using Microsoft Remote Desktop, you can try NoMachine.
-4. If you are using NoMachine and don’t connect a display to the HDMI interface of the host device,  the GPU onboard will shut down and remote desktop will slow down,  please insert a [Headless HDMI adapter](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=headless+HDMI+adapter) to the Host Device to make the GPU work properly.
+4. If you are using NoMachine and don’t connect a display to the HDMI interface of the Host,  it will disable the GPU acceleration  and remote desktop will slow down,  please insert a [Headless HDMI adapter](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=headless+HDMI+adapter) to the Host Device to make the GPU work properly.
 
 ​
