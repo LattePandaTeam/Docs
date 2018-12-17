@@ -77,7 +77,7 @@ Run your LattePanda as a ‘virtual machine’ on any computer but faster, easie
 
 2. **NoMachine**
 
-   Click to download and run [NoMachine(Windows, MacOS and Ubuntu)](https://www.nomachine.com/download),  then [click to view the guide](/assets/StreamingCable/NoMachine.jpeg) and set up accordingly. 
+   Click to download and run [NoMachine(Windows, MacOS and Ubuntu)](https://www.nomachine.com/download),  then [click to view the guide](/assets/StreamingCable/NoMachine_setup.jpeg) and set up accordingly. 
 
 3. **Now, you are in, next time, you can click and run, enjoy it!**
 
