@@ -27,35 +27,35 @@ Run your LattePanda as a ‘virtual machine’ on any computer but faster, easie
 
 1. ##### Connect hardware
 
-   - Connect monitor, keyboard and mouse to the host, power on the Host and the Client
+   - Connect monitor, keyboard and mouse to the Host, power on the Host and the Client
 
    - Connect the Host to the Client with the streaming cable(Both need USB3.0 interface)
 
      *(**Note:** **For MacOS Client**, please [click to download & install RNDIS driver](http://bit.ly/2A4f2xI) first, restart your Mac after installation. If the system warns of a security problem, please enter `System Preferences`-> `Security & Privacy` panel and Click `Open Anyway`)*
 
-2. **Set up drivers **
+2. ##### Install Drivers 
 
    - **For Windows Host**
 
-     1. Click to Download Package here [StreamingCableHost](/assets/StreamingCableHost.zip), and unzip it to any convenient location such as `C:\Program`, then you will find the following folder & file:
+     1. Click to Download Package here [StreamingCableHost](/assets/StreamingCable/StreamingCableHost.zip), and unzip it to any convenient location such as `C:\Program`, then you will find the following folder & file:
         - dhcpsrv
         - SetupEnv
      2. Right-click **SetupEnv** and select **Run as administrator**. After running, it will close automatically.
 
      *(**Note**: it will enable remote desktop server and set the IP address of Streaming Cable to static IP 1.1.1.1. If your windows is an unlicensed version, it will disable limit blank password use to allow your remote access)*
 
-     3. Open **dhcpsrv** folder,  run **dhcpwiz.exe**, [click to download the guide](/assets/dhcpserver_setup.jpeg) and then set it up accordingly.
+     3. Open **dhcpsrv** folder,  run **dhcpwiz.exe**, [click to view the guide](/assets/StreamingCable/dhcpserver_setup.jpeg) and then set it up accordingly.
 
    - **For MacOS Host**
 
-     1.  [Click to download & Install RNDIS driver](), restart your Mac after installation. 
+     1.  [Click to download & Install RNDIS driver](http://bit.ly/2A4f2xI), restart your Mac after installation. 
 
         *(Note: If the system warns of a security problem, please enter `System Preferences`-> `Security & Privacy` panel and Click `Open Anyway`)*
 
-     2.  Enter `System Preferences`->`Network panel`, you will see a device named **Remote NDIS compatible Device…**,  Please [click to download the guide](/assets/macnetwork_setup.png) and set a static IP for it accordingly
+     2.  Enter `System Preferences`->`Network panel`, you will see a device named **Remote NDIS compatible Device…**,  Please [click to view the guide](/assets/StreamingCable/macnetwork_setup.png) and set a static IP for it accordingly
      3.  Refer to the previous step and set a static IP address 1.1.1.2 for the “Remote NDIS compatible Device…”  in your Client.
 
-3. ##### Download & Install App for the Host *(please choose according to the Host OS and your needs)*
+3. ##### Install App *(please choose according to the Host OS and your needs)*
 
    - Remote Desktop **Server** have pre-installed in Windows Pro and above OS, **does not support other OS**
 
@@ -71,13 +71,13 @@ Run your LattePanda as a ‘virtual machine’ on any computer but faster, easie
 
 1. ##### Remote desktop
 
-   - **For Windows Clinet**:  [click to download the guide](/assets/Winrdp_setup.jpeg) and set up accordingly
-   - **For MacOS Client**: Download and run Microsoft Remote Desktop,  then [click to download the  guide](/assets/macrdp_setup.jpeg) and set up accordingly
-   - **For Ubuntu Client:** Download and run Remmina,  then [click to download the guide](/assets/Ubunturdp_setup.png) and set up accordingly
+   - **For Windows Clinet**:  [click to view the guide](/assets/StreamingCable/Winrdp_setup.jpeg) and set up accordingly
+   - **For MacOS Client**: Download and run Microsoft Remote Desktop,  then [click to view the guide](/assets/StreamingCable/macrdp_setup.jpeg) and set up accordingly
+   - **For Ubuntu Client:** Download and run Remmina,  then [click to view the guide](/assets/StreamingCable/Ubunturdp_setup.png) and set up accordingly
 
 2. **NoMachine**
 
-   Click to download and run [NoMachine(Windows, MacOS and Ubuntu)](https://www.nomachine.com/download),  then [click to download the guide](/assets/NoMachine.jpeg) and set up accordingly. 
+   Click to download and run [NoMachine(Windows, MacOS and Ubuntu)](https://www.nomachine.com/download),  then [click to view the guide](/assets/StreamingCable/NoMachine.jpeg) and set up accordingly. 
 
 3. **Now, you are in, next time, you can click and run, enjoy it!**
 
