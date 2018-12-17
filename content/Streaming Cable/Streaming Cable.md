@@ -31,7 +31,7 @@ Run your LattePanda as a ‘virtual machine’ on any computer but faster, easie
 
    - Connect the Host to the Client with the streaming cable(Both need USB3.0 interface)
 
-     *(**Note:** **For MacOS Client**, please [click to download & install RNDIS driver](http://bit.ly/2A4f2xI) first, restart your Mac after installation. If the system warns of a security problem, please enter `System Preferences`-> `Security & Privacy` panel and Click `Open Anyway`)*
+     *(**Note:** **For MacOS Client**, please [click to download & install RNDIS driver](http://bit.ly/2A4f2xI) in the **Client** first, restart your Mac after installation. If the system warns of a security problem, please enter `System Preferences`-> `Security & Privacy` panel and Click `Open Anyway`)*
 
 2. ##### Install Drivers 
 
