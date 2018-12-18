@@ -4,7 +4,7 @@ Run your LattePanda as a ‘virtual machine’ on any computer but faster, easie
 
 
 
-### You will need the following devices:
+## You will need the following devices
 
 1. A computer that needs to be connected and controlled, running Windows or MacOS, **such as lattePanda, is called Host**
 2. A computer, runs Windows, MacOS or Ubuntu, **such as your MacBook, is called Client**
@@ -12,7 +12,7 @@ Run your LattePanda as a ‘virtual machine’ on any computer but faster, easie
 
 
 
-### List of recommended software solutions 
+## List of recommended software solutions 
 
 *((Please **choose the same one for your Host and Client** according to the Host's OS and your needs))*
 
@@ -21,19 +21,19 @@ Run your LattePanda as a ‘virtual machine’ on any computer but faster, easie
 
 
 
-### If you are a first time user, please follow the introduction below to set up
+## If you are a first time user, please follow the introduction below to set up
 
-#### Set up your Host
+### Set up your Host
 
-1. ##### Connect hardware
+1. #### Connect hardware
 
-   - Connect monitor, keyboard and mouse to the Host, power on the Host and the Client
+   * Connect monitor, keyboard and mouse to the Host, power on the Host and the Client
 
    - Connect the Host to the Client with the streaming cable(Both need USB3.0 interface)
 
      *(**Note:** **For MacOS Client**, please [click to download & install RNDIS driver](http://bit.ly/2A4f2xI) in the **Client** first, restart your Mac after installation. If the system warns of a security problem, please enter `System Preferences`-> `Security & Privacy` panel and Click `Open Anyway`)*
 
-2. ##### Install Drivers 
+2. #### Install Drivers 
 
    - **For Windows Host**
 
@@ -55,7 +55,7 @@ Run your LattePanda as a ‘virtual machine’ on any computer but faster, easie
      2.  Enter `System Preferences`->`Network panel`, you will see a device named **Remote NDIS compatible Device…**,  Please [click to view the guide](/assets/StreamingCable/macnetwork_setup.png) and set a static IP for it accordingly
      3.  Refer to the previous step and set a static IP address 1.1.1.2 for the “Remote NDIS compatible Device…”  in your Client.
 
-3. ##### Install App *(please choose according to the Host OS and your needs)*
+3. #### Install App *(please choose according to the Host OS and your needs)*
 
    - Remote Desktop **Server** have pre-installed in Windows Pro and above OS, **does not support other OS**
 
@@ -65,25 +65,26 @@ Run your LattePanda as a ‘virtual machine’ on any computer but faster, easie
 
 4. ##### **Finished, next time you can power on your Host directly** 
 
-### Set up your Client
+## Set up your Client
 
 *(Note: Keep the Host connected to the Client with the streaming cable)*
 
-1. ##### Remote desktop
+1. #### Remote desktop
 
    - **For Windows Clinet**:  [click to view the guide](/assets/StreamingCable/Winrdp_setup.jpeg) and set up accordingly
    - **For MacOS Client**: Download and run Microsoft Remote Desktop,  then [click to view the guide](/assets/StreamingCable/macrdp_setup.jpeg) and set up accordingly
    - **For Ubuntu Client:** Download and run Remmina,  then [click to view the guide](/assets/StreamingCable/Ubunturdp_setup.png) and set up accordingly
 
-2. **NoMachine**
+2. #### **NoMachine**
 
    Click to download and run [NoMachine(Windows, MacOS and Ubuntu)](https://www.nomachine.com/download),  then [click to view the guide](/assets/StreamingCable/NoMachine_setup.jpeg) and set up accordingly. 
 
-3. **Now, you are in, next time, you can click and run, enjoy it!**
+3. #### **Now, you are in, next time, you can click and run, enjoy it!**
 
 
 
-### FAQ:
+
+## FAQ
 
 Q: **Unable to connect**
 
@@ -95,7 +96,7 @@ A:
 4. You will need to re-setup the Host if you use a new Streaming Cable or new Host 
 
 
-Q: **Why is my remote desktop running so slowly**
+Q: **Why is my remote desktop running so slowly?**
 
 A:
 
