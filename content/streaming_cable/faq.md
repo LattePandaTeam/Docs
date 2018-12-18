@@ -8,7 +8,7 @@
 4. You will need to re-setup the Host if you use a new Streaming Cable or new Host 
 
 
-# Why is my remote desktop running so slowly?
+## Why is my remote desktop running so slowly?
 
 1. Please make sure you connect Streaming Cable to USB3.0 interface
 2. Please check the bandwidth of streaming cable in the network adapter panel, If the bandwidth is not 5G, please reconnect the Streaming Cable and try again.
