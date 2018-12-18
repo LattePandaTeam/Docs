@@ -60,7 +60,7 @@ Click on the OS to jump to the corresponding section.
 
 #### Install Drivers  
 
-1. Click to Download Package here [StreamingCableHost](/assets/StreamingCable/StreamingCableHost.zip), and unzip it to any convenient location such as `C:\Program`, then you will find the following folder & file:
+1. Click to Download Package here [StreamingCableHost](/assets/streaming_cable_resources/StreamingCableHost.zip), and unzip it to any convenient location such as `C:\Program`, then you will find the following folder & file:
 
 - **dhcpsrv**
 - **SetupEnv**
@@ -74,9 +74,11 @@ This script used to enable remote desktop server and set the IP address of Strea
 
 3. Open **dhcpsrv** folder,  run **dhcpwiz.exe**, follow the guide below and set it up accordingly.
 
-   ![dhcpserver](https://raw.githubusercontent.com/LattePandaTeam/Docs/master/assets/StreamingCable/dhcpserver_setup.jpeg)
+   ![dhcpserver](https://raw.githubusercontent.com/LattePandaTeam/Docs/master/assets/streaming_cable_resources/dhcp_server_setup.jpeg)
 
-#### Install App *(Please choose according to the Host OS and your needs)*
+#### Install App 
+
+Please **choose the same one for your Host and Client** according to the Host's OS and your needs
 
 1. Remote Desktop **Server** have pre-installed in Windows Pro and above OS, **does not support other OS**
 2. [NoMachine(Windows, MacOS and Ubuntu)](https://www.nomachine.com/download), run it after installation
@@ -107,14 +109,18 @@ Next time you can power on the Host and access it directly
 
    - [Click to download & Install RNDIS driver](http://bit.ly/2A4f2xI), restart your Mac after installation. 
 
-      *(Note: If the system warns of a security problem, please enter `System Preferences`-> `Security & Privacy` panel and Click `Open Anyway`)*
+     ```
+     !!! tip
+     If the system warns of a security problem, please enter System Preferences-> Security & Privacy panel and Click Open Anyway
+     ```
+
 
    - Enter `System Preferences`->`Network panel`, you will see a device named **Remote NDIS compatible Device…**,  Please [click to view the guide](/assets/StreamingCable/macnetwork_setup.png) and set a static IP for it accordingly
    - Refer to the previous step and set a static IP address 1.1.1.2 for the “Remote NDIS compatible Device…”  in your Client.
 
 3. #### Install App *(Please choose according to the Host OS and your needs)*
 
-   - Remote Desktop **Server** have pre-installed in Windows Pro and above OS, **does not support other OS**
+   - Remote Desktop Dose not 
 
    - [NoMachine(Windows, MacOS and Ubuntu)](https://www.nomachine.com/download), run it after installation
 
