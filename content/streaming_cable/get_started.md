@@ -2,11 +2,11 @@
 
 Run your LattePanda as a ‘virtual machine’ on any computer but faster, easier and more stable to operate. The Streaming Cable is the first virtual network cable to **support RNDIS and 5G bandwidth**, much faster than a gigabyte NIC and compatible with any Remote control protocol like NX, RDP, and VNC. Please follow the instruction below to set up your first physical ‘virtual machine’.
 
+​	
 
+# Quick Start
 
-## Quick Start
-
-### Hardware Requirement
+## Hardware Requirement
 
 You will need to prepare the following devices before use
 
@@ -16,9 +16,8 @@ You will need to prepare the following devices before use
 
 3. A streaming Cable
 
-   ​
 
-### Recommended Software Solutions
+## Recommended Software Solutions
 
 Please **choose the same one for your Host and Client** according to the Host's OS and your needs. This tutorial contains installation guides for Microsoft Remote Desktop and NoMachine. You can setup other software solutions accordingly.
 
@@ -31,11 +30,11 @@ Please **choose the same one for your Host and Client** according to the Host's 
 
 
 
-### Configuration 
+## Configuration 
 
 If you are a first time user, **please follow the introduction below to set up the Host and the Client.**
 
-#### Set Up The Host
+### Set Up The Host
 
 This section will show you how to install drivers and Apps in your Host. Click on the OS to jump to the corresponding section.
 
@@ -44,7 +43,7 @@ This section will show you how to install drivers and Apps in your Host. Click o
 1. [Windows](/content/streaming_cable/set_up_windows_host.md)
 2. [MacOS](/content/streaming_cable/set_up_macos_host.md)
 
-#### Set Up The Client
+### Set Up The Client
 
 This section will show you how to install drivers and Apps in your Client.
 
