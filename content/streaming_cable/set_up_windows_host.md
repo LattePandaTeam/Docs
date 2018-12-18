@@ -32,8 +32,10 @@ This script used to enable remote desktop server and set the IP address of Strea
 
 Please **choose the same one for your Host and Client** according to the Host's OS and your needs
 
-{0}. **Remote Desktop** have pre-installed in Windows Pro and above OS, **does not support other OS**
-{0}. **NoMachine**, [Click to download](https://www.nomachine.com/download), run it after installation
+- **Remote Desktop** have pre-installed in Windows Pro and above OS, **does not support other OS** 
+
+
+- **NoMachine**, [Click to download](https://www.nomachine.com/download), run it after installation
 
 ```
 !!! tip
