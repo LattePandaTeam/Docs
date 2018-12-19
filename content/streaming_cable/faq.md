@@ -1,6 +1,10 @@
 # FAQ
 
-## Unable to connect.
+If you have problem when building the connection between your LattePanda and master device, please feel free to open your issue via [LattePanda forum](https://www.lattepanda.com/forum/).
+
+And we will really appreciate if you can help to optimize the tutorials by **commiting tutorials or updates** to [docs repo](https://github.com/LattePandaTeam/Docs). Help users, who have same interests or meet problems like you do.
+
+## Can't access the host
 
 1. Make sure the Host is powered on and not in sleep mode, set the Host sleep mode to never sleep
 2. Please check the Streaming Cable in the network adapter panel of both devices, If you can't find an RNDIS adapter, please reconnect the Streaming Cable and try again.
@@ -8,7 +12,7 @@
 4. You will need to re-setup the Host if you use a new Streaming Cable or new Host 
 
 
-## Why is my remote desktop running so slowly?
+## Remote Desktop Running so Slow?
 
 1. Please make sure you connect Streaming Cable to USB3.0 interface
 2. Please check the bandwidth of streaming cable in the network adapter panel, If the bandwidth is not 5G, please reconnect the Streaming Cable and try again.

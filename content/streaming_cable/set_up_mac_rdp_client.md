@@ -2,10 +2,8 @@
 
 This section will show you how to use Remote Desktop in MacOS Client. 
 
-```
 !!! tip
- Keep the Host connected to the Client with the streaming cable
-```
+    Keep the Host connected to the Client with the streaming cable
 
 ## Install Remote Desktop
 
@@ -15,7 +13,7 @@ This section will show you how to use Remote Desktop in MacOS Client.
 
 Follow the guide below and set it up accordingly.
 
-![mac_rdp](https://raw.githubusercontent.com/LattePandaTeam/Docs/master/assets/streaming_cable_resources/mac_rdp_setup.jpeg)
+<center>![mac_rdp](/assets/streaming_cable_resources/mac_rdp_setup.jpeg)</center>
 
 ## Configuration Completed
 
