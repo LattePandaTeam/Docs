@@ -1,9 +1,9 @@
-# Set Up MacOS Remote Desktop Client
+# Setup Client Computer RDP - MacOS
 
-This section will show you how to use Remote Desktop in MacOS Client. 
+This section will show you how to use Remote Desktop in MacOS Client Computer. 
 
 !!! tip
-    Keep the Host connected to the Client with the streaming cable
+    Keep the Host connected to the Client Computer with the streaming cable
 
 ## Install Remote Desktop
 
@@ -17,4 +17,4 @@ Follow the guide below and set it up accordingly.
 
 ## Configuration Completed
 
-Now, you are in. Next time, you can power on the Host, connect the Streaming Cable, then click and run. You can also try other software solution. enjoy it!
+Now, you are in. Next time, you can power on the Server Computer, connect the Streaming Cable, then click and run. You can also try other software solution. enjoy it!

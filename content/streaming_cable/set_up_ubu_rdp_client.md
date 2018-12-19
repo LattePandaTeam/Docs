@@ -1,9 +1,9 @@
-# Set Up Ubuntu Remote Desktop Client
+# Setup Client Computer RDP - Ubuntu
 
-This section will show you how to use Remote Desktop in Ubuntu Client. 
+This section will show you how to use Remote Desktop in Ubuntu Client Computer. 
 
 !!! tip
-    Keep the Host connected to the Client with the streaming cable
+    Keep the Server Computer connected to the Client Computer with the streaming cable
 
 ## Install Remmina
 
@@ -17,5 +17,5 @@ Follow the guide below and set it up accordingly.
 
 ## Configuration Completed
 
-Now, you are in. Next time, you can power on the Host, connect the Streaming Cable, then click and run. You can also try other software solution. enjoy it!
+Now, you are in. Next time, you can power on the Server Computer, connect the Streaming Cable, then click and run. You can also try other software solution. enjoy it!
 

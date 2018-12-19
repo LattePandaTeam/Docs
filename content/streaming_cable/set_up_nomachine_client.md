@@ -1,9 +1,9 @@
-# Set Up NoMachine On The Client
+# NoMachine - Config Client Computer
 
-This section will show you how to use NoMachine in Windows, MacOS and Ubuntu Client. 
+This section will show you how to use NoMachine in Windows, MacOS and Ubuntu Client Computer. 
 
 !!! tip
-    Keep the Host connected to the Client with the streaming cable
+    Keep the Host connected to the Client Computer with the streaming cable
 
 
 ## Create A New Connection
@@ -14,4 +14,4 @@ Click to download and run [NoMachine(Windows, MacOS and Ubuntu)](https://www.nom
 
 ## Configuration Completed
 
-Now, you are in. Next time, you can power on the Host, connect the Streaming Cable, then click and run. You can also try other software solution. enjoy it! 
+Now, you are in. Next time, you can power on the Server Computer, connect the Streaming Cable, then click and run. You can also try other software solution. enjoy it! 

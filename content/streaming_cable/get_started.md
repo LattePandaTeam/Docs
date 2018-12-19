@@ -6,43 +6,52 @@ Run your LattePanda as a ‘virtual machine’ on any computer but faster, easie
 
 You will need to prepare the following devices before use
 
-1. **Host:** A **LattePanda** or other computer that needs to be connected and controlled, running Windows or MacOS
-2. **Client:** A computer, runs Windows, MacOS or Ubuntu, **such as your MacBook**
+1. **Server Computer:** A **LattePanda** or other computer that needs to be connected and controlled, running Windows or MacOS
+2. **Client Computer:** A computer, runs Windows, MacOS or Ubuntu, **such as your MacBook**
 3. A streaming Cable
 
 ## Recommended Software Solutions
 
-Please **choose the same one for your Host and Client** according to the Host's OS and your needs. This tutorial contains installation guides for Microsoft Remote Desktop and NoMachine. You can setup other software solutions accordingly.
+Please **choose the same one for your Server Computer and Client Computer** according to the Server Computer's OS and your needs. This tutorial contains installation guides for Microsoft Remote Desktop and NoMachine. You can setup other software solutions accordingly.
 
-* **Microsoft Remote Desktop (RDP):** Support for Hosts with Windows 10 Pro or above OS (such as LattePanda Alpha or Delta), you can use Microsoft's standard RDP protocol for quickly configuration, seamless copy and paste, and get a full virtual machine experience
+* **Microsoft Remote Desktop (RDP):** Support for Server Computers with Windows 10 Pro or above OS (such as LattePanda Alpha or Delta), you can use Microsoft's standard RDP protocol for quickly configuration, seamless copy and paste, and get a full virtual machine experience
 
-* **NoMachine:** Supports all Windows, MacOS or Ubuntu, NoMachine will unleash the performance potential of the streaming cable. You can **coding, watch videos or even play games** in your Client just like you would on a local device
+* **NoMachine:** Supports all Windows, MacOS or Ubuntu, NoMachine will unleash the performance potential of the streaming cable. You can **coding, watch videos or even play games** in your Client Computer just like you would on a local device
 
-* **Steam:** To get the best gaming experience on your client, we recommend using [Steam In-Home Streaming](https://store.steampowered.com/streaming/), 1080P HD, low latency, allow offline mode, support for all Windows and Mac OS
+* **Steam:** To get the best gaming experience on your Client Computer, we recommend using [Steam In-Home Streaming](https://store.steampowered.com/streaming/), 1080P HD, low latency, allow offline mode, support for all Windows and Mac OS
+
+### Difference Between Solutions Above
+
+    RDP Solution
+        Server Computer - Windows Only
+        Client Computer - Windows / MacOS / Ubuntu 
+
+    NoMachine
+        Server Computer - Windows / MacOS / Ubuntu
+        Client Computer - Windows / MacOS / Ubuntu
+
+
+!!! Example
+    I have a LattePanda running Windows and Macbook Pro is my main desktop development computer.
+    Then RDP solution will be recommended.
+
+    But if you installed MacOS on LattePanda Alpha,plus you use MacBook Pro. Then NoMachine will the only option for you!
 
 
 ## Configuration 
 
-If you are a first time user, **please follow the introduction below to set up the Host and the Client both.**
+If this is the first time for you to use LattePanda Streaming Cable, the **complete process** for configuration includes:
 
-### Set Up The Host
+1. Choose one Software Solution
+2. Setup software on Server Computer (Must be finished before Step 3)
+3. Setup software on Client Computer
+4. Enjoy seamless experience with dual devices
 
-This section will show you how to install drivers and Apps in your Host. Click on the OS to jump to the corresponding section.
+## Let's start!
 
-**Which System Does The Host Run?** 
+This section will show you how to install drivers and Apps in your Server Computer. Click on the OS to jump to the corresponding section.
 
-1. [Windows](/content/streaming_cable/set_up_windows_host)
-2. [MacOS](/content/streaming_cable/set_up_macos_host)
+**So What's OS running on the Server Computer (LattePanda)?** 
 
-### Set Up The Client
-
-This section will show you how to install drivers and Apps in your Client.
-
-**Click on the guide you need to jump to the corresponding section.** Please **choose the same sofrware** as the Host
-
-1. [Run Remote Desktop Client on Windows](/content/streaming_cable/set_up_win_rdp_client)
-2. [Run Remote Desktop Client on MacOS](/content/streaming_cable/set_up_mac_rdp_client)
-3. [Run Remote Desktop Client on Ubuntu](/content/streaming_cable/set_up_ubu_rdp_client)
-4. [NoMachine](/content/streaming_cable/set_up_nomachine_client)
-
-Just install software and driver pack on master and slave devices (like a Macbook Pro as a master running client app, and a LattePanda working as a slave running host app) following the guidance. Then enjoy multiple devices development experience with dual OS from a master device!
+1. [Windows - RDP](/content/streaming_cable/set_up_windows_host)
+2. [MacOS - NoMachine](/content/streaming_cable/set_up_macos_host)

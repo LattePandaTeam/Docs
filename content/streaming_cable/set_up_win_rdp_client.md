@@ -1,9 +1,9 @@
-# Set Up Windows Remote Desktop Client
+# Setup Client Computer RDP - Windows
 
-This section will show you how to use Remote Desktop in Windows Client. 
+This section will show you how to use Remote Desktop in Windows Client Computer. 
 
 !!! tip
-    Keep the Host connected to the Client with the streaming cable
+    Keep the Host connected to the Client Computer with the streaming cable
 
 ## Create A New Connection
 
