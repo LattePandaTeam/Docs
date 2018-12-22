@@ -1,4 +1,4 @@
-# Operating System - LattePanda Alpha
+# Operating System - LattePanda Alpha and Delta
 
 This document will go over the operating systems that are compatible with the LattePanda Alpha. It will also cover acceptable boot media as well as instructions or resources for installing the operating system and special considerations.
 
