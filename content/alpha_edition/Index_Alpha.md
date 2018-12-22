@@ -1,12 +1,14 @@
 # Introduction
 
-Here's the world's first hackable computer. An Ultimate Single-Board Computer for your Big Idea.
+Here's the world's first hackable computer, the Ultimate Single-Board Computer for your Big Idea.
 
-The Docs is broken down into three parts:
+The documents are broken down into several parts:
 
-- [Getting started your LattePanda]( ). The very first start to show you how to power on device.
-
-- [Multiple OS and Desktop IDE]( ). Download the different OS there. 
+* [Getting Started](Getting_Started_Alpha.md) Powering on your LattePanda for the first time.
+* [Display and Touch Connections](Display_Touch_Connections_Alpha.md) Overview of the different ways to display your LattePanda's screen and connect the touch panel connector.
+* [Powering](Powering_Alpha.md) Overview of the different ways you can power your LattePanda.
+* [Operating Systems](Operating_Systems_Alpha.md) Overview and installation instructions of the different operating systems you can install on the LattePanda.
+* [IDE](IDE_Alpha.md) Overview of the different IDEs you can use with the LattePanda.
 
   **For software developer**, we provide the **tutorial on controlling the physical world** and **getting the sensor value** in **different programming language(C#, Java, Python, etc.)** Welcome to **IoT**!
 
@@ -14,7 +16,7 @@ The Docs is broken down into three parts:
 
 First, Let me introduce the new generation product— LattePanda Alpha/Delta for you. 
 
-##Specification
+## Specification
 
 ![](https://i.imgur.com/J0m9x3a.png)
 
@@ -38,24 +40,9 @@ Mathematical Character △; a triangle. In terms of product design, performance,
 
 The Delta Edition uses an Intel 8th generation Celeron N4100 processor. This Celeron processor is the perfect choice for features and price as a main robotics controller, interactive project core, IoT edge device or AI brain. So LattePanda Delta is still x86 based SBC design.
 
-##Supported Operating Systems
-
-###Windows
-
-![](https://i.imgur.com/2d5RvHo.jpg?2)
-
-That's the default system installed in LattePanda. [If you want to reinstall the Windows system, click here.]( )
-
-### Ubuntu
-
-![](https://i.imgur.com/ZDly1Ab.jpg)
-
-Linux system can be perfectly used for **embedded applications** because of its lightweight architecture. [If you want to install Ubuntu system, click here.]( )
-
 ##Forum
 
 LattePanda Offical Forum: https://www.lattepanda.com/forum/
-
 
 
 ##Contact US
