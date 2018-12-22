@@ -1,24 +1,21 @@
 # Common Desktop IDE
 
-# Introduction
+**For software developers,** we listed some common IDEs below, so you can build your desktop development environment easily! 
 
-**For software developers,** we listed some common IDE below, so you can build your desktop development environment easily! 
+If you are interested in **IoT** to **control the physical world** and **get sensor data**, the built in Arduino makes it easy and friendly with support for **different types of programming langauages.**
 
-More importantly, if you are interested in **IoT**, you could **control the physical world** and **get the sensor data** easily by Arduino **in different types of programming languages**.
+Enjoy coding!
 
-Enjoy Coding! Enjoy IoT!
 
-# Common IDE
-
-##Arduino IDE ( For IoT ) 
+# Arduino IDE ( For IoT ) 
 
 ![](https://i.imgur.com/V0gDJEc.jpg)
 
-The LattePanda is born with a ATmega32U4 chip on the board (which is known as **Arduino Leonardo**), so it's perfect for IoT and industry automation project. 
+The LattePanda Alpha is made with a ATmega32U4 chip on the board (also known as **Arduino Leonardo**), so it's perfect for IoT and automation projects. 
 
 [Download the Arduino IDE here.](https://www.arduino.cc/en/Main/Donate)
 
-##Visual Studio (C, C#, C++, JavaScript Developer)
+# Visual Studio (C, C#, C++, JavaScript Developer)
 
 ![](https://i.imgur.com/Pmso73Z.jpg)
 
@@ -30,7 +27,7 @@ The LattePanda is born with a ATmega32U4 chip on the board (which is known as **
 
 [<u>**Tutorial: Get sensor data in C#.**</u> ]( )
 
-##Python IDLE (Python Developer) 
+# Python IDLE (Python Developer) 
 
 ![](https://i.imgur.com/O7OjS3O.png)
 
