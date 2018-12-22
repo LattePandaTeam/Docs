@@ -9,7 +9,7 @@ Enjoy coding!
 
 # Arduino IDE ( For IoT ) 
 
-![](https://i.imgur.com/V0gDJEc.jpg)
+![](https://github.com/chrislattepanda/Docs/blob/master/assets/images/Arduino_Logo.jpg)
 
 The LattePanda Alpha is made with a ATmega32U4 chip on the board (also known as **Arduino Leonardo**), so it's perfect for IoT and automation projects. 
 
@@ -17,7 +17,7 @@ The LattePanda Alpha is made with a ATmega32U4 chip on the board (also known as 
 
 # Visual Studio (C, C#, C++, JavaScript Developer)
 
-![](https://i.imgur.com/Pmso73Z.jpg)
+![](https://github.com/chrislattepanda/Docs/blob/master/assets/images/Visual_Studio_Logo.jpg)
 
 **Microsoft Visual Studio** is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs, as well as web sites, web apps, web services and mobile apps. Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, etc.
 
@@ -29,7 +29,7 @@ The LattePanda Alpha is made with a ATmega32U4 chip on the board (also known as 
 
 # Python IDLE (Python Developer) 
 
-![](https://i.imgur.com/O7OjS3O.png)
+![](https://github.com/chrislattepanda/Docs/blob/master/assets/images/Python_Logo.png)
 
 It's a Python IDE for Python Developers. 
 
@@ -43,7 +43,7 @@ If you are familiar with Python and have interested in IoT, see the tutorial bel
 
 ##Eclipse (Java Developer)
 
-![](https://i.imgur.com/hU58zbZ.jpg)
+![](https://github.com/chrislattepanda/Docs/blob/master/assets/images/Eclipse_Logo.jpg)
 
 **Eclipse** is an integrated development environment(IDE) used in computer programming, and is the most widely used Java IDE. It contains a base workspace and an extensible plug-in system for customizing the environment.  
 
