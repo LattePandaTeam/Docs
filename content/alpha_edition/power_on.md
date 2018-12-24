@@ -1,6 +1,6 @@
 # Power on device
 
-First of all, let me show you how to boot your LattePanda as a normal PC!
+This document will review starting your LattePanda for the first time. It will go over what you need to boot up as well as instructions for getting started.
 
 ## Step 1: Connect Wi-Fi & Bluetooth
 
