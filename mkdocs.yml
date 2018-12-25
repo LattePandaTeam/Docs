@@ -135,8 +135,3 @@ nav:
     - NoMachine - Config Server Computer: content/streaming_cable/set_up_macos_host.md
     - NoMachine - Config Client Computer: content/streaming_cable/set_up_nomachine_client.md
     - FAQ: content/streaming_cable/faq.md
-
-# Google Analytics
-google_analytics:
-  - !!python/object/apply:os.getenv ["UA-76755418-1"]
-  - auto
