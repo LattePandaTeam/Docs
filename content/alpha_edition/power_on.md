@@ -1,6 +1,18 @@
-# Power on device
+# Get Started
 
 This document will review starting your LattePanda for the first time. It will go over what you need to boot up as well as instructions for getting started.
+
+## What You Will Need to Boot Alpha
+To get started, you will need the following hardware:
+
+* Supplied USB Type C wall adapter or other power supply (Please see the Powering LattePanda Alpha section for a list of methods to power your LattePanda)
+* Display cable (HDMI, eDP display)
+* Display (TV, monitor, or eDP display)
+* Input devices (Keyboard, mouse, etc.)
+* Boot Drive (Optional)
+
+!!! note
+    If your device is the **LattePanda Alpha 800**, which comes without eMMC storage onboard, you will need a boot drive with an operating system installed on it. See the Operating Systems page for different acceptable media for booting the operating system of your choice and installation instructions.
 
 ## Step 1: Connect Wi-Fi & Bluetooth
 
