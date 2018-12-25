@@ -1,0 +1,142 @@
+# Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Project information
+site_name: Documentation
+site_description: This is a tutorial site for LattePanda products
+site_author: Lauren Pan
+site_url: http://docs.lattepanda.com/
+
+# Repository
+repo_name: LattePandaTeam/Docs
+repo_url: https://github.com/LattePandaTeam/Docs
+edit_uri: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2018 LattePanda Team'
+
+# Configuration
+theme:
+  name: null
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: true
+  palette:
+    primary: Amber
+    accent: Cyan
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  logo:
+    icon: "\uE80C"
+
+# Customization
+extra:
+  social:
+    - type: globe
+      link: https://www.lattepanda.com
+    - type: github-alt
+      link: https://github.com/LattePandaTeam
+    - type: twitter
+      link: https://twitter.com/LattePandaCN
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - LattePanda: index.md
+  - Power on Device: content/1st_edition/power_on.md
+  - Building Connectivity: content/1st_edition/wifi.md
+  - Optional Peripherals: content/1st_edition/peripheral.md
+  - Connect Touch Display: content/1st_edition/display.md
+  - Multiple OS Support: content/1st_edition/os.md
+  - Tools: content/1st_edition/tools.md
+  - Hardware Introduction: content/1st_edition/hardware_introduction.md
+  - Physical Programming: content/1st_edition/vs_programming.md
+  - Programming Reference: content/1st_edition/io_programming_reference.md
+  - Read Sensor Data via WebClient: content/1st_edition/webclient_demo.md
+  - Projects - 3D Printer Server: content/1st_edition/3d_printer_server.md
+  - Projects - Face Recognition: content/1st_edition/face_recog.md
+  - Projects - Setup Azure IoT Hub: content/1st_edition/setup_azure_iot_hub.md
+  - Projects - IoT Edge Data to Azure: content/1st_edition/data_to_cloud.md
+  - Projects - Node-RED: content/1st_edition/nodered.md
+  - Troubleshooting: content/1st_edition/troubleshooting.md
+  - Contact Us: contact_us.md
+  - LattePanda Alpha:
+    - Get Started: content/alpha_edition/power_on.md
+    - Connect to Internect: content/alpha_edition/connectivity.md
+    - Optional Peripherals: content/alpha_edition/peripherals.md
+    - Multiple OS Support: content/alpha_edition/os.md
+    - Tools Recommended: content/alpha_edition/ide.md
+    - Physical Playability: content/alpha_edition/io_playability.md
+    - Physical Programming /w Python: content/alpha_edition/python_arduino_bridge.md
+    - Read Sensor Data /w Python: content/alpha_edition/python_read_sensor.md
+  - Streaming Cable:
+    - Get Started: content/streaming_cable/get_started.md
+    - Setup Server Computer - Win: content/streaming_cable/set_up_windows_host.md
+    - Setup Client Computer RDP - Win: content/streaming_cable/set_up_win_rdp_client.md
+    - Setup Client Computer RDP - Mac: content/streaming_cable/set_up_mac_rdp_client.md
+    - Setup Client Computer RDP - Ubu: content/streaming_cable/set_up_ubu_rdp_client.md
+    - NoMachine - Config Server Computer: content/streaming_cable/set_up_macos_host.md
+    - NoMachine - Config Client Computer: content/streaming_cable/set_up_nomachine_client.md
+    - FAQ: content/streaming_cable/faq.md
+
+# Google Analytics
+google_analytics:
+  - !!python/object/apply:os.getenv ["UA-76755418-1"]
+  - auto
