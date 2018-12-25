@@ -21,7 +21,7 @@
 # Project information
 site_name: Documentation
 site_description: This is a tutorial site for LattePanda products
-site_author: Lauren Pan
+site_author: LattePanda Team
 site_url: http://docs.lattepanda.com/
 
 # Repository
@@ -34,8 +34,7 @@ copyright: 'Copyright &copy; 2016 - 2018 LattePanda Team'
 
 # Configuration
 theme:
-  name: null
-  custom_dir: material
+  name: material
 
   # 404 page
   static_templates:
