@@ -8,7 +8,23 @@ You will need to prepare the following devices before use
 
 1. **Server Computer:** A **LattePanda** or other computer that needs to be connected and controlled, running Windows or MacOS
 2. **Client Computer:** A computer, runs Windows, MacOS or Ubuntu, **such as your MacBook**
-3. A streaming Cable
+3. **streaming Cable:** Connect the Server Computer to the Client Computer(Both need USB3.0 interface)
+
+## Quick Start
+### Install driver and setup environment
+Connect Streaming Cable, then refer to the different OS setup requirements below to configure server and client computer separately.
+1. Unlicensed Windows: Click to download [SetupEnv_NM]((/content/streaming_cable/SetupEnv_NM))，Right-click and select Run as administrator, after running, it will close automatically
+2. MacOS：[Click to download RNDIS driver](http://bit.ly/2A4f2xI) Driver and install
+3. Linux: add a new "USB Ethernet" in Settings->Ethernet panel, set its IPV4 to Link-Local Only
+### Install NoMachine
+1. Click to download [NoMachine(Windows, MacOS and Ubuntu)](https://www.nomachine.com/download) and install it in the server and client computer separately.
+### How to use
+1. Connect Streaming Cable, Run NoMachine on Server and Client Computer (Start automatically as OS boot up)
+2. Wait for a few minutes, the Server Computer will appear in the Client Computer NoMachine Browse Connections page, double-click to run
+3. You are in, enjoy! ([Click to get detailed tutorials and the best display quality](/content/streaming_cable/set_up_macos_host))
+
+More software solutions and tutorials will be introduced in the following sections.
+
 
 ## Recommended Software Solutions
 
@@ -24,7 +40,7 @@ Please **choose the same one for your Server Computer and Client Computer** acco
 
     RDP Solution
         Server Computer - Windows Only
-        Client Computer - Windows / MacOS / Ubuntu 
+        Client Computer - Windows / MacOS / Ubuntu
 
     NoMachine
         Server Computer - Windows / MacOS / Ubuntu
@@ -38,7 +54,7 @@ Please **choose the same one for your Server Computer and Client Computer** acco
     But if you installed MacOS on LattePanda Alpha,plus you use MacBook Pro. Then NoMachine will the only option for you!
 
 
-## Configuration 
+## Configuration
 
 If this is the first time for you to use LattePanda Streaming Cable, the **complete process** for configuration includes:
 
@@ -51,7 +67,7 @@ If this is the first time for you to use LattePanda Streaming Cable, the **compl
 
 This section will show you how to install drivers and Apps in your Server Computer. Click on the OS to jump to the corresponding section.
 
-**So What's OS running on the Server Computer (LattePanda)?** 
+**So What's OS running on the Server Computer (LattePanda)?**
 
 1. [Windows - RDP](/content/streaming_cable/set_up_windows_host)
 2. [MacOS - NoMachine](/content/streaming_cable/set_up_macos_host)
