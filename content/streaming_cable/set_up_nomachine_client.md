@@ -1,6 +1,6 @@
 # NoMachine - Config Client Computer
 
-This section will show you how to use NoMachine in Windows, MacOS and Ubuntu Client Computer. 
+This section will show you how to use NoMachine in Windows, MacOS and Ubuntu Client Computer.
 
 !!! tip
     Keep the Host connected to the Client Computer with the streaming cable
@@ -12,6 +12,10 @@ Click to download and run [NoMachine(Windows, MacOS and Ubuntu)](https://www.nom
 
 <center>![NoMachine](/assets/streaming_cable_resources/nomachine_setup.jpeg)</center>
 
+
 ## Configuration Completed
 
-Now, you are in. Next time, you can power on the Server Computer, connect the Streaming Cable, then click and run. You can also try other software solution. enjoy it! 
+Now, you are in. Next time, you can power on the Server Computer, connect the Streaming Cable, then click and run. You can also try other software solution. enjoy it!
+
+!!! tip
+    If you don’t connect a display to the HDMI interface of the Server Computer, it will disable the GPU acceleration and remote desktop will run slowly. Please insert a Headless HDMI adapter(Amazon: Headless HDMI) to the Server Computer to make the GPU work properly.
