@@ -75,4 +75,4 @@ This section will show you how to install drivers and Apps in your Server Comput
 **So What's OS running on the Server Computer (LattePanda)?**
 
 1. [Windows - RDP](/content/streaming_cable/set_up_windows_host)
-2. [MacOS - NoMachine](/content/streaming_cable/set_up_macos_host)
+2. **MacOS - NoMachine:** Refer to Quick Start section

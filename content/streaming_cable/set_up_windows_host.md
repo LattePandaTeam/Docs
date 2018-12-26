@@ -1,7 +1,7 @@
 
-# Setup Server Computer - Windows
+# Setup Server Computer - Remote Desktop
 
-This section will show you how to install drivers and Apps in your windows Server Computer.
+This section will show you how to install drivers and setup RDP in your windows Server Computer.
 
 ## Connect Hardware
 
@@ -27,36 +27,19 @@ This section will show you how to install drivers and Apps in your windows Serve
 <center>![DHCP Serve Configuration on Server Computer](/assets/streaming_cable_resources/dhcp_server_setup.jpeg)</center>
 
 
-## Install App 
-
-Please **choose the same one for your Server Computer and Client Computer** according to the Server Computer's OS and your needs
-
-* **Remote Desktop** have pre-installed in Windows Pro and above OS, **does not support other OS** 
-
-* **NoMachine**, [Click to download](https://www.nomachine.com/download), run it after installation
-
-!!! tip
-    NoMachine **Only**
-    
-    If you don’t connect a display to the HDMI interface of the Server Computer, it will disable the GPU acceleration and remote desktop will run slowly. Please insert a Headless HDMI adapter(Amazon: Headless HDMI) to the Server Computer to make the GPU work properly
-
 ## Server Computer Configuration Completed
 
 Next time you can power on the Server Computer and access it directly
 
 ## Set Up The Client Computer
 
-This section will show you how to install software and setup your Client Computer.
-**Click on the guide you need to jump to the corresponding section.** Please **choose the same software** as the Server Computer
+This section will show you how to install RDP software and setup your Client Computer.
+**Click on the guide you need to jump to the corresponding section.**
 
 ### Remote Desktop
 
 1. [Client Computer with Windows](/content/streaming_cable/set_up_win_rdp_client)
 2. [Client Computer on MacOS](/content/streaming_cable/set_up_mac_rdp_client)
 3. [Client Computer on Ubuntu](/content/streaming_cable/set_up_ubu_rdp_client)
-
-### NoMachine
-If you installed NoMachine on your server computer, then check this tutorial for client computer. 
-1. [NoMachine](/content/streaming_cable/set_up_nomachine_client)
 
 :) Last step for building a smooth development environment!
