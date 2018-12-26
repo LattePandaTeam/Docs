@@ -31,9 +31,9 @@ Connect Streaming Cable, then refer to the different OS setup requirements below
 **More software solutions and tutorials** will be introduced in the following sections.
 
 
-## Recommended Software Solutions
+## More recommended Software Solutions
 
-Please **choose the same one for your Server Computer and Client Computer** according to the Server Computer's OS and your needs. This tutorial contains installation guides for Microsoft Remote Desktop and NoMachine. You can setup other software solutions accordingly.
+These sections below will show you more recommended Software Solutions, please choose one for your Server Computer and Client Computer according to your needs. This tutorial contains installation guides for Microsoft Remote Desktop and NoMachine. You can setup other software solutions accordingly.
 
 * **Microsoft Remote Desktop (RDP):** Support for Server Computers with Windows 10 Pro or above OS (such as LattePanda Alpha or Delta), you can use Microsoft's standard RDP protocol for quickly configuration, seamless copy and paste, and get a full virtual machine experience
 
@@ -59,7 +59,7 @@ Please **choose the same one for your Server Computer and Client Computer** acco
     But if you installed MacOS on LattePanda Alpha,plus you use MacBook Pro. Then NoMachine will the only option for you!
 
 
-## Configuration
+### Configuration
 
 If this is the first time for you to use LattePanda Streaming Cable, the **complete process** for configuration includes:
 
@@ -68,7 +68,7 @@ If this is the first time for you to use LattePanda Streaming Cable, the **compl
 3. Setup software on Client Computer
 4. Enjoy seamless experience with dual devices
 
-## Let's start!
+### Let's start!
 
 This section will show you how to install drivers and Apps in your Server Computer. Click on the OS to jump to the corresponding section.
 
