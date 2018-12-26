@@ -13,7 +13,7 @@ You will need to prepare the following devices before use
 ## Quick Start
 ### Install driver and setup environment
 Connect Streaming Cable, then refer to the different OS setup requirements below to configure server and client computer separately.
-1. Unlicensed Windows: Click to download [SetupEnv_NM]((/content/streaming_cable/SetupEnv_NM))，Right-click and select Run as administrator, after running, it will close automatically
+1. Unlicensed Windows: Click to download [SetupEnv_NM]((/content/streaming_cable/SetupEnv_NM.bat))，Right-click and select Run as administrator, after running, it will close automatically
 2. MacOS：[Click to download RNDIS driver](http://bit.ly/2A4f2xI) Driver and install
 3. Linux: add a new "USB Ethernet" in Settings->Ethernet panel, set its IPV4 to Link-Local Only
 ### Install NoMachine
