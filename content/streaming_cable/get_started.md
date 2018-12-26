@@ -14,9 +14,9 @@ You will need to prepare the following devices before use
 ### Install driver and setup environment
 Connect Streaming Cable, then refer to the different OS setup requirements below to configure server and client computer separately.
 
-1. Unlicensed Windows: Click to download [SetupEnv_NM.bat](/assets/streaming_cable_resources/SetupEnv_NM.bat)，Right-click and select Run as administrator, after running, it will close automatically
-2. MacOS：[Click to download RNDIS driver](http://bit.ly/2A4f2xI) Driver and install
-3. Linux: add a new "USB Ethernet" in Settings->Ethernet panel, set its IPV4 to Link-Local Only
+1. **Unlicensed Windows:** Click to download [SetupEnv_NM.bat](/assets/streaming_cable_resources/SetupEnv_NM.bat)，Right-click and select Run as administrator, after running, it will close automatically
+2. **MacOS:** [Click to download RNDIS driver](http://bit.ly/2A4f2xI) Driver and install
+3. **Linux:** add a new "USB Ethernet" in Settings->Ethernet panel, set its IPV4 to Link-Local Only
 
 ### Install NoMachine
 
@@ -26,9 +26,9 @@ Connect Streaming Cable, then refer to the different OS setup requirements below
 
 1. Connect Streaming Cable, Run NoMachine on Server and Client Computer (Start automatically as OS boot up)
 2. Wait for a few minutes, the Server Computer will appear in the Client Computer NoMachine Browse Connections page, double-click to run
-3. You are in, enjoy! ([Click to get detailed tutorials and the best display quality](/content/streaming_cable/set_up_macos_host))
+3. **You are in, enjoy!** ([Click to get detailed tutorials and the best display quality](/content/streaming_cable/set_up_macos_host))
 
-More software solutions and tutorials will be introduced in the following sections.
+**More software solutions and tutorials** will be introduced in the following sections.
 
 
 ## Recommended Software Solutions
