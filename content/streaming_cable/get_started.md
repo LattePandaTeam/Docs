@@ -37,7 +37,7 @@ Please **choose the same one for your Server Computer and Client Computer** acco
 
 * **Microsoft Remote Desktop (RDP):** Support for Server Computers with Windows 10 Pro or above OS (such as LattePanda Alpha or Delta), you can use Microsoft's standard RDP protocol for quickly configuration, seamless copy and paste, and get a full virtual machine experience
 
-* **NoMachine:** Supports all Windows, MacOS or Ubuntu, NoMachine will unleash the performance potential of the streaming cable. You can **coding, watch videos or even play games** in your Client Computer just like you would on a local device
+* **NoMachine:** Supports all Windows, MacOS or Linux, NoMachine will unleash the performance potential of the streaming cable. You can **coding, watch videos or even play games** in your Client Computer just like you would on a local device
 
 * **Steam:** To get the best gaming experience on your Client Computer, we recommend using [Steam In-Home Streaming](https://store.steampowered.com/streaming/), 1080P HD, low latency, allow offline mode, support for all Windows and Mac OS
 
@@ -48,8 +48,8 @@ Please **choose the same one for your Server Computer and Client Computer** acco
         Client Computer - Windows / MacOS / Ubuntu
 
     NoMachine
-        Server Computer - Windows / MacOS / Ubuntu
-        Client Computer - Windows / MacOS / Ubuntu
+        Server Computer - Windows / MacOS / Linux
+        Client Computer - Windows / MacOS / Linux
 
 
 !!! Example
@@ -75,4 +75,4 @@ This section will show you how to install drivers and Apps in your Server Comput
 **So What's OS running on the Server Computer (LattePanda)?**
 
 1. [Windows - RDP](/content/streaming_cable/set_up_windows_host)
-2. **MacOS - NoMachine:** Refer to Quick Start section
+2. **MacOS - NoMachine:** Refer to the Quick Start section
