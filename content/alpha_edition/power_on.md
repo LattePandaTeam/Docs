@@ -22,7 +22,7 @@ Note: The Delta board only needs one antenna.
 
 ![wifi](https://i.imgur.com/0i3tcAQ.gif)
 
-[Other ways to surf the Internet, click here.][2]
+[Other ways to surf the Internet, click here.][1]
 
 ## Step 2: Connect a Screen
 
@@ -47,15 +47,17 @@ In our box, we provide the power supply adapter. Plug in the Type C cable from t
 
 Other ways to power on your device:
 
-1. [12 volts input from JST PH2.0 - 4P connector][4]
+1. [12 volts input from JST PH2.0 - 4P connector][3]
 2. [Lipo battery from 10p power connector][4]
+3. [Forum Discussion - Suggest a on/off/reset button for Alpha][5]
 
 [3]: content/alpha_edition/io_playability
-[4]: https://www.lattepanda.com/topic-f13t16675.html?start=20
+[4]: https://www.lattepanda.com/topic-f13t16675.html
+[5]: https://www.lattepanda.com/topic-f23t17507.html
 
 ##Step 4: Enjoy your new LattePanda!
 
-Want to play IoT? Want to study programming? Want to control the physical world? [Check tools recommended first!][5]
+Want to play IoT? Want to study programming? Want to control the physical world? [Check tools recommended first!][6]
 
-[5]: content/alpha_edition/ide
+[6]: content/alpha_edition/ide
 
