@@ -131,6 +131,5 @@ nav:
     - Setup Client Computer RDP - Win: content/streaming_cable/set_up_win_rdp_client.md
     - Setup Client Computer RDP - Mac: content/streaming_cable/set_up_mac_rdp_client.md
     - Setup Client Computer RDP - Ubu: content/streaming_cable/set_up_ubu_rdp_client.md
-    - NoMachine - Config Server Computer: content/streaming_cable/set_up_macos_host.md
     - NoMachine - Config Client Computer: content/streaming_cable/set_up_nomachine_client.md
     - FAQ: content/streaming_cable/faq.md
