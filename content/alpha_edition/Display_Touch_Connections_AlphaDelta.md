@@ -11,8 +11,8 @@ This document will review the different ways you can display the screen from you
 * TV or monitor with HDMI port
 
 ## Installation Steps
-1. Connect a HDMI cable to LattePanda HDMI port
-2. Connect the other end of the HDMI cable to the TV or monitor
+1. Connect a HDMI cable to LattePanda HDMI port.
+2. Connect the other end of the HDMI cable to the TV or monitor.
 ![hdmi](https://github.com/chrislattepanda/Docs/blob/master/assets/images/Connect_HDMI.gif)
 # DP / DVI / VGA
 
