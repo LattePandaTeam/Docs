@@ -1,4 +1,4 @@
-# Powering On - LattePanda Alpha
+# Powering On - LattePanda Alpha and Delta
 
 This document describes the different ways you can power your LattePanda. It will cover the input specification, what you will need, and installation steps.
 
@@ -28,8 +28,9 @@ This document describes the different ways you can power your LattePanda. It wil
 
 1. 
 
-# 10 Pin (10p) Battery Connector
+# 10 Pin (10p) Battery Connector (Alpha Version Only)
 <img src="https://github.com/chrislattepanda/Docs/blob/master/assets/images/Battery_Connector_Port_Alpha.jpg" alt="drawing" width="300"/>
+**Note: This connector is only available on the LattePanda Alpha. The LattePanda Delta does not have this connector.**
 
 ## Input Specification
 * 7.4 - 8.2 V
@@ -50,3 +51,5 @@ This document describes the different ways you can power your LattePanda. It wil
 **To be updated later**
 
 # Related Links
+* [Getting Started](Getting_Started_AlphaDelta.md)
+* [Hardware Interface](Hardware_Interface_AlphaDelta.md)
