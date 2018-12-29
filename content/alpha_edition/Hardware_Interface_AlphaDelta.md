@@ -1,4 +1,4 @@
-# Hardware Interface - LattePanda Alpha
+# Hardware Interface - LattePanda Alpha and Delta
 
 # Pinout and Hardware Diagram
 
@@ -57,3 +57,7 @@ The RS-232 standard had been commonly used in computer serial ports. Thanks to 
 ### RS-232 Sensor
 
 ![](https://i.imgur.com/7loMZ3h.png?1)
+
+# Related Links 
+* [Integrated Development Environment](IDE_AlphaDelta.md)
+* [Powering LattePanda Alpha/Delta](Powering_AlphaDelta.md)
