@@ -22,7 +22,7 @@ Note: The Delta board only needs one antenna.
 
 ![wifi](https://i.imgur.com/0i3tcAQ.gif)
 
-[Other ways to surf the Internet, click here.][1]
+[Other ways to surf the Internet, click here.][1][newtab]
 
 ## Step 2: Connect a Screen
 
@@ -30,7 +30,7 @@ The most common display interface is HDMI, which is why there is one on the Latt
 
 ![hdmi](https://i.imgur.com/B8Ev5US.gif)
 
-If you want to use other display interfaces (eDP, DP, DVI, VGA), [see the tutorial here.][2]
+If you want to use other display interfaces (eDP, DP, DVI, VGA), [see the tutorial here.][2][newtab]
 
 Want a eDP screen?  Available soon...
 
@@ -47,9 +47,9 @@ In our box, we provide the power supply adapter. Plug in the Type C cable from t
 
 Other ways to power on your device:
 
-1. [12 volts input from JST PH2.0 - 4P connector][3]
-2. [Lipo battery from 10p power connector][4]
-3. [Forum Discussion - Suggest a on/off/reset button for Alpha][5]
+1. [12 volts input from JST PH2.0 - 4P connector][3][newtab]
+2. [Lipo battery from 10p power connector][4][newtab]
+3. [Forum Discussion - Suggest a on/off/reset button for Alpha][5][newtab]
 
 [3]: /content/alpha_edition/io_playability
 [4]: https://www.lattepanda.com/topic-f13t16675.html
@@ -57,7 +57,7 @@ Other ways to power on your device:
 
 ##Step 4: Enjoy your new LattePanda!
 
-Want to play IoT? Want to study programming? Want to control the physical world? [Check tools recommended first!][6]
+Want to play IoT? Want to study programming? Want to control the physical world? [Check tools recommended first!][6][newtab]
 
 [6]: /content/alpha_edition/ide
 

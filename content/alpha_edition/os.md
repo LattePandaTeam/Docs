@@ -9,12 +9,12 @@ Follow the steps below to install the Windows 10 system.
 ### What you need:
 
 1. 1 x USB flash Drive (*at* least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
-2. Download Windows10 image [here](https://www.dropbox.com/sh/d2d4xoe2nk7n0je/AACdzPN-bdwkwyHxe9KlSsiIa?dl=0).
+2. Download Windows10 image [here](https://www.dropbox.com/sh/d2d4xoe2nk7n0je/AACdzPN-bdwkwyHxe9KlSsiIa?dl=0)[newtab].
 
 ### Installation Steps:
 
 1. Download the Offical Windows 10 image for LattePanda.
-2. Put all the files to the root directory of your USB flash disk. (You need to set your USB flash disk to be a bootable device. You can see the tutorial [here](https://technet.microsoft.com/en-us/library/jj200124%28v=ws.11%29.aspx).)
+2. Put all the files to the root directory of your USB flash disk. (You need to set your USB flash disk to be a bootable device. You can see the tutorial [here](https://technet.microsoft.com/en-us/library/jj200124%28v=ws.11%29.aspx)[newtab].)
 3. Reboot the LattePanda, press 'Esc' continously to enter BIOS. Change the Boot Option Priorities to boot from the USB flash disk.
 4. Save & Reboot.
 5. Then you will enter the installation GUI.
@@ -23,10 +23,10 @@ Follow the steps below to install the Windows 10 system.
 
 If you want to update to the latest version of Windows 10, please follow the steps below.
 
-1. [Download the Update Assistant here.](https://www.microsoft.com/en-us/software-download/windows10) To get started, click **Update now**.
+1. [Download the Update Assistant here.](https://www.microsoft.com/en-us/software-download/windows10)[newtab] To get started, click **Update now**.
 2. Run the Update Assistant.
 3. Wait for update. (This will take a will, you can keep working.)
-4. When the update is done, delete the Windows.old folder in C:/ . ([Click here to see how to delete Windows.old folder](http://www.lattepanda.com/topic-f6t7136.html))
+4. When the update is done, delete the Windows.old folder in C:/ . ([Click here to see how to delete Windows.old folder](http://www.lattepanda.com/topic-f6t7136.html))[newtab]
 
 ![img](https://i.imgur.com/ClxdfZw.png)
 
@@ -41,15 +41,15 @@ In this tutorial, you will learn how to install the Ubuntu 16.04 LTS OS on your 
 ### What you need:
 
 1. USB Flash Drive
-2. [Download the Ubuntu 16.04 LTS image here.](http://releases.ubuntu.com/releases/16.04/) (I would recommend the Desktop image for 64-bit for your LattePanda. )
+2. [Download the Ubuntu 16.04 LTS image here.](http://releases.ubuntu.com/releases/16.04/)[newtab] (I would recommend the Desktop image for 64-bit for your LattePanda. )
 
 ###Installation Steps
 
-1.[Download the Ubuntu 16.04 LTS image.](http://releases.ubuntu.com/releases/16.04/)
+1.[Download the Ubuntu 16.04 LTS image.](http://releases.ubuntu.com/releases/16.04/)[newtab]
 
 2.Create a USB installation media. 
 
-Download Rufus from [https://rufus.akeo.ie/.](https://rufus.akeo.ie/) Choose the Ubuntu image and deploy to the USB flash drive.
+Download Rufus from [https://rufus.akeo.ie/.](https://rufus.akeo.ie/)[newtab] Choose the Ubuntu image and deploy to the USB flash drive.
 
 3.Boot from your USB flash drive. 
 

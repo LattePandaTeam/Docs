@@ -18,8 +18,8 @@ The voltage range of Alpha power input connector is 7.4~15 volts. So if you're c
 
 Relative discussions in Forum:
 
-1. [Lipo battery from 10p power connector][1]
-2. [Forum Discussion - Suggest a on/off/reset button for Alpha][2]
+1. [Lipo battery from 10p power connector][1][newtab]
+2. [Forum Discussion - Suggest a on/off/reset button for Alpha][2][newtab]
 
 [1]: https://www.lattepanda.com/topic-f13t16675.html
 [2]: https://www.lattepanda.com/topic-f23t17507.html
