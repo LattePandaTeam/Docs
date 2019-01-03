@@ -2,6 +2,18 @@
 
 This document will go over the operating systems that are compatible with the LattePanda Alpha. It will also cover acceptable boot media as well as instructions or resources for installing the operating system and special considerations.
 
+## Overview
+
+No doubt! LattePanda Alpha is global **FIRST development device supporting 4 different operation systems.**
+
+1. Windows 10 and other verions
+2. Linux and other versions
+3. Android for x86 (Phoenix OS)
+4. Hackintosh (MacOS) - Conbributed by Community
+
+!!! tips
+    Please feel free to contribute or request new content via [Official Docs Repo](https://github.com/LattePandaTeam/Docs)
+
 ## Windows
 
 <center>![](/assets/images/Windows_Logo.jpg)</center>
@@ -36,7 +48,8 @@ You will enter the installation GUI.
 * eMMC
 * M.2 M-key NVMe or SATA SSD 
 
-**Note:** This tutorial is for the LattePanda Delta and Alpha. If you are using the 1st edition LattePanda, please refer to the 1st edition documents.
+!!! tips 
+    This tutorial is for the LattePanda Delta and Alpha. If you are using the 1st edition LattePanda, please refer to the 1st edition documents.
 
 ### What you need
 * 1 x Blank USB Flash Drive (8 GB or larger)
