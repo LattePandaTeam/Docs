@@ -6,7 +6,7 @@ This document will review starting your LattePanda for the first time. It will g
 
 ### What You Will Need
 To get started, you will need the following hardware:
-* Supplied USB Type C wall adapter or other power supply (Please see the [Powering Alpha](http://docs.lattepanda.com/content/alpha_edition/powering) section for a list of methods to power your LattePanda)
+* Supplied USB Type C wall adapter or other power supply (Please see the [Powering Alpha](http://docs.lattepanda.com/content/alpha_edition/powering/) section for a list of methods to power your LattePanda)
 * Display cable (HDMI, eDP display)
 * Display (TV, monitor, or eDP display)
 * Input devices (Keyboard, mouse, etc.)
