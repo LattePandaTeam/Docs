@@ -57,8 +57,9 @@ The voltage range of Alpha power input connector is 7.4~15 volts. So if you're c
 * Standard power - 3A @ 12 volts
 * JST PH2.0 - 4p connector (pin mapping is marked on the board also: -- DC ++, which means two negative pins and two positive pins)
 
-You can check the details about pinout diagram via this [link][1].
+You can check the [details about pinout diagram][5].
 
+[5]: /content/alpha_edition/io_playability/
 
 ## Lipo Battery Connector
 
@@ -75,7 +76,7 @@ You can check the details about pinout diagram via this [link][1].
 ### Recommended Batteries
 
 We didn't offically release battery supported list from LattePanda yet. Somehow global battery shipping is not easy. And it's even hard to find a standard battery for global market when every place has different resources available. 
-But You can check the forum discussion about this topic via this [link](https://www.lattepanda.com/topic-f13t16675.html?hilit=battery&start=31). Community members already find some alternatives from local battery vendors.
+But You can check the [forum discussion about this topic](https://www.lattepanda.com/topic-f13t16675.html?hilit=battery&start=31). Community members already find some alternatives from local battery vendors.
 
 ### Input Specification
 * **7.4 - 8.2 V**, means 2-cell Lipo battery
