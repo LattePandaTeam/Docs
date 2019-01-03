@@ -47,9 +47,9 @@ In our box, we provide the power supply adapter. Plug in the Type C cable from t
 
 Other ways to power on your device:
 
-1. [12 volts input from JST PH2.0 - 4P connector][3][newtab]
-2. [Lipo battery from 10p power connector][4][newtab]
-3. [Forum Discussion - Suggest a on/off/reset button for Alpha][5][newtab]
+1. [12 volts input from JST PH2.0 - 4P connector][3]
+2. [Lipo battery from 10p power connector][4]
+3. [Forum Discussion - Suggest a on/off/reset button for Alpha][5]
 
 [3]: /content/alpha_edition/io_playability
 [4]: https://www.lattepanda.com/topic-f13t16675.html
