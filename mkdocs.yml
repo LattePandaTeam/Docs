@@ -119,11 +119,12 @@ nav:
   - LattePanda Alpha:
     - Get Started: content/alpha_edition/get_started.md
     - Powering: content/alpha_edition/powering.md
-    - Connect to Internect: content/alpha_edition/connectivity.md
-    - Optional Peripherals: content/alpha_edition/touch_and_display.md
+    - Displays and Touch: content/alpha_edition/touch_and_display.md
     - Multiple OS Support: content/alpha_edition/os.md
+    - Drivers: content/alpha_edition/drivers_and_software.md
     - Tools Recommended: content/alpha_edition/ide.md
     - Physical Playability: content/alpha_edition/io_playability.md
+    - Mutiple Internet Connections: content/alpha_edition/connectivity.md
     - Physical Programming /w Python: content/alpha_edition/python_arduino_bridge.md
     - Read Sensor Data /w Python: content/alpha_edition/python_read_sensor.md
   - Streaming Cable:
