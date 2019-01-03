@@ -19,10 +19,12 @@ No doubt! LattePanda Alpha is global **FIRST development device supporting 4 dif
 <center>![](/assets/images/Windows_Logo.jpg)</center>
 
 ### Bootable Drive
+
 * eMMC
 * M.2 M-key NVMe or SATA SSD
 
 ### What you will need
+
 * 1 x Blank USB flash drive (8 GB or larger)
 * [LattePanda Alpha Windows 10 Image](https://www.dropbox.com/sh/d2d4xoe2nk7n0je/AACdzPN-bdwkwyHxe9KlSsiIa?dl=0).
 
@@ -45,6 +47,7 @@ You will enter the installation GUI.
 <center>![](/assets/images/Ubuntu_Logo.jpg)</center>
 
 ### Bootable Drive
+
 * eMMC
 * M.2 M-key NVMe or SATA SSD 
 
@@ -52,6 +55,7 @@ You will enter the installation GUI.
     This tutorial is for the LattePanda Delta and Alpha. If you are using the 1st edition LattePanda, please refer to the 1st edition documents.
 
 ### What you need
+
 * 1 x Blank USB Flash Drive (8 GB or larger)
 * [Ubuntu 16.04 LTS image](http://releases.ubuntu.com/releases/16.04/) (64 bit Desktop image is recommended)
 
@@ -133,15 +137,18 @@ Wait for your LP to restart and then enter your password to login. Your Ubuntu 1
 The LattePanda Alpha is also capable of using x86 versions of Android. One such version, is Phoenix OS. This version provides a windows desktop like GUI for an android system while also allowing access to the Google Play store.
 
 ### Bootable Drive
+
 * eMMC
 * M.2 M-key NVMe or SATA SSD 
 * USB Drive (Recommend USB 3.0 for best experience)
 
 ### What you will need
+
 * [Phoenix OS Installer](http://www.phoenixos.com/download_x86)
 * Bootable Partition (With drive letter assigned) at least 4 GB
 
 ### Installation Steps
+
 1. Download the Phoenix OS Installer.
 2. Launch the installation exe.
 3. There are two options: Install and U Install. Select U Install for installing on USB drive. Select Install for installing on eMMC or SSD partition.
