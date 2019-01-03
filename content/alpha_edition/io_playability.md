@@ -17,8 +17,10 @@ So the recommended standard power solution will definitely be the PD power adapt
 The voltage range of Alpha power input connector is 7.4~15 volts. So if you're choosing the lipo battery, it should be 2~4 cells. The standard power source is 3A@12volts. The booting power is like 10 watts. And operation power is like 5 watts without much load.
 
 Relative discussions in Forum:
+
 1. [Lipo battery from 10p power connector][1]
 2. [Forum Discussion - Suggest a on/off/reset button for Alpha][2]
+
 [1]: https://www.lattepanda.com/topic-f13t16675.html
 [2]: https://www.lattepanda.com/topic-f23t17507.html
 
