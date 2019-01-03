@@ -2,10 +2,12 @@
 
 This document will review starting your LattePanda for the first time. It will go over what you need to boot up as well as instructions for getting started.
 
-## Booting LattePanda
+## 5 Steps for Booting LattePanda
 
 ### What You Will Need
+
 To get started, you will need the following hardware:
+
 * Supplied USB Type C wall adapter or other power supply (Please see the [Powering LattePanda Alpha][1] section for a list of methods to power your LattePanda)
 * Display cable (HDMI, eDP display)
 * Display (TV, monitor, or eDP display)
@@ -21,7 +23,8 @@ To get started, you will need the following hardware:
 
 ### Instructions
 
-**Warning: When touching the LattePanda board, make sure to ground yourself before touching the board. Failure to ground yourself may cause static discharge into board components damaging your LattePanda.**
+!!! warning
+    When touching the LattePanda board, make sure to ground yourself before touching the board. Failure to ground yourself may cause static discharge into board components damaging your LattePanda.
 
 * Connect Wifi antennas to sockets.
 <center>![Wifi connection](/assets/images/Connect_Wifi_Antenna_Alpha.gif)</center>
