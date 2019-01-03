@@ -2,6 +2,9 @@
 
 This document describes the different ways you can power your LattePanda. It will cover the input specification, what you will need, and installation steps.
 
+
+## Overview
+
 **4 Ways for powering your Alpha in different applications:**
 
 1. Official PD adapter comes with LattePanda Alpha
@@ -13,8 +16,8 @@ This document describes the different ways you can power your LattePanda. It wil
 
 * [Forum Discussion - Suggest a on/off/reset button for Alpha][3]
 
-[1]: /content/alpha_edition/io_playability/
-[2]: https://www.lattepanda.com/topic-f13t16675.html
+[1]: /content/alpha_edition/powering/#jst-4p-dc-input-connector
+[2]: /content/alpha_edition/powering/#lipo-battery-connector
 [3]: https://www.lattepanda.com/topic-f23t17507.html
 
 
