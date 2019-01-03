@@ -4,7 +4,7 @@ This document will go over the operating systems that are compatible with the La
 
 ## Windows
 
-![](https://github.com/chrislattepanda/Docs/blob/master/assets/images/Windows_Logo.jpg)
+<center>![](/assets/images/Windows_Logo.jpg)</center>
 
 ### Bootable Drive
 * eMMC
@@ -16,20 +16,21 @@ This document will go over the operating systems that are compatible with the La
 
 ### Installation Steps
 
-1. Download the Windows 10 image for LattePanda Alpha.
-2. Configure your USB drive to be a bootable drive. Instructions can be found [here](https://technet.microsoft.com/en-us/library/jj200124%28v=ws.11%29.aspx).
-3. Copy and paste the Windows 10 image contents to the USB drive.
-4. If you are using the LattePanda to create the USB installation media, restart the LattePanda. Otherwise, insert your USB drive into the LattePanda and turn it on. 
-5. Press 'Esc' continously to enter BIOS. 
-6. Navigate to the "Boot" tab and change the "Boot Option Priorities" so that the USB drive is "Boot Option #1".
-![](https://github.com/chrislattepanda/Docs/blob/master/assets/images/USB_Boot_Order_Alpha.jpg)
-7. Navigate to the "Save & Exit" tab and select "Save Changes & Reboot".
+* Download the Windows 10 image for LattePanda Alpha.
+* Configure your USB drive to be a bootable drive. Instructions can be found [here](https://technet.microsoft.com/en-us/library/jj200124%28v=ws.11%29.aspx).
+* Copy and paste the Windows 10 image contents to the USB drive.
+* If you are using the LattePanda to create the USB installation media, restart the LattePanda. Otherwise, insert your USB drive into the LattePanda and turn it on. 
+* Press 'Esc' continously to enter BIOS. 
+* Navigate to the "Boot" tab and change the "Boot Option Priorities" so that the USB drive is "Boot Option #1".
+<center>![](/assets/images/USB_Boot_Order_Alpha.jpg)</center>
+
+* Navigate to the "Save & Exit" tab and select "Save Changes & Reboot".
 
 You will enter the installation GUI.
 
 ## Ubuntu
 
-![](https://github.com/chrislattepanda/Docs/blob/master/assets/images/Ubuntu_Logo.jpg)
+<center>![](/assets/images/Ubuntu_Logo.jpg)</center>
 
 ### Bootable Drive
 * eMMC
@@ -43,22 +44,23 @@ You will enter the installation GUI.
 
 ### Installation Steps
 
-1. Download the Ubuntu 16.04 LTS image.
-2. Create a USB installation media for Ubuntu. We recommended Rufus for creating installation media. You can download it [here](https://rufus.akeo.ie/).
-3. Restart the LattePanda. Press 'Esc' continously to enter BIOS. 
-4. Navigate to the "Boot" tab and change the "Boot Option Priorities" so that the USB drive is "Boot Option #1".
-![](https://github.com/chrislattepanda/Docs/blob/master/assets/images/USB_Boot_Order_Alpha.jpg)
-5. Navigate to the "Save & Exit" tab and select "Save Changes & Reboot".
+* Download the Ubuntu 16.04 LTS image.
+* Create a USB installation media for Ubuntu. We recommended Rufus for creating installation media. You can download it [here](https://rufus.akeo.ie/).
+* Restart the LattePanda. Press 'Esc' continously to enter BIOS. 
+* Navigate to the "Boot" tab and change the "Boot Option Priorities" so that the USB drive is "Boot Option #1".
+<center>![](/assets/images/USB_Boot_Order_Alpha.jpg)</center>
+
+* Navigate to the "Save & Exit" tab and select "Save Changes & Reboot".
 
 You will enter the installation GUI.
 
 Once your USB is inserted into your LP, turn on your LP. Hold the Esc button on your connected keyboard, and the following screen should show.
 
-![](https://i.imgur.com/FFmGWit.jpg?1)
+<center>![](https://i.imgur.com/FFmGWit.jpg?1)</center>
 
 The BIOS menu should appear. Select the Boot option using the arrow buttons. Choose your USB to become your first Boot Option #1. You can do so like this.
 
-![](https://i.imgur.com/gm6cx0z.jpg)
+<center>![](https://i.imgur.com/gm6cx0z.jpg)</center>
 
 Make sure to select your USB. Then go to the 'Save and Exit' tab on the top right. Choose the 'Save Changes and Exit' option. Your LP should restart, and it should boot directly from your USB.
 
@@ -66,7 +68,7 @@ Make sure to select your USB. Then go to the 'Save and Exit' tab on the top righ
 
 Once your LP restarts, the following page should appear.
 
-![](https://i.imgur.com/13Mxl3A.jpg?1)
+<center>![](https://i.imgur.com/13Mxl3A.jpg?1)</center>
 
 There will be two options:
 
@@ -77,37 +79,39 @@ Both options should work, but in this tutorial I will install Ubuntu and I recom
 
 After that option is selected, the installation will begin. A screen like the picture below will appear, this process might take a while. Please be patient while leaving your LP on for the installation to take place.
 
-![](https://i.imgur.com/7KKOA6H.jpg?1)
+<center>![](https://i.imgur.com/7KKOA6H.jpg?1)</center>
 
 Once the installation is finished. A few more setup options for your Ubuntu OS, and it will be ready to use.
 
-**Note:** During this process the screen may go black, please be patient. Do not do anything until your laptop displays the following screen.
+!!!note
+    During this process the screen may go black, please be patient. Do not do anything until your laptop displays the following screen.
 
-![](https://i.imgur.com/0iKIU8d.jpg?1)
+<center>![](https://i.imgur.com/0iKIU8d.jpg?1)</center>
 
 Choose your default language and continue. 
 
-![](https://i.imgur.com/fH6F6er.jpg?1)
+<center>![](https://i.imgur.com/fH6F6er.jpg?1)</center>
 
 Check the box to install third-party software, and then continue. This will ensure the common plugins are installed so everything can run smoothly. 
 
-![](https://i.imgur.com/ZBEtaik.jpg?1)
+<center>![](https://i.imgur.com/ZBEtaik.jpg?1)</center>
 
 Choose the best option for you. The options may look slightly different on your screen, but normally the third option (Erase disk and install Ubuntu) would be the most appropriate. There will be a small window to confirm that changes can be made to your disk. Please click continue.
 
-![](https://i.imgur.com/KqIAQee.jpg?1)
+<center>![](https://i.imgur.com/KqIAQee.jpg?1)</center>
 
 Choose your time zone and click continue to proceed.
 
-![](https://i.imgur.com/LVEID2G.jpg?1)
+<center>![](https://i.imgur.com/LVEID2G.jpg?1)</center>
 
 Select your keyboard layout. If you're unsure of what it is, you can use the detect keyboard layout option. Follow the instructions on screen and it should be relatively simple. Click continue.
 
-![](https://i.imgur.com/Fl0Qhxo.jpg?2)
+<center>![](https://i.imgur.com/Fl0Qhxo.jpg?2)</center>
 
 Fill out your details to continue. You will be asked to restart your LP in order to complete installation.
 
-![](https://i.imgur.com/IpbGwmo.jpg?1)
+<center>![](https://i.imgur.com/IpbGwmo.jpg?1)</center>
+
 
 Wait for your LP to restart and then enter your password to login. Your Ubuntu 16.04 LTS should be fully functional on your LattePanda. Enjoy!
 
@@ -134,16 +138,22 @@ The LattePanda Alpha is also capable of using x86 versions of Android. One such 
 
 Since the LattePanda Alpha shares similar hardware as some Macbooks, it is possible to install Mac OS Mojave on the LattePanda Alpha. In fact, some community members have already done this and posted installation tutorials. One such member, Novaspirit, created a very detailed tutorial video along with some installation files. 
 
-**Note: Mac OS is not an officially supported operating system. Some functionality may not work, or may require additional hardware to work. For example, the provided LattePanda Wifi card is not supported. A USB or M.2 E-key Wifi card is required to have Wifi on Mac OS.**
+!!! note
+    Mac OS is not an officially supported operating system. Some functionality may not work, or may require additional hardware to work. For example, the provided LattePanda Wifi card is not supported. A USB or M.2 E-key Wifi card is required to have Wifi on Mac OS.**
 
 ### What you will need
+
 * 1 x Blank USB Flash Drive (8GB or larger)
 * Mac OS Mojave Image
 * [NovaSpirit support installation files](https://github.com/novaspirit/macpanda/releases)
 
 ### Installation Steps
+
 NovaSpirit video tutorial can be found below.
 [![Hackintosh LattePanda Alpha](http://img.youtube.com/vi/nrJpwPxoZZ8/0.jpg)](http://www.youtube.com/watch?v=nrJpwPxoZZ8 "Guide: LattePanda Alpha Hackintosh Intel M3-7Y30")
 
+[Community discussions about this topic!](https://www.lattepanda.com/topic-f11t16979p25805.html?hilit=hackintosh#p25805)
+
 ## Related Links
-* [Drivers and Software](/content/alpha_edition/drivers_and_software)
+
+* [Drivers and Software](/content/alpha_edition/drivers_and_software/)
