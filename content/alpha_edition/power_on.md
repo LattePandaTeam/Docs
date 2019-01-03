@@ -34,8 +34,8 @@ If you want to use other display interfaces (eDP, DP, DVI, VGA), [see the tutori
 
 Want a eDP screen?  Available soon...
 
-[1]: content/alpha_edition/connectivity
-[2]: content/alpha_edition/peripherals
+[1]: /content/alpha_edition/connectivity
+[2]: /content/alpha_edition/peripherals
 
 
 
@@ -51,7 +51,7 @@ Other ways to power on your device:
 2. [Lipo battery from 10p power connector][4]
 3. [Forum Discussion - Suggest a on/off/reset button for Alpha][5]
 
-[3]: content/alpha_edition/io_playability
+[3]: /content/alpha_edition/io_playability
 [4]: https://www.lattepanda.com/topic-f13t16675.html
 [5]: https://www.lattepanda.com/topic-f23t17507.html
 
@@ -59,5 +59,5 @@ Other ways to power on your device:
 
 Want to play IoT? Want to study programming? Want to control the physical world? [Check tools recommended first!][6]
 
-[6]: content/alpha_edition/ide
+[6]: /content/alpha_edition/ide
 
