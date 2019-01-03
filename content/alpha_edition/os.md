@@ -1,57 +1,56 @@
-# Operation System
+# Operating System - LattePanda Alpha and Delta
 
-## Windows
+This document will go over the operating systems that are compatible with the LattePanda Alpha. It will also cover acceptable boot media as well as instructions or resources for installing the operating system and special considerations.
 
-Follow the steps below to install the Windows 10 system.
+# Windows
 
-![](https://i.imgur.com/2d5RvHo.jpg?2)
+![](https://github.com/chrislattepanda/Docs/blob/master/assets/images/Windows_Logo.jpg)
 
-### What you need:
+## Bootable Drive
+* eMMC
+* M.2 M-key NVMe or SATA SSD
 
-1. 1 x USB flash Drive (*at* least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
-2. Download Windows10 image [here](https://www.dropbox.com/sh/d2d4xoe2nk7n0je/AACdzPN-bdwkwyHxe9KlSsiIa?dl=0)[newtab].
+## What you will need
+* 1 x Blank USB flash drive (8 GB or larger)
+* [LattePanda Alpha Windows 10 Image](https://www.dropbox.com/sh/d2d4xoe2nk7n0je/AACdzPN-bdwkwyHxe9KlSsiIa?dl=0).
 
-### Installation Steps:
+## Installation Steps
 
-1. Download the Offical Windows 10 image for LattePanda.
-2. Put all the files to the root directory of your USB flash disk. (You need to set your USB flash disk to be a bootable device. You can see the tutorial [here](https://technet.microsoft.com/en-us/library/jj200124%28v=ws.11%29.aspx)[newtab].)
-3. Reboot the LattePanda, press 'Esc' continously to enter BIOS. Change the Boot Option Priorities to boot from the USB flash disk.
-4. Save & Reboot.
-5. Then you will enter the installation GUI.
+1. Download the Windows 10 image for LattePanda Alpha.
+2. Configure your USB drive to be a bootable drive. Instructions can be found [here](https://technet.microsoft.com/en-us/library/jj200124%28v=ws.11%29.aspx).
+3. Copy and paste the Windows 10 image contents to the USB drive.
+4. If you are using the LattePanda to create the USB installation media, restart the LattePanda. Otherwise, insert your USB drive into the LattePanda and turn it on. 
+5. Press 'Esc' continously to enter BIOS. 
+6. Navigate to the "Boot" tab and change the "Boot Option Priorities" so that the USB drive is "Boot Option #1".
+![](https://github.com/chrislattepanda/Docs/blob/master/assets/images/USB_Boot_Order_Alpha.jpg)
+7. Navigate to the "Save & Exit" tab and select "Save Changes & Reboot".
 
-## **Update Windows**
+You will enter the installation GUI.
 
-If you want to update to the latest version of Windows 10, please follow the steps below.
+# Ubuntu
 
-1. [Download the Update Assistant here.](https://www.microsoft.com/en-us/software-download/windows10)[newtab] To get started, click **Update now**.
-2. Run the Update Assistant.
-3. Wait for update. (This will take a will, you can keep working.)
-4. When the update is done, delete the Windows.old folder in C:/ . ([Click here to see how to delete Windows.old folder](http://www.lattepanda.com/topic-f6t7136.html))[newtab]
+![](https://github.com/chrislattepanda/Docs/blob/master/assets/images/Ubuntu_Logo.jpg)
 
-![img](https://i.imgur.com/ClxdfZw.png)
+## Bootable Drive
+* eMMC
+* M.2 M-key NVMe or SATA SSD 
 
-## Ubuntu
+**Note:** This tutorial is for the LattePanda Delta and Alpha. If you are using the 1st edition LattePanda, please refer to the 1st edition documents.
 
-![](https://i.imgur.com/ZDly1Ab.jpg)
+## What you need
+* 1 x Blank USB Flash Drive (8 GB or larger)
+* [Ubuntu 16.04 LTS image](http://releases.ubuntu.com/releases/16.04/) (64 bit Desktop image is recommended)
 
-In this tutorial, you will learn how to install the Ubuntu 16.04 LTS OS on your LattePanda. 
+## Installation Steps
 
-**Note:** This tutorial is aimed at users of LattePanda Delta and Alpha, and if you are using a previous version of LattePanda, please refer to the tutorial [here.](htp://docs.lattepanda.com/content/OS/Win10HomeAndLTSB/) This is for everyone who wants an open-sourced OS and have an alternate OS instead of Windows 10.
+1. Download the Ubuntu 16.04 LTS image.
+2. Create a USB installation media for Ubuntu. We recommended Rufus for creating installation media. You can download it [here](https://rufus.akeo.ie/).
+3. Restart the LattePanda. Press 'Esc' continously to enter BIOS. 
+4. Navigate to the "Boot" tab and change the "Boot Option Priorities" so that the USB drive is "Boot Option #1".
+![](https://github.com/chrislattepanda/Docs/blob/master/assets/images/USB_Boot_Order_Alpha.jpg)
+5. Navigate to the "Save & Exit" tab and select "Save Changes & Reboot".
 
-### What you need:
-
-1. USB Flash Drive
-2. [Download the Ubuntu 16.04 LTS image here.](http://releases.ubuntu.com/releases/16.04/)[newtab] (I would recommend the Desktop image for 64-bit for your LattePanda. )
-
-###Installation Steps
-
-1.[Download the Ubuntu 16.04 LTS image.](http://releases.ubuntu.com/releases/16.04/)[newtab]
-
-2.Create a USB installation media. 
-
-Download Rufus from [https://rufus.akeo.ie/.](https://rufus.akeo.ie/)[newtab] Choose the Ubuntu image and deploy to the USB flash drive.
-
-3.Boot from your USB flash drive. 
+You will enter the installation GUI.
 
 Once your USB is inserted into your LP, turn on your LP. Hold the Esc button on your connected keyboard, and the following screen should show.
 
@@ -112,3 +111,39 @@ Fill out your details to continue. You will be asked to restart your LP in order
 
 Wait for your LP to restart and then enter your password to login. Your Ubuntu 16.04 LTS should be fully functional on your LattePanda. Enjoy!
 
+# Android (Phoenix OS)
+
+The LattePanda Alpha is also capable of using x86 versions of Android. One such version, is Phoenix OS. This version provides a windows desktop like GUI for an android system while also allowing access to the Google Play store.
+
+## Bootable Drive
+* eMMC
+* M.2 M-key NVMe or SATA SSD 
+* USB Drive (Recommend USB 3.0 for best experience)
+
+## What you will need
+* [Phoenix OS Installer](http://www.phoenixos.com/download_x86)
+* Bootable Partition (With drive letter assigned) at least 4 GB
+
+## Installation Steps
+1. Download the Phoenix OS Installer.
+2. Launch the installation exe.
+3. There are two options: Install and U Install. Select U Install for installing on USB drive. Select Install for installing on eMMC or SSD partition.
+
+
+# Hackintosh (Mac OS)
+
+Since the LattePanda Alpha shares similar hardware as some Macbooks, it is possible to install Mac OS Mojave on the LattePanda Alpha. In fact, some community members have already done this and posted installation tutorials. One such member, Novaspirit, created a very detailed tutorial video along with some installation files. 
+
+**Note: Mac OS is not an officially supported operating system. Some functionality may not work, or may require additional hardware to work. For example, the provided LattePanda Wifi card is not supported. A USB or M.2 E-key Wifi card is required to have Wifi on Mac OS.**
+
+## What you will need
+* 1 x Blank USB Flash Drive (8GB or larger)
+* Mac OS Mojave Image
+* [NovaSpirit support installation files](https://github.com/novaspirit/macpanda/releases)
+
+## Installation Steps
+NovaSpirit video tutorial can be found below.
+[![Hackintosh LattePanda Alpha](http://img.youtube.com/vi/nrJpwPxoZZ8/0.jpg)](http://www.youtube.com/watch?v=nrJpwPxoZZ8 "Guide: LattePanda Alpha Hackintosh Intel M3-7Y30")
+
+# Related Links
+* [Drivers and Software](Drivers_And_Software_Alpha_LattePanda.md)

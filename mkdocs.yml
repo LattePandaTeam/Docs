@@ -99,37 +99,38 @@ markdown_extensions:
 # Page tree
 nav:
   - LattePanda: index.md
-  - Power on Device: content/1st_edition/power_on.md
-  - Building Connectivity: content/1st_edition/wifi.md
-  - Optional Peripherals: content/1st_edition/peripheral.md
-  - Connect Touch Display: content/1st_edition/display.md
-  - Multiple OS Support: content/1st_edition/os.md
-  - Tools: content/1st_edition/tools.md
-  - Hardware Introduction: content/1st_edition/hardware_introduction.md
-  - Physical Programming: content/1st_edition/vs_programming.md
-  - Programming Reference: content/1st_edition/io_programming_reference.md
-  - Read Sensor Data via WebClient: content/1st_edition/webclient_demo.md
-  - Projects - 3D Printer Server: content/1st_edition/3d_printer_server.md
-  - Projects - Face Recognition: content/1st_edition/face_recog.md
-  - Projects - Setup Azure IoT Hub: content/1st_edition/setup_azure_iot_hub.md
-  - Projects - IoT Edge Data to Azure: content/1st_edition/data_to_cloud.md
-  - Projects - Node-RED: content/1st_edition/nodered.md
-  - Troubleshooting: content/1st_edition/troubleshooting.md
-  - Contact Us: contact_us.md
+  - Power on Device: /content/1st_edition/power_on.md
+  - Building Connectivity: /content/1st_edition/wifi.md
+  - Optional Peripherals: /content/1st_edition/peripheral.md
+  - Connect Touch Display: /content/1st_edition/display.md
+  - Multiple OS Support: /content/1st_edition/os.md
+  - Tools: /content/1st_edition/tools.md
+  - Hardware Introduction: /content/1st_edition/hardware_introduction.md
+  - Physical Programming: /content/1st_edition/vs_programming.md
+  - Programming Reference: /content/1st_edition/io_programming_reference.md
+  - Read Sensor Data via WebClient: /content/1st_edition/webclient_demo.md
+  - Projects - 3D Printer Server: /content/1st_edition/3d_printer_server.md
+  - Projects - Face Recognition: /content/1st_edition/face_recog.md
+  - Projects - Setup Azure IoT Hub: /content/1st_edition/setup_azure_iot_hub.md
+  - Projects - IoT Edge Data to Azure: /content/1st_edition/data_to_cloud.md
+  - Projects - Node-RED: /content/1st_edition/nodered.md
+  - Troubleshooting: /content/1st_edition/troubleshooting.md
+  - Contact Us: /contact_us.md
   - LattePanda Alpha:
-    - Get Started: content/alpha_edition/power_on.md
-    - Connect to Internect: content/alpha_edition/connectivity.md
-    - Optional Peripherals: content/alpha_edition/peripherals.md
-    - Multiple OS Support: content/alpha_edition/os.md
-    - Tools Recommended: content/alpha_edition/ide.md
-    - Physical Playability: content/alpha_edition/io_playability.md
-    - Physical Programming /w Python: content/alpha_edition/python_arduino_bridge.md
-    - Read Sensor Data /w Python: content/alpha_edition/python_read_sensor.md
+    - Get Started: /content/alpha_edition/get_started.md
+    - Powering: /content/alpha_edition/powering.md
+    - Connect to Internect: /content/alpha_edition/connectivity.md
+    - Optional Peripherals: /content/alpha_edition/touch_and_display.md
+    - Multiple OS Support: /content/alpha_edition/os.md
+    - Tools Recommended: /content/alpha_edition/ide.md
+    - Physical Playability: /content/alpha_edition/io_playability.md
+    - Physical Programming /w Python: /content/alpha_edition/python_arduino_bridge.md
+    - Read Sensor Data /w Python: /content/alpha_edition/python_read_sensor.md
   - Streaming Cable:
-    - Get Started: content/streaming_cable/get_started.md
-    - Setup Server Computer - Win: content/streaming_cable/set_up_windows_host.md
-    - Setup Client Computer RDP - Win: content/streaming_cable/set_up_win_rdp_client.md
-    - Setup Client Computer RDP - Mac: content/streaming_cable/set_up_mac_rdp_client.md
-    - Setup Client Computer RDP - Ubu: content/streaming_cable/set_up_ubu_rdp_client.md
-    - NoMachine - Config Client Computer: content/streaming_cable/set_up_nomachine_client.md
-    - FAQ: content/streaming_cable/faq.md
+    - Get Started: /content/streaming_cable/get_started.md
+    - Setup Server Computer - Win: /content/streaming_cable/set_up_windows_host.md
+    - Setup Client Computer RDP - Win: /content/streaming_cable/set_up_win_rdp_client.md
+    - Setup Client Computer RDP - Mac: /content/streaming_cable/set_up_mac_rdp_client.md
+    - Setup Client Computer RDP - Ubu: /content/streaming_cable/set_up_ubu_rdp_client.md
+    - NoMachine - Config Client Computer: /content/streaming_cable/set_up_nomachine_client.md
+    - FAQ: /content/streaming_cable/faq.md

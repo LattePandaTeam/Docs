@@ -1,4 +1,4 @@
-# Drivers and Software - LattePanda Alpha
+# Drivers and Software
 
 ## Content
 * This document describes the operating system that can be installed on LattePanda.
