@@ -13,7 +13,7 @@ Enjoy coding!
 
 The LattePanda Alpha is made with a ATmega32U4 chip on the board (also known as **Arduino Leonardo**), so it's perfect for IoT and automation projects. 
 
-[Download the Arduino IDE here.](https://www.arduino.cc/en/Main/Donate)
+ <a href="https://www.arduino.cc/en/Main/Software" target="_blank">Download the Arduino IDE here.</a>
 
 ## Visual Studio (C, C#, C++, JavaScript Developer)
 
