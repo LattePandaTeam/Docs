@@ -37,7 +37,7 @@ This document describes the different ways you can power your LattePanda. It wil
 ### Recommended Power Banks
 
 * <a href="https://www.amazon.com/dp/B07CMLVR6C/ref=cm_sw_r_cp_api_i_R.njCbAT06DNT" target="_blank">Omars 20000 mAh batter.</a>
-* <a href="https://www.lattepanda.com/topic-f23t17787.html" target="_blank">More options recommended and tested by ccs_hello (community member).</a>
+* <a href="https://www.lattepanda.com/topic-f23t17787.html" target="_blank">More options recommended and tested</a> by ccs_hello (community member).
 * Or any other brand power bank supporting PD protocol with up to 36 watts output
 
 ## JST 4p DC Input Connector
