@@ -14,12 +14,10 @@ This document describes the different ways you can power your LattePanda. It wil
 
 **Discussion about powering on Forum:**
 
-* [Forum Discussion - Suggest a on/off/reset button for Alpha][3]
+* <a href="https://www.lattepanda.com/topic-f23t17507.html" target="_blank">Forum Discussion - Suggest a on/off/reset button for Alpha</a>
 
 [1]: /content/alpha_edition/powering/#jst-4p-dc-input-connector
 [2]: /content/alpha_edition/powering/#lipo-battery-connector
-[3]: https://www.lattepanda.com/topic-f23t17507.html
-
 
 ## Type-C PD Adapters and Battery Banks
 
@@ -38,7 +36,8 @@ This document describes the different ways you can power your LattePanda. It wil
 
 ### Recommended Power Banks
 
-* [Omars 20000 mAh batter](https://www.amazon.com/dp/B07CMLVR6C/ref=cm_sw_r_cp_api_i_R.njCbAT06DNT)
+* <a href="https://www.amazon.com/dp/B07CMLVR6C/ref=cm_sw_r_cp_api_i_R.njCbAT06DNT" target="_blank">Omars 20000 mAh batter.</a>
+* <a href="https://www.lattepanda.com/topic-f23t17787.html" target="_blank">More options recommended and tested by ccs_hello (community member).</a>
 * Or any other brand power bank supporting PD protocol with up to 36 watts output
 
 ## JST 4p DC Input Connector
@@ -76,12 +75,12 @@ You can check the [details about pinout diagram][5].
 ### Recommended Batteries
 
 We didn't offically release battery supported list from LattePanda yet. Somehow global battery shipping is not easy. And it's even hard to find a standard battery for global market when every place has different resources available. 
-But You can check the [forum discussion about this topic](https://www.lattepanda.com/topic-f13t16675.html?hilit=battery&start=31). Community members already find some alternatives from local battery vendors.
+But You can check the <a href="https://www.lattepanda.com/topic-f13t16675.html?hilit=battery&start=31" target="_blank">forum discussion about this topic.</a>. Community members already find some alternatives from local battery vendors.
 
 ### Input Specification
 * **7.4 - 8.2 V**, means 2-cell Lipo battery
 * Recommend at least 5 Ah battery
-* Feel free to post your commit or suggestion via [Github official repo](https://github.com/LattePandaTeam/Docs)
+* Feel free to post your commit or suggestion via <a href="https://github.com/LattePandaTeam/Docs" target="_blank">Github official repo.</a>
 
 ### Drawing and Pin Diagram
 <center>![10p Drawing](/assets/images/Battery_Connector_Drawing_Alpha.jpg)</center>
