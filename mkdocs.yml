@@ -127,6 +127,7 @@ nav:
     - Mutiple Internet Connections: content/alpha_edition/connectivity.md
     - Physical Programming /w Python: content/alpha_edition/python_arduino_bridge.md
     - Read Sensor Data /w Python: content/alpha_edition/python_read_sensor.md
+    - FAQ: content/alpha_edition/faq.md
   - Streaming Cable:
     - Get Started: content/streaming_cable/get_started.md
     - Setup Server Computer - Win: content/streaming_cable/set_up_windows_host.md
