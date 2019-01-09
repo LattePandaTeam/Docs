@@ -69,13 +69,17 @@ You can check the [details about pinout diagram][5].
 
 <center>![10 Pin (10p) Battery Connector (Alpha Version Only)](/assets/images/Battery_Connector_Port_Alpha.jpg)</center>
 
-!!! note 
-    This connector is only available on the LattePanda Alpha. The LattePanda Delta does not have this connector.
 
 ### Recommended Batteries
 
 We didn't offically release battery supported list from LattePanda yet. Somehow global battery shipping is not easy. And it's even hard to find a standard battery for global market when every place has different resources available. 
 But You can check the <a href="https://www.lattepanda.com/topic-f13t16675.html?hilit=battery&start=31" target="_blank">forum discussion about this topic.</a>. Community members already find some alternatives from local battery vendors.
+
+!!! tips
+    This 10-pin Li-Po in connector is meant for well-protected (BMS + balancer at minimum) battery pack, not for raw Li-Po/Li-Ion/LiFePO4 cells.   
+    (e.g., latter setup will drain below the minimum Li-Po cell voltage which will significantly/irreversibly degrade the life expectancy of cell.)
+    Also charging without proper CI (then later CV) charging circuit is outright dangerous.
+    <a href="https://www.lattepanda.com/topic-p26725.html" target="_blank">Check details from original post</a> shared by community member ccs_hello
 
 ### Input Specification
 * **7.4 - 8.2 V**, means 2-cell Lipo battery
