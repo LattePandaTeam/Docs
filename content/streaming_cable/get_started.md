@@ -51,6 +51,13 @@ These sections below will show you more recommended Software Solutions, please c
         Server Computer - Windows / MacOS / Linux
         Client Computer - Windows / MacOS / Linux
 
+    LattePanda Delta / Alpha
+        Works with RDP solution and NoMachine both
+    
+    LattePanda 2G / 4G - first generation series
+        NoMachine is recommended
+        Or you need to install Windows Pro on it to enable RDP feature
+
 
 !!! Example
     I have a LattePanda running Windows and Macbook Pro is my main desktop development computer.
