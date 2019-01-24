@@ -43,6 +43,12 @@ The M key interface allows PCI-E X4 or SATA storage.
 A PCI-E adapter can be versatile, allowing you to add hardware typically dedicated for full size motherboards to a single board computer form factor. This includes cards such as desktop graphic cards.\
 **Note: When using a PCI-E adapter only 4 lanes are usable.**
 
+#### Cool topics in forum
+
+1. [How to attach both NVMe and Graphics card](https://www.lattepanda.com/topic-f23t17965.html)
+
+
+
 ### External GPU
 There are several videos on Youtube where desktop graphic cards are used on the LattePanda. An example video can be found [here](https://www.youtube.com/watch?v=mKchBNFBeTE).
 ![](https://i.imgur.com/iXYEMum.png)
