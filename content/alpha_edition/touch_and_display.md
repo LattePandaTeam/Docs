@@ -25,7 +25,7 @@ This document will review the different ways you can display the screen from you
 
 1. Connect a HDMI cable to LattePanda HDMI port.
 2. Connect the other end of the HDMI cable to the TV or monitor.
-<center>![hdmi](/assets/images/Connect_HDMI_Alpha.gif)</center>
+  <center>![hdmi](/assets/images/Connect_HDMI_Alpha.gif)</center>
 
 ## DP / DVI / VGA
 
@@ -70,6 +70,7 @@ This document will review the different ways you can display the screen from you
 While the LattePanda Alpha/Delta eDP display is officially supported, here are some other displays community members have gotten working.
 
 * [15.6" Samsung Display](http://www.lattepanda.com/topic-p25460.html)
+* [17.3" Display no bios update needed](https://www.lattepanda.com/topic-f23t17107.html?start=11)
 
 ## Touch Panel
 
@@ -79,7 +80,7 @@ While the LattePanda Alpha/Delta eDP display is officially supported, here are s
 
 !!! warning
     MIPI display designed for LattePanda 1st genernation is not compatible with eDP display connector designed on Alpha and Delta. This compatibility issue is caused by different CPU architecture and positioning.
- 
+
 ### Installation Steps
 
 !!! warning
