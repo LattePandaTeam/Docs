@@ -27,7 +27,12 @@ To get started, you will need the following hardware:
     When touching the LattePanda board, make sure to ground yourself before touching the board. Failure to ground yourself may cause static discharge into board components damaging your LattePanda.
 
 * Connect Wifi antennas to sockets.
-<center>![Wifi connection](/assets/images/Connect_Wifi_Antenna_Alpha.gif)</center>
+  <center>![Wifi connection](/assets/images/Connect_Wifi_Antenna_Alpha.gif)</center>
+
+Antenna and connector spec - IPEX4 2.4 & 5G Dual band
+
+!!! Tip
+    You can purchase enhenced antenna to enhence the WIFI and Bluetooth signal strength! 
 
 * Connect the display cable to the LattePanda. Please see the [Display and Touch Connections][3] section for instructions on using different displays with your LattePanda.
 * Connect the power supply to the LattePanda. Please see the [Powering LattePanda Alpha][1]] section for instructions on using different power supplies to power your LattePanda.
