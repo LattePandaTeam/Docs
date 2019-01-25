@@ -25,7 +25,9 @@ To get started, you will need the following hardware:
 
 !!! warning
     LattePanda is relatively special in product form design, and also open the PC technology to provide more possibilities for development and IoT innovation. 
+    
     But CPU related products are all **electrostatic sensitive**, so although we adopt the **anti-static design**, users still need to be careful in use. 
+    
     BE SURE to REMOVE the static electricity from your body before touching LattePanda board! Otherwise it may cause potential static discharge and damage your LattePanda!
 
 * Connect Wifi antennas to sockets.
