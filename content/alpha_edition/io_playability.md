@@ -57,6 +57,10 @@ There are several videos on Youtube where desktop graphic cards are used on the 
 
 The E key interface allows PCI-E X2, USB 2.0, I2C, or UART.
 
+!!! question
+    It's possible to extend 2nd network card and graphic card with converter card. And we trust there will be more m.2 products from the market, like movidius ai accelerator. Feel free to share your idea with us via this [github docs repo](https://github.com/LattePandaTeam/Docs).
+
+
 ## USB 3.0 Interface
 
 This is the most common interface. All three are USB 3.0 which allows transfering data up to 5 Gbit/s (625 MB/s), 10 times faster than the USB 2.0 standard! Due to the large bandwith, LattePanda can connect more accessories such as RealSense camera and virtual reality headsets.
