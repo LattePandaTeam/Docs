@@ -14,12 +14,12 @@ To get started, you will need the following hardware:
 * Input devices (Keyboard, mouse, etc.)
 * Boot Drive
 
-[1]: /content/alpha_edition/powering/
+[1]: /content/alpha_edition/powering.md
 
 !!! note
     If your device is the **LattePanda Alpha 800**, which comes without eMMC storage onboard, you will need a boot drive with an operating system installed on it. See the [Operating Systems][2] page for different acceptable media for booting the operating system of your choice and installation instructions.
 
-[2]: /content/alpha_edition/os/
+[2]: /content/alpha_edition/os.md
 
 ### Instructions
 
@@ -36,7 +36,7 @@ To get started, you will need the following hardware:
 Antenna and connector spec - IPEX4 2.4 & 5G Dual band
 
 !!! Tip
-    You can purchase enhenced antenna to enhence the WIFI and Bluetooth signal strength! 
+    You can purchase enhanced antenna to enhance the WIFI and Bluetooth signal strength! 
 
 * Connect the display cable to the LattePanda. Please see the [Display and Touch Connections][3] section for instructions on using different displays with your LattePanda.
 * Connect the power supply to the LattePanda. Please see the [Powering LattePanda Alpha][1]] section for instructions on using different power supplies to power your LattePanda.
@@ -48,7 +48,7 @@ Antenna and connector spec - IPEX4 2.4 & 5G Dual band
 
 <center>![Power On Press Button](/assets/images/Power_On_Press_Button_Alpha.gif)</center>
 
-[3]: /content/alpha_edition/touch_and_display/
+[3]: /content/alpha_edition/touch_and_display.md
 
 
 ## Related Links
