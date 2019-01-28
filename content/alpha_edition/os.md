@@ -176,4 +176,4 @@ NovaSpirit video tutorial can be found below.
 
 ## Related Links
 
-* [Drivers and Software](/content/alpha_edition/drivers_and_software/)
+* [Drivers and Software](/content/alpha_edition/drivers_and_software.md)
