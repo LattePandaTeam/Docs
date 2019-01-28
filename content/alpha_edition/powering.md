@@ -16,8 +16,8 @@ This document describes the different ways you can power your LattePanda. It wil
 
 * <a href="https://www.lattepanda.com/topic-f23t17507.html" target="_blank">Forum Discussion - Suggest a on/off/reset button for Alpha</a>
 
-[1]: /content/alpha_edition/powering/#jst-4p-dc-input-connector
-[2]: /content/alpha_edition/powering/#lipo-battery-connector
+[1]: /content/alpha_edition/powering.md#jst-4p-dc-input-connector
+[2]: /content/alpha_edition/powering.md#lipo-battery-connector
 
 ## Type-C PD Adapters and Battery Banks
 
@@ -36,7 +36,7 @@ This document describes the different ways you can power your LattePanda. It wil
 
 ### Recommended Power Banks
 
-* <a href="https://www.amazon.com/dp/B07CMLVR6C/ref=cm_sw_r_cp_api_i_R.njCbAT06DNT" target="_blank">Omars 20000 mAh batter.</a>
+* <a href="https://www.amazon.com/dp/B07CMLVR6C/ref=cm_sw_r_cp_api_i_R.njCbAT06DNT" target="_blank">Omars 20000 mAh battery.</a>
 * <a href="https://www.lattepanda.com/topic-f23t17787.html" target="_blank">More options recommended and tested</a> by ccs_hello (community member).
 * Or any other brand power bank supporting PD protocol with up to 36 watts output
 
@@ -58,7 +58,7 @@ The voltage range of Alpha power input connector is 7.4~15 volts. So if you're c
 
 You can check the [details about pinout diagram][5].
 
-[5]: /content/alpha_edition/io_playability/
+[5]: /content/alpha_edition/io_playability.md
 
 ## Lipo Battery Connector
 
@@ -100,11 +100,11 @@ But You can check the <a href="https://www.lattepanda.com/topic-f13t16675.html?h
     Only recommended for advanced makers, who have enough hardware experience...
 
 ## Related Links
-* [Getting Started](/content/alpha_edition/powering/)
-* [Hardware Interface](/content/alpha_edition/io_playability/)
+* [Getting Started](/content/alpha_edition/get_started.md)
+* [Hardware Interface](/content/alpha_edition/io_playability.md)
 
 **Enjoy your new LattePanda!**
 
 Want to play IoT? Want to study programming? Want to control the physical world? [Check tools recommended first!][4]
 
-[4]: /content/alpha_edition/ide/
+[4]: /content/alpha_edition/ide.md
