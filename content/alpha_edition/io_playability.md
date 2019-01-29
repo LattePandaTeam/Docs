@@ -89,5 +89,5 @@ The RS-232 standard had been commonly used in computer serial ports. Thanks to 
 ![](https://i.imgur.com/7loMZ3h.png?1)
 
 ## Related Links 
-* [Integrated Development Environment](/content/alpha_edition/ide)
-* [Powering LattePanda Alpha](/content/alpha_edition/powering)
+* [Integrated Development Environment](/content/alpha_edition/ide.md)
+* [Powering LattePanda Alpha](/content/alpha_edition/powering.md)
