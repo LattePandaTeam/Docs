@@ -4,12 +4,12 @@ Here's the world's first hackable computer, the Ultimate Single-Board Computer f
 
 The documents are broken down into several parts:
 
-* [Getting Started](Getting_Started_AlphaDelta.md) Powering on your LattePanda for the first time.
-* [Display and Touch Connections](Display_Touch_Connections_AlphaDelta.md) Overview of the different ways to display your LattePanda's screen and connect the touch panel connector.
-* [Powering](Powering_AlphaDelta.md) Overview of the different ways you can power your LattePanda.
-* [Operating Systems](Operating_Systems_AlphaDelta.md) Overview and installation instructions of the different operating systems you can install on the LattePanda.
-* [IDE](IDE_AlphaDelta.md) Overview of the different IDEs you can use with the LattePanda.
-* [Hardware Interface](Hardware_Interface_AlphaDelta.md) Overview of the hardware interface on your LattePanda.
+* [Getting Started](get_started.md) Powering on your LattePanda for the first time.
+* [Display and Touch Connections](touch_and_display.md) Overview of the different ways to display your LattePanda's screen and connect the touch panel connector.
+* [Powering](powering.md) Overview of the different ways you can power your LattePanda.
+* [Operating Systems](os.md) Overview and installation instructions of the different operating systems you can install on the LattePanda.
+* [IDE](ide.md) Overview of the different IDEs you can use with the LattePanda.
+* [Hardware Interface](io_playability.md) Overview of the hardware interface on your LattePanda.
 * Several other tutorials can be found in the side menu.
 
 First, Let me introduce the new generation products — LattePanda Alpha/Delta for you. 

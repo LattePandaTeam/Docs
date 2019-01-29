@@ -21,6 +21,11 @@ This section will show you how to install drivers and setup RDP in your windows 
 
 !!! Note
         This script used to enable remote desktop server and set the IP address of Streaming Cable to static IP 1.1.1.1 If your windows is an unlicensed version, it will disable limit blank password use to allow your remote access.
+        If the script is unable to detect the cable, please look in device manager, copy the name of the new device and amend this file to match 
+        <center>echo "%%f"|find "Remote NDIS Compatible Device" >nul
+        if !errorlevel!==0 (
+        echo The operation completed successfully.
+        goto :setIP</center>
 
 * Open **dhcpsrv** folder,  run **dhcpwiz.exe**, follow the guide below and set it up accordingly.
 
