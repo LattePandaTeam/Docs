@@ -36,10 +36,10 @@ To get started, you will need the following hardware:
 Antenna and connector spec - IPEX4 2.4 & 5G Dual band
 
 !!! Tip
-    You can purchase enhenced antenna to enhence the WIFI and Bluetooth signal strength! 
+    You can purchase enhanced antenna to enhance the WIFI and Bluetooth signal strength! 
 
 * Connect the display cable to the LattePanda. Please see the [Display and Touch Connections][3] section for instructions on using different displays with your LattePanda.
-* Connect the power supply to the LattePanda. Please see the [Powering LattePanda Alpha][1]] section for instructions on using different power supplies to power your LattePanda.
+* Connect the power supply to the LattePanda. Please see the [Powering LattePanda Alpha][1] section for instructions on using different power supplies to power your LattePanda.
 * A red and blue LED indicator light will blink when the power supply is connected. The LattePanda is initializing. Wait until the red LED light powers off, then turns on solid. This is typically a few seconds.
 
 <center>![Power LED Indicator](/assets/images/Power_On_LED_Alpha.gif)</center>
