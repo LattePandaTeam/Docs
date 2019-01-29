@@ -101,10 +101,10 @@ While the LattePanda Alpha/Delta eDP display is officially supported, here are s
 
 ## Streaming Cable
 
-[Please check the docs for streaming cable here.](/content/streaming_cable/get_started/)
+Please check the docs for streaming cable here: [Getting Started - Streaming Cable](/content/streaming_cable/get_started/)
 
 
 ## Related Links 
 
-* [Getting Started](/content/alpha_edition/get_started/)
+* [Getting Started with Alpha/Delta](/content/alpha_edition/get_started/)
 * [Powering LattePanda Alpha/Delta](/content/alpha_edition/powering/)
