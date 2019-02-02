@@ -26,7 +26,7 @@ No doubt! LattePanda Alpha is global **FIRST development device supporting 4 dif
 ### What you will need
 
 * 1 x Blank USB flash drive (8 GB or larger)
-* [LattePanda Alpha Windows 10 Image](https://www.dropbox.com/sh/d2d4xoe2nk7n0je/AACdzPN-bdwkwyHxe9KlSsiIa?dl=0).
+* [LattePanda Alpha Windows 10 Image](https://drive.google.com/drive/folders/1Ze7SKrglROfPHMQ8VYSmQlnCPgINy1F1?usp=sharing).
 
 ### Installation Steps
 
