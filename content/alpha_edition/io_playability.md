@@ -6,7 +6,8 @@
 
 ![](https://i.imgur.com/9vZ9sKQ.png)
 
-[More pinout info and discussion](https://www.lattepanda.com/topic-f23t16906.html) shared by community member ccs_hello.
+!!! note
+    [More pinout info and discussion](https://www.lattepanda.com/topic-f23t16906.html) shared by community member ccs_hello.
 
 ![](https://indiegogo-media-prod-cld-res.cloudinary.com/image/upload/v1516806703/yf6xnt5fm3u3nphftvtr.png)
 
