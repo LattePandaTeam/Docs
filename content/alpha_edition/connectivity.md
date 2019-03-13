@@ -18,6 +18,7 @@ There's a Ethernet socket on the board. Plug in the cable and surf the Internet!
     This is contributed by community member ccs_hello. Check out the [forum post link](https://www.lattepanda.com/topic-f23t18628.html) for further dicussion here.
 
 The settings to get WOL working are:
+
 1. in BIOS menu, enable WOL.
 2. In Control Panel > Device Manager > Gigabit Ethernet (Realtek RT8111E) Properties:
 3. in Power Management tab, check all three boxes.
