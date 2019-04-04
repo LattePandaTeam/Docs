@@ -60,6 +60,10 @@ There are several videos on Youtube where desktop graphic cards are used on the 
 
 The E key interface allows PCI-E X2, USB 2.0, I2C, or UART.
 
+#### NVMe SSD In E Key Slot
+
+It is possible to use NVMe SSD in E key slot with this adapter [Sintech E Key To NVMe adapter](https://www.amazon.com/Sintech-NGFF-NVME-WiFi-Cable/dp/B07DZF1W55).
+
 !!! question
     It's possible to extend 2nd network card and graphic card with converter card. And we trust there will be more m.2 products from the market, like movidius ai accelerator. Feel free to share your idea with us via this [github docs repo](https://github.com/LattePandaTeam/Docs).
 
