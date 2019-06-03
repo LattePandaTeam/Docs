@@ -45,13 +45,13 @@ This document describes the different ways you can power your LattePanda. It wil
 !!! warning
     Please make sure to protect the system powering from wrong power connections for positive and negative pins!!! And review your powering connection again and again before powering the system.
 
-The voltage range of Alpha power input connector is 7.4~15 volts. So if you're choosing the lipo battery, it should be 2~4 cells. The standard power source is 3A @ 12 volts. The booting power is like 10 watts. And operation power is like 5 watts without much load.
+The voltage range of Alpha power input connector is 10~15 volts. So if you're choosing the lipo battery, it should be 2~4 cells. The standard power source is 3A @ 12 volts. The booting power is like 10 watts. And operation power is like 5 watts without much load.
 
 <center>![DC Input Port](/assets/images/DC_Input_Port_Alpha.jpg)</center>
 
 ### Input Specification
 
-* 7.4-15 volts
+* 10-15 volts
 * Up to 36 watts is recommended 
 * Standard power - 3A @ 12 volts
 * JST PH2.0 - 4p connector (pin mapping is marked on the board also: -- DC ++, which means two negative pins and two positive pins)
