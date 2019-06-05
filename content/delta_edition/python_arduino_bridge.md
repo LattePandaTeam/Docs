@@ -16,11 +16,11 @@ In this tutorial, I will show you how to control your Arduino through Python. I 
 
 **Software**
 
-1. **Arduino IDE**
+1.**Arduino IDE**
 
 The latest software is available on the [Arduino website](https://www.arduino.cc/en/Main/Software?). IDE (integrated development environment) allows programmers to develop software. Make sure to download the most updated Arduino IDE. I'm using Arduino 1.6.5.
 
-2. **Python IDE**
+2.**Python IDE**
 
 Available on python website. I've used python 2.7.15 found [here](https://www.python.org/downloads/release/python-2715/). I've used the following installer to install my python IDE:
 

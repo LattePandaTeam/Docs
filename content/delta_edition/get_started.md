@@ -2,7 +2,7 @@
 
 This document will review starting your LattePanda for the first time. It will go over what you need to boot up as well as instructions for getting started.
 
-## 5 Steps for Booting LattePanda
+## 4 Steps for Booting LattePanda
 
 ### What You Will Need
 

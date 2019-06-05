@@ -14,12 +14,6 @@ This document will review the different ways you can display the screen from you
 3. [Connect to Macbook Pro or any other development PC via Streaming Cable - **Designed for Developer**](/content/streaming_cable/get_started/)
 4. eDP displays - **Designed for embedded applications**
 
-### 4K Capability
-Max Resolution from different physical display output channels on Delta: 
-1. HDMI	4096x2304 @24 Hz (1.4a)
-2. DP	  4096x2304 @60 Hz (1.2)
-3. eDP	4096x2304 @60 Hz (1.4)
-
 
 ## HDMI
 

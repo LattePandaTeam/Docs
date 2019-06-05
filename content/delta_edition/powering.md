@@ -5,7 +5,7 @@ This document describes the different ways you can power your LattePanda. It wil
 
 ## Overview
 
-**4 Ways for powering your Delta in different applications:**
+**3 Ways for powering your Delta in different applications:**
 
 1. Official PD adapter comes with LattePanda Delta(Recommended)
 2. External PD power bank

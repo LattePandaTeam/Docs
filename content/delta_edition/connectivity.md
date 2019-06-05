@@ -2,7 +2,9 @@
 
 ## WIFI
 
-Install the Wi-Fi antenna by plugging the round shaped end into the socket.
+Before connecting theWIFI，please install the Wi-Fi antenna by plugging the round shaped end into the socket.
+
+Then, surf the Internet!
 
 ![](https://i.imgur.com/sUjeWPb.gif)
 
