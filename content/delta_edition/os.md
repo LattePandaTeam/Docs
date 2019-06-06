@@ -4,11 +4,11 @@ This document will go over the operating systems that are compatible with the La
 
 ## Overview
 
-No doubt! LattePanda Delta is global **FIRST development device supporting 3 different operation systems.**
+No doubt! LattePanda Delta is a **development device supporting 2 different operation systems.**
 
 1. Windows 10 and other verions
 2. Linux and other versions
-3. Android for x86 (Phoenix OS)
+
 
 !!! tips
     Please feel free to contribute or request new content via [Official Docs Repo](https://github.com/LattePandaTeam/Docs)
@@ -28,7 +28,7 @@ No doubt! LattePanda Delta is global **FIRST development device supporting 3 dif
 ### What you will need
 
 * 1 x Blank USB flash drive (8 GB or larger)
-* [Windows 10 Image for LattePanda Delta](https://drive.google.com/drive/folders/1Ze7SKrglROfPHMQ8VYSmQlnCPgINy1F1?usp=sharing)
+* Windows 10 Image for LattePanda Delta
 
 ### Installation Steps
 
@@ -36,7 +36,7 @@ No doubt! LattePanda Delta is global **FIRST development device supporting 3 dif
 
 * Configure your USB drive to be a bootable drive. Instructions can be found [here](https://technet.microsoft.com/en-us/library/jj200124%28v=ws.11%29.aspx).
 
-* Copy and paste the Windows 10 image contents to the USB drive. 
+* Copy and paste the Windows 10 image contents to the USB drive. Then, the files in the USB flash driver should be look like the picture shown as below.
 <center>![](/assets/images/file_in_usbdrive.jpg)</center>
 
 * If you are using the LattePanda to create the USB installation media, restart the LattePanda. Otherwise, insert your USB drive into the LattePanda and turn it on. 
@@ -49,8 +49,6 @@ No doubt! LattePanda Delta is global **FIRST development device supporting 3 dif
 * Navigate to the "Save & Exit" tab and select "Save Changes & Exit".
 
 The LattePanda will restart. And later you will enter the installation GUI.
-
-<center>![](/assets/images/win_recovery.jpg)</center>
 
 The green progress bar on the left will slowly increasing. It will take some minutes. Please wait patiently. This process is full-automatic. You don't need any operations.
 
@@ -84,7 +82,8 @@ Then enjoy it!
 ### Installation Steps
 
 * Download the Ubuntu 16.04 LTS image.
-* Create a USB installation media for Ubuntu. We recommended Rufus for creating installation media. You can download it [here](https://rufus.akeo.ie/).
+* Create a USB installation media for Ubuntu. We recommended 'Rufus' for creating installation media. You can download it [here](https://rufus.akeo.ie/).  
+* Choose your USB flash drive, and load the ISO file, the GUI of Rufus will be looked like the picture shown as below. Click the start button to burn the ISO file into the USB flash drive.
 <center>![](/assets/images/rufus.jpg)</center>
 * If you are using the LattePanda to create the USB installation media, restart the LattePanda. Otherwise, insert your USB drive into the LattePanda and turn it on. 
 * Press 'Esc' continously to enter BIOS. 
@@ -93,7 +92,7 @@ Then enjoy it!
 
 * Navigate to the "Save & Exit" tab and select "Save Changes & Exit".
 
-The LattePanda will restart. Later, you will enter the installation GUI. The following page should appear.
+The LattePanda will restart. Later, you will enter the installation GUI. The following picture should appear.
 
 <center>![](https://i.imgur.com/13Mxl3A.jpg?1)</center>
 
@@ -102,10 +101,10 @@ There will be two options:
 - Try Ubuntu without installing
 - Install Ubuntu
 
-Both options should work, but in this tutorial we choose 'Try Ubuntu without installing' option. Then the files will be loading. After a while, the following page should appear. 
+Both options should work, but in this tutorial we choose 'Try Ubuntu without installing' option. Then the files will be loading. After a while, the following picture should appear. 
 
 !!!note
-    During this process the screen may go black, please be patient. Do not do anything until your laptop displays the following screen.
+    During this process the screen may go black, please be patient. Do not do anything until your LattePanda displays the following screen.
 
 <center>![](/assets/images/ubuntu_desktop_install.jpg)</center>
 
@@ -136,30 +135,9 @@ Select your keyboard layout. If you're unsure of what it is, you can use the det
 
 Fill out your details to continue. 
 
-Please be patient and wait for the installation to complete. Then you will be asked to restart your LattePanda in order to complete installation.
+Please be patient and wait for the installation to complete. Then you will be asked to restart in order to complete installation.
 
 <center>![](https://i.imgur.com/IpbGwmo.jpg?1)</center>
 
 
-Wait for your LattePanda to restart and boot the Ubuntu, then enter your password to login. Your Ubuntu 16.04 LTS should be fully functional on your LattePanda. Enjoy!
-
-## Android (Phoenix OS)
-
-The LattePanda Delta is also capable of using x86 versions of Android. One such version, is Phoenix OS. This version provides a windows desktop like GUI for an android system while also allowing access to the Google Play store.
-
-### Bootable Drive
-
-* eMMC
-* M.2 M-key NVMe or SATA SSD 
-* USB Drive (Recommend USB 3.0 for best experience)
-
-### What you will need
-
-* [Phoenix OS Installer](http://www.phoenixos.com/download_x86)
-* Bootable Partition (With drive letter assigned) at least 4 GB
-
-### Installation Steps
-
-1. Download the Phoenix OS Installer.
-2. Launch the installation exe.
-3. There are two options: Install and U Install. Select U Install for installing on USB drive. Select Install for installing on eMMC or SSD partition.
+Wait for your LattePanda to restart and boot the Ubuntu, then enter your password to login. Your Ubuntu 16.04 LTS should be fully functional on your LattePanda. Enjoy it!
