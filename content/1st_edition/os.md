@@ -239,9 +239,9 @@ Step 18: Hands-on Ubuntu on LattePanda.
 !!! Info
 
     1. Recommended to config the display first before using. Please close MIPI output if you don't have LattePanda official IPS screen to avoid display the app window via MIPI video output instead of HDMI output
-
+    
     2. Recommended to allow and update latest ubuntu source code via ubuntu updates first
-
+    
     3. Modify hosts file. Check the details info below:
         - That /etc/hosts has an entry for localhost, like:
         127.0.0.1    localhost127.0.1.1    admin
@@ -258,4 +258,4 @@ Please check the link below to find details!
 
 
 
-Enjoy tinkering!​
+Enjoy tinkering!​ Good luck!
