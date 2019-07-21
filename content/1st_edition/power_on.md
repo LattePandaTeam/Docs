@@ -9,7 +9,7 @@ To power your LattePanda 1st gen product, there're two different power source in
 ## Hardware required
 
 1. USB Wall Adapter with up to 2A output
-2. Quality MicorUSB cable (capable of supplying 2A current)
+2. Quality MicroUSB cable (capable of supplying 2A current)
 3. HDMI cable
 4. Heatsink or active cooling fan (recommended)
 
