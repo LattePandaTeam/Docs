@@ -87,6 +87,8 @@ But You can check the <a href="https://www.lattepanda.com/topic-f13t16675.html?h
 * Feel free to post your commit or suggestion via <a href="https://github.com/LattePandaTeam/Docs" target="_blank">Github official repo.</a>
 
 ### Drawing and Pin Diagram
+
+Molex 10p Panelmate Connector
 <center>![10p Drawing](/assets/images/Battery_Connector_Drawing_Alpha.jpg)</center>
 
 <center>![10p Diagram](/assets/images/Battery_Connector_Pin_Diagram_Alpha.jpg)</center>
@@ -95,6 +97,11 @@ But You can check the <a href="https://www.lattepanda.com/topic-f13t16675.html?h
 
 1. Align the 10p battery connector with the LattePanda Alpha battery connector. Make sure the red wires align with pins 1-3 on the diagram above.
 2. Connect the 10p battery connector to the LattePanda Alpha battery connector.
+
+### Considerations When Using Battery Connector
+
+When using only the 10p battery connector to power LattePanda Alpha, the red and blue initializing lights will not turn on. Hold the power button for 3 seconds and the LattePanda Alpha will boot.
+
 
 !!! warning
     Only recommended for advanced makers, who have enough hardware experience...
