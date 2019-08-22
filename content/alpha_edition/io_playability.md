@@ -26,9 +26,11 @@ Relative discussions in Forum:
 
 1. [Lipo battery from 10p power connector][1][newtab]
 2. [Forum Discussion - Suggest a on/off/reset button for Alpha][2][newtab]
+3. [DIY 18650 battery pack for Lattepanda Alpha][3][newtab]
 
 [1]: https://www.lattepanda.com/topic-f13t16675.html
 [2]: https://www.lattepanda.com/topic-f23t17507.html
+[3]: https://www.lattepanda.com/topic-f11t20950.html
 
 ## M.2 Interface
 
