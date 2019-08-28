@@ -20,7 +20,7 @@ So the recommended standard power solution will definitely be the PD power adapt
 
 ### 12 volts DC In Introduction
 
-The voltage range of Alpha power input connector is 7.4~15 volts. So if you're choosing the lipo battery, it should be 2~4 cells. The standard power source is 3A@12volts. The booting power is like 10 watts. And operation power is like 5 watts without much load.
+The voltage range of Alpha power input connector is 7.4~15 volts. So if you're choosing the lipo battery, it should be 2~4 cells. The standard power source is 3A@12volts. The booting power is approximately 10 watts. And operation power is approximately 5 watts without much load.
 
 Relative discussions in Forum:
 
@@ -49,7 +49,6 @@ A PCI-E adapter can be versatile, allowing you to add hardware typically dedicat
 #### Cool topics in forum
 
 1. [How to attach both NVMe and Graphics card](https://www.lattepanda.com/topic-f23t17965.html)
-
 
 
 ### External GPU
