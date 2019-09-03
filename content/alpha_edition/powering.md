@@ -84,6 +84,7 @@ But You can check the <a href="https://www.lattepanda.com/topic-f13t16675.html?h
 ### Input Specification
 * **7.4 - 8.2 V**, means 2-cell Lipo battery
 * Recommend at least 5 Ah battery
+* Lipo battery must be able to charge at a CCCV rating of 1.9! Please check battery specification for charging current before using the battery. 
 * Feel free to post your commit or suggestion via <a href="https://github.com/LattePandaTeam/Docs" target="_blank">Github official repo.</a>
 
 ### Drawing and Pin Diagram
@@ -95,7 +96,7 @@ Molex 10p Panelmate Connector
 
 ### Installation Steps
 
-1. Align the 10p battery connector with the LattePanda Alpha battery connector. Make sure the red wires align with pins 1-3 on the diagram above.
+1. Align the 10p battery connector with the LattePanda Alpha battery connector. Make sure the positive red wires align with pins 1-3 on the diagram above.
 2. Connect the 10p battery connector to the LattePanda Alpha battery connector.
 
 ### Considerations When Using Battery Connector
