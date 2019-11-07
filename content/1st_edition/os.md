@@ -36,7 +36,7 @@ You can also re-install your LattePanda if you just want to re-install it.
 
     * [x64 version for **CR110** z8350 4GB+64GB](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view)
 
-    * [x64 version for all **CR200** z8350  (2GB+32GB and 4GB+64GB)](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view)
+    * [x64 version for all **CR200** z8350  (2GB+32GB and 4GB+64GB)](https://www.dropbox.com/s/85rtj34atn0p99v/LattePanda%20v1.1%204G%20x64%20image.zip?dl=0)
 
 !!! Notes
     Please make sure that you download the right image for your board! You know, recovering process takes time. You won't like to waste time for downloading and installation again and again. ;)
