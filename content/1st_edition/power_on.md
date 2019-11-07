@@ -20,17 +20,17 @@ To power your LattePanda 1st gen product, there're two different power source in
 
 
 !!! Note
-    We've noticed that there're lots of fake usb adapter or low quality cables in the market can't provide up to 2A current (even though they marked "2A" on the spec)! According to our experience, in most cases, this problem caused the user can't boot the device properly for the first time.
-    So please check this point again and again. Even try replacing another adapter or cable when booting the device unsuccessfully.
+    We've noticed that there're lots of fake USB adapter and low quality cables in the market can't provide up to 2A current (even though they marked "2A" on the spec)! According to our experience, in most cases, this problem caused the user can't boot the device properly for the first time.
+    So please check this again and again. Even try replacing another adapter or cable when booting the device unsuccessfully.
 
 A power adapter will not be bundled with the board, but you may get one from our online store, amazon or any electronics retailer. LattePanda also released official recommended adapter ([US Standard][1]/[EU Standard][2]) and [MicroUSB cable][3] to make sure that you can hands-on the device without unnecessary troubles.
 
-  [1]: https://www.dfrobot.com/product-933.html
-  [2]: https://www.dfrobot.com/product-1504.html
-  [3]: https://www.dfrobot.com/product-1430.html
+[1]: https://www.dfrobot.com/product-933.html
+[2]: https://www.dfrobot.com/product-1504.html
+[3]: https://www.dfrobot.com/product-1430.html
 
 Here’s also a [list of LattePanda tested adapters and cables][4] available from Amazon. We measured the max output of every adapter listed using professional tools. For testing cables, we tested max current supplying capability. Even cut the cables to measure the diameter of the metal wire, which decide the max current load of cable. Just provide as a reference for choosing your power supply and cable.
-  [4]: /content/1st_edition/troubleshooting/#tested-power-accessories
+[4]: /content/1st_edition/troubleshooting/#tested-power-accessories
 
 
 ## Booting the device
