@@ -1,18 +1,18 @@
 # Powering On
 
-This document describes the different ways you can power your LattePanda. It will cover the input specification, what you will need, and installation steps.
+This document introduces different ways to power your LattePanda. It will cover the input specification, what you will need, and installation steps.
 
 
 ## Overview
 
-**4 Ways for powering your Alpha in different applications:**
+**4 Ways to power your Alpha:**
 
 1. Official PD adapter comes with LattePanda Alpha
 2. External PD power bank
 3. [12 volts input from JST PH2.0 - 4P connector][1]
 4. [Lipo battery from 10p power connector][2]
 
-**Discussion about powering on Forum:**
+**Discussion about power supply on Forum:**
 
 * <a href="https://www.lattepanda.com/topic-f23t17507.html" target="_blank">Forum Discussion - Suggest a on/off/reset button for Alpha</a>
 
@@ -21,9 +21,9 @@ This document describes the different ways you can power your LattePanda. It wil
 
 ## Type-C PD Adapters and Battery Banks
 
-### Input Specification
+### Input Power Specification
 
-* Accepts Power Delivery compliant devices with 45W output (Up to 36 watts will be good enough actually.)
+* Accepts devices with 45W output (Up to 36 watts will be good enough actually.)
 
 ### What You Will Need
 
@@ -43,12 +43,11 @@ This document describes the different ways you can power your LattePanda. It wil
 ## JST 4p DC Input Connector
 
 !!! warning
-    Please make sure to protect the system powering from wrong power connections for positive and negative pins!!! And review your powering connection again and again before powering the system.
+    Please  make sure that the positive and negative pins are connected correctly! Double check the power connection before powering the system. 
 
 The voltage range of Alpha power input connector is 10~15 volts. So if you're choosing the lipo battery, it should be 3~4 cells. The standard power source is 3A @ 12 volts. The booting power is like 10 watts. And operation power is like 5 watts without much load.
 
 <center>![DC Input Port](/assets/images/DC_Input_Port_Alpha.jpg)</center>
-
 ### Input Specification
 
 * 10-15 volts
@@ -63,16 +62,15 @@ You can check the [details about pinout diagram][5].
 ## Lipo Battery Connector
 
 !!! warning
-    Please make sure to protect the system powering from wrong power connections for 10 pins lipo battery. **There's same standard from different lipo battery vendors for this 10p connector. It means you may need to change pin mapping carefully based on the battery you purchased from local vendor!**
+    Please make sure that 10 pin sequence of the Lipo battery is connected correctly. **Many vendors provide Lipo battery with 10pin connector in the market. It means you may need to change pins' sequence carefully based on the battery you purchased!**
 
     And wrong power connection will definitely break for LattePanda Alpha!!!
 
 <center>![10 Pin (10p) Battery Connector (Alpha Version Only)](/assets/images/Battery_Connector_Port_Alpha.jpg)</center>
 
-
 ### Recommended Batteries
 
-We didn't offically release battery supported list from LattePanda yet. Somehow global battery shipping is not easy. And it's even hard to find a standard battery for global market when every place has different resources available. 
+We haven't officially released battery list that support LattePanda Alpha yet. Somehow shipping batteries around the world is not easy. And it's even hard to find a standard battery for global users. 
 But You can check the <a href="https://www.lattepanda.com/topic-f13t16675.html?hilit=battery&start=31" target="_blank">forum discussion about this topic.</a>. Community members already find some alternatives from local battery vendors.
 
 !!! tips
@@ -91,9 +89,7 @@ But You can check the <a href="https://www.lattepanda.com/topic-f13t16675.html?h
 
 Molex 10p Panelmate Connector
 <center>![10p Drawing](/assets/images/Battery_Connector_Drawing_Alpha.jpg)</center>
-
 <center>![10p Diagram](/assets/images/Battery_Connector_Pin_Diagram_Alpha.jpg)</center>
-
 ### Installation Steps
 
 1. Align the 10p battery connector with the LattePanda Alpha battery connector. Make sure the positive red wires align with pins 1-3 on the diagram above.
