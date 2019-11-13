@@ -2,7 +2,7 @@
 
 ## Regular Drivers
 
-We use Intel Driver & Support Assistant (Intel DSA) to install and update Alpha drivers.
+We use Intel Driver & Support Assistant (Intel DSA) to install and update Delta drivers.
 
 Intel DSA can auto-detect the relevant drivers or updates for you according to your CPU model, which is very simple and convenient. Let's start together!
 
@@ -22,9 +22,13 @@ https://www.intel.com/content/www/us/en/support/intel-driver-support-assistant.h
 
 
 
+！！！Some users has reported that the driver of PCI Data Acquisition and Signal Processing Controller is still missing after installing all drivers according to the guide. We suggest you can try to install some third party software to fix this issue, such as [Driver Booster 7](https://www.iobit.com/en/driver-booster.php).
+
+
+
 ## Touch Panel Drivers
 
-The touch panel driver for Alpha is same as that for LattePanda V1.0. 
+The touch panel driver for Delta is same as that for LattePanda V1.0. 
 
 [Windows 10 Drivers (V1.1) - 32Bit](https://github.com/LattePandaTeam/LattePanda-Win10-Software/raw/master/Drivers/2G32GB_Drivers/Touch/32%20bit%20GoodixTouchDriver%20v1.1.rar)
 
