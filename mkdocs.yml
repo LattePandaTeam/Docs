@@ -133,6 +133,7 @@ nav:
     - Powering: content/delta_edition/powering.md
     - Displays and Touch: content/delta_edition/touch_and_display.md
     - 2x OS Support: content/delta_edition/os.md
+    - Drivers: content/delta_edition/drivers_and_software.md
     - Tools Recommended: content/delta_edition/ide.md
     - Physical Playability: content/delta_edition/io_playability.md
     - Mutiple Internet Connections: content/delta_edition/connectivity.md
