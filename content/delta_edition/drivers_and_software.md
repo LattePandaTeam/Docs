@@ -22,7 +22,7 @@ https://www.intel.com/content/www/us/en/support/intel-driver-support-assistant.h
 
 
 !!! note
-    If your device is the **LattePanda Alpha 800**, which comes without eMMC storage onboard, you will need a boot drive with an operating system installed on it. See the [Operating Systems][2] page for different acceptable media for booting the operating system of your choice and installation instructions.
+    Some users has reported that the driver of PCI Data Acquisition and Signal Processing Controller is still missing after installing all drivers according to the guide. We suggest you can try to install some third party software to fix this issue, such as [Driver Booster 7](https://www.iobit.com/en/driver-booster.php).
 
 
 
