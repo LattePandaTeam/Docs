@@ -21,8 +21,9 @@ https://www.intel.com/content/www/us/en/support/intel-driver-support-assistant.h
 3) Follow the on-screen prompts to download and install the drivers or updates.
 
 
+
 !!! note
-    Some users has reported that the driver of PCI Data Acquisition and Signal Processing Controller is still missing after installing all drivers according to the guide. We suggest you can try to install some third party software to fix this issue, such as [Driver Booster 7](https://www.iobit.com/en/driver-booster.php).
+    Some users have reported that the driver of PCI Data Acquisition and Signal Processing Controller is still missing after installing all drivers according to the guide. We suggest you can try to install some third party software to fix this issue, such as [Driver Booster 7](https://www.iobit.com/en/driver-booster.php).
 
 
 
