@@ -47,15 +47,7 @@ There is a USB-C interface on the board, formally known as **USB Type-C**. It 
 
 A USB Type C hub can be used with the LattePanda Delta. This can expand the number of ports you can use off just one connector. This can include SD/MicroSD, ethernet, USB, HDMI, ethernet, and many other ports.
 
-### RS232
 
-The RS-232 standard had been commonly used in computer serial ports. Thanks to their simplicity and past ubiquity,it is also used in industrial machines, networking equipment, and scientific instruments where a short-range, point-to-point, low-speed wired data connection is required. 
-
-![](https://i.imgur.com/RU7P7nU.png)
-
-### RS-232 Sensor
-
-![](https://i.imgur.com/7loMZ3h.png?1)
 
 ## Related Links 
 * [Integrated Development Environment](/content/delta_edition/ide/)
