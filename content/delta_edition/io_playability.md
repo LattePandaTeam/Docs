@@ -24,7 +24,9 @@ There are M.2 connectors on the LattePanda Delta, one M key and one E key.
 The M key interface just allows PCI-E X2.
 #### **Storage**
 * compatible with M.2 NVMe SSD
-
+#### **Other devices**
+* eGPU is also possible if using a high quality adapter like ADT Link
+[video link here to eGPU](https://youtu.be/LMmm2V33cvs)
 ### E Key
 
 The E key interface allows PCI-E X2, USB 2.0 or UART.
