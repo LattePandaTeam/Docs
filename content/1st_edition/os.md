@@ -121,7 +121,7 @@ If you want to update to the latest version of Windows 10, please follow the ste
 
 **Official Supported Version: S70CR200 2G/32G version.** See the picture below to find how to check the version. If you have a earlier version LattePanda like CR110 or CR100, you can [refer to the contribution in the Github here to install Linux.](https://github.com/mopplayer/lattepanda-mainline-4.11) 
 
-After tested the beta Linux OS for a month with our forum members, we collected the some problems that our forum members meet. Most of the BUGs are fixed. And **we are still working on the image for S70CR200 4G/64G version, and it will be released in 2 weeks.** The following topic will show you the official Ubuntu installation tutorial. If you still have any questions when using Linux on LattePanda, [feel free to post your question here](https://www.lattepanda.com/topic-f16t8363.html), we are always ready to help you!
+After tested the beta Linux OS for a month with our forum members, we collected the some problems that our forum members meet. Most of the BUGs are fixed. The following topic will show you the official Ubuntu installation tutorial. If you still have any questions when using Linux on LattePanda, [feel free to post your question here](https://www.lattepanda.com/topic-f16t8363.html), we are always ready to help you!
 
 !!! Note
     
