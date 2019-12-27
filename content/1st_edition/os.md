@@ -119,60 +119,30 @@ If you want to update to the latest version of Windows 10, please follow the ste
 
 ## Linux Ubuntu 16.04 LTS
 
-**Official Supported Version: S70CR200 2G/32G version.** See the picture below to find how to check the version. If you have a earlier version LattePanda like CR110 or CR100, you can [refer to the contribution in the Github here to install Linux.](https://github.com/mopplayer/lattepanda-mainline-4.11) 
+**Official Supported Version: S70CR200 version.** See the picture below to find how to check the version. If you have a earlier version LattePanda like CR110 or CR100, you can [refer to the contribution in the Github here to install Linux.](https://github.com/mopplayer/lattepanda-mainline-4.11) 
 
 After tested the beta Linux OS for a month with our forum members, we collected the some problems that our forum members meet. Most of the BUGs are fixed. The following topic will show you the official Ubuntu installation tutorial. If you still have any questions when using Linux on LattePanda, [feel free to post your question here](https://www.lattepanda.com/topic-f16t8363.html), we are always ready to help you!
 
 !!! Note
     
-    1. This BIOS is only for all **CR200 z8350**. Find your sticky paper on LattePanda board to check the version.
+    1. It's for all **CR200 z8350**. Find your sticky paper on LattePanda board to check the version.
     ![Refresh BIOS successfully.jpg](https://i.imgur.com/w1Ys5eG.png)
     2. Backup your data files if you need before installation.
-    3. It takes about 15-20 mins for complete installation.
 
 
 
 ### What you need
 
 1. USB flash Drive (at least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
-2. [Download the newest BIOS here](https://github.com/LattePandaTeam/LattePanda-Win10-Software/tree/master/Bios/LattePanda%20V1.2%20for%20CR200%20Z8350%20only/BIOS%20for%20Ubuntu) (This BIOS is only for all **CR200 z8350**.)
-3. [Download image here](http://bit.ly/2JcDtiQ)
+3. [Download image here](https://drive.google.com/file/d/1dSIoytfqzJJCwOrXRoxpgl3WO63gZPhD/view)
 
 
 ### Steps
 
-#### Refresh BIOS
-
-This new BIOS fixs some small bugs of Linux Ubunut on LattePanda to improve the stability for long term usage, for example bluetooth stability issue after rebooting (reported from community).
-
-!!! Warning
-    
-    But, because of the potential risk when refreshing the BIOS, you skip this part! It won't bring big troubles for experiencing Ubuntu on LattePanda.
-
-1. Make sure to check the verison of your LattePanda! This BIOS is only for CR200 z8350!
-
-2. Format your USB flash disk to FAT32
-
-3. Copy [BIOS files](https://github.com/LattePandaTeam/LattePanda-Win10-Software/tree/master/Bios/LattePanda%20V1.2%20for%20CR200%20Z8350%20only/BIOS%20for%20Ubuntu) directly to root of the USB flash disk
-
-4. Plug the USB flash disk in USB host
-
-5. Plugin the MicroUSB cable and power on the system
-
-6. Wait the refreshing the BIOS automatically until returning "fs1:\>"![Refresh BIOS successfully.jpg](https://i.imgur.com/L8j7lD3.jpg)
-
-7. Unplug the USB flash disk!
-
-8. Restart the system via pressing the reset button or "Ctrl+Alt+Del". Then finish refreshing.
-
-!!! Note
-    
-    make sure that remove the USB flash disk before restarting the system!
-
 
 #### Ubuntu OS Installation
 
-Step 1: [Download the Linux image](http://bit.ly/2JcDtiQ).
+Step 1: [Download the Linux image](https://drive.google.com/file/d/1dSIoytfqzJJCwOrXRoxpgl3WO63gZPhD/view).
 
 Step 2: Create a bootable USB flash drive.
 
