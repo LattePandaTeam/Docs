@@ -30,7 +30,7 @@ This class allows you to control Arduino GPIO from Windows apps, with features i
 - Controlling servo motors
 - Sending data to devices and receiving data form devices through the I2C Bus
 
-# Step 2: Set up the Arduino
+## Step 2: Set up the Arduino
 
  1.Open Arduino. And select the “StandardFirmata”
 
@@ -52,7 +52,7 @@ This class allows you to control Arduino GPIO from Windows apps, with features i
 
    ![image20](http://www.lattepanda.com/wp-content/uploads/2016/02/image20.png)
 
-# Step 3: Blink your Board
+## Step 3: Blink your Board
 
 Create a project or use the [sample project.](http://www.lattepanda.com/wp-content/uploads/2016/02/blinkYourBoard.zip) You can find more GPIO example [here.](http://docs.lattepanda.com/content/hardware/examples/)
 
