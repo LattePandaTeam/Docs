@@ -11,7 +11,7 @@ Here we are taking the advantage of the Node-RED tool and the email service to b
 
 ### Software setup
 
-1.[Flash Firmata into Your Uno Board](http://www.lattepanda.com/docs/#SetuptheArduino)
+1.[Flash Firmata into Your Board](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-2-set-up-the-arduino)
 
 2.[Install Node-RED](http://nodered.org/docs/getting-started/installation).
 
