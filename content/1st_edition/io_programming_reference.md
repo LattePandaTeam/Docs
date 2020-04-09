@@ -1,8 +1,8 @@
 # digitalWrite
 
-In this example, we will blink the LED which is connected with digital pin (D0 - D13)
+In this example, we will blink the LED which is connected to a digital pin (D0 - D13)
 
-**API Required :**
+**API Required:**
 
 1. public Arduino();
 2. public void pinMode(int pin, byte mode);
@@ -11,17 +11,17 @@ In this example, we will blink the LED which is connected with digital pin (D0 -
 **Hardware Required:**
 
 1. LattePanda x 1
-2. led x 1 （or you can use the LED attached to pin 13 on the Arduino board itself）
+2. LED x 1 （or you can use the LED attached to pin 13 on the Arduino board itself）
 
 **Circuit:**
 
-1. LED inserted directly into pin 9
+1. Insert LED directly into pin 9
 
    ![_example_blink](https://i.imgur.com/OvSjGUN.gif)
 
 **Code:**
 
-1. Create a new project in Visual Studio, Refer to [Create a project](http://docs.lattepanda.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
+1. Create a new project in Visual Studio. Refer to [Create a project](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-3-blink-your-board) to find out how to use Visual Studio for Arduino Projects.
 2. Main function code :
 
 ```
@@ -60,7 +60,7 @@ Thread.Sleep(1000);//delay a seconds
 
 # digitalRead
 
-This example detects the Button state through digital pin (D0-D13). **API required:**
+This example detects the Button state using the information sent through a digital pin (D0-D13). **API required:**
 
 1. public Arduino();
 2. public void pinMode(int pin, byte mode);
@@ -70,18 +70,18 @@ This example detects the Button state through digital pin (D0-D13). **API requir
 
 1. LattePanda x 1
 2. Button x 1
-3. Resistor (Resistance value greater than 1KΩ) x 1
+3. Resistor (with any resistance value greater than 1KΩ) x 1
 
 **Circuit:**
 
-1. Connect button to pin 9 as following figure shows
+1. Connect the button to pin 9 in the same way as shown in the figure below
 
 ![_example_button](https://i.imgur.com/4Un6VYO.png)
 
 **Code:**
 
-1. Create a new project in Visual Studio, refer to [Create a project](http://docs.lattepanda.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
-2. Main function code
+1. Create a new project in Visual Studio. Refer to [Create a project](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-3-blink-your-board) to find out how to use Visual Studio for Arduino Projects.
+2. Main function code :
 
 
 ```
@@ -131,14 +131,14 @@ This example assigns a pulse width modulation (PWM) value to an output pin (D3, 
 
 **Circuit:**
 
-1. LED connected directly into pin 9 as following figure shows
+1. Connect the LED directly into pin 9 in the same way as shown in the figure below
 
    ![_example_PWM](https://i.imgur.com/mxppTPx.gif)
 
 **Code:**
 
-1. Create a new project in Visual Studio, refer to [Create a project](http://docs.lattepanda.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
-2. Main function code
+1. Create a new project in Visual Studio. Refer to [Create a project](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-3-blink-your-board) to find out how to use Visual Studio for Arduino Projects.
+2. Main function code :
 
 ```
 using System;
@@ -175,11 +175,11 @@ Thread.Sleep(4);//delay 4ms
 ```
 **Test:**
 
-1. Click Debug to execute, you will find the LED brightness vary form dim to bright and then back again.
+1. Click Debug to execute, and then you will find the LED brightness will vary form dim to bright, and then back again.
 
 # AnalogRead
 
-This example detect the value of analog pin (A0-A5) where a potentiometer is connected, and then print the value **API Required:**
+This example detects the value from an analog pin (A0-A5) where a potentiometer is connected, and then prints out said value **API Required:**
 
 1. public Arduino();
 2. public int analogRead(int pin);
@@ -192,14 +192,14 @@ This example detect the value of analog pin (A0-A5) where a potentiometer is con
 
 **Circuit:**
 
-1. Connect the potentiometer to pin 0 as following figure shows：
+1. Connect the potentiometer to pin 0 in the same way as shown in the figure below：
 
    ![_example_analogRead](https://i.imgur.com/G0T4fFp.png)
 
 **Code :**
 
-1. Create a new project in Visual Studio, refer to [Create a project](http://docs.lattepanda.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
-2. Main function Code：
+1. Create a new project in Visual Studio. Refer to [Create a project](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-3-blink-your-board) to find out how to use Visual Studio for Arduino Projects.
+2. Main function Code ：
 
 ```
 using System;
@@ -236,7 +236,7 @@ Console.WriteLine(value);
 
 **Test：**
 
-1. Click Debug to execute, the state of potentiometer will print when you rotate it.
+1. Click Debug to execute, and then observe how the state of the potentiometer will begin printing readouts when you rotate it.
 
 # Servo
 
@@ -253,13 +253,13 @@ In this example, we will sweep the servo motor back and forth across 180 degrees
 
 **Circuit:**
 
-1. Servo inserted directly into pin D9：
+1. Insert the Servo Motor directly into pin D9：
    ![_example_Servo](http://www.lattepanda.com/wp-content/uploads/2016/02/example_Servo.png)
 
 **Code :**
 
-1. Create a new project in Visual Studio, Refer to [Create a project](http://docs.lattepanda.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
-2. Main function code:
+1. Create a new project in Visual Studio. Refer to [Create a project](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-3-blink-your-board) to find out how to use Visual Studio for Arduino Projects.
+2. Main function code :
 
 ```
 using System;
@@ -293,11 +293,11 @@ Thread.Sleep(1000);//delay a seconds
 
 **Test:**
 
-1. Click debug to execute, you will find the motor sweeping forth and back continuously.
+1. Click debug to execute, and then you will find that the motor stars to sweep back and forth continuously.
 
 # I2C
 
-This example will show you how to use I2C to get the data form 3-axis accelerometer ADXL345 **API Required:**
+This example will show you how to use I2C to receive data form a 3-axis accelerometer ADXL345 **API Required:**
 
 1. public Arduino();
 2. public void wireBegin(Int16 delay);
@@ -311,14 +311,14 @@ This example will show you how to use I2C to get the data form 3-axis accelerome
 
 **Circuit:**
 
-1. The following is a figure describing which pins on the LattePanda should be connected to the pins on the accelerometer.
+1. The following is a figure displaying which pins on the LattePanda should be connected to their corresponding pins on the accelerometer.
 
    ![_example_ADXL345](http://www.lattepanda.com/wp-content/uploads/2016/02/example_ADXL345.png)
 
 **Code :**
 
-1. Create a new project in Visual Studio, Refer to [Create a project](http://docs.lattepanda.com/content/hardware/accessPinoutsFromVS/#step-3-blink-your-board)
-2. Main function code:
+1. Create a new project in Visual Studio. Refer to [Create a project](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-3-blink-your-board) to find out how to use Visual Studio for Arduino Projects.
+2. Main function code :
 
 ```
 using System;
@@ -354,4 +354,4 @@ Console.WriteLine(BitConverter.ToInt16(data, 4));
 
 **Test:**
 
-1. Click Debug to execute, the 3-axis acceleration data will be printing continuous.
+1. Click Debug to execute, and then the 3-axis acceleration data will be printing out continuously.
