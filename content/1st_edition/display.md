@@ -1,52 +1,52 @@
 # Extend a Touch Display
 
-LattePanda officially released 7" touch display and 10" IPS high resolution display for LattePanda 1st gen product line. 
-We are also working with several parnters to deliver customized displays for commercial market, which are not available for the retail, like 3.97", 8", 11.6" and so on.
+LattePanda officially released a 7" touch display and 10" IPS high-resolution display for the LattePanda 1st gen product line. 
+We are also working with several partners to deliver customized displays for the commercial market, but these products are currently not available for retail, such as the 3.97", 8", 11.6" screen displays.
 
 * [Forum Topic about 3.97" display](https://www.lattepanda.com/topic-f16t10958.html)
 
 ## Tips 
-When tinkering hardware, reviewing your hardware connection is always the most important step before powering on the whole system!
+When tinkering with hardware, checking that your hardware is properly connected is always the most important step to powering on your system successfully!
 
 <center>![img](http://www.lattepanda.com/wp-content/uploads/2016/08/bitmap.png)</center>
 
 !!! warning
-    Please connect it with LattePanda BEFORE power-on. And make sure the Golden Finger face the right side. The contacts on FPC are so compact and in order. Please be careful that any dislocation connection may cause the LattePanda short circuit and the IPS display abnormal like ghosting or flicker.**
+    Please connect this device to the LattePanda BEFORE powering it on. Additionally, please make sure that the Golden Finger faces the right side. The contacts on the FPC (Flexible Printed Circuit) are very compact and in a specific order. Please be careful not to have any dislocation in the connection which may cause the LattePanda to short circuit and lead the IPS display to have abnormalities like ghost inmages or flickering.**
 
-## Steps for connecting official 7" touch panel and MIPI display
+## Steps for Connecting the Official 7" Touch Panel and MIPI Display
 
-* Lift up the actuator. Use thumb or index finger might be easier.
+* Lift up the small locking flap which sits behind the insertion point of the FPC. (Please view [this youtube video](https://youtu.be/j7o6CBNUmt4?t=192) in the event that you do not know where the flap is located or how to properly lift it up.) You may find it easy enough to use your thumb or index finger for this step.
 
 <center>![img](http://www.lattepanda.com/wp-content/uploads/2016/05/6W4A0100.jpg)</center>
 
-* Insert display FPC in.
+* Insert the display's FPC into the slot.
 
 !!! warning
-    Place Golden Finger side down!**
+    Place the "golden finger" side down when inserting!**
 
 <center>![img](http://www.lattepanda.com/wp-content/uploads/2016/05/6W4A0102.jpg)</center>
 
 !!! note
-    The FPC must be fully inserted in the connector. If not fully inserted, the actuator will not close properly. Should this be the case, lift up the actuator and repeat the process (starting with Step 1 above)***
+    The FPC must be fully inserted into the connector port, otherwise the small locking flap will not close properly. Should this be the case, lift up the small locking flap and repeat the process (starting with Step 1 above)***
 
-* Rotate down the actuator until firmly closed.
+* Rotate and push the small locking flap down until it is firmly closed.
 
 <center>![img](http://www.lattepanda.com/wp-content/uploads/2016/05/6W4A0103.jpg)</center>
 
-* Insert the FPC of touch panel in
-   Same as the display. Place the Golden Finger side down too.
+* Insert the FPC of the touch panel in the
+   same way as you installed the FPC for the display. Place the golden finger side down for this FPC, too.
 
 <center>![img](http://www.lattepanda.com/wp-content/uploads/2016/05/6W4A0104.jpg)</center>
 
 
-## How to extend 3rd party displays available from market
+## How to Extend 3rd Party Displays Available from the Market
 
-There're several important tips you need to know when trying to extend a 3rd party MIPI display
+There are several important tips you need to know when trying to install a 3rd party MIPI display extension
 
-* Check the hardware pin mapping of the MIPI-DSI and I2C touch interface of LattePanda via [official pinout diagram](/content/1st_edition/hardware_introduction/)
+* Check the hardware pin map of the MIPI-DSI and I2C touch interface of the LattePanda via the [official pinout diagram](/content/1st_edition/hardware_introduction/)
 
-* To enable a display or touch panel, driver development or bios development could be necessary in most of cases. You'd better to have a development expert in your team before trying to do so. Or you can connect with LattePanda business team via [email](lattepanda@outlook.com) to apply for a display development request from LattePanda to support display you chosen. 
+* To enable a display or touch panel, a driver development or bios development might be necessary in most cases. It is advised to have a development expert in your team working with you on this operation before making this sort of attempt. You can also connect with the LattePanda Business Team via our [email](lattepanda@outlook.com) to apply for a display development request from LattePanda in order to provide support for the display you've chosen. 
 
-* All HDMI displays and USB touch solutions are 100% compatible with LattePanda 1st gen, if vendors provide support for Windows 10.
+* All HDMI displays and USB touch screen solutions are 100% compatible with the LattePanda 1st gen, as long as vendors' products provide support for Windows 10.
 
-## Enjoy smooth touch interaction and efficient data visualization for your projects
+## Enjoy Seamless Touchscreen Interaction and Efficient Data Visualization for Your Projects
