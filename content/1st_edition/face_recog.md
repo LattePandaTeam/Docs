@@ -1,56 +1,55 @@
 # Introduction
-In this article, you will learn an easy way to detect your face and eyes by using OpenCV. 
+In this article, you will learn an easy way to utilize face-recognition software by using OpenCV. 
 
-OpenCV (Open Source Computer Vision) is released under a BSD license and hence it’s free for both academic and commercial use. It has C++, C, Python and Java interfaces and supports Windows, Linux, Mac OS, iOS and Android. OpenCV was designed for computational efficiency and with a strong focus on real-time applications. Written in
-optimized C/C++, the library can take advantage of multi-core processing.
+OpenCV (Open Source Computer Vision) is released under a BSD license, and thus is free for both academic and commercial use. It has C++, C, Python, and Java interfaces and supports Windows, Linux, Mac OS, iOS, and Android operating systems. OpenCV was designed for computational efficiency, with a strong focus on real-time applications. Written in C/C++ coding languages, its vast library of code can take advantage of multi-core processing.
 
-Adopted all around the world, OpenCV has more than 47 thousand people of user community and estimated number of downloads exceeding 9 million. Usage ranges from interactive art, to mines detection, online maps and advanced robotics.
+Adopted all around the world, OpenCV has more than 47 thousand people in its user communities, and has been downloaded more than 9 million times. Usage ranges from interactive art to the detection of mines and from online maps to advanced robotics.
 
 ## Steps:
 
-### Step 1：Install  Visual Studio 2017 and OpenCV
+### Step 1：Install Visual Studio 2017 and OpenCV
 
 1.Install Visual Studio 2017 on your computer
 
-Head over to https://www.visualstudio.com/products/visual-studio-professional-with-msdn-vs and download Visual Studio Professional 2015. Unzip the downloaded file and double-click the 'vs_professional.exe', then the installation process will begin.
+Head over to https://www.visualstudio.com/products/visual-studio-professional-with-msdn-vs and download Visual Studio Professional 2015. Unzip the downloaded file and double-click the 'vs_professional.exe'. Then, the installation process will begin.
 
 2.Install OpenCV
 
-1) Head over to the site: http://www.opencv.org and download the latest version of OpenCV (shown in the following figure). Choose the version according to your operating system.
+1) Head over to the site: http://www.opencv.org and download the latest version of OpenCV (shown in the figure below). Choose the correct version which corresponds with the operating system of your computer.
 
 In this tutorial we are going to install OpenCV 3.1 using Visual Studio 2015 professional on a 64-bit system running Windows 10.
 
 ![](https://i.imgur.com/Ll4CXAc.png)
 
-2) Extract the downloaded OpenCV file
-Double click the downloaded OpenCV file, and then extract it
+2) Extract the contents of the downloaded OpenCV file
+Double click the downloaded OpenCV file to start the extraction process of its various contents
 ![](https://i.imgur.com/F50m3oB.png)
 
 ### Step 2: Set the Environment Variables
 
-1.To do this step, open the Control Panel and then System. Click the Advanced System Settings, last Environment Variables in turns as show in the following figure.
+1.To do this step, open the Control Panel and then System. Next, click the Advanced System Settings. Finally, click Environment Variables. Please refer to the following image to locate these buttons and settings.
 
 ![](https://i.imgur.com/qNm3ioM.png)
 
-2.Edit the PATH environment variables and Add a new environment variable, then give it the value of `F:\opencv\build\x64\vc14\bin`. Note that change the value depends on the path where you have extracted your OpenCV in step 2.
+2.Edit the PATH environment variables and Add a new environment variable. Then, give it the value of `F:\opencv\build\x64\vc14\bin`. Note that this destination value must be in accordance with the name of the file path destination where you extracted your OpenCV in step 2.
 
 ![](https://i.imgur.com/mOF8J3H.png)
 
-### Step 3: Create a new project in Visual Studio 2017
+### Step 3: Create a New Project in Visual Studio 2017
 
-1.In Visual Studio 2017, create a new project to follow the steps in turns as the following figure shows
+1.In Visual Studio 2017, create a new project
 
 ![](https://i.imgur.com/Qf2XoKO.png)
 
-2.Select Win32 Console Application in Visual C++, then name your project and select a directory to store it
+2.Select Win32 Console Application in Visual C++. Then, name your project and select a directory to store this project
 
 ![](https://i.imgur.com/lQklQ4P.png)
 
-3.Choose the empty project and click finish
+3.Choose empty project and click finish
 
 ![](https://i.imgur.com/kNOg1Zh.png)
 
-4.Add a new cpp file
+4.Add a new cpp file (to learn how to add a new cpp file, refer to the images below)
 
 ![](https://i.imgur.com/UwFWVKV.png)
 
@@ -62,7 +61,7 @@ Double click the downloaded OpenCV file, and then extract it
 
 ![](https://i.imgur.com/tDaRcwr.png)
 
-2.Select "Include Directories", and give it the following values:
+2.Select "Include Directories", and type in the following values:
 
 `F:\opencv\build\include`
 
@@ -70,22 +69,22 @@ Double click the downloaded OpenCV file, and then extract it
 
 `F:\opencv\build\include\opencv2`
 
-Remember that change the value depending on the path you have extracted your OpenCV files to in step 2.
+Remember to change the value fo match the file path destination where you have extracted your OpenCV files to in step 2.
 
 ![](https://i.imgur.com/0Hp1zKD.png)
 
-3.Add Library Directories, give the value of
-`F:\opencv\build\x64\vc14\lib`. Remember that changing the values depends on the path where you have extracted your OpenCV in step 2
+3.Add Library Directories, and type in the value
+`F:\opencv\build\x64\vc14\lib`. Remember to change the value fo match the file path destination where you have extracted your OpenCV files to in step 2.
 
 ![](https://i.imgur.com/SyxIJOY.png)
 
-4.Add additional dependences
+4.Add Additional Dependencies
 
-Copy the following item and paste it in additional Dependences blank`opencv_world310d.lib`
+Copy the following item and paste it into the Additional Dependencies field `opencv_world310d.lib`
 
   ![](https://i.imgur.com/hkgFeqh.png)
 
-### Step 5: Paste the following code to the .cpp file your added in step 4.
+### Step 5: Paste the Following Code to the .cpp File You Added in Step 4.
 ```
 #include<opencv2\objdetect\objdetect.hpp>
 #include<opencv2\highgui\highgui.hpp>
@@ -167,12 +166,12 @@ void detectAndDiapley(Mat frame)
 	imshow(windownName, frame);
 }
 ```
-### Step 6: Debug your Project
-Set two options as following figure shows:
+### Step 6: Debug Your Project
+Set up the two options as follows in the figure below:
 
 ![](https://i.imgur.com/JvHn331.png)
 
-Press F5 to execute the face detection project, your PC camera will turn on and your face and eyes will be highlighted like so:
+Press F5 to execute the face detection project. Now, your PC camera will turn on, and your face and eyes will be highlighted like so:
 
 ![](https://i.imgur.com/PZLrE4O.png)
 
