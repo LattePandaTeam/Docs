@@ -2,24 +2,24 @@
 
 ## Introduction
 
-[Node-RED](http://nodered.org/) is a visual programming tool for Internet of Things. IBM is actively bringing its latest functions, including Waston and IOT service, into the toolbox ever since its acquisition.
-Here we are taking the advantage of the Node-RED tool and the email service to build a simple but awesome IOT control unit. You can remotely control your Arduino board by sending an email to your own account. The process roughly takes half an hour, with minimum coding required.
+[Node-RED](http://nodered.org/) is a visual programming tool for the Internet of Things. IBM is actively implementing its newest functions, including Watson and IOT service, into Node-RED's toolbox ever since its creation.
+Here, we are taking advantage of the Node-RED tool and the email service to build a simple but awesome IOT control unit. You can remotely control your Arduino board by sending an email to your own account. The process roughly takes half an hour, with minimum coding required.
 
-### Hardware list
+### Hardware List
 
-- LattePanda
+- LattePanda x 1
 
-### Software setup
+### Software Setup
 
-1.[Flash Firmata into Your Board](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-2-set-up-the-arduino)
+1.[Download Flash Firmata onto Your Board](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-2-set-up-the-arduino)
 
 2.[Install Node-RED](http://nodered.org/docs/getting-started/installation).
 
 3.Please follow the [official Arduino documentation from Node-RED](http://nodered.org/docs/hardware/arduino).
 
-As soon as you get past the first blinking example, you can start to go to the IOT part.
+As soon as you get past the first blinking example, you can start preparing the IoT portion.
 
-4.Build Control flow.
+4.Build Control Flow.
 
 Here is the simple flow setup.
 
@@ -27,16 +27,16 @@ Here is the simple flow setup.
 
 5.Configure Email Node
 
-Now we can configure the email node. I am using the Microsoft office email server. If you are using other email service providers, please check your server settings for setting up an `imap` client.
+Now we can configure the email node. I am using the Microsoft office email server. If you are using another email service provider, please check your server settings for setting up an `imap` client.
 
 ![node-red_email](http://www.lattepanda.com/wp-content/uploads/2016/02/node-red_email.png)
 
-And also if you are using *Gmail*, you need to create an application specific password for third-party application authentication.
+Also, if you are using *Gmail*, you need to create an application specific password for third-party application authentication.
 
 6.Configure Function Node
 
-We need a tiny bit of code to interpret the email messages before relay that on to your Arduino board. Specifically, we are using the email's **subject** to control our Arduino board. Because some server may automatically attach or transform the email **body** content or format for better user experience (in its own opinion), it would be easier to write working code for our example using only the **email subject**.
-Here is the code
+We need a tiny bit of code to interpret the email messages before their messages are relayed onto your Arduino board. Specifically, we are using the email's **subject line** to control our Arduino board. Since some servers may automatically attach to or transform the email's **body** content or format it in a certain way in order to produce a "better user experience", it will be easier to write working code for our example using only the **email subject** rather than the email's **body**.
+Here is the code :
 
 `javascript`
 
@@ -46,19 +46,21 @@ Here is the code
 
 ![node-red_function](http://www.lattepanda.com/wp-content/uploads/2016/02/node-red_function.png)
 
-7.Configure the Arduino LED Node You should have configured the LED node on pin 13 already if you have passed the example. But here is a screenshot just in case.
+7.Configure the Arduino LED Node.
+
+You should have configured the LED node onto pin 13 already if you have gone through the previous examples. Here is a screenshot displaying the required setup.
 
 ![node-red_pin](http://www.lattepanda.com/wp-content/uploads/2016/02/node-red_pin.png)
 
 ### Test
 
-Now you can send an email to your account, with the subject of a single digit: 1( or 0 if your pin 13 LED is already turned on). You should see the LED on the board change after about 10 or 20 seconds after you have sent the email.
+Now you can send an email to your account, using a single digit in the subject line: 1( or 0 if your pin 13 LED is already turned on). You should see the LED on the board change after about 10 to 20 seconds after you have sent the email.
 
-You can leave the email body empty, we are not going to use that part for now. However you can choose to try more tricks with the email body once you feel more confident.
+You can leave the email body empty, as we did not utilize this portion for this example. However, you can choose to develop more functionality in this project by using the email body's content once you feel confident enough with your skills in manipulating and using the subject line.
 
 # How It Works
 
-According to Node-RED documentation, the email node will try to get your latest email from the given mail folder between the given time interval. It will notice any new email, and pass on email information to our logical function. Then our function tries to interpret the subject to an integer and fill in the data our Arduino output pin needs. Finally the Arduino pin node controls the board using firmata protocol and changes the LED status.
+According to Node-RED documentation, the email node will try to get your latest email from the given mail folder during a given time interval. It will notice any new email, and pass on email information to our logical function. Then our function tries to interpret the subject as an integer and fill in the data that our Arduino output pin needs. Finally, the Arduino pin node controls the board using firmata protocol and changes the LED status.
 
 
-I really wish you had fun using Node-RED and Arduino. Firmata is a great way to communicate with the board, and Node-RED surely is a fast way to build IOT control layer. Plus you don't have to pay for email service these days, so you don't even need to buy public domain IP address to remotely control your board across different network domains. All you need is something that runs nodejs with a serial port. On that part I would recommend either the [Raspberry Pi](http://www.dfrobot.com/index.php?route=product/search&description=true&search=berry) (runs Linux based system )or the [LattePanda](http://www.dfrobot.com/index.php?route=product/product&product_id=1405&search=lattepanda&description=true#.V1RIHVd7zCc) ( runs standard windows 10).
+I hope you were successful in using Node-RED and Arduino together. Firmata is a great way to communicate with the single board computer, and Node-RED is a truly quick way to build IoT control layers. Additionally, you do not have to pay for email services, so you will not need to buy a public domain IP address to remotely control your board across different network domains. All you need is something that runs nodejs with a serial port. Given this, we recommend using either the [Raspberry Pi](http://www.dfrobot.com/index.php?route=product/search&description=true&search=berry) (which runs Linux based operating systems) or the [LattePanda](http://www.dfrobot.com/index.php?route=product/product&product_id=1405&search=lattepanda&description=true#.V1RIHVd7zCc) (which runs standard windows 10).
