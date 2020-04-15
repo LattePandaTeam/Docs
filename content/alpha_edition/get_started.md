@@ -1,14 +1,14 @@
 # Getting Started
 
-This document will review starting your LattePanda for the first time. It will go over what you need to boot up as well as instructions for getting started.
+This document will go over how to start up your LattePanda for the first time. It will also go over what you need for the boot-up process, as well as instructions for how to fully get started.
 
-## 5 Steps for Booting LattePanda
+## 5 Steps for Booting Up the LattePanda
 
 ### What You Will Need
 
 To get started, you will need the following hardware:
 
-* Supplied USB Type C wall adapter or other power supply (Please see the [Powering LattePanda Alpha][1] section for a list of methods to power your LattePanda)
+* The supplied USB Type C wall adapter or other power supply (Please see the [Powering LattePanda Alpha][1] section for a list of methods to use to power on your LattePanda)
 * Display cable (HDMI, eDP display)
 * Display (TV, monitor, or eDP display)
 * Input devices (Keyboard, mouse, etc.)
@@ -24,23 +24,24 @@ To get started, you will need the following hardware:
 ### Instructions
 
 !!! warning
-    LattePanda is relatively special in product form design, and also open the PC technology to provide more possibilities for development and IoT innovation. 
+    LattePanda has a relatively special product form design, and the PC technology provided can offer you more possibilities for hardware development and IoT innovation. 
     
-    But CPU related products are all **electrostatic sensitive**, so although we adopt the **anti-static design**, users still need to be careful in use. 
+    However, CPU-related products are all **electrostatically sensitive**, so, although the LP SBC adopts an **anti-static design**, users will still need to be careful when using this device. 
     
-    BE SURE to REMOVE the static electricity from your body before touching LattePanda board! Otherwise it may cause potential static discharge and damage your LattePanda!
+    BE SURE TO REMOVE the static electricity from your body before touching the LattePanda board! Otherwise, you may cause a potential static discharge and damage your LattePanda SBC!
 
-* Connect Wifi antennas to sockets.
+* How to connect Wifi antennas to their respective sockets.
+  
   <center>![Wifi connection](/assets/images/Connect_Wifi_Antenna_Alpha.gif)</center>
 
-Antenna and connector spec - IPEX4 2.4 & 5G Dual band
+Antenna and connector specs - IPEX4 2.4 & 5G Dual band
 
 !!! Tip
-    You can purchase enhanced antenna to enhance the WIFI and Bluetooth signal strength! 
+    You can purchase enhanced antennas to boost the WIFI and Bluetooth signal strength! 
 
-* Connect the display cable to the LattePanda. Please see the [Display and Touch Connections][3] section for instructions on using different displays with your LattePanda.
-* Connect the power supply to the LattePanda. Please see the [Powering LattePanda Alpha][1] section for instructions on using different power supplies to power your LattePanda.
-* A red and blue LED indicator light will blink when the power supply is connected. The LattePanda is initializing. Wait until the red LED light powers off, then turns on solid. This is typically a few seconds.
+* Connect the display cable to the LattePanda. Please see the [Display and Touch Connections][3] section for instructions on how to use different displays with your LattePanda.
+* Connect the power supply to the LattePanda. Please see the [Powering LattePanda Alpha][1] section for instructions on how to use different power supplies to power your LattePanda.
+* A red and blue LED indicator light will blink when the power supply is connected. The LattePanda is initializing during this time. Wait until the red LED light powers off and then turns back on again. This typically takes a few seconds.
 
 <center>![Power LED Indicator](/assets/images/Power_On_LED_Alpha.gif)</center>
 
