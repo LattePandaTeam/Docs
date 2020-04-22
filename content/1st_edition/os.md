@@ -215,7 +215,9 @@ Step 18: Hands-on Ubuntu on LattePanda.
     3. Modify hosts file. Check the details info below:
         - That /etc/hosts has an entry for localhost, like:
         127.0.0.1    localhost127.0.1.1    admin
+        
     4. Please share your feedback or further requirement at [www.lattepanda.com/forum](https://www.lattepanda.com/forum)
+    
     5. Turn off the unknown screen from display settings in ubuntu and reboot it, when you see trailing and flickering mouse.
     OR try to switch off the 7"inch display by set BIOS->"Chipset"->"North Bridge"->"IGD - LCD Control"->"Force Lid Status"->"Off" 
 
