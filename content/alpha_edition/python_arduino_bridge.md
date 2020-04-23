@@ -2,11 +2,11 @@
 
 ##Introduction
 
-In this tutorial, I will show you how to control your Arduino through Python. I will be using the LattePanda with the built in Arduino, and showing you how to the basics of how to make the LED light blink. Once you master this technique, you can play around with the code to control your Arduino with python.
+In this tutorial, we will show you how to control your Arduino using Python. We will use the LattePanda with the built in Arduino for this example and show you the basics of how to make the LED light blink. Once you master this technique, you can play around with the code yourself to control your Arduino with python code.
 
 ![](https://i.imgur.com/Jn1Tk29.gif)
 
-##What you need
+##What You Need
 
 **Hardware**
 
@@ -18,19 +18,19 @@ In this tutorial, I will show you how to control your Arduino through Python. I 
 
 1. **Arduino IDE**
 
-The latest software is available on the [Arduino website](https://www.arduino.cc/en/Main/Software?). IDE stands for integrated development environment which allows programmers to develop software. Make sure to download the most updated Arduino IDE, I'm using Arduino 1.8.5.
+The latest software is available on the [Arduino website](https://www.arduino.cc/en/Main/Software?). IDE stands for integrated development environment, and it allows programmers to develop software. Make sure to download the most updated Arduino IDE. This example uses Arduino 1.8.5.
 
 2. **Python 2.7.15**
 
-Available on python website. I've used python 2.7.15 found [here](https://www.python.org/downloads/release/python-2715/). I've used the following installer to install my python IDE:
+This software is available on Python's official website. This example uses python 2.7.15, which can be found [here](https://www.python.org/downloads/release/python-2715/). I've used the following installer to install my python IDE:
 
 ![](https://i.imgur.com/3xrIIyu.png?1)
 
-Please make sure that when installing to select to add python.exe to Path by clicking on the "Will be installed on local hard drive" option. This is shown below.
+When installing, please make sure to select "add python.exe to Path" by clicking on the "Will be installed on local hard drive" option. This is shown below.
 
 ![](https://i.imgur.com/mqlndqy.png?1)
 
-Once everything is ready we can start the process.
+Once everything is ready, we can start the process.
 
 
 
@@ -40,7 +40,7 @@ Similar to the [C# tutorial](http://docs.lattepanda.com/content/hardware/accessP
 
 ![](https://i.imgur.com/CSW8W4y.png)
 
-After the code appears, select the correct Arduino type and port as shown below.
+After the code appears, select the correct Arduino type and port, as shown below.
 
 <u>Finding the correct Arduino type</u>
 
@@ -52,7 +52,7 @@ After the code appears, select the correct Arduino type and port as shown below.
 
 
 
-Once they have been selected, upload the code to your Arduino by clicking the arrow shown below.
+Once these have been selected, upload the code to your Arduino by clicking the arrow shown below.
 
 ![](https://i.imgur.com/RW6uOB4.png)
 
@@ -70,11 +70,11 @@ The next step is to install the firmata package through the command prompt windo
 
 ![](https://i.imgur.com/H3qsWIF.png?1)
 
-<u>It should appear like this</u>
+<u>This window should appear</u>
 
 ![](https://i.imgur.com/6rMlGNu.png?1)
 
-Type the following command in your command prompt window: 
+Type the following command into your command prompt window: 
 
 `pip install pyFirmata` 
 
@@ -92,13 +92,13 @@ Enter the following command:
 
 `import pyfirmata`
 
-If no error message appears, it means that firmata has been successfully installed. Please refer to the picture below.
+If no error message appears, this means that pyfirmata has been successfully installed. Please refer to the picture below.
 
 ![](https://i.imgur.com/L3yZO66.png?1)
 
  
 
-Create a new python file through the IDLE program and enter the following code. Change 'COM3' into the port that was shown on your device previously on Arduino. Pin 13 is selected as it is the default pin with the built in light. 
+Create a new python file through the IDLE program and enter the following code. Change 'COM3' into the port that was shown on your device previously on Arduino. Pin 13 is selected as the default pin, as it has the built-in light. 
 
 <u>Code:</u>
 
@@ -115,7 +115,7 @@ board = Arduino('COM5')
     print("off")
 ```
 
-The IDLE window should display on/off messages corresponding to the light. Feel free to play around with other pins to explore your options. Here is the GIF again on how your Arduino should blink. Enjoy!
+The IDLE window should display on/off messages which represent the status of the light. Feel free to play around with the other pins and explore the different options available to you. Here is the GIF again on how your Arduino should blink. Enjoy!
 
 ![](https://i.imgur.com/Jn1Tk29.gif)
 
