@@ -5,9 +5,9 @@ This class allows you to control Arduino GPIO from Windows apps, with features i
 - Reading and writing to digital pins
 - Reading analog inputs
 - Controlling servo motors
-- Sending data to devices and receiving data form devices through the I2C Bus
+- Sending data to devices and receiving data form devices through the I2C Bus Terminal
 
-## Step 1: Set up your PC
+## Step 1: Set Up Your PC
 
  1.[Download Visual Studio 2017 Here](https://www.visualstudio.com/downloads/download-visual-studio-vs)
    ![image2](http://www.lattepanda.com/wp-content/uploads/2016/02/image2.jpeg)
@@ -30,9 +30,9 @@ This class allows you to control Arduino GPIO from Windows apps, with features i
 - Controlling servo motors
 - Sending data to devices and receiving data form devices through the I2C Bus
 
-## Step 2: Set up the Arduino
+## Step 2: Set Up the Arduino
 
- 1.Open Arduino. And select the “StandardFirmata”
+ 1.Open Arduino. Then, select “StandardFirmata”
 
    ![image16](http://www.lattepanda.com/wp-content/uploads/2016/02/image16.png)
 
@@ -48,32 +48,32 @@ This class allows you to control Arduino GPIO from Windows apps, with features i
 
    ![image19](http://www.lattepanda.com/wp-content/uploads/2016/02/image19.png)
 
- 5.Upload Done!
+ 5.Wait for successful upload
 
    ![image20](http://www.lattepanda.com/wp-content/uploads/2016/02/image20.png)
 
-## Step 3: Blink your Board
+## Step 3: Blink Your Board
 
-Create a project or use the [sample project.](http://www.lattepanda.com/wp-content/uploads/2016/02/blinkYourBoard.zip) You can find more GPIO example [here.](http://docs.lattepanda.com/content/hardware/examples/)
+Create a project or use the [sample project here.](http://www.lattepanda.com/wp-content/uploads/2016/02/blinkYourBoard.zip) You can find more GPIO examples [here.](http://docs.lattepanda.com/content/hardware/examples/)
 
- 1.Open Visual Studio 2017 and create a new app:
+ 1.Open Visual Studio 2017 and create a new application:
    ![createProject1](http://www.lattepanda.com/wp-content/uploads/2016/02/createProject1.png)
    ![createProject2](http://www.lattepanda.com/wp-content/uploads/2016/02/createProject2.png)
  2.[Download the LattePanda.Firmata class library](https://github.com/LattePandaTeam/LattePanda-Development-Support/tree/master/LattePandaFirmata)
 
- 3.Add the downloaded class library to your project Open your Solution Explorer and right-click in the blank area, then add existing item.
+ 3.Add the downloaded class library to your project. Next, open your Solution Explorer and right-click in the blank area, then add existing item.
    ![addClass1](http://www.lattepanda.com/wp-content/uploads/2016/02/addClass1.png)
  4.Add the following code to Program.cs.
 
-   - Add the following two lines code before the namespace blinkYourBoard.
+   - Add the following two lines of code before the line of code "namespace blinkYourBoard."
 
      `using System.Threading;`
 
      `using LattePanda.Firmata;`
 
-     The first namespace contributes to delay and second is LattePanda.Firmata class library namespace
+     The first line of code controls delay commands and the second line is a LattePanda.Firmata class library namespace
 
-   - Add the following code in the Main Function
+   - Now add the following code into the body of the Main Function
 
 
 ```
@@ -93,8 +93,8 @@ The complete code is as follows:
 
 ![addCode](http://www.lattepanda.com/wp-content/uploads/2016/02/addCode.png)
 
-5.Finally debug your project
+5.Finally check your project and debug if needed
    Connect your Arduino and click Start
    ![start](http://www.lattepanda.com/wp-content/uploads/2016/02/start.png)
-   Soon you will find the LED of your Arduino blinking
+   Soon, you will find the LED of your Arduino blinking
 
