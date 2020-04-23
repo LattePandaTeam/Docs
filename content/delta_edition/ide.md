@@ -1,13 +1,13 @@
 # Common Desktop IDE
 
-**For software developers,** we listed some common IDEs below, so you can build your desktop development environment easily! 
+**For software developers,** we have listed some common IDEs below so you can build your desktop development environment easily! 
 
-If you are interested in **IoT** to **control the physical world** and **get sensor data**, the built in Arduino chip makes it easy and friendly with support for **different types of programming langauages.**
+If you are interested in working with **IoT** to **control the physical world** and **get sensor data**, the built-in Arduino chip makes it easy and intuitive with support for **different types of programming langauages.**
 
 Enjoy coding!
 
 
-## Arduino IDE ( For IoT ) 
+## Arduino IDE ( for IoT ) 
 
 <center>![](/assets/images/Arduino_Logo.jpg)</center>
 
@@ -21,17 +21,17 @@ The LattePanda Delta has an ATmega32U4 chip onboard (also known as **Arduino Leo
 
 **Microsoft Visual Studio** is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs, as well as web sites, web apps, web services and mobile apps. Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, etc.
 
- <a href="https://www.visualstudio.com/" target="_blank">Download the Visual Studio here.</a>
+ <a href="https://www.visualstudio.com/" target="_blank">Download Visual Studio here.</a>
 
 ## Python IDLE (Python Developer) 
 
 <center>![](/assets/images/Python_Logo.png)</center>
 
-It's a Python IDE for Python Developers. 
+This is a Python IDE for Python Developers. 
 
  <a href="https://www.python.org/downloads/" target="_blank">Download the Python IDLE here.</a>
 
-If you are familiar with Python and have interested in IoT, see the tutorial below.
+If you are familiar with Python and are interested in all things IoT, see the tutorial below.
 
 ## Eclipse (Java Developer)
 
