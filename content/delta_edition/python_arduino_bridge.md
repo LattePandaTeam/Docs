@@ -2,11 +2,11 @@
 
 ##Introduction
 
-In this tutorial, I will show you how to control your Arduino through Python. I will use the LattePanda with the built in Arduino chip, and show you the basics of how to make the LED light blink. Once you understand this technique, you can play around with the code to control your Arduino with python.
+In this tutorial, we will show you how to control your Arduino with Python code. We will use the LattePanda with the built in Arduino chip and show you the basics of how to make the LED light blink. Once you understand this technique, you can play around with the code to control your Arduino with Python code..
 
 ![](https://i.imgur.com/Jn1Tk29.gif)
 
-##What you need
+##What You Will Need
 
 **Hardware**
 
@@ -18,11 +18,11 @@ In this tutorial, I will show you how to control your Arduino through Python. I 
 
 1.**Arduino IDE**
 
-The latest software is available on the [Arduino website](https://www.arduino.cc/en/Main/Software?). IDE (integrated development environment) allows programmers to develop software. Make sure to download the most updated Arduino IDE. I'm using Arduino 1.6.5.
+The latest software is available on the [Arduino website](https://www.arduino.cc/en/Main/Software?). IDE (integrated development environment) allows programmers to develop software. Make sure to download the most updated Arduino IDE. We are using Arduino 1.6.5 in this example.
 
 2.**Python IDE**
 
-Available on python website. I've used python 2.7.15 found [here](https://www.python.org/downloads/release/python-2715/). I've used the following installer to install my python IDE:
+This software is available on Python's official website. We are using Python 2.7.15 in this example, which can be found [here](https://www.python.org/downloads/release/python-2715/). You can use the following installer to install the Python IDE:
 
 ![](https://i.imgur.com/3xrIIyu.png?1)
 
@@ -40,13 +40,13 @@ Similar to the [C# tutorial](http://docs.lattepanda.com/content/hardware/accessP
 
 ![](https://i.imgur.com/CSW8W4y.png)
 
-After the code appears, select the correct Arduino type and port as shown below.
+After the code appears, select the correct Arduino type and port, as shown below.
 
-<u>Finding the correct Arduino type</u>
+<u>Find the correct Arduino type</u>
 
 ![](https://i.imgur.com/VxzX1v6.png)
 
-<u>With the corresponding port</u>
+<u>With its corresponding port</u>
 
 ![](https://i.imgur.com/eIobTs1.png)
 
@@ -64,7 +64,7 @@ Wait for the code to be uploaded.
 
 ## Step 2
 
-The next step is to install the firmata package through the command prompt window. Make sure to right-click and run the command prompt as administrator.
+The next step is to install the firmata package via the command prompt window. Make sure to right-click and run the command prompt as administrator.
 
 <u>After clicking this</u>
 
@@ -92,13 +92,13 @@ Enter the following command:
 
 `import pyfirmata`
 
-If no error message appears, it means that firmata has been successfully installed. Please refer to the picture below.
+If no error message appears, then firmata has been successfully installed. Please refer to the picture below.
 
 ![](https://i.imgur.com/L3yZO66.png?1)
 
  
 
-Create a new python file (File -> New FIle) in the IDLE program, then enter the following code. Change 'COM3' into the port that was shown on your device previously on Arduino. Pin 13 is selected as it is the default pin with the built in light. 
+Create a new python file (File -> New FIle) in the IDLE program, then enter the following code. Change 'COM3' into the port that was shown on your device previously on Arduino. Pin 13 is selected in this example, as it is the default pin with the built-in light. 
 
 <u>Code:</u>
 
@@ -115,7 +115,7 @@ while True:
     print("off")
 ```
 
-The IDLE window should display on/off messages corresponding to the light. Feel free to play around with other pins to explore your options. Here is the GIF again on how your Arduino should blink. Enjoy!
+The IDLE window should display on/off messages corresponding to the on/off status of the light. Feel free to play around with other pins to explore the different options available to you. Here is the GIF again showing you how your Arduino should blink. Enjoy!
 
 ![](https://i.imgur.com/Jn1Tk29.gif)
 
