@@ -1,41 +1,41 @@
 # Introduction
 
-This sample shows how to send data from a light sensor to Azure storage using a Node.JS app. This multi-step process includes:
+This sample shows you how to send data from a light sensor to Azure storage using a Node.JS app. This multi-step process includes instructions on how to:
 
 - Prepare your development environment
-- Configuring Azure Storage
+- Configure Azure Storage
 - Run the Sample and send light sensor data to Azure Storage.
 
 
 
-**About this document** 
+**About This Document** 
 
-This tutorial is adapted from [link](https://github.com/Azure/azure-iot-sdks) . The functions have been adapted for LattePanda. This samples uses Node.JS, [click](https://github.com/Azure/azure-iot-sdks) for more language platforms and further tutorials.
+This tutorial is adapted from this [link](https://github.com/Azure/azure-iot-sdks) . These functions have been adapted for the LattePanda. This sample uses Node.JS. [Click here](https://github.com/Azure/azure-iot-sdks) for more language options and additional tutorials.
 
-**What’s Azure IoT Hub** 
+**What’s Azure IoT Hub?** 
 
-Microsoft Azure is a cloud computing platform and infrastructure created by Microsoft for building, deploying, and managing applications and services through a global network of Microsoft-managed data centers. Azure IoT Hub is a fully managed service that enables reliable and secure bi-directional communications between millions of IoT devices and an application back end. Azure IoT Hub offers reliable device-to-cloud and cloud-to-device hyper-scale messaging, enables secure communications using per-device security credentials and access control, and includes device libraries for the most popular languages and platforms.
+Microsoft Azure is a cloud computing platform and infrastructure created by Microsoft for building, deploying, and managing applications and services through a global network of Microsoft-managed data centers. Azure IoT Hub is a fully managed service that enables reliable and secure bi-directional communications between millions of IoT devices and an application back end. Azure IoT Hub offers reliable device-to-cloud and cloud-to-device hyper-scale messaging, enabling secure communications using per-device security credentials and access control, and even includes device libraries for the most popular languages and platforms.
 
-## 3 Steps to send the data
+## 3 Steps to Sending Data
 
 ### Step 1: Prerequisites
 
-You should have the following items ready before beginning the process:
+You should make sure that you have all of these listed below before beginning the following process:
 
 - Computer with Git client installed and access to the [azure-iot-sdks](https://github.com/Azure/azure-iot-sdks) GitHub public repository.
 - [Prepare your development environment](http://www.lattepanda.com/docs/#Prepare_your_development_environment).
-- If you don’t have a storage account, follow [Setup your Azure Storage](https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/#create-a-storage-account) to set one up.
+- If you don’t have a storage account, follow the instructions detailed in [Setup your Azure Storage](https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/#create-a-storage-account) to set one up.
 - [Set up the Arduino](http://www.lattepanda.com/docs/#SetuptheArduino)(It is pre-installed, unless you changed the Arduino program)
 
-### Step 2: Set up the hardware
+### Step 2: Set Up the Hardware
 
-- Insert [Light Sensor](https://www.dfrobot.com/index.php?route=product/product&search=SEN0043&description=true&product_id=274) into LattePanda analog pin A0, The final setup should look something like this: 
+- Insert your [Light Sensor](https://www.dfrobot.com/index.php?route=product/product&search=SEN0043&description=true&product_id=274) into the LattePanda's analog pin A0. The final setup should look something like this: 
 
   ![BFC275558BF698A5C21E19A4E3A240D7_meitu_1](http://www.lattepanda.com/wp-content/uploads/2016/02/BFC275558BF698A5C21E19A4E3A240D7_meitu_1.jpg)
 
-### Step 3: Build and Run the sample
+### Step 3: Build and Run the Sample
 
-- Creat a app.js file and copy the following code into it. be sure to enter valid values for accountName accountKey and arduinoPort. You may also change tableName. Place the file in the folder of your choice on your LattePanda
+- Creat an app.js file and copy the following code into it. Be sure to enter valid values for accountName, accountKey, and arduinoPort. You may also change tableName, if you would like. Place the file in the folder of your choice on your LattePanda.
 
 
 ```
@@ -102,7 +102,7 @@ tableService.insertEntity(tableName, entity, function (error, result, response) 
 });
 }
 ```
-- Open a new shell or Node.js command prompt and navigate to the folder where you placed the sample files. install **azure** , **serialport** and **johnny-five** libraries using the following commands:
+- Open a new shell or Node.js command prompt and navigate to the folder where you placed the sample files. Then, install **azure** , **serialport** and **johnny-five** libraries using the following commands:
 
   `npm install azure`
 
@@ -111,12 +111,12 @@ tableService.insertEntity(tableName, entity, function (error, result, response) 
   `npm install serialport`
 
 
-- Run the sample application using the following commands, Every 10 seconds, the code will send the value of the light sensor to the table specified. Make sure that StandardFirmataPlus has already uploaded on the board.
+- Run the sample application using the following commands. Every 10 seconds, the code will send the value of the light sensor to the table specified. Make sure that StandardFirmataPlus has already been uploaded onto the board.
 
   `node app.js`
 
 
-- You can then view the data being sent to Azure storage with [Power BI](https://powerbi.microsoft.com/en-us/). In Power BI, click on the Get Data button, select ‘Microsoft Azure Table Storage’ as your source, then follow the steps to connect. Once connected you can select your table and view the light sensor data that has been sent from your LattePanda.
+- You can then view the data being sent to Azure storage with [Power BI](https://powerbi.microsoft.com/en-us/). In Power BI, click on the Get Data button, select ‘Microsoft Azure Table Storage’ as your source, and then follow the steps to connect. Once connected, you can select your table and view the light sensor data that has been sent from your LattePanda.
 
   ![azure-storagedata](http://www.lattepanda.com/wp-content/uploads/2016/02/azure-storagedata.png)
 
