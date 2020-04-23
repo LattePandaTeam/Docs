@@ -215,7 +215,11 @@ Step 18: Hands-on Ubuntu for LattePanda.
     3. You may modify the host files. Please look at the details below to consider how to change them:
         - That /etc/hosts has an entry for localhost, such as the following:
         127.0.0.1    localhost127.0.1.1    admin
-    4. Please share your feedback or any other requirements at [www.lattepanda.com/forum](https://www.lattepanda.com/forum)
+        
+    4. Please share your feedback or further requirements at [www.lattepanda.com/forum](https://www.lattepanda.com/forum)
+    
+    5. Turn off the unknown screen from the display settings in ubuntu and reboot it if you see a trailing and flickering mouse.
+    Otherwise, you can try to switch off the 7"inch display by altering the following setting: BIOS->"Chipset"->"North Bridge"->"IGD - LCD Control"->"Force Lid Status"->"Off" 
 
 
 ## OpenSUSE
@@ -228,4 +232,4 @@ Please check the link below to find out more!
 
 
 
-Enjoy tinkering!​ Good luck!
+Enjoy tinkering! Good luck!

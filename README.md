@@ -12,52 +12,52 @@
 [2]: content/alpha_edition/get_started/
 [6]: content/delta_edition/get_started/
 
-This guide will show you how to use LattePanda products to start up your little drive first. And kick-off your adventure of software plus hardware development.
+This guide will show you how to use LattePanda products to start up your SBC and kick-off your adventure of software and hardware development.
 
 
 !!! note
 
-    If you have any problem or idea when reading our docs, feel free to **commit your suggestions** directly on the **[Github Docs Repo][4]** or discuss through the **[FORUM][3]**. We, together with our community members, are always ready to help you and listen your suggestions!
+    If you have any problems or ideas when reading these instructional guides, feel free to **submit your suggestions** directly to the **[Github Docs Repository][4]** or post them to the **[FORUM][3]**. Together with our community members, we are committed to helping you and listening to your suggestions!
 
 [3]: https://www.lattepanda.com/forum
 [4]: https://github.com/LattePandaTeam/Docs
 
 ## Content Structure
-The docs is broken down into several parts, covering **LattePanda 1st gen boards** and **LattePanda Alpha**:
+This document is broken down into several parts, covering **LattePanda 1st gen boards** and **LattePanda Alpha**:
 
 
-1. **Getting started** goes over how to power on your device with the pre-installed Windows system. Experience the power of the hardware.
-    * Power on Device
+1. **Getting Started** goes over how to power on your device with the pre-installed Windows system, which will enable you to experience the full power of this mighty hardware. This section includes:
+    * Powering on Device
     * Building Connectivity
     * Optional Peripherals Introduction
-2. **Multiple OS Support** shows different operation system supported on LattePanda boards
-    * OS Installation and setup
-    * Tools recommended
-3. **Hardware Introduction** details the different parts of the LattePanda platform that come in handy as you build a cool project or commercial product. 
+2. **Multiple OS Support** shows different operating systems supported on LattePanda boards, and includes the sections:
+    * OS Installation and Setup
+    * Tools Recommended
+3. **Hardware Introduction** details the different parts of the LattePanda platform that come in handy as you build cool projects and commercial products. Here, this section is broken down into: 
     * Hardware Interface
-    * Progromming guidance
-4. **Projects** introduces small projects you can build with entry level hardware tinkering background. Start your hardware innovation experience.
-5. **Troubleshooting** links tutorials and guides contributed by our community members to fix the problems you met with when tinkering the device.
+    * Programming Guidance
+4. **Projects** introduces the small projects you can build with an entry-level hardware tinkering background. Start your hardware innovation experience here.
+5. **Troubleshooting** links to our tutorials and guides contributed by our community members to fix the problems others like you have met when tinkering with this device.
 
 
-The best way to use the guide is:
+The best way to use this guide is to:
 
 * Go through **Getting started**
 * Review **Hardware reference**
-* Check out **Applications and OS recommendation** for getting familiar with the software resources
-* Search the **Forums**, reply posts or **create** topics for discussing your idea and problems when tinkering
-* If you're going to production with LattePanda, **contact** with **LattePanda biz team** via [Email](lattepanda@outlook.com)
+* Check out **Applications and OS recommendation** to become familiar with the many software resources available for this device
+* Search the **Forums** and reply to posts or **create** topics for discussing your ideas and problems when tinkering
+* If you're thinking about producing with the LattePanda, please **contact** the **LattePanda Business Team** via our [Email](lattepanda@outlook.com)
 
 ## How to Contribute
 
-This documentation is managed by LattePanda, **BUT** supported by the all community members, which is pretty important as a team growing up from open maker community. We welcome contributions such as:
+This documentation is managed by LattePanda **BUT** is also supported by all of our community members, who have been essential for our initial development as an open-maker community. We welcome any contributions you can provide, such as:
 
-- Edits to improve grammar or fix typos
-- Edits to improve clarity
+- Edits to improve our grammar or fix any typos
+- Edits to improve the clarity of any instructions
 - Additional annotated examples for others to follow
 - Additional content that would help provide a complete understanding of the LattePanda platform
 - Translations to other languages
-- Open - anything u think is good for the growth of this community
+- And much more! - Anything that you think would be good to add for the growth of this community is greatly appreciated
 
 Making a contribution is as simple as forking this repository, making edits to your fork, and contributing those edits as a pull request. For more information on how to make a pull request, see [Github's documentation](https://help.github.com/articles/using-pull-requests/).
 
