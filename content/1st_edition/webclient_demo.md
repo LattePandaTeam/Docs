@@ -1,38 +1,38 @@
 # Introduction
 
-This project provides a minimum HTTP-based firmata controller for various hardware, typically Arduino. This extends user's control and monitoring of the hardware using platform-independant URL requests. **Support list:**
+This project provides a minimal HTTP-based firmata controller for various hardware, especially the Arduino. This, in turn, extends the user's control and ability to monitor the hardware using platform-independant URL requests. **Support list:**
 
 - Digital Pins
 - Analog Pins
 - PWM
 - Servo
 
-This is just a few of the many possibilities. We welcome you build, extend and experiment with the features you need.
+This is just a few of the many possibilities. We welcome you to build, extend, and experiment with the features you need.
 
-## Install and run the client
+## Install and Run the Client
 
-You should have the following items ready before beginning the process:
+You should have the following items ready before beginning this process:
 
-- [clone or Download](https://github.com/LattePandaTeam/LattePanda-Development-Support/tree/master/FirmateWebClient#introduction) this project files in the folder of your choice.
+- [Copy or Download](https://github.com/LattePandaTeam/LattePanda-Development-Support/tree/master/FirmateWebClient#introduction) this project's files into the folder of your choice.
 
-- Install [NodeJS.](https://nodejs.org/) Make sure that version of NodeJS is greater than 4.0.
-- Open a new shell or Node.js command prompt and navigate to the folder where you placed the project files. Run the following commands to install `johnny-five` and `serialport` package.
+- Install [NodeJS.](https://nodejs.org/) Make sure that the version of NodeJS you install is greater than 4.0.
+- Open a new shell or Node.js command prompt and navigate to the folder where you placed the project files. Run the following commands to install the `johnny-five` and `serialport` packages.
 
 ```
 npm install johnny-five
 npm install serialport
 ```
 
-- Follow this [tutorial](http://www.lattepanda.com/docs/#SetuptheArduino) to setup your arduino
+- Follow this [tutorial](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-2-set-up-the-arduino) to setup your arduino
 - Run the client using the following commands:
 
 ```
 node FirmateWebClient.js
 ```
 
-< h2 id="FirmateWebClient_ Usage">Usage Add these parameters to GET request to control the client, you can also see the following examples to learn how to use it.
+< h2 id="FirmateWebClient_ Usage">Usage Add these parameters to GET a request to control the client. You can also view the following examples to learn how to use this service.
 
-#### Set digital pin
+#### Set Digital Pin
 
 Write to a digital pin and set it to output mode
 
@@ -45,9 +45,9 @@ var url = {
 };
 ```
 
-#### Set PWM pin
+#### Set PWM Pin
 
-Write to an analog pin using Pulse-width modulation (PWM)
+Write to an analog pin using Pulse-Width Modulation (PWM)
 
 ```
 var url = {
@@ -59,9 +59,9 @@ var url = {
 
 ```
 
-#### Set servo pin
+#### Set Servo Pin
 
-Write the angle to a specified pin and set it to servo mode
+Write an angle to a specified pin and set it to servo-mode
 
 ```
 var url = {
@@ -72,9 +72,9 @@ var url = {
 };
 ```
 
-#### Sweep servo
+#### Sweep Servo
 
-Sweep servo from 0-180 and repeat
+Sweep a servo from 0-180 degrees, and continuously repeat
 
 ```
 var url = {
@@ -85,7 +85,7 @@ var url = {
 };
 ```
 
-#### Stop servo
+#### Stop Servo
 
 Stop a moving servo
 
@@ -99,9 +99,9 @@ var url = {
 
 ```
 
-#### Read all pins state
+#### Read All Pins' States
 
-It allow you to read all pins state and will return you a json object
+This code allows you to read all of the pins' states, and will return a json object
 
 ```
 var url = {
@@ -113,7 +113,7 @@ var url = {
 
 ```
 
-You will receive an object like this
+After completion, you will receive an object like this:
 
 ```
 {
@@ -123,36 +123,36 @@ You will receive an object like this
 ```
 ## Examples
 
-You can see all the examples in `/examples` folder. [Click to see more user experience.](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=977)
+You can see all examples in the `/examples` folder. [Click here to see more user experiences.](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=977)
 
-##### Turn on a LED
+##### Turn On a LED
 
-In this example, we will turn on the LED which has connected on digital pin 13.
+In this example, we will turn on an LED which is connected to digital pin 13.
 
-- Open a new shell or Node.js command prompt and navigate to `/examples` folder
-- Run the sample using the following commands: `node set_digital.js`
+- Open a new shell or Node.js command prompt and navigate to the `/examples` folder
+- Run the sample javascript code using the following commands: `node set_digital.js`
 
 ##### Set PWM
 
-This example assigns a pulse width modulation (PWM) value to an output pin (D3, D5, D6, D9, D10, D11) to dim or brighten a LED. In this sample, we use the onboard LED which connects to digital pin 13.
+In this example, we assign a pulse width modulation (PWM) value to an output pin (D3, D5, D6, D9, D10, D11) to dim or brighten an LED. In this sample, we use the onboard LED which connects to digital pin 13.
 
-- Open a new shell or Node.js command prompt and navigate to `/examples` folder
-- Run the sample using the following commands: `node set_pwm.js`
+- Open a new shell or Node.js command prompt and navigate to the `/examples` folder
+- Run the sample javascript code using the following commands: `node set_pwm.js`
 
 ##### Set Servo
 
-In this example, we will set the servo motor to 20 degree.
+In this example, we will set the servo motor to the 20 degrees position.
 
-- Open a new shell or Node.js command prompt and navigate to `/examples` folder
-- Insert servo into pin D9
-- Run the sample using the following commands: `node set_servo.js`
+- Open a new shell or Node.js command prompt and navigate to the `/examples` folder
+- Insert the servo into pin D9
+- Run the sample javascript code using the following commands: `node set_servo.js`
 
 ##### Read Light Sensor Output
 
-This example detect the value of a light sensor via analog pin(A0~A5)
+In this example, we will detect the value of a light sensor via an analog pin (A0~A5)
 
-- Open a new shell or Node.js command prompt and navigate to `/examples` folder
+- Open a new shell or Node.js command prompt and navigate to the `/examples` folder
 - Connect a [Light Sensor](http://www.lattepanda.com/product-details/?pid=6) to analog pin A0
-- Run the sample using the following commands: `node read_analog.js`
-- the value of the sensor will be printed out.
+- Run the sample javascript code using the following commands: `node read_analog.js`
+- The value of the sensor will be printed out on your screen.
 
