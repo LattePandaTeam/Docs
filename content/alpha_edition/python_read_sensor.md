@@ -1,33 +1,33 @@
-## How to Use Python to Read Off Sensors
+## How to Use Python to Read Sensor Data
 
 ## Introduction
 
-In this tutorial, I will show you how to read information off an analog and a digital sensor connected to an Arduino using Python. I will be using the built in Arduino Leonardo on the LattePanda, and read off a digital PIR sensor as well as an analog rotation sensor. Once you master this technique, you can play around with the code to read different signals off of different pins.
+In this tutorial, we will show you how to read information off of an analog and digital sensor connected to an Arduino using Python. We will use the built-in Arduino Leonardo on the LattePanda and read off the digital PIR sensor data, as well as the data from an analog rotation sensor. Once you master this technique, you can play around with the code to read different signals off of different pins.
 
-##What you need
+##What You Need
 
 **Hardware**
 
 - LattePanda
 - 7-inch 1024 x 600 IPS Display for LattePanda
 - Mouse and Keyboard
-- Analog Rotation sensor. Which can be found [here](https://www.dfrobot.com/product-86.html).
-- Digital PIR Motion sensor.  Which can be found [here.](https://www.dfrobot.com/product-1140.html)
+- Analog Rotation sensor, which can be found [here](https://www.dfrobot.com/product-86.html).
+- Digital PIR Motion sensor, which can be found [here.](https://www.dfrobot.com/product-1140.html)
 
 
 **Software**
 
 1.**Arduino IDE**
 
-The latest software is available on the [Arduino website](https://www.arduino.cc/en/Main/Software?). IDE stands for integrated development environment which allows programmers to develop software. Make sure to download the most updated Arduino IDE, I'm using Arduino 1.8.5.
+The latest software is available on the [Arduino website](https://www.arduino.cc/en/Main/Software?). IDE stands for integrated development environment, and it allows programmers to develop software. Make sure to download the latest version of the Arduino IDE. We are using Arduino 1.8.5 in this example.
 
 2.**Python 2.7.15**
 
-Available on python website. I've used python 2.7.15 found [here](https://www.python.org/downloads/release/python-2715/). I've used the following installer to install my python IDE:
+This software is available on the python website. We have used python 2.7.15 in this example, which can be found [here](https://www.python.org/downloads/release/python-2715/). We used the following installer to install the python IDE:
 
 ![](https://i.imgur.com/3xrIIyu.png?1)
 
-Please make sure that when installing to select to add python.exe to Path by clicking on the "Will be installed on local hard drive" option. This is shown below.
+Please make sure when installing to select "add python.exe to Path" by clicking on the "Will be installed on local hard drive" option. This is shown below.
 
 ![](https://i.imgur.com/mqlndqy.png?1)
 
@@ -43,7 +43,7 @@ Similar to the [C# tutorial](http://docs.lattepanda.com/content/hardware/accessP
 
 After the code appears, select the correct Arduino type and port as shown below.
 
-<u>Finding the correct Arduino type</u>
+<u>Find the correct Arduino type</u>
 
 ![](https://i.imgur.com/VxzX1v6.png)
 
@@ -65,13 +65,13 @@ Wait for the code to be uploaded.
 
 ## Step 2
 
-The next step is to install the firmata package through the command prompt window. Make sure to right-click and run the command prompt as administrator.
+The next step is to install the firmata package by using the command prompt window. Make sure to right-click and run the command prompt as administrator.
 
 <u>After clicking this</u>
 
 ![](https://i.imgur.com/H3qsWIF.png?1)
 
-<u>It should appear like this</u>
+<u>This should appear</u>
 
 ![](https://i.imgur.com/6rMlGNu.png?1)
 
@@ -97,15 +97,15 @@ If no error message appears, it means that firmata has been successfully install
 
 ![](https://i.imgur.com/L3yZO66.png?1)
 
-Everything is now ready for you to connect your sensor to. The section below talks about reading information from an analog sensor. If you want to learn about the digital sensor, please refer to the corresponding bit after.
+Everything is now ready for you to connect your sensor. The section below talks about reading information from an analog sensor. If you want to learn how to read information from the digital sensor, please refer to the corresponding guide that follows the analog sensor guide.
 
-### Analog Rotation sensor
+### Analog Rotation Sensor
 
-The Rotation Sensor is an Arduino-compatible multi-ring analog rotation sensor. It is based on multi-turn precision potentiometer and is capable of ten full rotations. If the sensor input is 5V, then 5000mV will be divided into 3600 portions (10 rotations). When you adjust the rotation by 3 degrees and then the voltage will have 2mV change, so you can accurately achieve the effect of voltage with small changes. It can be easily connected to a LattePanda using a Gravity connection.  
+The Rotation Sensor is an Arduino-compatible multi-ring analog rotation sensor. It is based on the multi-turn precision potentiometer and is capable of ten full rotations. If the sensor input is 5V, then 5000mV will be divided into 3600 portions (10 rotations). When you adjust the rotation by 3 degrees, the voltage will have a resulting change of 2mV, so you can accurately alter the voltage with small changes. This can be easily connected to a LattePanda using a Gravity connection. 
 
 #### Connecting the Analog Rotation Sensor
 
-Once the LattePanda has been set up, connect the rotation sensor to pin A0 (4th pinhole on the left). Please refer to the LattePanda guide below.
+Once the LattePanda has been set up, connect the rotation sensor to pin A0 (the 4th pinhole on the left). Please refer to the LattePanda guide below.
 
 ![](https://i.imgur.com/JvZsySW.png)
 
@@ -115,7 +115,7 @@ Make sure the black cable is facing outside of the LattePanda like this:
 
 #### Analog Rotation Sensor Code
 
-Create a new python file through the IDLE program and enter the following code. Change 'COM5' into the port that was shown on your device previously on Arduino. An iterator is required to make sure the loop continues and doesn't overflow when reading so many values. In order to print the value of the pinhole, it must be allowed to send values by enabling the reporting. Pin(0) is chosen, as before we had inserted the rotation sensor into pin A0.
+Create a new python file through the IDLE program and enter the following code. Change 'COM5' to the port that was shown on your device previously on Arduino. An iterator is required to make sure the loop continues and doesn't overflow when reading so many values. In order to print the value at the pin, it must be allowed to send values by enabling reporting. Pin(0) is used in this example, which is similar to the procedures before when we inserted the rotation sensor into pin A0.
 
 <u>Code:</u>
 
@@ -134,7 +134,7 @@ while True:
 
 
 
-The IDLE window should show the different values corresponding to the rotation sensor. The values should go up and down, between 0 and 1, as you turn the sensor. Feel free to play around with other analog sensors to read and write information from your built in Arduino. Here is a GIF on how the rotation sensor works. Enjoy!
+The IDLE window should show the different values corresponding to the rotation sensor's readouts. The values should go up and down, between 0 and 1, as you turn the sensor. Feel free to play around with other analog sensors to read and write information to and from your Arduino. Here is a GIF on how the rotation sensor works. Enjoy!
 
 ![](https://i.imgur.com/bX32TkX.gif)
 
@@ -142,11 +142,11 @@ The IDLE window should show the different values corresponding to the rotation s
 
 ### Digital PIR Motion Sensor
 
-The PIR sensor is designed to sense motion. They are small, inexpensive, low-power, easy to use and don't wear out. The PIR Sensor can detect infrared signals from the human body or other animals and is triggered by their movement. So it can be applied to a variety of scenarios which require motion detection. This new PIR sensor is smaller than the conventional ones which makes it perfect for your Arduino projects! It can also be easily connected to your LattePanda using a Gravity connection.
+The PIR sensors are designed to sense motion. They are small, inexpensive, energy-efficient, easy to use, and don't wear out. The PIR Sensor can detect infrared signals from the human body or other animals and is triggered by their movement, so it can be applied to a variety of scenarios which require motion detection. This new PIR sensor is smaller than the conventional ones, which makes it perfect for your Arduino projects! It can also be easily connected to your LattePanda using a Gravity connection.
 
 #### Connecting the Digital PIR Sensor
 
-Once the LattePanda has been set up, connect the PIR Motion to pin D9 (1st pinhole on the left). Please refer to the LattePanda guide below.
+Once the LattePanda has been set up, connect the PIR Motion to pin D9 (which is the 1st pinhole on the left). Please refer to the LattePanda guide below.
 
 ![](https://i.imgur.com/JvZsySW.png)
 
@@ -156,7 +156,7 @@ Once again, make sure the black cable is facing outside of the LattePanda like t
 
 #### Digital PIR Sensor Code
 
-Create a new python file through the IDLE program and enter the following code. Change 'COM5' into the port that was shown on your device previously on Arduino. An iterator is required to make sure the loop continues and doesn't overflow when reading so many values. Pin(9) is chosen, as before we had inserted the rotation sensor into pin D9.
+Create a new python file through the IDLE program and enter the following code. Change 'COM5' to the port that was shown on your device previously on Arduino. An iterator is required to make sure the loop continues and doesn't overflow when reading so many values. Pin(9) is used in this example, which is similar to the procedures before when we inserted the rotation sensor into pin D9.
 
 <u>Code:</u>
 
@@ -179,10 +179,10 @@ while True:
    time.sleep(0.5)
 ```
 
-The IDLE window should show a Boolean data type with either one of two values. This will either be true or false depending on whether or not motion has been detected.  In the code, if motion is detected, the sensor will read 'True' and print out '!!!' as warning, while if no motion is detected the sensor will continuously print 'No one'. Feel free to play around with other digital sensors to read and write information from your built in Arduino. Here is a GIF on how the PIR Motion sensor works. Enjoy!
+The IDLE window should show a Boolean data type with either one of two values. This will either be true or false depending on whether or not motion has been detected.  In the code, if motion is detected, the sensor will read 'True' and print out '!!!' as a warning, whereas if there is no motion detected, the sensor will continuously print 'No one'. Feel free to play around with other digital sensors to read and write information from your built-in Arduino. Here is a GIF on how the PIR Motion sensor works. Enjoy!
 
 ![](https://i.imgur.com/UdYty5P.gif)
 
 ## Additional Information
 
-Attached is a PDF with some PyFirmata functions to use in Python that I have based some of my code on. [Here](https://media.readthedocs.org/pdf/pyfirmata/latest/pyfirmata.pdf) is the PDF. Enjoy tinkering with your Arduino using Python!
+Attached is a PDF with some PyFirmata functions to use in Python that I have based some of my code on. [Here](https://media.readthedocs.org/pdf/pyfirmata/latest/pyfirmata.pdf) is the PDF. Enjoy tinkering with your LattePanda's Arduino using Python!
