@@ -63,4 +63,4 @@ Making a contribution is as simple as forking this repository, making edits to y
 
 
 ## Ready?  [Go!][5]
-[5]: /content/1st_edition/power_on/
+[5]: /content/1st_edition/power_on.md
