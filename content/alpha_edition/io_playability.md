@@ -3,6 +3,7 @@
 ## Pinout and Hardware Diagram
 
 ![](https://i.imgur.com/kor7zdt.png)
+<center>![Pinout Top](/assets/images/alphadelta top pinout 20200811.png)</center>
 
 ![](https://i.imgur.com/9vZ9sKQ.png)
 
