@@ -2,10 +2,10 @@
 
 ## Pinout and Hardware Diagram
 
-![](https://i.imgur.com/kor7zdt.png)
 <center>![Pinout Top](/assets/images/alphadelta top pinout 20200811.png)</center>
 
-![](https://i.imgur.com/9vZ9sKQ.png)
+<center>![Pinout Top](/assets/images/alphadelta bot pinout 20200811.png)</center>
+
 
 !!! note
     [Click here for more pinout info and discussions](https://www.lattepanda.com/topic-f23t16906.html) shared by community member ccs_hello.
