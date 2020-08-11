@@ -1,10 +1,11 @@
 # Hardware Interface and Playability
 
 ## Pinout and Hardware Diagram
+### Front
+<center>![Pinout Top](/assets/images/alphadelta top pinout 20200811.png)</center>  
 
-<center>![Pinout Top](/assets/images/alphadelta top pinout 20200811.png)</center>
-
-<center>![Pinout Top](/assets/images/alphadelta bot pinout 20200811.png)</center>
+### Back
+<center>![Pinout Bot](/assets/images/alphadelta bot pinout 20200811.png)</center>
 
 
 !!! note
