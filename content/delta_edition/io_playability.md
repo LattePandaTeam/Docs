@@ -1,8 +1,11 @@
 # Hardware Interface and Playability
 
 ## Pinout and Hardware Diagram
+### Front
+<center>![Pinout Top](/assets/images/alphadelta top pinout 20200811.png)</center>  
 
-![](/assets/images/alpha_delta_pinout.jpg)
+### Back
+<center>![Pinout Bot](/assets/images/alphadelta bot pinout 20200811.png)</center>
 
 !!! note
     [More pinout info and discussions here](https://www.lattepanda.com/topic-f23t16906.html) shared by our community member ccs_hello.
