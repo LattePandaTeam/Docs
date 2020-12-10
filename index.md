@@ -4,13 +4,13 @@
 
 | [LattePanda][1]                               | [LattePanda Alpha][2]                         | [LattePanda Delta][6] |
 | :--------------------------------------- | :--------------------------------------- | :--------------------------------------- |
-| ![lattepanda photo](assets/images/lattepanda_photo_900x600.jpg) | ![lattepanda alpha image](assets/images/lattepanda_alpha_photo_900x600.jpg) | ![lattepanda alpha image](assets/images/lattepanda_alpha_photo_900x600.jpg) |
+| ![lattepanda photo](/assets/images/lattepanda_photo_900x600.jpg) | ![lattepanda alpha image](/assets/images/lattepanda_alpha_photo_900x600.jpg) | ![lattepanda alpha image](/assets/images/lattepanda_alpha_photo_900x600.jpg) |
 | Models                                   | Models                                   | Models                                   |
 | 2G 32GB<br />4G 64GB<br />2G 32GB /w Windows 10 Home<br />4G 64GB /w Windows 10 Enterprise<br /> | 800 - 8G (No eMMC)<br />864 - 8G 64GB<br />864 - 8G 64GB /w Windows 10 Pro<br /> | 432 - 4G 32GB<br />432 - 4G 32GB /w Windows 10 Pro<br /> |
 
-[1]: content/1st_edition/power_on/
-[2]: content/alpha_edition/get_started/
-[6]: content/delta_edition/get_started/
+[1]: /content/1st_edition/power_on.md
+[2]: /content/alpha_edition/get_started.md
+[6]: /content/delta_edition/get_started.md
 
 This guide will show you how to use LattePanda products to start up your little drive first. And kick-off your adventure of software plus hardware development.
 
@@ -46,7 +46,7 @@ The best way to use the guide is:
 * Review **Hardware reference**
 * Check out **Applications and OS recommendation** for getting familiar with the software resources
 * Search the **Forums**, reply posts or **create** topics for discussing your idea and problems when tinkering
-* If you're going to production with LattePanda, **contact** with **LattePanda biz team** via [Email](lattepanda@outlook.com)
+* If you're going to production with LattePanda, **contact** with **LattePanda biz team** via [Email](mailto:lattepanda@outlook.com)
 
 ## How to Contribute
 
@@ -63,4 +63,4 @@ Making a contribution is as simple as forking this repository, making edits to y
 
 
 ## Ready?  [Go!][5]
-[5]: /content/1st_edition/power_on/
+[5]: /content/1st_edition/power_on.md

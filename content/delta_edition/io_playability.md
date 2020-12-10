@@ -55,6 +55,6 @@ A USB Type C hub can be used with the LattePanda Delta. This can expand the numb
 
 
 ## Related Links 
-* [Integrated Development Environment](/content/delta_edition/ide/)
-* [Powering LattePanda Delta](/content/delta_edition/powering/)
+* [Integrated Development Environment](/content/delta_edition/ide.md)
+* [Powering LattePanda Delta](/content/delta_edition/powering.md)
 

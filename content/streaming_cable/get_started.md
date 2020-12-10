@@ -26,7 +26,7 @@ Connect Streaming Cable, then refer to the different OS setup requirements below
 
 1. Connect Streaming Cable, Run NoMachine on Server and Client Computer (Start automatically as OS boot up)
 2. Wait for a few minutes, the Server Computer will appear in the Client Computer NoMachine Browse Connections page, double-click to run
-3. **You are in, enjoy!** ([Click to get detailed tutorials and the best display quality](/content/streaming_cable/set_up_nomachine_client))
+3. **You are in, enjoy!** ([Click to get detailed tutorials and the best display quality](/content/streaming_cable/set_up_nomachine_client.md))
 
 **More software solutions and tutorials** will be introduced in the following sections.
 
@@ -81,5 +81,5 @@ This section will show you how to install drivers and Apps in your Server Comput
 
 **So What's OS running on the Server Computer (LattePanda)?**
 
-1. [Windows - RDP](/content/streaming_cable/set_up_windows_host)
+1. [Windows - RDP](/content/streaming_cable/set_up_windows_host.md)
 2. **MacOS - NoMachine:** Refer to the Quick Start section

@@ -43,9 +43,9 @@ When tinkering with hardware, checking that your hardware is properly connected 
 
 There are several important tips you need to know when trying to install a 3rd party MIPI display extension
 
-* Check the hardware pin map of the MIPI-DSI and I2C touch interface of the LattePanda via the [official pinout diagram](/content/1st_edition/hardware_introduction/)
+* Check the hardware pin map of the MIPI-DSI and I2C touch interface of the LattePanda via the [official pinout diagram](/content/1st_edition/hardware_introduction.md)
 
-* To enable a display or touch panel, a driver development or bios development might be necessary in most cases. It is advised to have a development expert in your team working with you on this operation before making this sort of attempt. You can also connect with the LattePanda Business Team via our [email](lattepanda@outlook.com) to apply for a display development request from LattePanda in order to provide support for the display you've chosen. 
+* To enable a display or touch panel, a driver development or bios development might be necessary in most cases. It is advised to have a development expert in your team working with you on this operation before making this sort of attempt. You can also connect with the LattePanda Business Team via our [email](mailto:lattepanda@outlook.com) to apply for a display development request from LattePanda in order to provide support for the display you've chosen. 
 
 * All HDMI displays and USB touch screen solutions are 100% compatible with the LattePanda 1st gen, as long as vendors' products provide support for Windows 10.
 

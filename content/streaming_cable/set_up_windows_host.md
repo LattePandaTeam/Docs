@@ -43,8 +43,8 @@ This section will show you how to install RDP software and setup your Client Com
 
 ### Remote Desktop
 
-1. [Client Computer with Windows](/content/streaming_cable/set_up_win_rdp_client)
-2. [Client Computer on MacOS](/content/streaming_cable/set_up_mac_rdp_client)
-3. [Client Computer on Ubuntu](/content/streaming_cable/set_up_ubu_rdp_client)
+1. [Client Computer with Windows](/content/streaming_cable/set_up_win_rdp_client.md)
+2. [Client Computer on MacOS](/content/streaming_cable/set_up_mac_rdp_client.md)
+3. [Client Computer on Ubuntu](/content/streaming_cable/set_up_ubu_rdp_client.md)
 
 :) Last step for building a smooth development environment!

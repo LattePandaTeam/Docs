@@ -2,10 +2,10 @@
 
 ## Pinout and Hardware Diagram
 ### Front
-<center>![Pinout Top](/assets/images/alphadelta top pinout 20200811.png)</center>  
+<center>![Pinout Top](/assets/images/alphadelta%20top%20pinout%2020200811.png)</center>  
 
 ### Back
-<center>![Pinout Bot](/assets/images/alphadelta bot pinout 20200811.png)</center>
+<center>![Pinout Bot](/assets/images/alphadelta%20bot%20pinout%2020200811.png)</center>
 
 
 !!! note
@@ -99,5 +99,5 @@ The RS-232 standard had been commonly used in computer serial ports. Thanks to 
 ![](https://i.imgur.com/7loMZ3h.png?1)
 
 ## Related Links 
-* [Integrated Development Environment](/content/alpha_edition/ide/)
-* [Powering the LattePanda Alpha](/content/alpha_edition/powering/)
+* [Integrated Development Environment](/content/alpha_edition/ide.md)
+* [Powering the LattePanda Alpha](/content/alpha_edition/powering.md)

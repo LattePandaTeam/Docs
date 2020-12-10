@@ -30,7 +30,7 @@ A power adapter will not be bundled with the board, but you can find them on our
 [3]: https://www.dfrobot.com/product-1430.html
 
 Also, here’s a [list of LattePanda-tested adapters and cables][4] available from Amazon. We measured the max output of every adapter listed using professional tools. For testing cables, we tested maximum current-supplying capability. We even cut the cables to measure the diameter of the metal wire, which determines the maximum current load of the cable. This list is provided as a reference as you choose which power supply and cable to buy.
-[4]: /content/1st_edition/troubleshooting/#tested-power-accessories
+[4]: /content/1st_edition/troubleshooting.md#tested-power-accessories
 
 
 ## Booting the Device

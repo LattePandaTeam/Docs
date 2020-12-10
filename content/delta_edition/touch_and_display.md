@@ -11,7 +11,7 @@ This document will review the different ways you can display the screen from you
 
 1. HDMI - for standard desktop usage
 2. Type C to HDMI / DP converter - for standard desktop usage
-3. [Connect to a Macbook Pro or any other development PC via a Streaming Cable - **Designed for Developers**](/content/streaming_cable/get_started/)
+3. [Connect to a Macbook Pro or any other development PC via a Streaming Cable - **Designed for Developers**](/content/streaming_cable/get_started.md)
 4. eDP displays - **Designed for Embedded Applications**
 
 
@@ -97,11 +97,11 @@ While the LattePanda Alpha/Delta eDP display is officially supported by our comp
 
 ## Streaming Cable
 
-Please check the docs for the streaming cable here: [Getting Started - Streaming Cable](/content/streaming_cable/get_started/)
+Please check the docs for the streaming cable here: [Getting Started - Streaming Cable](/content/streaming_cable/get_started.md)
 
 
 ## Related Links 
 
-* [Getting Started with Your Alpha/Delta](/content/delta_edition/get_started/)
-* [Powering on the LattePanda Alpha/Delta](/content/delta_edition/powering/)
+* [Getting Started with Your Alpha/Delta](/content/delta_edition/get_started.md)
+* [Powering on the LattePanda Alpha/Delta](/content/delta_edition/powering.md)
 

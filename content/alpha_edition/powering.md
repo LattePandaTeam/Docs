@@ -16,8 +16,8 @@ This document introduces the different ways to power on your LattePanda. It will
 
 * <a href="https://www.lattepanda.com/topic-f23t17507.html" target="_blank">Forum Discussion - Suggest an on/off/reset button for Alpha</a>
 
-[1]: /content/alpha_edition/powering/#jst-4p-dc-input-connector
-[2]: /content/alpha_edition/powering/#lipo-battery-connector
+[1]: #jst-4p-dc-input-connector
+[2]: #lipo-battery-connector
 
 ## Type-C PD Adapters and Battery Banks
 
@@ -58,7 +58,7 @@ The voltage range of the Alpha power input connector is 11~15 volts. So if you'r
 
 You can also check out this [more detailed pinout diagram][5].
 
-[5]: /content/alpha_edition/io_playability/
+[5]: /content/alpha_edition/io_playability.md
 
 ## Lipo Battery Connector
 
@@ -104,11 +104,11 @@ When using only the 10p battery connector to power LattePanda Alpha, the red and
     We only recommended this procedure for advanced makers who have accumulated a vast amount of experience working with hardware...
 
 ## Related Links
-* [Getting Started](/content/alpha_edition/powering/)
-* [Hardware Interface](/content/alpha_edition/io_playability/)
+* [Getting Started](/content/alpha_edition/powering.md)
+* [Hardware Interface](/content/alpha_edition/io_playability.md)
 
 **Enjoy your new LattePanda!**
 
 Want to play with IoT? Want to study programming? Want to control the physical world? [Check these recommended tools first!][4]
 
-[4]: /content/alpha_edition/ide/
+[4]: /content/alpha_edition/ide.md

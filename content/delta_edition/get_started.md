@@ -13,7 +13,7 @@ To get started, you will need the following hardware:
 * Display device (TV, monitor, or eDP display)
 * Input devices (Keyboard, mouse, etc.)
 
-[1]: /content/delta_edition/powering/
+[1]: /content/delta_edition/powering.md
 
 ### Instructions
 
@@ -52,4 +52,4 @@ Antenna and connector spec - IPEX4 2.4 & 5G Dual band
 * [Operating Systems][2]
 * [Display and Touch Connections][3]
 
-[2]: /content/delta_edition/os/
+[2]: /content/delta_edition/os.md
