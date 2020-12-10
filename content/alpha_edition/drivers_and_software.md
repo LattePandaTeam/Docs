@@ -23,7 +23,7 @@ https://www.intel.com/content/www/us/en/support/intel-driver-support-assistant.h
 
 ## Touch Panel Drivers
 
-The touch panel driver for Alpha is same as that for LattePanda V1.0. 
+The touch panel driver for Alpha is the same as that for LattePanda V1.0. 
 
 [Windows 10 Drivers (V1.1) - 32Bit](https://github.com/LattePandaTeam/LattePanda-Win10-Software/raw/master/Drivers/2G32GB_Drivers/Touch/32%20bit%20GoodixTouchDriver%20v1.1.rar)
 

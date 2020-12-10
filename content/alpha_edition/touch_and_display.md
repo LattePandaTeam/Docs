@@ -11,7 +11,7 @@ This document will go over the different ways you can display the screen from yo
 
 1. HDMI - Standard desktop usage
 2. Type C to HDMI / DP converter - Standard desktop usage
-3. [Connect to Macbook Pro or any other development PC via Streaming Cable - **Designed for Developers**](/content/streaming_cable/get_started/)
+3. [Connect to a Macbook Pro or any other development PC via Streaming Cable - **Designed for Developers**](/content/streaming_cable/get_started/)
 4. eDP displays - **Designed for embedded applications**
 
 ### 4K Capability
@@ -86,7 +86,7 @@ While the LattePanda Alpha/Delta eDP display is officially supported, here are s
 * Official eDP display for LattePanda Alpha and Delta.
 
 !!! warning
-    The MIPI display design for the LattePanda 1st genernation is not compatible with the eDP display connectors designed for the Alpha and Delta. This compatibility issue is caused by the different CPU architectures and positioning of circuit elements.
+    The MIPI display design for the LattePanda 1st generation is not compatible with the eDP display connectors designed for the Alpha and Delta. This compatibility issue is caused by the different CPU architectures and positioning of circuit elements.
 
 ### Installation Steps
 

@@ -6,10 +6,10 @@ This document will go over the operating systems that are compatible with the La
 
 The LattePanda Alpha is, in fact, globally recognized as the **FIRST development device supporting 4 different operating systems.**
 
-1. Windows 10 and other verions
+1. Windows 10 and other versions
 2. Linux and other versions
 3. Android for x86 (Phoenix OS)
-4. Hackintosh (MacOS) - Conbributed by the LP Community
+4. Hackintosh (MacOS) - Contributed by the LP Community
 
 !!! tips
     Please feel free to contribute or request new content via the [Official Docs Repository](https://github.com/LattePandaTeam/Docs)
@@ -34,7 +34,7 @@ The LattePanda Alpha is, in fact, globally recognized as the **FIRST development
 * Configure your USB drive to be a bootable device. Instructions can be found [here](https://technet.microsoft.com/en-us/library/jj200124%28v=ws.11%29.aspx).
 * Copy and paste the Windows 10 disc image file contents to the USB drive.
 * If you are using the LattePanda to create the USB installation media, restart the LattePanda. Otherwise, insert your USB drive into the LattePanda and turn it on. 
-* Press 'Esc' continously to enter BIOS. 
+* Press 'Esc' continuously to enter BIOS. 
 * Navigate to the "Boot" tab and change the "Boot Option Priorities" so that the USB drive is "Boot Option #1".
 <center>![](/assets/images/USB_Boot_Order_Alpha.jpg)</center>
 
@@ -63,7 +63,7 @@ You will enter the installation GUI.
 
 * Download the Ubuntu 16.04 LTS image.
 * Create a USB installation media for Ubuntu. We recommend Rufus for creating installation media. You can download it [here](https://rufus.akeo.ie/).
-* Restart the LattePanda. Press 'Esc' continously to enter BIOS. 
+* Restart the LattePanda. Press 'Esc' continuously to enter BIOS. 
 * Navigate to the "Boot" tab and change the "Boot Option Priorities" so that the USB drive is "Boot Option #1".
 <center>![](/assets/images/USB_Boot_Order_Alpha.jpg)</center>
 
@@ -81,7 +81,7 @@ The BIOS menu should appear. Select the appropriate Boot option using the arrow 
 
 Make sure to select your USB. Then go to the 'Save and Exit' tab on the top right. Choose the 'Save Changes and Exit' option. Your LP should restart, and it should boot directly from your USB.
 
-5.Install and set up Ubuntu 16.04 LTS on your LP. 
+5. Install and set up Ubuntu 16.04 LTS on your LP. 
 
 Once your LP restarts, the following page should appear.
 
@@ -121,7 +121,7 @@ Choose your time zone and click continue to proceed.
 
 <center>![](https://i.imgur.com/LVEID2G.jpg?1)</center>
 
-Select your keyboard layout. If you're unsure of what this is, you can use the detect keyboard layout option. Follow the instructions on screen and it should be relatively simple. Click continue.
+Select your keyboard layout. If you're unsure of what this is, you can use the "detect keyboard layout" option. Follow the instructions on screen and it should be relatively simple. Click continue.
 
 <center>![](https://i.imgur.com/Fl0Qhxo.jpg?2)</center>
 
@@ -134,7 +134,7 @@ Wait for your LP to restart and then enter your password to log in. Your Ubuntu 
 
 ## Android (Phoenix OS)
 
-The LattePanda Alpha is also capable of using x86 versions of Android. One such version, is Phoenix OS. This version provides a windows desktop like GUI for an android system while also allowing access to the Google Play store.
+The LattePanda Alpha is also capable of using x86 versions of Android. One such version, is Phoenix OS. This version provides a desktop like Windows for an android system while also allowing access to the Google Play store.
 
 ### Bootable Drive
 
@@ -151,20 +151,20 @@ The LattePanda Alpha is also capable of using x86 versions of Android. One such 
 
 1. Download the Phoenix OS Installer.
 2. Launch the installation exe.
-3. There are two options: Install and U Install. Select U Install for installing from the USB drive. Select Install for installing on eMMC or SSD partition.
+3. There are two options: Install and U Install. Select U Install for installing from the USB drive. Select "Install" for installing on eMMC or SSD partition.
 
 
-## Hackintosh (Mac OS)
+## Hackintosh (macOS)
 
-Since the LattePanda Alpha shares similar hardware as some Macbooks, it is possible to install Mac OS Mojave on the LattePanda Alpha. In fact, some community members have already done this and posted installation tutorials. One such member, Novaspirit, created a very detailed tutorial video along with some installation files. 
+Since the LattePanda Alpha shares similar hardware as some Macbooks, it is possible to install macOS Mojave on the LattePanda Alpha. In fact, some community members have already done this and posted installation tutorials. One such member, Novaspirit, created a very detailed tutorial video along with some installation files. 
 
 !!! note
-    Mac OS is not an officially supported operating system. Some functionality may not work, or may require additional hardware to work. For example, the provided LattePanda Wifi card is not supported. A USB or M.2 E-key Wifi card is required to receive Wifi on Mac OS.**
+    MacOS is not an officially supported operating system. Some functionality may not work, or may require additional hardware to work. For example, the provided LattePanda Wi-Fi card is not supported. A USB or M.2 E-key Wi-Fi card is required to receive Wi-Fi on macOS.**
 
 ### What You Will Need
 
 * 1 x Blank USB Flash Drive (8GB or larger)
-* Mac OS Mojave Image
+* macOS Mojave Image
 * [NovaSpirit support installation files](https://github.com/novaspirit/macpanda/releases)
 
 ### Installation Steps

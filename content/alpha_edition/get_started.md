@@ -34,14 +34,14 @@ To get started, you will need the following hardware:
     
     BE SURE TO REMOVE the static electricity from your body before touching the LattePanda board! Otherwise, you may cause a potential static discharge and damage your LattePanda SBC!
 
-* How to connect Wifi antennas to their respective sockets.
+* How to connect Wi-Fi antennas to their respective sockets.
   
-  <center>![Wifi connection](/assets/images/Connect_Wifi_Antenna_Alpha.gif)</center>
+  <center>![Wi-Fi connection](/assets/images/Connect_Wifi_Antenna_Alpha.gif)</center>
 
 Antenna and connector specs - IPEX4 2.4 & 5G Dual band
 
 !!! Tip
-    You can purchase enhanced antennas to boost the WIFI and Bluetooth signal strength! 
+    You can purchase enhanced antennas to boost the Wi-Fi and Bluetooth signal strength! 
 
 * Connect the display cable to the LattePanda. Please see the [Display and Touch Connections][3] section for instructions on how to use different displays with your LattePanda.
 * Connect the power supply to the LattePanda. Please see the [Powering LattePanda Alpha][1] section for instructions on how to use different power supplies to power your LattePanda.

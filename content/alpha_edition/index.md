@@ -40,7 +40,7 @@ Generally refers to the leader in a wolf pack, α / Alpha. It will also be the l
 
 The Alpha Edition uses the same Intel 7th generation Core m3 processor as the latest MacBook. The Core m3 processor is the perfect choice for superior performance and low power consumption.
 
-A LattePanda also includes an integrated Arduino compatible co-processor, which means it can be used to control and sense the physical world! Whether you are a Windows developer, IoT developer, DIY fanatic, interactive designer, robotics whizz, or maker, a LattePanda single board computer can aid your creative process! 
+A LattePanda also includes an integrated Arduino compatible co-processor, which means it can be used to control and sense the physical world! Whether you are a Windows developer, IoT developer, DIY fanatic, interactive designer, robotics whiz, or maker, a LattePanda single board computer can aid your creative process! 
 
 # Delta Edition
 
@@ -52,11 +52,11 @@ The Delta Edition uses an Intel 8th generation Celeron N4100 processor. This Cel
 
 # Forum
 
-LattePanda Offical Forum: https://www.lattepanda.com/forum/
+LattePanda Official Forum: https://www.lattepanda.com/forum/
 
 
 # Contact US
 
 Tech support E-mail: techsupport@lattepanda.com
 
-LattePanda Offical Forum: https://www.lattepanda.com/forum/
+LattePanda Official Forum: https://www.lattepanda.com/forum/

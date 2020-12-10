@@ -7,7 +7,7 @@ If you are interested in **IoT** to **control the physical world** and **get sen
 Enjoy coding!
 
 
-## Arduino IDE ( For IoT ) 
+## Arduino IDE (For IoT) 
 
 <center>![](/assets/images/Arduino_Logo.jpg)</center>
 
@@ -19,7 +19,7 @@ The LattePanda Alpha contains an ATmega32U4 chip on its board (also known as **A
 
 <center>![](/assets/images/Visual_Studio_Logo.jpg)</center>
 
-**Microsoft Visual Studio** is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs, as well as web sites, web apps, web services, and mobile apps. Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, etc.
+**Microsoft Visual Studio** is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs, as well as websites, web apps, web services, and mobile apps. Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, etc.
 
  <a href="https://www.visualstudio.com/" target="_blank">Download the Visual Studio here.</a>
 
@@ -40,6 +40,3 @@ If you are familiar with Python and are interested in IoT, see the tutorial belo
 **Eclipse** is an integrated development environment (IDE) used in computer programming, and is the most widely used Java IDE. It contains a base workspace and an extensive plug-in system for customizing the environment.  
 
  <a href="https://www.eclipse.org/downloads/" target="_blank">Download Eclipse here.</a>
-
-
-
