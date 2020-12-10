@@ -2,7 +2,7 @@
 
 **For software developers,** we have listed some common IDEs below so you can build your desktop development environment easily! 
 
-If you are interested in **IoT** to **control the physical world** and **get sensor data**, the built in Arduino makes it easy and user-friendly with built-in support for **different types of programming languages.**
+If you are interested in **IoT** to **control the physical world** and **get sensor data**, the built-in Arduino makes it easy and user-friendly with built-in support for **different types of programming languages.**
 
 Enjoy coding!
 
@@ -11,7 +11,7 @@ Enjoy coding!
 
 <center>![](/assets/images/Arduino_Logo.jpg)</center>
 
-The LattePanda Alpha is made with an ATmega32U4 chip on its board (also known as **Arduino Leonardo**), so it's perfect for IoT and automation projects. 
+The LattePanda Alpha contains an ATmega32U4 chip on its board (also known as **Arduino Leonardo**), so it's perfect for IoT and automation projects. 
 
  <a href="https://www.arduino.cc/en/Main/Software" target="_blank">Download the Arduino IDE here.</a>
 

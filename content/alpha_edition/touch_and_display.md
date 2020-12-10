@@ -1,6 +1,6 @@
 # Display and Touch Connections
 
-This document will go over the different ways you can display the screen from your LattePanda. It will also go over what you will need and the installation steps.
+This document will go over the different ways you can display the screen from your LattePanda. It will cover what you will need and the installation steps.
 
 !!! warning
     When touching the LattePanda board, make sure to ground yourself before touching the board. Failure to ground yourself may cause static discharge into board components, which can damage your LattePanda!

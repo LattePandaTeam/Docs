@@ -1,6 +1,6 @@
 # Getting Started
 
-This document will go over how to start up your LattePanda for the first time. It will also go over what you need for the boot-up process, as well as instructions for how to fully get started.
+This document will go over how to start up your LattePanda for the first time. It will cover what you need for the boot-up process, as well as instructions for how to fully get started.
 
 ## 5 Steps for Booting Up the LattePanda
 
@@ -8,13 +8,17 @@ This document will go over how to start up your LattePanda for the first time. I
 
 To get started, you will need the following hardware:
 
-* The supplied USB Type C wall adapter or other power supply (Please see the [Powering LattePanda Alpha][1] section for a list of methods to use to power on your LattePanda)
+* The supplied USB Type C wall adapter or other power supply
+** Please see the [Powering LattePanda Alpha][1] section for other available methods to power on your LattePanda
 * Display cable (HDMI, eDP display)
 * Display (TV, monitor, or eDP display)
 * Input devices (Keyboard, mouse, etc.)
 * Boot Drive
 
 [1]: /content/alpha_edition/powering/
+
+!!! note
+    In some countries, the LattePanda Alpha comes without a wall adapter and has to be bought separately.
 
 !!! note
     If your device is the **LattePanda Alpha 800**, which comes without eMMC storage onboard, you will need a boot drive with an operating system installed on it. See the [Operating Systems][2] page for different acceptable media for booting the operating system of your choice and installation instructions.
@@ -45,7 +49,7 @@ Antenna and connector specs - IPEX4 2.4 & 5G Dual band
 
 <center>![Power LED Indicator](/assets/images/Power_On_LED_Alpha.gif)</center>
 
-* Once the red LED light powers on and stops blinking, press and hold the power button for approximately 3 seconds. The device will power on.
+* Once the red LED light powers on and stops blinking, press and hold the power button for approximately 3 seconds and the device will power on.
 
 <center>![Power On Press Button](/assets/images/Power_On_Press_Button_Alpha.gif)</center>
 
