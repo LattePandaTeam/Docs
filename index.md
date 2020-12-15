@@ -17,25 +17,25 @@ This guide will show you how to use LattePanda products to start up your little 
 
 !!! note
 
-    If you have any problem or idea when reading our docs, feel free to **commit your suggestions** directly on the **[Github Docs Repo][4]** or discuss through the **[FORUM][3]**. We, together with our community members, are always ready to help you and listen your suggestions!
+    If you have any problem or idea when reading our docs, feel free to **commit your suggestions** directly on the **[Github Docs Repo][4]** or discuss through the **[FORUM][3]**. We, together with our community members, are always ready to help you and listen to your suggestions!
 
 [3]: https://www.lattepanda.com/forum
 [4]: https://github.com/LattePandaTeam/Docs
 
 ## Content Structure
-The docs is broken down into several parts, covering **LattePanda 1st gen boards** and **LattePanda Alpha**:
+The documentation is broken down into several parts, covering **LattePanda 1st gen boards** and **LattePanda Alpha**:
 
 
 1. **Getting started** goes over how to power on your device with the pre-installed Windows system. Experience the power of the hardware.
     * Power on Device
     * Building Connectivity
     * Optional Peripherals Introduction
-2. **Multiple OS Support** shows different operation system supported on LattePanda boards
+2. **Multiple OS Support** shows different operating systems supported on LattePanda boards
     * OS Installation and setup
     * Tools recommended
 3. **Hardware Introduction** details the different parts of the LattePanda platform that come in handy as you build a cool project or commercial product. 
     * Hardware Interface
-    * Progromming guidance
+    * Programming guidance
 4. **Projects** introduces small projects you can build with entry level hardware tinkering background. Start your hardware innovation experience.
 5. **Troubleshooting** links tutorials and guides contributed by our community members to fix the problems you met with when tinkering the device.
 
