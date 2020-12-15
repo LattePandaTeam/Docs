@@ -1,6 +1,6 @@
 # Powering On
 
-This document introduces the different ways to power on your LattePanda. It will cover the input specifications, what you will need, and all of the installation steps.
+This document introduces the different ways to power on your LattePanda. It will cover the input specifications, what you will need, and all the installation steps.
 
 
 ## Overview
@@ -10,7 +10,7 @@ This document introduces the different ways to power on your LattePanda. It will
 1. Official PD adapter which comes with the LattePanda Alpha
 2. External PD power bank
 3. [12 volt input from JST PH2.0 - 4P connector][1]
-4. [Lipo battery from 10p power connector][2]
+4. [LiPo battery from 10p power connector][2]
 
 **Forum Discussion Threads Regarding the Power Supply:**
 
@@ -44,9 +44,9 @@ This document introduces the different ways to power on your LattePanda. It will
 ## JST 4p DC Input Connector
 
 !!! warning
-    Please make sure that the positive and negative pins are connected correctly! Double check the power connection before powering on the system. 
+    Please make sure that the positive and negative pins are connected correctly! Double-check the power connection before powering on the system. 
 
-The voltage range of the Alpha power input connector is 11~15 volts. So if you're choosing the lipo battery, it should be 3~4 cells. The standard power source is 3A @ 12 volts. The booting power is about 10 watts and operating power is about 5 watts with a limited electrical load.
+The voltage range of the Alpha power input connector is 11~15 volts. So if you're choosing the LiPo battery, it should be 3~4 cells. The standard power source is 3A @ 12 volts. The booting power is about 10 watts and operating power is about 5 watts with a limited electrical load.
 
 <center>![DC Input Port](/assets/images/DC_Input_Port_Alpha.jpg)</center>
 ### Input Specification
@@ -60,10 +60,10 @@ You can also check out this [more detailed pinout diagram][5].
 
 [5]: /content/alpha_edition/io_playability/
 
-## Lipo Battery Connector
+## LiPo Battery Connector
 
 !!! warning
-    Please make sure that the 10 pin sequence of the Lipo battery is connected correctly. **Many vendors provide Lipo batteries with 10pin connectors. You may need to change the pins' sequence carefully based on the battery you purchased!**
+    Please make sure that the 10 pin sequence of the LiPo battery is connected correctly. **Many vendors provide LiPo batteries with 10pin connectors. You may need to change the pins' sequence carefully based on the battery you purchased!**
 
     Any improperly connected power supply could damage your LattePanda Alpha!!!
 
@@ -80,9 +80,9 @@ But You can check the <a href="https://www.lattepanda.com/topic-f13t16675.html?h
     <a href="https://www.lattepanda.com/topic-p26725.html" target="_blank">Check out the original post for more details.</a> This post was contributed by community member ccs_hello.
 
 ### Input Specification
-* **7.4 - 8.2 V**, means 2-cell Lipo battery
+* **7.4 - 8.2 V**, means 2-cell LiPo battery
 * 5 Ah battery, where 5 Ah is the minimum recommended power rating
-* Lipo battery must be able to charge at a CCCV rating of 1.9! Please check battery specification for charging current before using the battery. 
+* LiPo battery must be able to charge at a CCCV rating of 1.9! Please check battery specification for charging current before using the battery. 
 * Feel free to post a commit or suggestion via our<a href="https://github.com/LattePandaTeam/Docs" target="_blank">Github official repository</a>
 
 ### Drawing and Pin Diagram
