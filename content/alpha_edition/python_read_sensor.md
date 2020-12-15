@@ -87,7 +87,7 @@ The following message will be shown if the installation is successful.
 
 ## Step 3
 
-Open IDLE Python to check whether or not the pyfirmata package has been installed correctly.
+Open IDLE Python to check whether the pyfirmata package has been installed correctly.
 
 Enter the following command:
 
@@ -109,7 +109,7 @@ Once the LattePanda has been set up, connect the rotation sensor to pin A0 (the 
 
 ![](https://i.imgur.com/JvZsySW.png)
 
-Make sure the black cable is facing outside of the LattePanda like this: 
+Make sure the black cable is facing outside the LattePanda like this: 
 
 ![](https://i.imgur.com/y4vCppX.jpg)
 
@@ -150,7 +150,7 @@ Once the LattePanda has been set up, connect the PIR Motion to pin D9 (which is 
 
 ![](https://i.imgur.com/JvZsySW.png)
 
-Once again, make sure the black cable is facing outside of the LattePanda like this:
+Once again, make sure the black cable is facing outside the LattePanda like this:
 
 ![](https://i.imgur.com/yuO9I2K.jpg)
 
@@ -179,7 +179,7 @@ while True:
    time.sleep(0.5)
 ```
 
-The IDLE window should show a Boolean data type with either one of two values. This will either be true or false depending on whether or not motion has been detected.  In the code, if motion is detected, the sensor will read 'True' and print out '!!!' as a warning, whereas if there is no motion detected, the sensor will continuously print 'No one'. Feel free to play around with other digital sensors to read and write information from your built-in Arduino. Here is a GIF on how the PIR Motion sensor works. Enjoy!
+The IDLE window should show a Boolean data type with either one of two values. This will either be true or false depending on whether motion has been detected.  In the code, if motion is detected, the sensor will read 'True' and print out '!!!' as a warning, whereas if there is no motion detected, the sensor will continuously print 'No one'. Feel free to play around with other digital sensors to read and write information from your built-in Arduino. Here is a GIF on how the PIR Motion sensor works. Enjoy!
 
 ![](https://i.imgur.com/UdYty5P.gif)
 
