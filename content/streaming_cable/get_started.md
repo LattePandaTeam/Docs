@@ -37,7 +37,7 @@ These sections below will show you more recommended Software Solutions, please c
 
 * **Microsoft Remote Desktop (RDP):** Support for Server Computers with Windows 10 Pro or above OS (such as LattePanda Alpha or Delta), you can use Microsoft's standard RDP protocol for quickly configuration, seamless copy and paste, and get a full virtual machine experience
 
-* **NoMachine:** Supports all Windows, MacOS or Linux, NoMachine will unleash the performance potential of the streaming cable. You can **coding, watch videos or even play games** in your Client Computer just like you would on a local device
+* **NoMachine:** Supports all Windows, MacOS or Linux, NoMachine will unleash the performance potential of the streaming cable. You can **code, watch videos or even play games** in your Client Computer just like you would on a local device
 
 * **Steam:** To get the best gaming experience on your Client Computer, we recommend using [Steam In-Home Streaming](https://store.steampowered.com/streaming/), 1080P HD, low latency, allow offline mode, support for all Windows and Mac OS
 
@@ -63,7 +63,7 @@ These sections below will show you more recommended Software Solutions, please c
     I have a LattePanda running Windows and Macbook Pro is my main desktop development computer.
     Then RDP solution will be recommended.
 
-    But if you installed MacOS on LattePanda Alpha,plus you use MacBook Pro. Then NoMachine will the only option for you!
+    But if you installed MacOS on LattePanda Alpha and you use MacBook Pro, then NoMachine will the only option for you!
 
 
 ### Configuration

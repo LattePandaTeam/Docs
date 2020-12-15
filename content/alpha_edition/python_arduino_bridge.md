@@ -2,7 +2,7 @@
 
 ##Introduction
 
-In this tutorial, we will show you how to control your Arduino using Python. We will use the LattePanda with the built in Arduino for this example and show you the basics of how to make the LED light blink. Once you master this technique, you can play around with the code yourself to control your Arduino with python code.
+In this tutorial, we will show you how to control your Arduino using Python. We will use the LattePanda with the built-in Arduino for this example and show you the basics of how to make the LED light blink. Once you master this technique, you can play around with the code yourself to control your Arduino with python code.
 
 ![](https://i.imgur.com/Jn1Tk29.gif)
 
@@ -86,7 +86,7 @@ The following message will be shown if the installation is successful.
 
 ## Step 3
 
-Open IDLE Python to check whether or not the pyfirmata package has been installed correctly.
+Open IDLE Python to check whether the pyfirmata package has been installed correctly.
 
 Enter the following command:
 

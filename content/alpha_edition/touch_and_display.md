@@ -1,6 +1,6 @@
 # Display and Touch Connections
 
-This document will go over the different ways you can display the screen from your LattePanda. It will also go over what you will need and the installation steps.
+This document will go over the different ways you can display the screen from your LattePanda. It will cover what you will need and the installation steps.
 
 !!! warning
     When touching the LattePanda board, make sure to ground yourself before touching the board. Failure to ground yourself may cause static discharge into board components, which can damage your LattePanda!
@@ -86,7 +86,7 @@ While the LattePanda Alpha/Delta eDP display is officially supported, here are s
 * Official eDP display for LattePanda Alpha and Delta.
 
 !!! warning
-    The MIPI display design for the LattePanda 1st genernation is not compatible with the eDP display connectors designed for the Alpha and Delta. This compatibility issue is caused by the different CPU architectures and positioning of circuit elements.
+    The MIPI display design for the LattePanda 1st generation is not compatible with the eDP display connectors designed for the Alpha and Delta. This compatibility issue is caused by the different CPU architectures and positioning of circuit elements.
 
 ### Installation Steps
 

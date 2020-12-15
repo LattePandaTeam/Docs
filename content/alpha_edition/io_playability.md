@@ -18,11 +18,14 @@
 
 The recommended standard power solution is certainly the PD power adapter which comes with Alpha package, since it is an official LattePanda adapter. However, the Alpha is designed for embedded applications, like robotics and projects, so an external power solution will sometimes be necessary, and can be supplied by:
 1. A power supply connected to the 12 volt DC Input - JST PH2.0-4P connector
-2. External Lipo battery, which has a 10p connector (more details to come in future updates)
+2. External LiPo battery, which has a 10p connector (more details to come in future updates)
+
+!!! note
+    In some countries there may not be any power adapter in the LattePanda Alpha package. In this case you need to buy an adapter separately.
 
 ### 12 Volt DC Input Introduction
 
-The voltage range of the Alpha power input connector is 7.4~15 volts. So, if you're choosing to use the lipo battery, you should attach 2~4 cells. The standard power source required must have 3A running at 12volts. The power required to boot up the LattePanda SBC is approximately 10 watts, and the operation power needed is approximately 5 watts without a very high electrical load.
+The voltage range of the Alpha power input connector is 7.4~15 volts. So, if you're choosing to use the LiPo battery, you should attach 2~4 cells. The standard power source required must have 3A running at 12volts. The power required to boot up the LattePanda SBC is approximately 10 watts, and the operation power needed is approximately 5 watts without a very high electrical load.
 
 Related Discussions in Forum:
 
@@ -65,7 +68,7 @@ The E key interface allows PCI-E X2, USB 2.0, I2C, or UART.
 
 #### NVMe SSD In E Key Slot
 
-It is possible to connet an NVMe SSD to the E key slot with this adapter [Sintech E Key To NVMe adapter](https://www.amazon.com/Sintech-NGFF-NVME-WiFi-Cable/dp/B07DZF1W55).
+It is possible to connect an NVMe SSD to the E key slot with this adapter [Sintech E Key To NVMe adapter](https://www.amazon.com/Sintech-NGFF-NVME-WiFi-Cable/dp/B07DZF1W55).
 
 !!! question
     It's possible to extend a 2nd network card and graphics card with a converter card. There will undoubtedly be more m.2 products appearing in the market in the future, like movidius ai accelerators. Feel free to share your ideas with us via this [github docs repository](https://github.com/LattePandaTeam/Docs).
@@ -73,7 +76,7 @@ It is possible to connet an NVMe SSD to the E key slot with this adapter [Sintec
 
 ## USB 3.0 Interface
 
-This is the most common interface. All three ports are USB 3.0, which allows you to transfer data at up to 5 Gbit/s (625 MB/s), which is 10 times faster than the USB 2.0 standard! Due to the large bandwith, LattePanda can connect to even more accessories, such as RealSense camera and virtual reality headsets.
+This is the most common interface. All three ports are USB 3.0, which allows you to transfer data at up to 5 Gbit/s (625 MB/s), which is 10 times faster than the USB 2.0 standard! Due to the large bandwidth, LattePanda can connect to even more accessories, such as RealSense camera and virtual reality headsets.
 
 ![](https://i.imgur.com/zwyyMtD.jpg)
 

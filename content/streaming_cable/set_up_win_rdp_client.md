@@ -13,4 +13,4 @@ Follow the guide below and set it up accordingly.
 
 ## Configuration Completed
 
-Now, you are in. Next time, you can power on the Host, connect the Streaming Cable, then click and run. You can also try other software solution. enjoy it!
+Now, you are in. Next time, you can power on the Host, connects the Streaming Cable, then click and run. You can also try other software solution. Enjoy!
