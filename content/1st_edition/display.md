@@ -11,7 +11,7 @@ When tinkering with hardware, checking that your hardware is properly connected 
 <center>![img](http://www.lattepanda.com/wp-content/uploads/2016/08/bitmap.png)</center>
 
 !!! warning
-    Please connect this device to the LattePanda BEFORE powering it on. Additionally, please make sure that the Golden Finger faces the right side. The contacts on the FPC (Flexible Printed Circuit) are very compact and in a specific order. Please be careful not to have any dislocation in the connection which may cause the LattePanda to short circuit and lead the IPS display to have abnormalities like ghost inmages or flickering.**
+    Please connect this device to the LattePanda BEFORE powering it on. Additionally, please make sure that the Golden Finger faces the right side. The contacts on the FPC (Flexible Printed Circuit) are very compact and in a specific order. Please be careful not to have any dislocation in the connection which may cause the LattePanda to short circuit and lead the IPS display to have abnormalities like ghost images or flickering.**
 
 ## Steps for Connecting the Official 7" Touch Panel and MIPI Display
 
