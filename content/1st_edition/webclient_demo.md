@@ -23,7 +23,7 @@ npm install johnny-five
 npm install serialport
 ```
 
-- Follow this [tutorial](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-2-set-up-the-arduino) to setup your arduino
+- Follow this [tutorial](/content/1st_edition/vs_programming.md#step-2-set-up-the-arduino) to setup your arduino
 - Run the client using the following commands:
 
 ```

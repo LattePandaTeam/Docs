@@ -43,6 +43,6 @@ LattePanda Offical Forum: https://www.lattepanda.com/forum/
 
 # Contact US
 
-Tech support E-mail: techsupport@lattepanda.com
+Tech support E-mail: [techsupport@lattepanda.com](mailto:techsupport@lattepanda.com)
 
 LattePanda Offical Forum: https://www.lattepanda.com/forum/

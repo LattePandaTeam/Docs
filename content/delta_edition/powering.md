@@ -11,7 +11,7 @@ This document describes the different ways you can power on your LattePanda. It 
 2. External PD power bank
 3. [12 volt input from JST PH2.0 - 4P connector][1]
 
-[1]: /content/delta_edition/powering/#jst-4p-dc-input-connector
+[1]: #jst-4p-dc-input-connector
 ## Type-C PD Adapters and Power Banks
 
 ### Input Specification
@@ -52,14 +52,14 @@ This document describes the different ways you can power on your LattePanda. It 
 
 You can check out the [details regarding the pinout diagram here][5].
 
-[5]: /content/delta_edition/io_playability/
+[5]: /content/delta_edition/io_playability.md
 
 ## Related Links
-* [Getting Started](/content/delta_edition/get_started/)
-* [Hardware Interface](/content/delta_edition/io_playability/)
+* [Getting Started](/content/delta_edition/get_started.md)
+* [Hardware Interface](/content/delta_edition/io_playability.md)
 
 **Enjoy your new LattePanda!**
 
 Want to play with IoT? Want to study programming? Want to control the physical world? [Check the list of tools recommended first!][4]
 
-[4]: /content/delta_edition/ide/
+[4]: /content/delta_edition/ide.md

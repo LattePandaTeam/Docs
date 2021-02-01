@@ -11,7 +11,7 @@ When tinkering with hardware, checking that your hardware is properly connected 
 <center>![img](http://www.lattepanda.com/wp-content/uploads/2016/08/bitmap.png)</center>
 
 !!! warning
-    Please connect this device to the LattePanda BEFORE powering it on. Additionally, please make sure that the Golden Finger faces the right side. The contacts on the FPC (Flexible Printed Circuit) are very compact and in a specific order. Please be careful not to have any dislocation in the connection which may cause the LattePanda to short circuit and lead the IPS display to have abnormalities like ghost inmages or flickering.**
+    Please connect this device to the LattePanda BEFORE powering it on. Additionally, please make sure that the Golden Finger faces the right side. The contacts on the FPC (Flexible Printed Circuit) are very compact and in a specific order. Please be careful not to have any dislocation in the connection which may cause the LattePanda to short circuit and lead the IPS display to have abnormalities like ghost images or flickering.**
 
 ## Steps for Connecting the Official 7" Touch Panel and MIPI Display
 
@@ -43,9 +43,9 @@ When tinkering with hardware, checking that your hardware is properly connected 
 
 There are several important tips you need to know when trying to install a 3rd party MIPI display extension
 
-* Check the hardware pin map of the MIPI-DSI and I2C touch interface of the LattePanda via the [official pinout diagram](/content/1st_edition/hardware_introduction/)
+* Check the hardware pin map of the MIPI-DSI and I2C touch interface of the LattePanda via the [official pinout diagram](/content/1st_edition/hardware_introduction.md)
 
-* To enable a display or touch panel, a driver development or bios development might be necessary in most cases. It is advised to have a development expert in your team working with you on this operation before making this sort of attempt. You can also connect with the LattePanda Business Team via our [email](lattepanda@outlook.com) to apply for a display development request from LattePanda in order to provide support for the display you've chosen. 
+* To enable a display or touch panel, a driver development or bios development might be necessary in most cases. It is advised to have a development expert in your team working with you on this operation before making this sort of attempt. You can also connect with the LattePanda Business Team via our [email](mailto:lattepanda@outlook.com) to apply for a display development request from LattePanda in order to provide support for the display you've chosen. 
 
 * All HDMI displays and USB touch screen solutions are 100% compatible with the LattePanda 1st gen, as long as vendors' products provide support for Windows 10.
 

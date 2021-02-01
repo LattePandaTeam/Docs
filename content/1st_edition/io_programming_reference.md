@@ -21,7 +21,7 @@ In this example, we will blink the LED which is connected to a digital pin (D0 -
 
 **Code:**
 
-1. Create a new project in Visual Studio. Refer to [Create a project](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-3-blink-your-board) to find out how to use Visual Studio for Arduino Projects.
+1. Create a new project in Visual Studio. Refer to [Create a project][1] to find out how to use Visual Studio for Arduino Projects.
 2. Main function code :
 
 ```
@@ -80,7 +80,7 @@ This example detects the Button state using the information sent through a digit
 
 **Code:**
 
-1. Create a new project in Visual Studio. Refer to [Create a project](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-3-blink-your-board) to find out how to use Visual Studio for Arduino Projects.
+1. Create a new project in Visual Studio. Refer to [Create a project][1] to find out how to use Visual Studio for Arduino Projects.
 2. Main function code :
 
 
@@ -137,7 +137,7 @@ This example assigns a pulse width modulation (PWM) value to an output pin (D3, 
 
 **Code:**
 
-1. Create a new project in Visual Studio. Refer to [Create a project](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-3-blink-your-board) to find out how to use Visual Studio for Arduino Projects.
+1. Create a new project in Visual Studio. Refer to [Create a project][1] to find out how to use Visual Studio for Arduino Projects.
 2. Main function code :
 
 ```
@@ -198,7 +198,7 @@ This example detects the value from an analog pin (A0-A5) where a potentiometer 
 
 **Code :**
 
-1. Create a new project in Visual Studio. Refer to [Create a project](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-3-blink-your-board) to find out how to use Visual Studio for Arduino Projects.
+1. Create a new project in Visual Studio. Refer to [Create a project][1] to find out how to use Visual Studio for Arduino Projects.
 2. Main function Code ：
 
 ```
@@ -258,7 +258,7 @@ In this example, we will sweep the servo motor back and forth across 180 degrees
 
 **Code :**
 
-1. Create a new project in Visual Studio. Refer to [Create a project](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-3-blink-your-board) to find out how to use Visual Studio for Arduino Projects.
+1. Create a new project in Visual Studio. Refer to [Create a project][1] to find out how to use Visual Studio for Arduino Projects.
 2. Main function code :
 
 ```
@@ -317,7 +317,7 @@ This example will show you how to use I2C to receive data form a 3-axis accelero
 
 **Code :**
 
-1. Create a new project in Visual Studio. Refer to [Create a project](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-3-blink-your-board) to find out how to use Visual Studio for Arduino Projects.
+1. Create a new project in Visual Studio. Refer to [Create a project][1] to find out how to use Visual Studio for Arduino Projects.
 2. Main function code :
 
 ```
@@ -355,3 +355,5 @@ Console.WriteLine(BitConverter.ToInt16(data, 4));
 **Test:**
 
 1. Click Debug to execute, and then the 3-axis acceleration data will be printing out continuously.
+
+[1]: /content/1st_edition/vs_programming.md#step-3-blink-your-board

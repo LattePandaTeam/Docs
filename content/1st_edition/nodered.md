@@ -11,7 +11,7 @@ Here, we are taking advantage of the Node-RED tool and the email service to buil
 
 ### Software Setup
 
-1.[Download Flash Firmata onto Your Board](http://docs.lattepanda.com/content/1st_edition/vs_programming/#step-2-set-up-the-arduino)
+1.[Download Flash Firmata onto Your Board](/content/1st_edition/vs_programming.md#step-2-set-up-the-arduino)
 
 2.[Install Node-RED](http://nodered.org/docs/getting-started/installation).
 
