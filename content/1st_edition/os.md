@@ -1,11 +1,11 @@
 # Introduction
 
-In this section of the guide, you will know how to install different operating system, like Linux Ubunut, Windows 10 and Enterprise, on LattePanda, even some community contributions. Feel free to download the system you want. And still, response your questions via our forum.
+In this section of the guide, we will show you how to install different operating systems such as Linux Ubuntu, Windows 10 & Enterprise, alongside some community contributions, on the LattePanda. Feel free to download the system you want or if you still have issues, please post your questions via our forum.
 
 
 ## Re-install Windows 10 Home 
 
-As LattePanda comes with Windows pre-installed, it's recommended to reinstall this system for the following situation:
+As LattePanda comes with Windows pre-installed, it's only recommended to reinstall this system in the following situations:
 
 - You can't startup your Windows system properly.
 - Windows system crashes.
@@ -26,7 +26,7 @@ You can also re-install your LattePanda if you just want to re-install it.
 1. Check your hardware version!
 ![z8350 mark](http://www.lattepanda.com/wp-content/uploads/2017/02/8350-stick.png)
 
-2. Choose and download the RIGHT LattePanda's official Windows 10 image, which matchs your hardware spec.
+2. Choose and download the RIGHT LattePanda's official Windows 10 image, which matches your hardware spec.
 
     * [x86 version for z8300 2GB+32GB](https://drive.google.com/file/d/0B5YJ8UIGswVqeXFsbnRnWi1xXzg/view)
 
@@ -49,7 +49,7 @@ You can also re-install your LattePanda if you just want to re-install it.
 
 5. Power on the LattePanda
 
-6. The system will install the image automatically. Just wait until the recovery is finished. **Please note:** Your USB disk must be formatted to FAT32 and labelled "WINPE" in order for this to work
+6. The system will install the image automatically. Just wait until the recovery is finished. **Please note:** Your USB disk must be formatted to FAT32 and labeled "WINPE" in order for this to work
 
 7.Unplug the USB disk. Reboot and enjoy.
 
@@ -79,7 +79,7 @@ If you have any other questions about installing a Windows Enterprise system or 
 
 2. Put all the files to the root directory of your USB flash disk. (You need to set your USB flash disk to be a bootable device. You can see the tutorial [here](https://docs.microsoft.com/en-us/windows-server-essentials/install/create-a-bootable-usb-flash-drive).)
 
-3. Reboot the LattePanda, press 'Esc' continously to enter BIOS. Change the Boot Option Priorities to boot from the USB flash disk.
+3. Reboot the LattePanda, press 'Esc' continuously to enter BIOS. Change the Boot Option Priorities to boot from the USB flash disk.
 
 4. Save & Reboot.
 
@@ -95,7 +95,7 @@ There are 6 steps to activate your LattePanda:
 
 - Make sure your LattePanda has an active internet connection via WiFi or Ethernet
 - Right click on the Windows button and select **System**
-- Click **Acitvate Windows**
+- Click **Activate Windows**
 - Click **Change Product Key**
 - Enter the product key number
 - Click **Next**
@@ -107,7 +107,7 @@ If you want to update to the latest version of Windows 10, please follow the ste
 
 1. [Download the Update Assistant here.](https://www.microsoft.com/en-us/software-download/windows10) To get started, click **Update now**.
 2. Run the Update Assistant.
-3. Wait for update. (This will take a will, you can keep working.)
+3. Wait for update. (This will take a while, you can keep working.)
 4. When the update is done, delete the Windows.old folder in C:/ . ([Click here to see how to delete Windows.old folder](http://www.lattepanda.com/topic-f6t7136.html))
 
 ![](https://i.imgur.com/ClxdfZw.png)
@@ -121,7 +121,7 @@ If you want to update to the latest version of Windows 10, please follow the ste
 
 **Official Supported Version: S70CR200 version.** See the picture below to find how to check the version. If you have a earlier version LattePanda like CR110 or CR100, you can [refer to the contribution in the Github here to install Linux.](https://github.com/mopplayer/lattepanda-mainline-4.11) 
 
-After tested the beta Linux OS for a month with our forum members, we collected the some problems that our forum members meet. Most of the BUGs are fixed. The following topic will show you the official Ubuntu installation tutorial. If you still have any questions when using Linux on LattePanda, [feel free to post your question here](https://www.lattepanda.com/topic-f16t8363.html), we are always ready to help you!
+After testing the beta Linux OS for a month with our forum members, we collected some problems that our forum members meet. Most of the BUGs are fixed. The following topic will show you the official Ubuntu installation tutorial. If you still have any questions when using Linux on LattePanda, [feel free to post your question here](https://www.lattepanda.com/topic-f16t8363.html), we are always ready to help you!
 
 !!! Note
     
@@ -196,7 +196,7 @@ Step 15: Finally, Clonezilla will ask you twice if you would like to start the p
 
 ![IMG_8422(20180330-111133)](https://i.imgur.com/rWVkog7.jpg)
 
-Step 16: The system will reboot after installation successfully. Notice to remove the USB storage following the installation guide.
+Step 16: The system will reboot after successful installation. Notice to remove the USB storage following the installation guide.
 
 Step 17: For first time login, please check the password below: 
 
@@ -321,7 +321,7 @@ If you have a MIPI-DSI display and touch screen, please continue to the *Using M
 
 ### Using HDMI Display
 
-**Step 1**: If you are using an HDMI display, then go ahead and boot up the ubuntu operating system that has now been installed onto your LattePanda SBC via the BIOS page.
+**Step 1**: If you are using an HDMI display, then go ahead and boot up the Ubuntu operating system that has now been installed onto your LattePanda SBC via the BIOS page.
 
 ![BIOS2](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-12.jpg)
 
