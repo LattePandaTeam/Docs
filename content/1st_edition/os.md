@@ -28,13 +28,13 @@ You can also re-install your LattePanda if you just want to re-install it.
 
 2. Choose and download the RIGHT LattePanda's official Windows 10 image, which matchs your hardware spec.
 
-    * [x86 version for z8300 2GB+32GB](https://drive.google.com/file/d/0B5YJ8UIGswVqeXFsbnRnWi1xXzg/view)
+    * [x86 version for z8300 2GB+32GB](https://drive.google.com/file/d/0B5YJ8UIGswVqeXFsbnRnWi1xXzg/view?usp=sharing&resourcekey=0-UcPEVwu0X5KhUPg5e4tVIQ)
 
-    * [x64 version for z8300 4GB+64GB](https://drive.google.com/file/d/0B5YJ8UIGswVqSm5qWF91MG1NWnc/view)
+    * [x64 version for z8300 4GB+64GB](https://drive.google.com/file/d/0B5YJ8UIGswVqSm5qWF91MG1NWnc/view?usp=sharing&resourcekey=0-rMtO5czLZPmNUUixiqzfTQ)
 
-    * [x86 version for **CR110** z8350 2GB+32GB](https://drive.google.com/file/d/0BzUYTecbiooHdVhHbFVZak4xREk/view)
+    * [x86 version for **CR110** z8350 2GB+32GB](https://drive.google.com/file/d/0BzUYTecbiooHdVhHbFVZak4xREk/view?usp=sharing&resourcekey=0-rGktlhr7TKYGXwsdunrfng)
 
-    * [x64 version for **CR110** z8350 4GB+64GB](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view)
+    * [x64 version for **CR110** z8350 4GB+64GB](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view?usp=sharing&resourcekey=0-J4hJnZr5Byw8Soxdp5MEsw)
 
     * [x64 version for all **CR200** z8350  (2GB+32GB and 4GB+64GB)](https://www.dropbox.com/s/85rtj34atn0p99v/LattePanda%20v1.1%204G%20x64%20image.zip?dl=0)
 
