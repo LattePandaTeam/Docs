@@ -23,7 +23,7 @@ This guide will show you how to use LattePanda products to start up your little 
 [4]: https://github.com/LattePandaTeam/Docs
 
 ## Content Structure
-The documentation is broken down into several parts, covering **LattePanda 1st gen boards**, **LattePanda Alpha** and **LattePanda Delta**:
+The documentation is broken down into several parts, covering **LattePanda 1st gen boards**, **LattePanda Alpha,** **LattePanda Delta, LattePanda 3 Delta**:
 
 1. **Getting started** goes over how to power on your device with the pre-installed Windows system. Experience the power of the hardware.
     * Power on Device
