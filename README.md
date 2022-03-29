@@ -2,9 +2,9 @@
 
 ## Overview
 
-| [LattePanda][1]                               | [LattePanda Alpha][2]                         | [LattePanda Delta][6] |
+| [LattePanda V1][1]                               | [LattePanda Alpha][2]                         | [LattePanda Delta][6] |
 | :--------------------------------------- | :--------------------------------------- | :--------------------------------------- |
-| ![lattepanda photo](/assets/images/lattepanda_photo_900x600.jpg) | ![lattepanda alpha image](/assets/images/lattepanda_alpha_photo_900x600.jpg) | ![lattepanda alpha image](/assets/images/lattepanda_alpha_photo_900x600.jpg) |
+| ![lattepanda photo](/assets/images/lattepanda_photo_900x600.jpg) | ![lattepanda alpha image](/assets/images/lattepanda_alpha_photo_900x600.jpg) | ![lattepanda alpha image](/assets/images/lattepanda_alpha_photo_900x600.jpg) |![lattepanda alpha image](/assets/images/lattepanda_alpha_photo_900x600.jpg) |
 | Models                                   | Models                                   | Models                                   |
 | 2G 32GB<br />4G 64GB<br />2G 32GB /w Windows 10 Home<br />4G 64GB /w Windows 10 Enterprise<br /> | 800 - 8G (No eMMC)<br />864 - 8G 64GB<br />864 - 8G 64GB /w Windows 10 Pro<br /> | 432 - 4G 32GB<br />432 - 4G 32GB /w Windows 10 Pro<br /> |
 
