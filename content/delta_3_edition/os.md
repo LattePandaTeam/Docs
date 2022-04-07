@@ -27,7 +27,7 @@ Incredibly, the LattePanda 3 Delta is a **development device which supports 2 di
 ### What You Will Need
 
 * 1 x Blank USB flash drive (8 GB or larger)
-* [Windows 10 Disc Image File for the LattePanda Delta](https://www.dropbox.com/s/ysh0o1ksi1rurlu/CDJQ-JX-7-S70GR110-GA54A-101-D.zip?dl=0)
+* [Windows 10 Disc Image File for the LattePanda Delta](https://www.dropbox.com/sh/qsph81c242wk7iv/AAAMaDJC9s0Hn1AdBi5eJI67a?dl=0)
 
 ### Installation Steps
 
