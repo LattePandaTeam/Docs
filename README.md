@@ -23,7 +23,7 @@ This guide will show you how to use LattePanda products to start up your SBC and
 [4]: https://github.com/LattePandaTeam/Docs
 
 ## Content Structure
-This A document is broken down into several parts, covering **LattePanda 1st gen boards**, **LattePanda Alpha**, **LattePanda Delta**, and **LattePanda 3 Delta**:
+This document is broken down into several parts, covering **LattePanda 1st gen boards**, **LattePanda Alpha**, **LattePanda Delta**, and **LattePanda 3 Delta**:
 
 
 1. **Getting Started** goes over how to power on your device with the pre-installed Windows system, which will enable you to experience the full power of this mighty hardware. This section includes:
