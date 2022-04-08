@@ -26,11 +26,11 @@ However, LattePanda 3 Delta is also designed for embedded applications, like rob
 
   The Specifications should be as follows:
 
-* 11-15V**(do not higher than 15V)**
+* 11-15V(do not higher than 15V)
 
 * Above 24 watts is recommended 
 
-* Recommended power source - 12V, at least 2A
+* Recommended power source: 12V, at least 2A
 
 ## M.2 Socket
 
@@ -61,15 +61,17 @@ The M.2 B key socket allows SATA III, USB 2.0, USB3.0, and SIM.
 ##### Wireless Devices
 
 * M.2 4G Module (USB 2.0 lane)
+
 * M.2 5G Module (USB 3.0 lane)
-* Please insert the micro-SIM card before using the 4G or 5G module.
+
+  Please insert the micro-SIM card before using the 4G or 5G module.
 
 
 ## USB Type-A Port
 
 There are three USB Type-A ports on the LattePanda 3 Delta. One of them is a USB 3.2 gen2 x1 port with an ultra-high bandwidth, delivering up to 10Gb/s of throughput, which is twice faster than USB3.2 gen1 x1 (previously known as USB3.0). The remaining two are USB3.2 gen1 x1 ports. 
 
-<center>![](/assets/images/USB_A_3Delta.png)</center>
+<center>![](/assets/images/USB_A_3Delta.jpg)</center>
 
 
 ## USB Type-C Port
@@ -86,7 +88,7 @@ A USB Type-C hub can be used with the LattePanda 3 Delta. This can expand the nu
 
 
 
-## Pins in Female Headers
+## Female Header Pins
 
 ### Status Indication Pin
 
@@ -108,7 +110,7 @@ There are two 5V output pins in the female headers. They are automatically contr
 
 Other 5V & 3.3V output pins are always turned on unless you set the deep sleep eup function as enabled in BIOS.
 
-<center>![](/assets/images/Auto5VPowerPin_3Delta.png)</center>
+<center>![](/assets/images/Auto5VPowerPin_3Delta.jpg)</center>
 
 The power output control of these two 5V output pins is as follows:
 
@@ -120,4 +122,4 @@ The power output control of these two 5V output pins is as follows:
 
 LattePanda 3 Delta has two-channel audio output pins with the audio amplifier. Each channel can be up to 2W. You can directly connect two speakers to hear the excellent sound. When inserting the headphone, the audio output will be automatically switch to the headphone jack.
 
-<center>![](/assets/images/audioput_pin_3Delta.png)</center>
+<center>![](/assets/images/audioput_pin_3Delta.jpg)</center>

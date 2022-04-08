@@ -1,10 +1,11 @@
 # BIOS Setup
 
-* How to enter into the BIOS setup?
-  1. Power on or reboot the LattePanda mainboard.
-  
-  2. Before seeing the LattePanda logo in the boot process,  press ‘**DEL**’ key continuously to enter into the BIOS setup. 
-  
+## How to enter into the BIOS setup?
+
+* Power on or reboot the LattePanda mainboard.
+
+* Before seeing the LattePanda logo in the boot process,  press ‘**DEL**’ key continuously to enter into the BIOS setup. 
+
     <center>![](/assets/images/lp_boot_logo.jpg)</center>
 
 
@@ -22,7 +23,7 @@ The following content describes the common settings and usage in the BIOS.
 
 Three USB Type-A ports on LattePanda 3 Delta support power control. Every port can be configured independently.
 
-Path: BIOS Setup -> Advanced -> USB Configuration -> Always On USB Port 1/2/3
+Path: BIOS Setup -> Advanced -> USB Configuration -> Always On USB Port
 
   <center>![](/assets/images/USBcontrol_BIOS_3Delta.jpg)</center>
 
@@ -65,13 +66,13 @@ The default boot order priorities are as follows:
 
 If the default boot order priorities don't suit your requirements, you can change them manually.
 
-Path: BIOS Setup -> Boot-> Boot Option #1/2/3/4
+Path: BIOS Setup -> Boot-> Boot Option
 
 Press 'Up' or 'Down' key to select the boot device, then press 'Enter' key to confirm it. 
 
   <center>![](/assets/images/bootdevice_order_3Delta.jpg)</center>
 
-Attention:
+**Attention:** 
 
 The M.2 SATA SSD and eMMC onboard all belong to hard disk in the BIOS. If you want to change the order priorities of the hard disk, or eMMC doesn't show in the  boot order priorities, please do the following steps:
 

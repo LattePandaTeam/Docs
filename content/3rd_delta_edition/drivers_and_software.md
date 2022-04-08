@@ -7,8 +7,8 @@ If you still find some unknown devices in the device manager, please use the fol
 
 We packaged the hardware drivers from the normal windows operating system. So you could directly download the driver files. These drivers may not be the latest, but they all work fine in windows 10 and 11.
 
-* How to install the driver of the unknown device?
-  
+### How to install the driver of the unknown device?
+
   * [Download the driver files.](https://www.dropbox.com/sh/q0rdgtnlp4wlajw/AADj-vQKuu5ZM3OCEmXDHWJka?dl=0)
   
   * Unzip the driver files. You could unzip them in the same folder.

@@ -7,10 +7,10 @@ This document describes the different ways that you can power your LattePanda. I
 
 **2 Ways to Power Your LattePanda in Different Scenarios:**
 
-1. Official USB Type C PD adapter that comes with the LattePanda 3 Delta - Recommended Solution
+* Official USB Type C PD adapter that comes with the LattePanda 3 Delta - Recommended；
 
    Other USB Type C PD adapter or power bank
-3. 12-volt input from JST PH2.0-4Pin connector
+*  12-volt input from JST PH2.0-4Pin connector
 
 ## USB Type-C PD Adapter or Power Bank
 
@@ -38,11 +38,11 @@ This document describes the different ways that you can power your LattePanda. I
 
 ### Output Specifications
 
-* 11-15V**(do not higher than 15V)**
+* 11-15V(do not higher than 15V)
 
 * Above 24 watts is recommended 
 
-* Recommended power source - 12V, at least 2A
+* Recommended power source: 12V, at least 2A
 
   
 
