@@ -140,6 +140,16 @@ nav:
     - Physical Programming /w Python: content/delta_edition/python_arduino_bridge.md
     - Read Sensor Data /w Python: content/delta_edition/python_read_sensor.md
     - FAQ: content/delta_edition/faq.md
+  - LattePanda 3 Delta:
+    - Getting Started: content/3rd_delta_edition/get_started.md
+    - Powering: content/3rd_delta_edition/powering.md
+    - Displays and Touch: content/3rd_delta_edition/touch_and_display.md
+    - 2x OS Support: content/3rd_delta_edition/os.md
+    - Drivers: content/3rd_delta_edition/drivers_and_software.md
+    - Physical Playability: content/3rd_delta_edition/io_playability.md
+    - BIOS Setup: content/3rd_delta_edition/bios.md
+    - Specification: content/3rd_delta_edition/specification.md
+    - FAQ: content/delta_edition/faq.md
   - Streaming Cable:
     - Get Started: content/streaming_cable/get_started.md
     - Setup Server Computer - Win: content/streaming_cable/set_up_windows_host.md
