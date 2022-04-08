@@ -2,9 +2,10 @@
 
 This document will go over the different ways you can display the screen from your LattePanda. It will cover what you will need and the installation steps.
 
-!!! warning
-    When touching the LattePanda board, make sure to ground yourself before touching the board. Failure to ground yourself may cause static discharge into board components, which can damage your LattePanda!
-    The touch screen is made of glass, which is corrosion-resistant, but the material itself is easy to crack. Please be careful not to press it to the edge during installation!
+!!! warning  
+!!! When touching the LattePanda board, make sure to ground yourself before touching the board. Failure to ground yourself may cause static discharge into board components, which can damage your LattePanda!    
+
+!!! The touch screen is made of glass, which is corrosion-resistant, but the material itself is easy to crack. Please be careful not to press it to the edge during installation!
 
 ## Overview
 
