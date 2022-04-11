@@ -9,7 +9,7 @@ This document will show how to start using your LattePanda for the first time. I
 To get started, you will need the following hardware:
 
 * LattePanda 3 Delta Mainboard
-* USB Type C Power Adapter(attached in the package), or Other 12V Power Adapter
+* USB Type C Power Adapter(attached in the box), or Other 12V Power Adapter
 * Power Supply Cable
 * Display Device (TV, Monitor, or eDP Display)
 * Display Cable (HDMI, USB Type C, or eDP Cable)
