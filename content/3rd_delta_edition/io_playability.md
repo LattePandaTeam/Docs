@@ -76,15 +76,13 @@ There are three USB Type-A ports on the LattePanda 3 Delta. One of them is a USB
 
 ## USB Type-C Port
 
-There is a USB Type-C port on the LattePanda 3 Delta. It can be connected to a PD power adapter or a USB-C hub to expand to more ports, like DP, DVI, USB, etc. 
+There is a USB Type-C port on the LattePanda 3 Delta. It can be connected to a PD power adapter or a USB-C hub to expand to more ports, like DP, DVI, USB, SD/MicroSD, etc. 
 
 This USB Type-C port supports the simultaneous use of the following three functions.
 
 - Power Delivery
 - DP 1.4
 - USB 2.0
-
-A USB Type-C hub can be used with the LattePanda 3 Delta. This can expand the number of ports you can use from just one connector port. This can include SD/MicroSD, USB, HDMI, ethernet, and many other ports.
 
 
 
