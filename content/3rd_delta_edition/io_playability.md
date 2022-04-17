@@ -119,6 +119,6 @@ The power output of these two 5V output pins is as follows:
 
 ### Audio Output Pin
 
-LattePanda 3 Delta has two-channel audio output pins with the audio amplifier. Each channel can be up to 2W. You can directly connect two speakers to hear the excellent sound. When inserting the headphone, the audio output will be automatically switch to the headphone jack.
+LattePanda 3 Delta has two-channel audio output pins with audio power amplifier and the output power of each channel can be up to 2W. You can directly connect two speakers to play sound. When the headphone is inserted, the audio output automatically switches to the headphone jack.
 
 <center>![](/assets/images/audioput_pin_3Delta.jpg)</center>
