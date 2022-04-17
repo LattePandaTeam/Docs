@@ -39,7 +39,7 @@ You can set it enabled or disabled. The default setting is disabled.
 
 **Attention:** 
 
-* If LattePana was disconnected from the power supply, then re-power it on, all USB Type-A ports are forced to power off by default. The MCU power control is also the same.
+* If LattePanda is disconnected from the power supply, all USB A ports are powered off by default when the lattePanda connects power supply again and is not turned on. The MCU power control is also the same.
 * The USB2.0 pin in the female header doesn't support power control.
 
 
