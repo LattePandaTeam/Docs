@@ -1,20 +1,21 @@
 # Powering On
 
-This document describes the different ways that you can power your LattePanda. It will list the input specification, what you will need, and installation steps.
+This document describes different ways that you can power your LattePanda. It will cover the input specification, what you will need, and installation steps.
 
 
 ## Overview
 
-**2 Ways to Power Your LattePanda in Different Scenarios:**
+**2 Ways to Power Your LattePanda in Different Application Scenarios:**
 
-* Official USB Type C PD adapter that comes with the LattePanda 3 Delta - Recommended；
+* Official USB Type C PD adapter that comes with the LattePanda 3 Delta - Recommended;
 
-   Other USB Type C PD adapter or power bank
+   or Other USB Type C PD adapter or power bank of the same specification
+   
 *  12-volt input from JST PH2.0-4Pin connector
 
-## USB Type-C PD Adapter or Power Bank
+## Powered by USB Type-C PD Adapter or Power Bank
 
-### Output Specification
+### Output Specifications of Type-C Adapters or Power Bank
 
 * Supports PD protocol
 * Accepts Power Delivery compliant devices at 15V 3A or 12V 3A
@@ -23,24 +24,24 @@ This document describes the different ways that you can power your LattePanda. I
 
 * <a href="https://www.amazon.com/ZMI-Pixelbook-Nintendo-External-Powerbank/dp/B072BD98CM/ref=sr_1_1?dchild=1&keywords=ZMI&qid=1600766468&sr=8-1">ZMI 20000mAh PD battery.</a>
 * <a href="https://www.lattepanda.com/topic-f23t17787.html" target="_blank">More options recommended and tested</a> by ccs_hello (community member).
-* Or any other brand of power bank supporting PD protocol with the output of at least 24W
+* Or any other brand of power bank that supports PD protocol and outputs at least 24W.
 
-## JST PH2.0-4Pin Input Connector
+## Powered by JST PH2.0-4Pin Input Connector
 
 !!! warning
-    Please make sure to prevent any problems while powering on the LattePanda from incorrectly connecting the positive and negative pins!!! Please double-check your connections before powering on the LattePanda.
+    Please make sure the positive and negative pins are properly connected and double-check your connections before turning on your LattePanda.
 
-​    The voltage range of the JST PH2.0-4Pin connector is 11~15V. The recommended power source is 12V, at least 2A. The maximum required booting power is about 12V 1.5A when no extra devices are connected to the LattePanda. 
+​    The input voltage range of the JST PH2.0-4Pin connector is 11~15V. The recommended power source is 12V, at least 2A. The maximum required booting power is about 12V 1.5A when no extra devices are connected to LattePanda. 
 
 ​    The pin mapping is marked on the board: -- DC ++, which means two negative pins and two positive pins.
 
 <center>![DC Input Port](/assets/images/DC_Input_Port_3Delta.jpg)</center>
 
-### Output Specifications
+### Input Specifications
 
-* 11-15V(do not higher than 15V)
+* 11-15V(No higher than 15V)
 
-* Above 24 watts is recommended 
+* 24 watts or above is recommended 
 
 * Recommended power source: 12V, at least 2A
 
