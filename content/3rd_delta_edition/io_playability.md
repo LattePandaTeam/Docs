@@ -26,15 +26,15 @@ However, LattePanda 3 Delta is also designed for embedded applications, like rob
 
   The Specifications should be as follows:
 
-* 11-15V(do not higher than 15V)
+* 11-15V(no higher than 15V)
 
-* Above 24 watts is recommended 
+* 24 watts or above is recommended 
 
 * Recommended power source: 12V, at least 2A
 
 ## M.2 Socket
 
-There are two M.2 sockets on the LattePanda 3 Delta: M key and B key.
+There are two M.2 sockets on LattePanda 3 Delta: M key and B key.
 
 <center>![](/assets/images/M2sockets_3Delta.png)</center>
 
@@ -46,7 +46,7 @@ The M.2 M key socket only allows PCIe 3.0 x2.
 ##### Storage
 * Compatible with M.2 NVMe SSD
 ##### Other Devices
-* eGPU can also connect if you use a high-quality cable adapter like the ADT Link.
+* eGPU(you can also connect an eGPU to m.2 M key if you have a high-quality cable adapter like ADT Link)
 [Video link here to the eGPU](https://youtu.be/LMmm2V33cvs)
 ### M.2 B Key
 
@@ -64,33 +64,33 @@ The M.2 B key socket allows SATA III, USB 2.0, USB3.0, and SIM.
 
 * M.2 5G Module (USB 3.0 lane)
 
-  Please insert the micro-SIM card before using the 4G or 5G module.
+  Please insert a micro-SIM card before using 4G or 5G module.
 
 
 ## USB Type-A Port
 
-There are three USB Type-A ports on the LattePanda 3 Delta. One of them is a USB 3.2 gen2 x1 port with an ultra-high bandwidth, delivering up to 10Gb/s of throughput, which is twice faster than USB3.2 gen1 x1 (previously known as USB3.0). The remaining two are USB3.2 gen1 x1 ports. 
+There are three USB Type-A ports on LattePanda 3 Delta. One of them is a USB 3.2 gen2 x1 port with an ultra-high bandwidth, delivers up to 10Gb/s throughput, which is twice faster than USB3.2 gen1 x1 (previously known as USB3.0). The remaining two are USB3.2 gen1 x1 ports. 
 
 <center>![](/assets/images/USB_A_3Delta.jpg)</center>
 
 
 ## USB Type-C Port
 
+
 There is a USB Type-C port on the LattePanda 3 Delta. It can be connected to a PD power adapter or a USB-C hub to expand to more ports, like DP, DVI, USB, SD/MicroSD, etc. 
 
-This USB Type-C port supports the simultaneous use of the following three functions.
+The USB Type-C port supports simultaneous use of following three functions.
 
 - Power Delivery
 - DP 1.4
 - USB 2.0
 
 
-
 ## Female Header Pins
 
 ### Status Indication Pin
 
-The S0, S3, S4 pins can output voltage to represent the current state of the operating system. So status can be obtained by reading these voltages or connecting LED indicators.
+The S0, S3, S4 pins can indicate the current state of operating system through different output voltages. So the OS status can be obtained by reading these voltages or connecting LED indicators.
 
 The voltage of these pins in different states are shown as follows:
 
@@ -104,13 +104,13 @@ The voltage of these pins in different states are shown as follows:
 
 ### Auto 5V Output Pin
 
-There are two 5V output pins in the female headers. They are automatically controlled according to different statuses. 
+There are two 5V output pins in the female headers. They are automatically controlled according to different states. 
 
-Other 5V & 3.3V output pins are always turned on unless you set the deep sleep eup function as enabled in BIOS.
+Other 5V & 3.3V output pins are always turned on unless you enable Deep Sleep EUP function in BIOS.
 
 <center>![](/assets/images/Auto5VPowerPin_3Delta.jpg)</center>
 
-The power output control of these two 5V output pins is as follows:
+The power output of these two 5V output pins is as follows:
 
 |                                      | Run     | Sleep   | Hibernate | Shut Down |
 | ------------------------------------ | ------- | ------- | --------- | --------- |
@@ -118,6 +118,6 @@ The power output control of these two 5V output pins is as follows:
 
 ### Audio Output Pin
 
-LattePanda 3 Delta has two-channel audio output pins with the audio amplifier. Each channel can be up to 2W. You can directly connect two speakers to hear the excellent sound. When inserting the headphone, the audio output will be automatically switch to the headphone jack.
+LattePanda 3 Delta has two-channel audio output pins with audio power amplifier and the output power of each channel can be up to 2W. You can directly connect two speakers to play sound. When the headphone is inserted, the audio output automatically switches to the headphone jack.
 
 <center>![](/assets/images/audioput_pin_3Delta.jpg)</center>
