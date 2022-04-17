@@ -1,11 +1,11 @@
 # Hardware Driver
 
 ## Regular Driver
-If you do not use the windows image file provided by us, you may encounter driver problems. **You can use the windows update to get the latest drivers. Most drivers, like WiFi, ethernet, graphics, will be installed correctly.** 
+If you do not use the windows image file provided by us, you may encounter driver problems. **You can use Windows Update to get the latest drivers. Most drivers can be installed correctly, such as WiFi, ethernet, and graphics drivers.** 
 
-If you still find some unknown devices in the device manager, please use the following method.
+If you still find some unknown devices in the device manager, please refer to the following method.
 
-We packaged the hardware drivers from the normal windows operating system. So you could directly download the driver files. These drivers may not be the latest, but they all work fine in windows 10 and 11.
+We packaged all hardware drivers in our Windows operating system. So you could directly download the driver files. These drivers may not be the latest, but they all work fine in windows 10 and 11.
 
 ### How to install the driver of the unknown device?
 
