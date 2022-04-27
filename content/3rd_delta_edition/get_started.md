@@ -1,6 +1,6 @@
 # Getting Started
 
-This document will show how to start using your LattePanda for the first time. It will demonstrate what you need and instructions to boot up the LattePanda.
+This document will show how to start using your LattePanda for the first time. It will demonstrate what you need and instructions to boot up LattePanda.
 
 ## Steps for Booting Up Your LattePanda
 
@@ -20,14 +20,14 @@ To get started, you will need the following hardware:
 ### Instructions
 
 !!! warning
-    The LattePanda is relatively special in its pocket-sized product form and design, and it can connect with multiple devices to provide unlimited possibilities for embedded developments and IoT innovations. 
+    The LattePanda is relatively special in its pocket-sized product form and design, and it can connect multiple devices to provide endless possibilities for embedded developments and IoT innovations. 
     
 
-    However, the CPU-related products are all **electrostatically sensitive**, so, although we have adopted the **anti-static design**, users still need to be careful when using these electronics. 
+    CPU-related products are all **electrostatically sensitive**. So although we have adopted the **anti-static design**, users still need to be careful when using these electronics. 
     
     **Be sure to remove the static electricity from your body before touching the LattePanda!** Otherwise, this may cause potential static discharge and damage your LattePanda!
 
-* Connect the Wi-Fi/BT antennas to the sockets.
+* Connect Wi-Fi/BT antennas to the sockets.
   
   <center>![Wifi connection](/assets/images/Connect_Wifi_Antenna_Alpha.gif)</center>
 
@@ -40,13 +40,13 @@ There are two antennas sockets on the wireless module. One socket is used for 2.
 !!! Tip
     You can purchase enhanced antennas to improve the WIFI and Bluetooth signal strength.
 
-* Connect the display cable with the LattePanda and the display device. Please see the [Display and Touch Connections][3] section for instructions on using different displays with your LattePanda.
+* Connect LattePanda and the display device with the display cable. Please see the [Display and Touch Connections][3] section for instructions on using different displays with your LattePanda.
 
-* Connect the keyboard and mouse to the LattePanda.
+* Connect the keyboard and mouse to LattePanda.
 
-* Connect the power adapter to the LattePanda. Please see the [Powering LattePanda 3 Delta][1] section for instructions on using different power adapters to power your LattePanda.
+* Connect the power adapter to LattePanda. Please see the [Powering LattePanda 3 Delta][1] section for instructions on using different power adapters to power your LattePanda.
 
-* Press the power button for approximately 1 second. The onboard blue LED indicator will light up, and the LattePanda will boot up the OS. The default OS is windows 10.
+* Press and hold the power button for approximately 1 second. The onboard blue LED indicator will light up, and LattePanda will boot into OS. The default OS is windows 10.
 
 
 [1]: /content/3rd_delta_edition/powering/
