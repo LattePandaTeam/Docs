@@ -7,7 +7,7 @@ This document will show how to connect different display devices to your LattePa
 
 ## Overview
 
-### 3 Ways to Extend Your Display on the LattePanda 3 Delta
+### 3 Ways to Extend Your Display on LattePanda 3 Delta
 
 1. HDMI Display- for standard desktop usage
 2. USB Type C Display, or USB Type C to HDMI / DP Converter - for standard desktop or mobile usage
@@ -16,7 +16,7 @@ This document will show how to connect different display devices to your LattePa
 ## HDMI
 
 !!! Note
-    The LattePanda 3 Delta supports HDMI 2.0b, so if you use a display which supports 4K 60Hz or 4K HDR, please use the HDMI 2.0b cable.
+    The LattePanda 3 Delta supports HDMI 2.0b, so if you use a display which supports 4K 60Hz or 4K HDR, please use HDMI 2.0b cable.
 
 ### What You Will Need
 
@@ -53,7 +53,7 @@ This document will show how to connect different display devices to your LattePa
 	4. Connect the USB Type C PD power adapter to the USB Type C HUB.
 
 
-* Some displays have a USB Type C port supporting PD protocol and USB. So only a USB Type C cable is enough. Please follow these steps:
+* Some displays have a USB Type C port supporting PD protocol and USB. So a single USB Type C cable is enough. Please follow these steps:
 
 	1. Connect the USB Type C cable to the USB Type C port of LattePanda.
 	
@@ -78,14 +78,14 @@ This document will show how to connect different display devices to your LattePa
     Make sure to connect the display and double-check the eDP cable is installed correctly before turning on your LattePanda. Failure to follow these instructions below may cause a short circuit and damage the LattePanda or display device. 
 
 
-1. Ensure the LattePanda is powered off and disconnected from the power supply cable.
-2. Open the eDP latch on the bottom of the LattePanda.
+1. Ensure the LattePanda is powered off and disconnected from power supply cable.
+2. Open the eDP latch on the bottom of LattePanda.
 3. Align the eDP cable with the eDP cable connector on LattePanda. Make sure the gold finger of the eDP cable faces away from the bottom of LattePanda.
 4. Insert the eDP cable, then press down the latch to secure the eDP cable.
 
 <center>![edp](/assets/images/Connect_eDP_Alpha.gif)</center>
 
-### Additional eDP Displays from the LP Community
+### Additional eDP Displays from LattePanda Community
 
 While the LattePanda eDP display is officially supported by our company, here we have some other displays that our community members have gotten working.
 
@@ -106,7 +106,7 @@ While the LattePanda eDP display is officially supported by our company, here we
 !!! warning
     Make sure to connect the touch display and double-check the eDP cable and touch cable is installed correctly before turning on your LattePanda. Failure to follow these instructions below may cause a short circuit and damage the LattePanda or display device.
 
-1. Ensure LattePanda is powered off and disconnected from the power supply cable.
+1. Ensure LattePanda is powered off and disconnected from power supply cable.
 2. Insert and secure the eDP cable as described in the previous section.
 3. Open the touch panel latch on the bottom of LattePanda.
 4. Align the touch panel cable with the touch panel connector on LattePanda. Make sure the gold finger of the touch panel cable faces away from the bottom of LattePanda.
