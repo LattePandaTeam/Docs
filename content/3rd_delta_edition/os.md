@@ -1,6 +1,6 @@
 # Operating Systems
 
-This document will show how to install the operating systems compatible with LattePanda 3 Delta. It will also cover the acceptable bootup media, as well as instructions, resources for installing the operating systems and other special considerations.
+This document will show how to install an operating systems compatible with LattePanda 3 Delta. It will also cover the acceptable bootup media, as well as instructions, resources for installing operating systems and other special considerations.
 
 ## Overview
 
@@ -13,7 +13,7 @@ The LattePanda 3 Delta is **a development device that supports two different ope
     Please feel free to contribute or request new content via our [Official Docs Repository](https://github.com/LattePandaTeam/Docs)
 
 !!! Warning
-    Please back up your important files or data before the OS installation.
+    Please back up your important files or data before OS installation.
 
 
 
@@ -24,7 +24,7 @@ The LattePanda 3 Delta is **a development device that supports two different ope
 The following contents will take the Windows OS installation as an example to demonstrate. 
 
 * The installation steps for Windows 10 and Windows 11 are same. 
-* We will use the system image file provided by LattePanda team, with all hardware drivers pre-installed and ready to use,  which is simple and fast for your experience.
+* We will use the official system image file(provided by LattePanda team) with all hardware drivers pre-installed and ready to use, bringing you a fast and ultimate experience.
 * The system will be installed on the eMMC by default.
 
 ### What You Will Need
