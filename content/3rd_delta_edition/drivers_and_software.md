@@ -9,7 +9,7 @@ We packaged all hardware drivers in our Windows operating system. So you could d
 
 ### How to install the driver of the unknown device?
 
-  * [Download the driver files.](https://www.dropbox.com/sh/q0rdgtnlp4wlajw/AADj-vQKuu5ZM3OCEmXDHWJka?dl=0)
+  * Download the driver files from [Dropbox Link](https://www.dropbox.com/sh/q0rdgtnlp4wlajw/AADj-vQKuu5ZM3OCEmXDHWJka?dl=0) or [Google Drive Link](https://drive.google.com/drive/folders/1-m6dQCReMQ_iV0Kqk87u9775eWJYzAgd?usp=sharing).
   
   * Unzip the driver files. You could unzip them in the same folder.
   

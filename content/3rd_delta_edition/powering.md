@@ -5,13 +5,21 @@ This document describes different ways that you can power your LattePanda. It wi
 
 ## Overview
 
-**2 Ways to Power Your LattePanda in Different Application Scenarios:**
+**2 Ways to Power Your LattePanda in Different Application Scenarios**
 
 * Official USB Type C PD adapter that comes with the LattePanda 3 Delta - Recommended;
 
    or Other USB Type C PD adapter or power bank of the same specification
    
-*  12-volt input from JST PH2.0-4Pin connector
+* 12-volt input from JST PH2.0-4Pin connector
+
+**Power Supply Priority**
+
+   LattePanda prefers to use the power supply of the port which has a higher voltage.
+
+   For example, if the USB Type-C port is powered by 15V, and the JST PH2.0 4Pin port is powered by 12V, the power supply of the USB Type-C port will be used first. If the power supply of the USB Type-C port is accidentally cut off, LattePanda will automatically switch to the power supply of the JST PH2.0 4Pin port. When the power supply of the USB Type-C port is restored, LattePanda will automatically switch to the power supply of the USB Type-C port. During power switching, LattePanda operates normally without unexpected power outages.
+
+   If both ports are powered by 15V, the power supply of both ports will be used at the same time.
 
 ## Powered by USB Type-C PD Adapter or Power Bank
 

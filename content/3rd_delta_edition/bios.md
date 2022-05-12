@@ -1,6 +1,6 @@
 # BIOS Setup
 
-## How to enter into BIOS Menu?
+## Enter into BIOS Menu
 
 * Power on or reboot LattePanda.
 
@@ -11,7 +11,7 @@
 
 
 !!! Note
-    **Turning on Fast Startup** is disabled by default in our system image file, so that LattePanda will be in shut down state after it's turned off. Otherwise, LattePana will be in hibernate state after it is turned off.  This is caused by the power management feature of windows OS. Some BIOS settings are related to the status, so please pay attention to check this setting.
+    **Turn on Fast Startup** is disabled by default in our system image file, so that LattePanda will be in shut down state after it's turned off. Otherwise, LattePana will be in hibernate state after it is turned off.  This is caused by the power management feature of windows OS. Some BIOS settings are related to the status, so please pay attention to check this setting.
 
 <center>![](/assets/images/fast_startup_3Delta.jpg)</center>
 
@@ -99,3 +99,37 @@ The default setting is Disabled.
 
 * Only when Turning on Fast Startup in windows OS is disabled, Deep Sleep Eup function can work probably. 
 
+## Update the BIOS Firmware
+
+If a new BIOS firmware is required, or the BIOS is abnormal, you can update the BIOS firmware.
+
+Before this operation, it is recommended to unplug the SSD, TF card, and other storage devices to find the required drive containing the BIOS firmware quickly in the updating process.
+
+* Download [the BIOS file of LattePanda 3 Delta](https://github.com/LattePandaTeam/LattePanda-Win10-Software/tree/master/BIOS%20for%20LattePanda%203%20Delta).
+
+* Format your USB drive into **FAT32** format.
+
+* Unzip the BIOS file. Then copy and paste them to the USB drive. 
+
+   **The files located on the USB flash drive should be as shown below.**
+
+<center>![](/assets/images/lp3deltabiosfile_in_usbdrive.jpg)</center>
+
+* Insert your USB drive into LattePanda, and turn on the LattePanda. (If you created the USB installation media on LattePanda, please restart the LattePanda.) 
+* Press ‘**DEL**’ key continuously to enter into **BIOS Setup Menu**. 
+* **Path: BIOS Setup -> Save & Exit-> Boot Override**. In the boot override menu, choose the UEFI device.
+<center>![](/assets/images/BootOverrideDeivce_3Delta.jpg)</center>
+
+* Then press '**Enter**' key, to enter into the EFI shell,  then press '**ESC**' key to skip startup.nsh.
+
+  <center>![](/assets/images/EFIShellMenu_3Delta.jpg)</center>
+
+* Input '**fs 0:**', then input '**ls**', to check whether the BIOS firmware is in the list. The BIOS firmware is a BIN file. If not, please continue to input '**fs1:**','**fs2:**', etc. to check, until finding the BIOS firmware in the list.
+
+<center>![](/assets/images/EFIShellCheck_3Delta.jpg)</center>
+
+* Then input '**BIOS.nsh**', and press '**Enter**' key. The update process will start. It will take about 2 minutes.
+
+<center>![](/assets/images/EFIShellFinish_3Delta.jpg)</center>
+
+* When it has been done, the green font message "FPT Operation Successful" will be on the screen. Then short press the power button to turn off the LattePanda. Unplug the USB drive. Then short press the power button to turn on the LattePanda. The update of BIOS has finished now.

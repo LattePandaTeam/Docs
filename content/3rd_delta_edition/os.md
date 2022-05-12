@@ -30,7 +30,7 @@ The following contents will take the Windows OS installation as an example to de
 ### What You Will Need
 
 * Empty USB flash drive (8 GB or larger)
-* [OS Disc Image File for the LattePanda 3 Delta](https://www.dropbox.com/sh/8xxjl13xf4ocsvi/AAAOu-RaR_1SulZGJpq1InwVa?dl=0)
+* OS Disc Image File for the LattePanda 3 Delta: Download from [Dropbox Link](https://www.dropbox.com/sh/8xxjl13xf4ocsvi/AAAOu-RaR_1SulZGJpq1InwVa?dl=0) or [Google Drive Link](https://drive.google.com/drive/folders/1-m6dQCReMQ_iV0Kqk87u9775eWJYzAgd?usp=sharing)
 
 ### Installation Steps
 
