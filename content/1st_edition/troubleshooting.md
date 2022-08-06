@@ -60,74 +60,92 @@ We tested some common adapter and USB cable so that it is convenient for your se
 
 ### Recommend Adapter:
 
-- **Model: **AUKEY PA-T9 (American Standard)
+- **Model: ** AUKEY PA-T9 (American Standard)
 
   **Test Results:** available
 
-  **Peak current:**3.0A
+  **Peak current:** 3.0A
 
-- **link: **[Amazon](https://www.amazon.com/Charge-Charger-Galaxy-Qualcomm-Certified/dp/B018RR30TK/ref=sr_1_1?ie=UTF8&qid=1466745738&sr=8-1&keywords=AUKEY+PA-T9) **Model: **AUKEY PA-T9-DE (European Standard)
+- **link: ** [Amazon](https://www.amazon.com/Charge-Charger-Galaxy-Qualcomm-Certified/dp/B018RR30TK/ref=sr_1_1?ie=UTF8&qid=1466745738&sr=8-1&keywords=AUKEY+PA-T9) **Model: ** AUKEY PA-T9-DE (European Standard)
 
-  **Test Results: **available
+  **Test Results: ** available
 
-  **Peak current: **3.0A
+  **Peak current: ** 3.0A
 
-- **link: **[Amazon](https://www.amazon.de/AUKEY-Ladeger%C3%A4t-Port-schwarz-schnell/dp/B01AHWOH54/ref=sr_1_1?ie=UTF8&qid=1469606331&sr=8-1&keywords=PA-T9) **Model:**NILLKIN 5V@2A USB Adapter
+- **link: ** [Amazon](https://www.amazon.de/AUKEY-Ladeger%C3%A4t-Port-schwarz-schnell/dp/B01AHWOH54/ref=sr_1_1?ie=UTF8&qid=1469606331&sr=8-1&keywords=PA-T9) **Model:** NILLKIN 5V@2A USB Adapter
 
-  **Test Results:**available
+  **Test Results:** available
 
-  **Peak current:**2.5A
+  **Peak current:** 2.5A
 
-- **link: **[DFRobot](http://www.dfrobot.com/index.php?route=product/product&product_id=933&search=lattepanda&description=true#.V1UDL2OxhVo), [Amazon](http://www.amazon.com/Adapter-Nillkin%C2%AEUS-Standard-Charger-Samsung/dp/B015SL0Y3I/ref=sr_1_1?ie=UTF8&qid=1465189045&sr=8-1&keywords=NILLKIN+5V+2A+USB) **Model: **APPLE ipad 10W usb power adapter
+- **link: ** [DFRobot](http://www.dfrobot.com/index.php?route=product/product&product_id=933&search=lattepanda&description=true#.V1UDL2OxhVo), [Amazon](http://www.amazon.com/Adapter-Nillkin%C2%AEUS-Standard-Charger-Samsung/dp/B015SL0Y3I/ref=sr_1_1?ie=UTF8&qid=1465189045&sr=8-1&keywords=NILLKIN+5V+2A+USB) **Model: ** APPLE ipad 10W usb power adapter
 
-  **Test Results: **available
+  **Test Results: ** available
 
-  **Peak current: **2.8A
-
-
-- **link: **[Amazon](http://www.amazon.com/Apple-A1357-Power-Adapter-iPhone/dp/B008QYIMO8/ref=sr_1_1?ie=UTF8&qid=1465189264&sr=8-1&keywords=APPLE+10W++adapter) **Model: **JDB 5500
-
-  **Test Results: **available
-
-  **Peak current: **2.8A
+  **Peak current: ** 2.8A
 
 
-- **link: **[Amazon](http://www.amazon.com/Charger-JDB-Charge-Adapter-Samsung/dp/B00R26VRHA/ref=sr_1_1?ie=UTF8&qid=1465189309&sr=8-1&keywords=JDB+5500) **Model: **HUAWEI HW-050200C3W
+- **link: ** [Amazon](http://www.amazon.com/Apple-A1357-Power-Adapter-iPhone/dp/B008QYIMO8/ref=sr_1_1?ie=UTF8&qid=1465189264&sr=8-1&keywords=APPLE+10W++adapter) **Model: ** JDB 5500
 
-  **Test Results: **available
+  **Test Results: ** available
 
-  **Peak current: **2.5A
+  **Peak current: ** 2.8A
 
 
-- **link: **[Amazon](http://www.amazon.com/Huawei-Original-Travel-Charger-Micro/dp/B017M0LNYC/ref=sr_1_1?ie=UTF8&qid=1465189465&sr=8-1&keywords=HW-050200C3W) **Model: **HUAWEI HW-059200CHQ
+- **link: ** [Amazon](http://www.amazon.com/Charger-JDB-Charge-Adapter-Samsung/dp/B00R26VRHA/ref=sr_1_1?ie=UTF8&qid=1465189309&sr=8-1&keywords=JDB+5500) **Model: ** HUAWEI HW-050200C3W
 
-  **Test Results: **unavailable
+  **Test Results: ** available
+
+  **Peak current: ** 2.5A
+
+
+- **link: ** [Amazon](http://www.amazon.com/Huawei-Original-Travel-Charger-Micro/dp/B017M0LNYC/ref=sr_1_1?ie=UTF8&qid=1465189465&sr=8-1&keywords=HW-050200C3W) **Model: ** HUAWEI HW-059200CHQ
+
+  **Test Results: ** unavailable
 
 #### Recommend USB cable:
 
-- **Model: **LattePanda Double Sided Micro USB Cable
+- **Model: ** LattePanda Double Sided Micro USB Cable
 
-  **Test Results: **available
+  **Test Results: ** available
 
-  **Wire Diameter: **0.9mm
+  **Wire Diameter: ** 0.9mm
 
-- **link: **[DFRobot](http://www.dfrobot.com/index.php?route=product/product&product_id=1430&search=lattepanda&description=true#.V1UEk2OxhVo) **Model: **REMAX RC-025T
+- **link: ** [DFRobot](http://www.dfrobot.com/index.php?route=product/product&product_id=1430&search=lattepanda&description=true#.V1UEk2OxhVo) **Model: ** REMAX RC-025T
 
-  **Test Results: **available
+  **Test Results: ** available
 
-  **Wire Diameter: **0.8mm
+  **Wire Diameter: ** 0.8mm
 
-- **link: **[Amazon](http://www.amazon.com/REMAX-RC-025t-Charger-Charging-Smartphone/dp/B01CNG4UHW/ref=sr_1_1?ie=UTF8&qid=1465189542&sr=8-1&keywords=REMAX+RC-025T) **Model: **JDB 5500
+- **link: ** [Amazon](http://www.amazon.com/REMAX-RC-025t-Charger-Charging-Smartphone/dp/B01CNG4UHW/ref=sr_1_1?ie=UTF8&qid=1465189542&sr=8-1&keywords=REMAX+RC-025T) **Model: ** JDB 5500
 
-  **Test Results: **available
+  **Test Results: ** available
 
-  **Wire Diameter: **0.7mm
+  **Wire Diameter: ** 0.7mm
 
-  **link: **[Amazon](http://www.amazon.com/Charger-JDB-Charge-Adapter-Samsung/dp/B00R26VRHA/ref=sr_1_1?ie=UTF8&qid=1465189309&sr=8-1&keywords=JDB+5500)
+  **link: ** [Amazon](http://www.amazon.com/Charger-JDB-Charge-Adapter-Samsung/dp/B00R26VRHA/ref=sr_1_1?ie=UTF8&qid=1465189309&sr=8-1&keywords=JDB+5500)
 
 ### Other
 
-Specific to embedded and robot applications scenarios, lattepanda also provides two pairs of external power supply pin of 5v and Gnd, check pinout diagram to find the external power connector beside the MicroUSB connector.
+Specific to embedded and robot applications scenarios, lattepanda also provides two pairs of external power supply pin of 5v and Gnd, check pinout diagram to find the external power connector beside the MicroUSB connector.  
+
+### Ubuntu 18.04 on S70CR700
+  **Check the list of audio output device use command " aplay -l "**  
+- HDMI is "card 0" & "device 2" ; Audio port is "card 1" & "device 0" in this device.
+ <img width="365" alt="image" src="https://user-images.githubusercontent.com/16882579/183259696-9de5e5d0-bf3c-4979-be3c-ad23bcbd6867.png">  
+  **Create sound card profile**  
+- Global config： create /etc/asound.conf   
+or  
+- Specify user config： /home/xxx/.asoundrc
+**Select audio output and configure code**  
+-Output from Audio port
+`defaults.pcm.card 1
+defaults.pcm.device 0
+defaults.ctl.card 1
+defaults.timer.card 1`
+<img width="178" alt="image" src="https://user-images.githubusercontent.com/16882579/183260051-faf16e0a-6291-4bd4-ba24-26ca5fb5ccf8.png">
+
+**Save the file and reboot**  
 
 ## Common Problems & Solutions
 
