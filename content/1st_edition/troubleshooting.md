@@ -142,11 +142,11 @@ or
   
 **Select audio output and configure code**  
 
--Output from Audio port
-`defaults.pcm.card 1  
-defaults.pcm.device 0  
-defaults.ctl.card 1  
-defaults.timer.card 1`  
+-Output from Audio port  
+`defaults.pcm.card 1`  
+`defaults.pcm.device 0`  
+`defaults.ctl.card 1`  
+`defaults.timer.card 1`  
 <img width="178" alt="image" src="https://user-images.githubusercontent.com/16882579/183260051-faf16e0a-6291-4bd4-ba24-26ca5fb5ccf8.png">
 
 **Save the file and reboot**  
