@@ -60,10 +60,10 @@ We tested some common adapter and USB cable so that it is convenient for your se
 
 ### Recommend Adapter:
 
-- **Model: ** AUKEY PA-T9 (American Standard)
+- **Model:** AUKEY PA-T9 (American Standard)
 
   **Test Results:** available
-
+  
   **Peak current:** 3.0A
 
 - **link: ** [Amazon](https://www.amazon.com/Charge-Charger-Galaxy-Qualcomm-Certified/dp/B018RR30TK/ref=sr_1_1?ie=UTF8&qid=1466745738&sr=8-1&keywords=AUKEY+PA-T9) **Model: ** AUKEY PA-T9-DE (European Standard)
@@ -133,11 +133,15 @@ Specific to embedded and robot applications scenarios, lattepanda also provides 
   **Check the list of audio output device use command " aplay -l "**  
 - HDMI is "card 0" & "device 2" ; Audio port is "card 1" & "device 0" in this device.
  <img width="365" alt="image" src="https://user-images.githubusercontent.com/16882579/183259696-9de5e5d0-bf3c-4979-be3c-ad23bcbd6867.png">  
-  **Create sound card profile**  
+ 
+  **Create sound card profile**    
+  
 - Global config： create /etc/asound.conf   
 or  
-- Specify user config： /home/xxx/.asoundrc
+- Specify user config： /home/xxx/.asoundrc  
+  
 **Select audio output and configure code**  
+
 -Output from Audio port
 `defaults.pcm.card 1
 defaults.pcm.device 0
