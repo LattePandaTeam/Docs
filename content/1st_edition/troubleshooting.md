@@ -132,7 +132,7 @@ Specific to embedded and robot applications scenarios, lattepanda also provides 
 ## Ubuntu 18.04 on S70CR700
   **Check the list of audio output device use command " aplay -l "**  
 - HDMI is "card 0" & "device 2" ; Audio port is "card 1" & "device 0" in this device.
- <img width="365" alt="image" src="https://user-images.githubusercontent.com/16882579/183259696-9de5e5d0-bf3c-4979-be3c-ad23bcbd6867.png">  
+ <img  src="https://user-images.githubusercontent.com/16882579/183259696-9de5e5d0-bf3c-4979-be3c-ad23bcbd6867.png">  
  
   **Create sound card profile**    
   
@@ -147,7 +147,7 @@ or
 `defaults.pcm.device 0`  
 `defaults.ctl.card 1`  
 `defaults.timer.card 1`  
-<img width="178" alt="image" src="https://user-images.githubusercontent.com/16882579/183260051-faf16e0a-6291-4bd4-ba24-26ca5fb5ccf8.png">
+<img src="https://user-images.githubusercontent.com/16882579/183260051-faf16e0a-6291-4bd4-ba24-26ca5fb5ccf8.png">
 
 **Save the file and reboot**  
 
