@@ -76,19 +76,19 @@ The following contents will take the Windows OS installation as an example to de
 * M.2 M-key NVMe SSD 
 
 !!! tips 
-    This tutorial is for the LattePanda 3 Delta. If you are using the 1st edition LattePanda, please refer to the 1st edition documents.
+    This tutorial is for the LattePanda 3 Delta. If you are using other LattePanda models, please refer to the corresponding section.
 
 ### What You Will Need
 
 * 1 x Empty USB Flash Drive (8 GB or larger)
-* [Ubuntu 16.04 LTS disc image file](http://releases.ubuntu.com/releases/16.04/) (64-bit Desktop disc image file is recommended)
+* [Ubuntu 22.04 LTS disc image file](http://releases.ubuntu.com/jammy/) (64-bit Desktop disc image file is recommended)
 
 ### Installation Steps
 
-* Download the Ubuntu 16.04 LTS image.
+* Download the Ubuntu 22.04 LTS image.
 * Create a USB installation media for Ubuntu. We recommend using 'Rufus' to create the installation media. You can download it [here](https://rufus.akeo.ie/).  
 * Choose your USB flash drive, and load the ISO file. The GUI of Rufus will look like the picture below. Click the start button to burn the ISO file onto the USB flash drive.
-<center>![](/assets/images/rufus.jpg)</center>
+<center>![](/assets/images/Rufus%20setup--Ubuntu%2022.04.png)</center>
 * Insert your USB drive into LattePanda, and turn on the LattePanda. (If you created the USB installation media on LattePanda, please restart the LattePanda before OS installation.)  
 * Press 'Esc' continuously to enter BIOS menu. 
 * Navigate to the "Boot" tab and set the USB drive as "Boot Option #1" under "Boot Option Priorities" part.
