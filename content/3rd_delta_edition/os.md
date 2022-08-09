@@ -97,21 +97,20 @@ The following contents will take the Windows OS installation as an example to de
 
 LattePanda will restart. Afterward, you will enter the installation GUI as shown below.
 
-<center>![](https://i.imgur.com/13Mxl3A.jpg?1)</center>
 There will be two options:
 
 - Try Ubuntu without installing
 - Install Ubuntu
 
-Both options should work, but in this tutorial, we will take the 'Try Ubuntu without installing' option as an example. Then, the files will load. After a while, the following picture should appear. 
+Both options should work, but in this tutorial, we will take the 'Install' option as an example. Then, the files will load. After a while, the following picture should appear. 
 
 !!!note
     During this process, the screen may go black. Please be patient and do not do anything until you see the following screen.
 
-<center>![](/assets/images/ubuntu_desktop_install.jpg)</center>
-It's the Ubuntu Desktop. Next, please double-click the 'Install Ubuntu 16.04.6 LTS' icon on the desktop. After double-clicking, the installation will begin.(as shown below)
+<center>![](/assets/images/Install%20Ubuntu.jpg)</center>
+Please double-click the 'Install Ubuntu' icon. After double-clicking, the installation will begin.(as shown below)
 
-<center>![](https://i.imgur.com/0iKIU8d.jpg?1)</center>
+<center>![](/assets/images/Install%20Ubuntu-Language%20setup.jpg)</center>
 Choose your default language and continue. 
 
 <center>![](https://i.imgur.com/fH6F6er.jpg?1)</center>
