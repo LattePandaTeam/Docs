@@ -92,7 +92,7 @@ The following contents will take the Windows OS installation as an example to de
 * Insert your USB drive into LattePanda, and turn on the LattePanda. (If you created the USB installation media on LattePanda, please restart the LattePanda before OS installation.)  
 * Press 'Esc' continuously to enter BIOS menu. 
 * Navigate to the "Boot" tab and set the USB drive as "Boot Option #1" under "Boot Option Priorities" part.
-<center>![](/assets/images/USB_Boot_Order_Delta.jpg)</center>
+<center>![](/assets/images/BIOS%20setup.jpg)</center>
 * Navigate to the "Save & Exit" tab and select "Save Changes & Exit".
 
 LattePanda will restart. Afterward, you will enter the installation GUI as shown below.
