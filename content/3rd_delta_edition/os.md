@@ -113,11 +113,14 @@ Please double-click the 'Install Ubuntu' icon. After double-clicking, the instal
 <center>![](/assets/images/Install%20Ubuntu-Language%20setup.jpg)</center>
 Choose your default language and continue. 
 
-<center>![](https://i.imgur.com/fH6F6er.jpg?1)</center>
-Check the box to install third-party software, and then continue. This will ensure that the common plugins are installed and everything can run smoothly. 
+<center>![](/assets/images/Install%20Ubuntu-Wireless%20setup.jpg)</center>
+Connect to a WiFi network.
 
-<center>![](https://i.imgur.com/ZBEtaik.jpg?1)</center>
-Choose the best option for you. The options may look slightly different on your screen, but usually, the third option (Erase disk and install Ubuntu) will be the most appropriate. There will be a small window to confirm that changes will be made to your hard disk. Please click continue.
+<center>![](/assets/images/Install%20Ubuntu-Wireless%20setup.jpg)</center>
+Choose "Normal installation".
+
+<center>![](/assets/images/Install%20Ubuntu-installation%20type%20setup.jpg)</center>
+Choose the best option for you. The options may look slightly different on your screen, but usually, the first option (Erase disk and install Ubuntu) will be the most appropriate. There will be a small window to confirm that changes will be made to your hard disk. Please click continue.
 
 <center>![](https://i.imgur.com/KqIAQee.jpg?1)</center>
 Choose your time zone and click continue to proceed.
