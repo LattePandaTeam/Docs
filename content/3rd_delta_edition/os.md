@@ -120,15 +120,12 @@ Connect to a WiFi network.
 Choose "Normal installation".
 
 <center>![](/assets/images/Install%20Ubuntu-installation%20type%20setup.jpg)</center>
-Choose the best option for you. The options may look slightly different on your screen, but usually, the first option (Erase disk and install Ubuntu) will be the most appropriate. There will be a small window to confirm that changes will be made to your hard disk. Please click continue.
+Choose the best option for you. There will be a small window to confirm that changes will be made to your hard disk. Please click continue.
 
-<center>![](https://i.imgur.com/KqIAQee.jpg?1)</center>
+<center>![](/assets/images/Install%20Ubuntu-District%20setup.jpg)</center>
 Choose your time zone and click continue to proceed.
 
-<center>![](https://i.imgur.com/LVEID2G.jpg?1)</center>
-Select your keyboard layout. If you are not sure which one you need, you can use the detect keyboard layout option. Follow the instructions on your screen and then click continue.
-
-<center>![](https://i.imgur.com/Fl0Qhxo.jpg?2)</center>
+<center>![](/assets/images/Install%20Ubuntu-User%20setup.jpg)</center>
 Fill out all input fields to continue. 
 
 Please be patient and wait for the installation to complete. Then, you will be asked to restart LattePanda to complete the installation.
@@ -136,3 +133,18 @@ Please be patient and wait for the installation to complete. Then, you will be a
 <center>![](https://i.imgur.com/IpbGwmo.jpg?1)</center>
 
 Wait for your LattePanda to restart and boot up Ubuntu, then enter your password to log in. Enjoy it!
+
+
+**Attention:** 
+
+If you choose to install Ubuntu alongside Windows Boot Manager, LattePanda may boot into Windows instead of Ubuntu after restart , or Ubuntu doesn't show in the boot order priorities, please take the following steps:
+
+* Select 'UEFI Hard Disk Drive BBS Priorities'
+
+* Change the device in 'Boot Option #1/2'
+
+    <center>![](/assets/images/harddisk_order_3Delta.gif)</center>
+
+
+
+
