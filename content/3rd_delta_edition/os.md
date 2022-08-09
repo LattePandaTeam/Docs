@@ -130,7 +130,6 @@ Fill out all input fields to continue.
 
 Please be patient and wait for the installation to complete. Then, you will be asked to restart LattePanda to complete the installation.
 
-<center>![](https://i.imgur.com/IpbGwmo.jpg?1)</center>
 
 Wait for your LattePanda to restart and boot up Ubuntu, then enter your password to log in. Enjoy it!
 
