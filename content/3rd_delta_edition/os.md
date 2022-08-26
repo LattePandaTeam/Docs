@@ -63,8 +63,19 @@ The following contents will take the Windows OS installation as an example to de
 
 * Press the power button to turn on the LattePanda. Then it will start the system initialization. After about 3 minutes, it will enter into Windows System desktop.  Now enjoy it!
 
+### Windows Activation
+If you are using LattePanda 3 Delta activated model, there should be a License Key in the box as shown below.
 
+<center>![](/assets/images/License%20Key.png)</center>
 
+There are 6 steps to activate your LattePanda:
+
+* Make sure your LattePanda has an active internet connection via WiFi or Ethernet
+* Right click on the Windows button and select System
+* Click Activate Windows
+* Click Change Product Key
+* Enter the product key number
+* Click Next
 
 
 ## Ubuntu
