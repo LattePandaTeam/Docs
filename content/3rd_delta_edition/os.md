@@ -70,7 +70,7 @@ If you are using LattePanda 3 Delta activated model, there should be a License K
 
 There are 6 steps to activate your LattePanda:
 
-* Scrape the coating off the sticker to obtain the full Product Key
+* Scrape the coating off the sticker to obtain the full **Product Key**
 * Make sure your LattePanda has an active internet connection via WiFi or Ethernet
 * Right click on the Windows button and select **System**
 * Click **Activate Windows**
