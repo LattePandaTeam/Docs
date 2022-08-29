@@ -120,14 +120,16 @@ Before this operation, it is recommended to unplug the SSD, TF card, and other s
 * **Path: BIOS Setup -> Save & Exit-> Boot Override**. In the boot override menu, choose the UEFI device.
 <center>![](/assets/images/BootOverrideDeivce_3Delta.jpg)</center>
 
-* Then press '**Enter**' key, to enter into the EFI shell.  Then **do not press any key** to let the countdown end. 
+* Then press '**Enter**' key, to enter into the EFI shell,  then press '**ESC**' key to skip startup.nsh.
 
   <center>![](/assets/images/EFIShellMenu_3Delta.jpg)</center>
 
-* After the countdown, BIOS firmware refresh will be automatically started.
+* Input '**fs 0:**', then input '**ls**', to check whether the BIOS firmware is in the list. The BIOS firmware is a BIN file. If not, please continue to input '**fs1:**','**fs2:**', etc. to check, until finding the BIOS firmware in the list.
 
-<center>![](/assets/images/BIOSRefreshStarted_3Delta.jpg)</center>
+<center>![](/assets/images/EFIShellCheck_3Delta.jpg)</center>
 
-*  After about 2 minutes, the green font message "FPT Operation Successful" will be on the screen. It indicates that BIOS firmware refresh is already finished. Then short press the power button to turn off the LattePanda. Unplug the USB drive. Then short press the power button to turn on the LattePanda. The update of BIOS has finished now.
+* Then input '**BIOS.nsh**', and press '**Enter**' key. The update process will start. It will take about 2 minutes.
 
-<center>![](/assets/images/BIOSRefreshFinish_3Delta.jpg)</center>
+<center>![](/assets/images/EFIShellFinish_3Delta.jpg)</center>
+
+* When it has been done, the green font message "FPT Operation Successful" will be on the screen. Then short press the power button to turn off the LattePanda. Unplug the USB drive. Then short press the power button to turn on the LattePanda. The update of BIOS has finished now.
