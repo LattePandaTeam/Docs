@@ -2,13 +2,13 @@
 
 
 
-Q. When LattePanda power on, it enters into the EFI shell,  not the windows or Linux OS. The OS is installed in the onboard eMMC chip.
+**Q.** When LattePanda power on, it enters into the EFI shell,  not the windows or Linux OS. The OS is installed in the onboard eMMC chip.
 
-A. Please update the BIOS firmware to the latest version.  Refer to ''Update the BIOS Firmware''  in the [BIOS Setup](http://docs.lattepanda.com/content/3rd_delta_edition/bios/) section. The latest version is “LP-BS-7-S70JR120-CN51G-D”.
+**A.** Please update the BIOS firmware to the latest version.  Refer to ''Update the BIOS Firmware'' chapter in the [BIOS Setup](http://docs.lattepanda.com/content/3rd_delta_edition/bios/) section. The latest version is “LP-BS-7-S70JR120-CN51G-D”.
 
+<br>
 
-
-
+<br>
 
 If you have problem when using LattePanda 3 Delta, please feel free to open your issue via [LattePanda forum](https://www.lattepanda.com/forum/).
 

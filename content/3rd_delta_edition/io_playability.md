@@ -64,7 +64,21 @@ The M.2 B key socket allows SATA III, USB 2.0, USB3.0, and SIM.
 
 * M.2 5G Module (USB 3.0 lane)
 
-  Please insert a micro-SIM card before using 4G or 5G module.
+  Before using the 4G or 5G module, please insert a micro-SIM card into the SIM card slot, then assemble the antennas on the module. 
+
+  <center>![](/assets/images/AssembleLTE_3Delta.jpg)</center>
+
+  Then install the driver of the module after logging into the OS.
+
+  We have tested the following modules, which are working fine in the Windows 10 OS.
+
+  * [Quectel EM05-E](https://www.quectel.com/product/lte-em05-series)
+
+  * [SIMCom SIM7600G-H-M2](https://www.simcom.com/product/SIM7600X-H-M2.html)
+
+  * [Quectel RM500Q-GL](https://www.quectel.com/product/5g-rm50xq-series)
+
+  
 
 
 ## USB Type-A Port

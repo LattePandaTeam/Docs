@@ -24,8 +24,20 @@ The LattePanda 3 Delta is **a development device that supports two different ope
 The following contents will take the Windows OS installation as an example to demonstrate. 
 
 * The installation steps for Windows 10 and Windows 11 are same. 
+
 * We will use the official system image file(provided by LattePanda team) with all hardware drivers pre-installed and ready to use, bringing you a fast and ultimate experience.
+
 * The system will be installed on the eMMC by default.
+
+* How to install the official system image to the SSD?
+
+  * Insert your SSD into the LattePanda, then remove all other storage.
+
+  * Enter into the BIOS setup to disable the onboard eMMC. Then save the change. 
+
+   <center> ![](/assets/images/DisableEMMC_3Delta.gif)</center>
+
+  * Restart the LattePanda. Use the following installation steps to install the system image.
 
 ### What You Will Need
 
@@ -62,6 +74,9 @@ The following contents will take the Windows OS installation as an example to de
 <center>![](/assets/images/OS_InstallationOK_Desktop_3Delta.jpg)</center>
 
 * Press the power button to turn on the LattePanda. Then it will start the system initialization. After about 3 minutes, it will enter into Windows System desktop.  Now enjoy it!
+
+  
+
 
 ### Windows Activation
 If you are using LattePanda 3 Delta activated model, there should be a License Key in the box as shown below.
