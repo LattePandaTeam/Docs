@@ -29,7 +29,7 @@ To get started, you will need the following hardware:
 
 * Connect Wi-Fi/BT antennas to the sockets.
   
-  <center>![Wifi connection](/assets/images/Connect_Wifi_Antenna_Alpha.gif)</center>
+   <center> ![](/assets/images/AssembleAntennas_3Delta.gif)</center>
 
 Antenna and socket spec - IPEX4 2.4 & 5G Dual-band
 

@@ -147,6 +147,7 @@ nav:
     - 2x OS Support: content/3rd_delta_edition/os.md
     - Drivers: content/3rd_delta_edition/drivers_and_software.md
     - Physical Playability: content/3rd_delta_edition/io_playability.md
+    - Mutiple Internet Connections: content/3rd_delta_edition/connectivity.md
     - BIOS Setup: content/3rd_delta_edition/bios.md
     - Specification: content/3rd_delta_edition/specification.md
     - FAQ: content/3rd_delta_edition/faq.md

@@ -29,15 +29,17 @@ The following contents will take the Windows OS installation as an example to de
 
 * The system will be installed on the eMMC by default.
 
+  <br>
+
 * How to install the official system image to the SSD?
 
-  * Insert your SSD into the LattePanda, then remove all other storage.
+  1.Insert your SSD into the LattePanda, then remove all other storage.<br>
 
-  * Enter into the BIOS setup to disable the onboard eMMC. Then save the change. 
+  2.Enter into the BIOS setup to disable the onboard eMMC. Then save the change.<br> 
 
    <center> ![](/assets/images/DisableEMMC_3Delta.gif)</center>
 
-  * Restart the LattePanda. Use the following installation steps to install the system image.
+  3.Restart the LattePanda. Use the following installation steps to install the system image.<br>
 
 ### What You Will Need
 
