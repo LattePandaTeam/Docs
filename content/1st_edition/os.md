@@ -24,7 +24,7 @@ You can also re-install your LattePanda if you just want to re-install it.
 **Following this tutorial will help to recover your system back to the factory default settings. So it means a data or application backup is recommended before doing the steps below.**
 
 1. Check your hardware version!
-![z8350 mark](http://www.lattepanda.com/wp-content/uploads/2017/02/8350-stick.png)
+![z8350 mark](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/8350-sticker.png)
 
 2. Choose and download the RIGHT LattePanda's official Windows 10 image, which matches your hardware spec.
 
@@ -37,6 +37,8 @@ You can also re-install your LattePanda if you just want to re-install it.
     * [x64 version for **CR110** z8350 4GB+64GB](https://drive.google.com/file/d/0BzUYTecbiooHS2hfcmNmVlhaWjA/view?usp=sharing&resourcekey=0-J4hJnZr5Byw8Soxdp5MEsw)
 
     * [x64 version for all **CR200** z8350  (2GB+32GB and 4GB+64GB)](https://www.dropbox.com/s/e10ay72zr9xjxv4/CDJQ-JX-7-S70CR200-212-A.zip?dl=0)
+
+    * [x64 version for all **CR700** z8350  (2GB+32GB and 4GB+64GB)](https://www.dropbox.com/s/42ew93shad2o5xp/CDJQ-JX-7-S70CR700-CC34F%26CC55F-700-B.zip?dl=0)
 
 !!! Notes
     Please make sure that you download the right image for your board! You know, recovering process takes time. You won't like to waste time for downloading and installation again and again. ;)
@@ -73,7 +75,12 @@ If you have any other questions about installing a Windows Enterprise system or 
 
 ### Steps
 
-1. Download the [LattePanda Win10 Enterprise LTSB Image](http://bit.ly/EnterpriseOsForLP).
+1. Download the LattePanda Win10 Enterprise LTSB Image.
+
+    * [x64 version for all **CR200** z8350 ](http://bit.ly/EnterpriseOsForLP)
+
+    * [x64 version for all **CR700** z8350 ](https://www.dropbox.com/s/jsn7k2lx0vkkrka/CDJQ-JX-7-S70CR700-CC55G-ENT-700-C.zip?dl=0)
+
 
 ![5bkNJQf.png](https://i.imgur.com/Z0NOhLU.png)
 
@@ -241,45 +248,44 @@ This guide will teach you how to use these newly-available operating systems to 
 
 **Step 1**: Use any computer that has a working browser to navigate to Linuxium's [website](http://www.linuxium.com.au/) and download the Ubuntu 20.04 ISO disc image file for Atom Processor devices from the ISO page.
 
-![Linuxium](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-1-1.png)
+![Linuxium](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-1-1.png)
 
 **Step 2**: Now navigate to the Rufus [website](https://rufus.ie/) to download Rufus, which is the program we will use to reformat the clean USB stick.
 
-![Rufus_Download](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-16-1.png)
+![Rufus_Download](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-16-1.png)
 
 ***Note***: Please remember to take off all contents from the USB, because this process will wipe the USB clean of any preexisting files still on the USB!
 
 **Step 3**: Now insert your USB into your computer and execute the Rufus program, making sure to pick “**Disk or ISO image**” as your selection under “**Boot option**,” and then select the Linuxium Ubuntu 20.04 ISO image that you downloaded earlier and hit "**Start**". Also, please accept any other downloads that the Rufus program determines are necessary to incorporate in order to allow the reformatting process to operate correctly. Once the reformatting process has completed, proceed to the next step.
 
-![Rufus1](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-3-1.png)
+![Rufus1](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-3-1.png)
 
 
-
-![Rufus2](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-4-1.png)
+![Rufus2](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-4-1.png)
 
 **Step 4**: Now take your reformatted live USB with the ISO disc image file formatted directly to the USB and insert it into your LattePanda 1st Generation SBC before it boots up. Then, boot up your LP SBC and keep hitting the “Esc” button on your keyboard repeatedly to enter the BIOS.
 
 **Step 5**: Under the “**Save & Exit**” Heading, use the arrow keys on the keyboard to select the USB boot option under “**Boot Override**” and hit "Enter" on your keyboard.
 
-![BIOS1](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-11.jpg)
+![BIOS1](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-11.jpg)
 
 ***Note***: At this point, if you boot up the Ubuntu 20.04 operating system as is connected to an HDMI screen, you may see just a blank, purple screen for a while. If this is the case, do not panic, and wait to see if anything finally comes up. If not, check to see if you can change the display by hitting “Win+P” or “Cmd+P” buttons together a couple of times until a screen with an Installation Wizard comes up.
 
 **Step 6**: Click “**Install Ubuntu**” and follow the instructions and enter in your desired settings to install Ubuntu.
 
-![Install_Ubuntu](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-5.png)
+![Install_Ubuntu](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-5.png)
 
 
 
-![Keyboard_Layout](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-6.png)
+![Keyboard_Layout](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-6.png)
 
 
 
-![Updates](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-7.png)
+![Updates](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-7.png)
 
 
 
-![Restart](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-8.png)
+![Restart](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-8.png)
 
 If you have a MIPI-DSI display and touch screen, please continue to the *Using MIPI-DSI Display* section. If you have an HDMI display, please skip to the *Using HDMI Display* section. If you would like to use both displays together, it is advised to plug in both displays, follow the steps outlined in the *Using MIPI-DSI Display* section, and when finished click on the "**Display Settings**" option to set up the screens' displays to suit your preferences.
 
@@ -301,15 +307,15 @@ If you have a MIPI-DSI display and touch screen, please continue to the *Using M
 
 **Step 6**: Now navigate to the "**Chipset**" tab with the arrow buttons on your keyboard, then navigate to "**North Bridge**" and then hit the "Enter" button on your keyboard.
 
-![North_Bridge](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-15.jpg)
+![North_Bridge](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-15.jpg)
 
 **Step 7**: Now navigate to the "**IGD - LCD Control**" setting and then press the "Enter" button on your keyboard.
 
-![IGD-LCD_Control](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-14.jpg)
+![IGD-LCD_Control](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-14.jpg)
 
 **Step 8**: Now hit the "Enter" button on your keyboard at the "**Force Lid Status**" button so that you can change the status of this setting from "**On**" to "**Off**."
 
-![Force_Lid_Status](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-13.jpg)
+![Force_Lid_Status](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-13.jpg)
 
 **Step 9**: Now, navigate out of this setting, and into the "**Save & Exit**" tab and hit the "Enter" button on your keyboard at the "**Save Changes and Reset**" option.
 
@@ -323,7 +329,7 @@ If you have a MIPI-DSI display and touch screen, please continue to the *Using M
 
 **Step 1**: If you are using an HDMI display, then go ahead and boot up the Ubuntu operating system that has now been installed onto your LattePanda SBC via the BIOS page.
 
-![BIOS2](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-12.jpg)
+![BIOS2](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-12.jpg)
 
 **Step 2**: When you first start up the Ubuntu OS, you will be greeted by a GRUB menu, which in many ways is similar to the Windows' BIOS menu. At this point, you will probably want to edit the GRUB files before the system boots, or else you might just be greeted by a blank screen. Hit the "E" key on your keyboard and then proceed onto the next step.
 
@@ -331,11 +337,11 @@ If you have a MIPI-DSI display and touch screen, please continue to the *Using M
 
 **Step 3**: You have now entered the "**Edit GRUB File**" window. Here, you will need to find and navigate your cursor to the words "**quiet splash**" in this file.
 
-![GRUB1](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-9-2.jpg)
+![GRUB1](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-9-2.jpg)
 
 **Step 4**: Now, please type in the word "**nomodeset**" (no spaces) in front of the words "**quiet splash**." Then, please press the "F10" button on your keyboard to save the changes and boot up the computer using these new GRUB file settings.
 
-![GRUB2](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-10-2.jpg)
+![GRUB2](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-10-2.jpg)
 
 **Step 5**: Now you should see everything as it should be on your screen and be able to boot up your Ubuntu OS normally via your HDMI display! However, this setup is temporary, and you may be greeted by a blank screen again when you boot up the computer normally next time. To allow the "**nomodeset**" change to be applied for future iterations of booting up the Ubuntu OS, enter into the Ubuntu OS's terminal and enter the following command:
 
@@ -347,7 +353,7 @@ which will allow you to open the gnome desktop environment's default text editor
 
 **Step 6**: Now, you should be able to open up the text editor and find the words "**quiet splash**" just as you had done in the previous steps. Once more, add the word "**nomodeset**" in front of these words, and then hit the "**Save**" button in the top right of the window and exit the window.
 
-![gedit](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-24-1.jpg)
+![gedit](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-24-1.jpg)
 
 **Step 7**: Now, please go back to the terminal and update the grub files with this newly-saved change by entering in the follow change:
 
@@ -420,7 +426,7 @@ ifconfig
 
 and look for the wlan0's "**inet**" IP address.
 
-![inet](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-23-1.png)
+![inet](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-23-1.png)
 
 If your terminal cannot run this command, then please install it using the command:
 
@@ -434,23 +440,23 @@ Your LattePanda is now ready to be remotely accessed via an Open SSH connection.
 
 **Step 4**: Please use another computer that runs Windows OS to download and install the *portable version* of [MobaXterm](https://mobaxterm.mobatek.net/) in order to remotely access your Ubuntu OS's kernel.
 
-![MobaXterm](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-22-1.png)
+![MobaXterm](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-22-1.png)
 
 **Step 5**: Once you have downloaded and installed this program, go ahead and run it and click the "**Session**" button at the top left.
 
-![Session](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-17-1.png)
+![Session](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-17-1.png)
 
 **Step 6**: In the "**Session settings**" window, please click the "**SSH**" button in the top left.
 
-![SSH](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-18-1.png)
+![SSH](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-18-1.png)
 
 **Step 7**: In the Basic SSH settings, please add the "**Remote host**" IP address of your LattePanda running the Ubuntu 20.04 OS, and then check the "**Specify username**" radio button so that you can enter the ***username that you used when setting up your Ubuntu 20.04 OS*** (in this example, the username is "John"). Then, click "**OK**."
 
-![Remote_Host](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-20-1.png)
+![Remote_Host](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-20-1.png)
 
 **Step 8**: Finally, enter the password for your Ubuntu operating system's account that you are trying to log in to. (Please note that it will not appear as you are typing it, similar to if you were to type in your password in the terminal of the Ubuntu OS.)
 
-![password](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-21.png)
+![password](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-21.png)
 
 **Step 9**: Success! You are done connecting, and will be greeted by a message that will ask you if you would like to store the password safely in the software's database. You can choose to do this optional step and create a new master password for all of these stored passwords that the software can automatically access for each subsequent login, or you can choose to skip this step and try to use the terminal remotely on your Windows system.
 
@@ -511,7 +517,7 @@ and, when the installation is finished, you can go into your applications launch
 
 **Step 5**: To search for a Bluetooth device for the LP SBC to pair with, just hit the "**Search**" button in the top left of the window. Once the list appears, go ahead and select the device that you would like to pair with the LP SBC, and then follow the steps as they appear on your screen to complete the pairing of devices.
 
-![search](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-25-1.png)
+![search](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-25-1.png)
 
 **Step 6**: Now you are done, and have successfully paired your devices via a Bluetooth connection! To learn more about how to pair devices and how to utilize some of the functions that become available to you via a Bluetooth connection, please visit this [site](https://www.maketecheasier.com/setup-bluetooth-in-linux/).
 
@@ -780,7 +786,7 @@ in the terminal. This will now open the GNOME text editor, which will allow us t
 #GRUB_GFXMODE=640x480
 ```
 
-![gedit2](https://www.lattepanda.com/wp-content/uploads/2020/08/ubuntu-24-2.jpg)
+![gedit2](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/V1%20OS/ubuntu-24-2.jpg)
 
 Please change this by first deleting the pound sign in front of this line (which is used to "comment the line out", so deleting this pound sign is **necessary** in order to have anything written in the line take effect). Then, enter in the resolution dimensions of your screen after the equals sign. In this example, we are using a HDMI screen with a resolution of 1920x1080, so we will change this line so that it will read:
 
