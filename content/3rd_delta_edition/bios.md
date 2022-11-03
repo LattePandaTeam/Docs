@@ -85,7 +85,7 @@ The M.2 SATA SSD and built-in eMMC all belong to HardDisk in the BIOS. If you wa
 
 
 ## Deep Sleep EUP Support
-Handheld or portable devices/projects typically require the device to maintain ultra-low power consumption when truned off. In this application scenario, you can enable Deep Sleep EUP Support in the BIOS, to further reduce the power consumption of LattePanda to 18mA@12V after shutdown.
+Handheld or portable devices/projects typically require the device to maintain ultra-low power consumption when trun off. In this application scenario, you can enable Deep Sleep EUP Support in the BIOS, to further reduce the power consumption of LattePanda to 18mA@12V after shutdown.
 
 **Path: BIOS Setup -> Advanced -> Power Management -> Deep Sleep Eup Support**
 
