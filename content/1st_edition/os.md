@@ -25,7 +25,7 @@ You can also re-install your LattePanda if you just want to re-install it.
 
 1. Check your hardware version!
 
-  <center>![](/assets/images/8350-sticker.png)</center>
+  <center>![](/assets/images/LP%20V1/V1%20OS/8350-sticker.png)</center>
 
 2. Choose and download the RIGHT LattePanda's official Windows 10 image, which matches your hardware spec.
 
@@ -249,11 +249,11 @@ This guide will teach you how to use these newly-available operating systems to 
 
 **Step 1**: Use any computer that has a working browser to navigate to Linuxium's [website](http://www.linuxium.com.au/) and download the Ubuntu 20.04 ISO disc image file for Atom Processor devices from the ISO page.
 
-<center>![](/assets/images/V1%20OS/ubuntu-1-1.png)</center>
+<center>![](/assets/images/LP%20V1/V1%20OS/ubuntu-1-1.png)</center>
 
 **Step 2**: Now navigate to the Rufus [website](https://rufus.ie/) to download Rufus, which is the program we will use to reformat the clean USB stick.
 
-<center>![](/assets/images/V1%20OS/ubuntu-16-1.png)</center>
+<center>![](/assets/images/LP%20V1/V1%20OS/ubuntu-16-1.png)</center>
 
 ***Note***: Please remember to take off all contents from the USB, because this process will wipe the USB clean of any preexisting files still on the USB!
 
