@@ -47,7 +47,7 @@ Once you have everything ready, please follow these simple instructions below to
 
 **Note: Do not unplug the power cable while the system is running. (If the red LED is on, this indicates that the is system is running) **
 
-![img](http://www.lattepanda.com/wp-content/uploads/2016/05/6W4A0109.jpg)![img](http://www.lattepanda.com/wp-content/uploads/2016/05/6W4A0106.jpg)
+<center>![](/assets/images/LP%20V1/V1_Power/Power_LED.jpg)</center>
 
 3.When the LED indicator turns off, press and hold the power button for one second to turn on the LattePanda. You should see the LED indicator light up again.
 
