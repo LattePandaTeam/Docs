@@ -24,7 +24,8 @@ You can also re-install your LattePanda if you just want to re-install it.
 **Following this tutorial will help to recover your system back to the factory default settings. So it means a data or application backup is recommended before doing the steps below.**
 
 1. Check your hardware version!
-![z8350 mark](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/8350-sticker.png)
+
+  <center>![](/assets/images/8350-sticker.png)</center>
 
 2. Choose and download the RIGHT LattePanda's official Windows 10 image, which matches your hardware spec.
 
