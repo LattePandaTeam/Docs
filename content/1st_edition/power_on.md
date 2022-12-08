@@ -41,7 +41,7 @@ Once you have everything ready, please follow these simple instructions below to
 
 [If you are using the 7" display/touch panel, please connect this peripheral before powering on your device](http://docs.lattepanda.com/content/getStarted/screenAndTouchPanel/)
 
-![img](http://www.lattepanda.com/wp-content/uploads/2016/05/plug-USB.jpg) 
+<center>![](/assets/images/LP%20V1/V1_Power/plug-USB.jpg)</center>
 
 2.When plugged in, you should see the red LED indicator light up on the underside of the board. This means that the LattePanda is initializing. Wait patiently for a few seconds until the LED light goes out.
 
