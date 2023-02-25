@@ -155,7 +155,7 @@ or
 
 ### Activated problems :
 
-- *2G version.*  --Please check [here](http://www.lattepanda.com/topic-f10t1271.html).
+- *2G version.*  --Please check [here](https://www.lattepanda.com/forum/topic/313259).
 
 
 - *4G enterprise version.*  --Please make sure you have got the license card form the box.
@@ -163,18 +163,18 @@ or
 ### Boot problems :
 
 - *The Blue LED blinks after the button pressed.*  --Please make sure you press the right button , the power button is the white one which next to the 20pins, not the silver one.
-- *The Red LED light on all time.*   --Please check [here](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=386).
+- *The Red LED light on all time.*   --Please check [here](https://www.lattepanda.com/forum/topic/319697).
 
 ### Accessories :
 
-- *Touchpanel  isn't working properly.*   --Please check [here](http://www.lattepanda.com/topic-f10t1178p5008.html#p5008).
-- *No HDMI output.*  --Please check [here](http://www.lattepanda.com/topic-f10t1175.html).
+- *Touchpanel  isn't working properly.*   --Please check [here](https://www.lattepanda.com/forum/topic/313171).
+- *No HDMI output.*  --Please check [here](https://www.lattepanda.com/forum/topic/313168).
 
 ### Other :
 
-- *Power the board via CN2 headers.*   --Please check [here](http://www.lattepanda.com/topic-f10t797.html).
+- *Power the board via CN2 headers.*   --Please check [here](https://www.lattepanda.com/forum/topic/312864).
 
-- *Change resolution.*  --Please check [here](http://www.lattepanda.com/topic-f10t1736.html).
+- *Change resolution.*  --Please check [here](https://www.lattepanda.com/forum/topic/313510).
 
   ​
 
