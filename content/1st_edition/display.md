@@ -8,7 +8,7 @@ We are also working with several partners to deliver customized displays for the
 ## Tips 
 When tinkering with hardware, checking that your hardware is properly connected is always the most important step to powering on your system successfully!
 
-<center>![image](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/LP%20V1/touc_hdisplay/bitmap.png)</center>
+<center>![Alt test](https://github.com/LattePandaTeam/Docs/blob/master/assets/images/LP%20V1/touc_hdisplay/bitmap.png)</center>
 
 !!! warning
     Please connect this device to the LattePanda BEFORE powering it on. Additionally, please make sure that the Golden Finger faces the right side. The contacts on the FPC (Flexible Printed Circuit) are very compact and in a specific order. Please be careful not to have any dislocation in the connection which may cause the LattePanda to short circuit and lead the IPS display to have abnormalities like ghost images or flickering.**
