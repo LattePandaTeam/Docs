@@ -20,7 +20,7 @@ Please follow the steps below to re-install Windows 10 to its "out of the box" s
 
 1.Download your LattePanda's official Windows 10 image
 
-![z8350 mark](http://www.lattepanda.com/wp-content/uploads/2017/02/8350-stick.png)
+![z8350 mark](/assets/images/LP V1/V1 OS/8350-sticker.png)
 [x86 version for z8300 2GB+32GB](https://drive.google.com/file/d/0B5YJ8UIGswVqeXFsbnRnWi1xXzg/view)
 
 [x64 version for z8300 4GB+64GB](https://drive.google.com/file/d/0B5YJ8UIGswVqSm5qWF91MG1NWnc/view)
@@ -43,14 +43,14 @@ Please follow the steps below to re-install Windows 10 to its "out of the box" s
 
 ## How to install Windows Enterprise on LattePanda?
 
-We announced the LattePanda 4G/64GB version with Windows Key. If you need to know how to install a Windows Enterprise system on LattePanda or want know how to activate Windows key on your board, **just check this simple [tutorial](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=1388) contributed by community member**.
+We announced the LattePanda 4G/64GB version with Windows Key. If you need to know how to install a Windows Enterprise system on LattePanda or want know how to activate Windows key on your board, **just check this simple [tutorial](https://www.lattepanda.com/forum/topic/313371) contributed by community member**.
 
 ## What Boot Method Does LattePanda Use?
 
 1. LattePanda BIOS uses UEFI boot
 2. As we use different Windows images for two LP versions, the BIOS's bit depth should match the image. So LattePanda 2G/32GB uses a 32bit UEFI boot and 4G/64GB uses a 64bit UEFI boot.
 
-If you are trying to install a different OS such as Linux, we have had some luck using multiarch images. We are still experimenting with this. We recommend looking on the [forum](http://www.lattepanda.com/forum/viewtopic.php?f=5&t=275) for more information.
+If you are trying to install a different OS such as Linux, we have had some luck using multiarch images. We are still experimenting with this. We recommend looking on the [forum](https://www.lattepanda.com/forum/) for more information.
 
 ## Tested Power Accessories
 
