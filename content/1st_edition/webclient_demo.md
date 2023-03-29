@@ -123,7 +123,7 @@ After completion, you will receive an object like this:
 ```
 ## Examples
 
-You can see all examples in the `/examples` folder. [Click here to see more user experiences.](http://www.lattepanda.com/forum/viewtopic.php?f=6&t=977)
+You can see all examples in the `/examples` folder. [Click here to see more user experiences.](https://www.lattepanda.com/forum/topic/313005)
 
 ##### Turn On a LED
 
@@ -152,7 +152,7 @@ In this example, we will set the servo motor to the 20 degrees position.
 In this example, we will detect the value of a light sensor via an analog pin (A0~A5)
 
 - Open a new shell or Node.js command prompt and navigate to the `/examples` folder
-- Connect a [Light Sensor](http://www.lattepanda.com/product-details/?pid=6) to analog pin A0
+- Connect a [Light Sensor](https://www.dfrobot.com/product-1428.html) to analog pin A0
 - Run the sample javascript code using the following commands: `node read_analog.js`
 - The value of the sensor will be printed out on your screen.
 
