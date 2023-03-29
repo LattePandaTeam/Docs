@@ -25,13 +25,13 @@ You should make sure that you have all of these listed below before beginning th
 - Computer with Git client installed and access to the [azure-iot-sdks](https://github.com/Azure/azure-iot-sdks) GitHub public repository.
 - [Prepare your development environment](http://www.lattepanda.com/docs/#Prepare_your_development_environment).
 - If you don’t have a storage account, follow the instructions detailed in [Setup your Azure Storage](https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/#create-a-storage-account) to set one up.
-- [Set up the Arduino](http://www.lattepanda.com/docs/#SetuptheArduino)(It is pre-installed, unless you changed the Arduino program)
+- [Set up the Arduino](https://docs.lattepanda.com/content/1st_edition/vs_programming/#step-2-set-up-the-arduino)(It is pre-installed, unless you changed the Arduino program)
 
 ### Step 2: Set Up the Hardware
 
 - Insert your [Light Sensor](https://www.dfrobot.com/index.php?route=product/product&search=SEN0043&description=true&product_id=274) into the LattePanda's analog pin A0. The final setup should look something like this: 
 
-  ![BFC275558BF698A5C21E19A4E3A240D7_meitu_1](http://www.lattepanda.com/wp-content/uploads/2016/02/BFC275558BF698A5C21E19A4E3A240D7_meitu_1.jpg)
+  ![BFC275558BF698A5C21E19A4E3A240D7_meitu_1](http://www.lattepanda.com:8089/wp-content/uploads/2016/02/BFC275558BF698A5C21E19A4E3A240D7_meitu_1.jpg)
 
 ### Step 3: Build and Run the Sample
 
@@ -118,7 +118,7 @@ tableService.insertEntity(tableName, entity, function (error, result, response) 
 
 - You can then view the data being sent to Azure storage with [Power BI](https://powerbi.microsoft.com/en-us/). In Power BI, click on the Get Data button, select ‘Microsoft Azure Table Storage’ as your source, and then follow the steps to connect. Once connected, you can select your table and view the light sensor data that has been sent from your LattePanda.
 
-  ![azure-storagedata](http://www.lattepanda.com/wp-content/uploads/2016/02/azure-storagedata.png)
+  ![azure-storagedata](http://www.lattepanda.com:8089/wp-content/uploads/2016/02/azure-storagedata.png)
 
   ​
 
