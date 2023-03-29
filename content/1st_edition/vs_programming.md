@@ -10,15 +10,15 @@ This class allows you to control Arduino GPIO from Windows apps, with features i
 ## Step 1: Set Up Your PC
 
  1.[Download Visual Studio 2017 Here](https://www.visualstudio.com/downloads/download-visual-studio-vs)
-   ![image2](http://www.lattepanda.com/wp-content/uploads/2016/02/image2.jpeg)
+   ![image2](/assets/images/LP%20V1/V1_Physical_Programming/image2.jpeg)
 
  2.Enable developer mode on your operating system
 
-   ![image4](http://www.lattepanda.com/wp-content/uploads/2016/02/image4.jpeg)
+   ![image4](/assets/images/LP%20V1/V1_Physical_Programming/image4.jpeg)
 
-   ![image5](http://www.lattepanda.com/wp-content/uploads/2016/02/image5.jpeg)
+   ![image5](/assets/images/LP%20V1/V1_Physical_Programming/image5.jpeg)
 
-   ![image6](http://www.lattepanda.com/wp-content/uploads/2016/02/image6.jpeg)
+   ![image6](/assets/images/LP%20V1/V1_Physical_Programming/image6.jpeg)
 
  3.Download [LattePanda.Firmata](https://github.com/LattePandaTeam/LattePanda-Development-Support/tree/master/LattePandaFirmata)
 
@@ -34,35 +34,35 @@ This class allows you to control Arduino GPIO from Windows apps, with features i
 
  1.Open Arduino. Then, select “StandardFirmata”
 
-   ![image16](http://www.lattepanda.com/wp-content/uploads/2016/02/image16.png)
+   ![image16](/assets/images/LP%20V1/V1_Physical_Programming/image16.png)
 
  2.Select “Arduino Leonardo”
 
-   ![image17](http://www.lattepanda.com/wp-content/uploads/2016/02/image17.png)
+   ![image17](/assets/images/LP%20V1/V1_Physical_Programming/image17.png)
 
  3.Select your COM port
 
-   ![image18](http://www.lattepanda.com/wp-content/uploads/2016/02/image18.png)
+   ![image18](/assets/images/LP%20V1/V1_Physical_Programming/image18.png)
 
  4.Upload the sketch
 
-   ![image19](http://www.lattepanda.com/wp-content/uploads/2016/02/image19.png)
+   ![image19](/assets/images/LP%20V1/V1_Physical_Programming/image19.png)
 
  5.Wait for successful upload
 
-   ![image20](http://www.lattepanda.com/wp-content/uploads/2016/02/image20.png)
+   ![image20](/assets/images/LP%20V1/V1_Physical_Programming/image20.png)
 
 ## Step 3: Blink Your Board
 
-Create a project or use the [sample project here.](http://www.lattepanda.com/wp-content/uploads/2016/02/blinkYourBoard.zip) You can find more GPIO examples [here.](http://docs.lattepanda.com/content/hardware/examples/)
+Create a project or use the [sample project here.]([/assets/images/LP%20V1/V1_Physical_Programming/blinkYourBoard.zip) You can find more GPIO examples [here.](http://docs.lattepanda.com/content/hardware/examples/)
 
  1.Open Visual Studio 2017 and create a new application:
-   ![createProject1](http://www.lattepanda.com/wp-content/uploads/2016/02/createProject1.png)
-   ![createProject2](http://www.lattepanda.com/wp-content/uploads/2016/02/createProject2.png)
+   ![createProject1](/assets/images/LP V1/V1_Physical_Programming/createProject1.png)
+   ![createProject2](/assets/images/LP V1/V1_Physical_Programming/createProject2.png)
  2.[Download the LattePanda.Firmata class library](https://github.com/LattePandaTeam/LattePanda-Development-Support/tree/master/LattePandaFirmata)
 
  3.Add the downloaded class library to your project. Next, open your Solution Explorer and right-click in the blank area, then add existing item.
-   ![addClass1](http://www.lattepanda.com/wp-content/uploads/2016/02/addClass1.png)
+   ![addClass1](/assets/images/LP V1/V1_Physical_Programming/addClass1.png)
  4.Add the following code to Program.cs.
 
    - Add the following two lines of code before the line of code "namespace blinkYourBoard."
@@ -91,10 +91,10 @@ Thread.Sleep(1000);//delay a seconds
 
 The complete code is as follows:
 
-![addCode](http://www.lattepanda.com/wp-content/uploads/2016/02/addCode.png)
+![addCode](/assets/images/LP V1/V1_Physical_Programming/addCode.png)
 
 5.Finally check your project and debug if needed
    Connect your Arduino and click Start
-   ![start](http://www.lattepanda.com/wp-content/uploads/2016/02/start.png)
+   ![start](/assets/images/LP V1/V1_Physical_Programming/start.png)
    Soon, you will find the LED of your Arduino blinking
 
