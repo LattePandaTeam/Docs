@@ -25,7 +25,7 @@ The DREAMMAKER Overlord is a 3D printer that is affordable, smart, and stylish. 
 ### Step 1: Install OctoPrint
 To install OctoPrint, follow the official tutorial:<BR>
 
-Windows [https://github.com/foosel/OctoPrint/wiki/Setup-on-Windows](https://github.com/foosel/OctoPrint/wiki/Setup-on-Windows)
+[Windows](https://github.com/foosel/OctoPrint/wiki/Setup-on-Windows)
 
 In this tutorial, you will need to install Python 2.7 and Microsoft Visual C++ Compiler for Python 2.7, and then you will need to execute some command statements
 
@@ -86,7 +86,5 @@ You can now open OctoPrint on any other computer or phone (connected to the same
 Feel free to contact us if you have any queries. We will reply to your questions as soon as we can.
 
 #### References
-1. http://www.dfrobot.com.cn/community/thread-13090-1-1.html
-2. https://github.com/foosel/OctoPrint/wiki/Setup-on-Windows
-3. http://www.lattepanda.com/product-detail/?pid=2
-4. http://www.dreammaker.cc/
+1. [OctoPrint](https://github.com/foosel/OctoPrint/wiki/Setup-on-Windows)
+2. [DreamMaker](http://www.dreammaker.cc/)
