@@ -11,7 +11,7 @@ Adopted all around the world, OpenCV has more than 47 thousand people in its use
 
 1.Install Visual Studio 2017 on your computer
 
-Head over to https://www.visualstudio.com/products/visual-studio-professional-with-msdn-vs and download Visual Studio Professional 2015. Unzip the downloaded file and double-click the 'vs_professional.exe'. Then, the installation process will begin.
+Head over to [VisualStudio](https://www.visualstudio.com/products/visual-studio-professional-with-msdn-vs) and download Visual Studio Professional 2015. Unzip the downloaded file and double-click the 'vs_professional.exe'. Then, the installation process will begin.
 
 2.Install OpenCV
 
@@ -177,6 +177,5 @@ Press F5 to execute the face detection project. Now, your PC camera will turn on
 
 ##  References:
 
-  1.http://www.michaelpsyllakis.com/install-opencv-on-visual-studio-2015-community-tutorial/
-  2.http://docs.opencv.org/2.4/opencv_tutorials.pdf  
-  3.http://docs.opencv.org/2.4/opencv2refman.pdf
+1. [OpenCV Tutorials](http://docs.opencv.org/2.4/opencv_tutorials.pdf)
+2. [OpenCV Reference Manual](http://docs.opencv.org/2.4/opencv2refman.pdf)
