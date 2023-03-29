@@ -31,7 +31,7 @@ You should prepare with this checklist before beginning the following process:
 
 ## Step 2: Build and Run the Sample Code
 
-- Get the following sample json files from https://github.com/azure/azure-iot-sdk-node
+- Get the following sample json files from [GitHub Azure](https://github.com/azure/azure-iot-sdk-node)
   - **package.json**
 
 
@@ -83,11 +83,11 @@ You can use the [Azure Portal](https://portal.azure.com/) to create an IoT Hub t
 
 2.In the main menu navbar, click **New**, then click **Internet of Things**, and then click **Azure IoT Hub**.
 
-![create-iot-hub1](http://www.lattepanda.com/wp-content/uploads/2016/02/create-iot-hub1-1.png)
+![create-iot-hub1](/assets/images/LP%20V1/V1_Azure/create-iot-hub1-1.png)
 
 3.In the **New IoT Hub** section, specify the desired configuration for the IoT Hub.
 
-![create-iot-hub2](http://www.lattepanda.com/wp-content/uploads/2016/02/create-iot-hub2.png)
+![create-iot-hub2](/assets/images/LP%20V1/V1_Azure/create-iot-hub2.png)
 
 - In the **Name** box, enter a name to identify your IoT Hub. When the **Name** is validated, a green check mark will appear in the **Name** box.
 - Change the **Pricing and Scale Tier** as desired. The getting started samples do not require a specific tier.
@@ -96,15 +96,15 @@ You can use the [Azure Portal](https://portal.azure.com/) to create an IoT Hub t
 
 4.Once the new IoT Hub options are configured, click **Create**. It can take a few minutes for the IoT Hub to be created. To check the status, you can monitor the progress in the Start menu. Otherwise, you can monitor your progress from the Notifications section.
 
-![create-iot-hub3](http://www.lattepanda.com/wp-content/uploads/2016/02/create-iot-hub3.png)
+![create-iot-hub3](/assets/images/LP%20V1/V1_Azure/create-iot-hub3.png)
 
 5.After the IoT hub has been created successfully, open the Overview section of the new IoT Hub and take note of the hostname URI. Then, click **Shared access policies**.
 
-![create-iot-hub4](http://www.lattepanda.com/wp-content/uploads/2016/02/create-iot-hub4.png)
+![create-iot-hub4](/assets/images/LP%20V1/V1_Azure/create-iot-hub4.png)
 
 6.Select the Shared access policy oprtion called **iothubowner**, and then copy and take note of the connection string on the right-hand section. 
 
-![create-iot-hub5](http://www.lattepanda.com/wp-content/uploads/2016/02/create-iot-hub5.png)
+![create-iot-hub5](/assets/images/LP%20V1/V1_Azure/create-iot-hub5.png)
 
 Your have now finished creating your IoT Hub, and you now have the connection string you need to use the [iothub-explorer or the Device Explorer](http://www.lattepanda.com/docs/#manage_iot_hub) tool. This connection string enables applications to perform management operations on the IoT Hub, such as adding a new device to the IoT Hub.
 
