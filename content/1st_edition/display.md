@@ -17,26 +17,26 @@ When tinkering with hardware, checking that your hardware is properly connected 
 
 * Lift up the small locking flap which sits behind the insertion point of the FPC. (Please view [this youtube video](https://youtu.be/j7o6CBNUmt4?t=192) in the event that you do not know where the flap is located or how to properly lift it up.) You may find it easy enough to use your thumb or index finger for this step.
 
-<center>![img](http://www.lattepanda.com/wp-content/uploads/2016/05/6W4A0100.jpg)</center>
+<center>![](/assets/images/LP%20V1/touc_hdisplay/6W4A0100.jpg)</center>
 
 * Insert the display's FPC into the slot.
 
 !!! warning
     Place the "golden finger" side down when inserting!**
 
-<center>![img](http://www.lattepanda.com/wp-content/uploads/2016/05/6W4A0102.jpg)</center>
+<center>![](/assets/images/LP%20V1/touc_hdisplay/6W4A0102.jpg)</center>
 
 !!! note
     The FPC must be fully inserted into the connector port, otherwise the small locking flap will not close properly. Should this be the case, lift up the small locking flap and repeat the process (starting with Step 1 above)***
 
 * Rotate and push the small locking flap down until it is firmly closed.
 
-<center>![img](http://www.lattepanda.com/wp-content/uploads/2016/05/6W4A0103.jpg)</center>
+<center>![](/assets/images/LP%20V1/touc_hdisplay/6W4A0103.jpg)</center>
 
 * Insert the FPC of the touch panel in the
    same way as you installed the FPC for the display. Place the golden finger side down for this FPC, too.
 
-<center>![img](http://www.lattepanda.com/wp-content/uploads/2016/05/6W4A0104.jpg)</center>
+<center>![](/assets/images/LP%20V1/touc_hdisplay/6W4A0104.jpg)</center>
 
 
 ## How to Extend 3rd Party Displays Available from the Market
