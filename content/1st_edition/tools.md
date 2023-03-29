@@ -14,12 +14,12 @@ Let’s get started:
 
    [Download](http://www.tightvnc.com/download.php)
 
-   ![vnc_image001](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image001.png)
+   ![](/assets/images/LP V1/V1_Tools/vnc_image001.png)
 
 2.End-User Licence Agreement
 
 Accept the licence agreement and click next
-   ![vnc_image002](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image002.png)
+   ![vnc_image002](/assets/images/LP V1/V1_Tools/vnc_image002.png)
 
 3.Choose Setup Type
 
@@ -29,7 +29,7 @@ Accept the licence agreement and click next
 
    For this tutorial, we will perform the typical installation method.
 
-   ![vnc_image003](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image003.png)
+   ![vnc_image003](http://www.lattepanda.com:8089/wp-content/uploads/2016/02/vnc_image003.png)
 
 4.Select Additional Tasks
 
@@ -41,13 +41,13 @@ Accept the licence agreement and click next
 
 Click Install to begin!
 
-   ![vnc_image005](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image005.png)
+   ![vnc_image005](http://www.lattepanda.com:8089/wp-content/uploads/2016/02/vnc_image005.png)
 
 6.TightVNC Server: Set Passwords
 
 ​    Password Access
 
-   ![vnc_image005](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image006.png)
+   ![vnc_image005](http://www.lattepanda.com:8089/wp-content/uploads/2016/02/vnc_image006.png)
 
 At this point it is advised to set a password for remote access. To do this, click on the radio button, “Require password-based authentication,” and then choose a password. Then, retype your password into the next textbox directly underneath.
 
@@ -63,13 +63,13 @@ When you are happy with your settings, click “OK”. Click “Finish” to exi
 
    You should now see a new icon in your system tray. (If you don’t, try logging out and logging back in to your PC).
 
-   ![vnc_image007](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image007.png)
+   ![vnc_image007](http://www.lattepanda.com:8089/wp-content/uploads/2016/02/vnc_image007.png)
 
 Here you can see the IP address of your PC. (If you cannot hover your mouse over the icon and see the IP address, you can also view the IP address that your computer is using via the command prompt.)
 
 Double click this icon to bring up the service configuration window. These default settings should be fine for our purposes of initially setting up the servers.
 
-   ![vnc_image008](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image008.png)
+   ![vnc_image008](http://www.lattepanda.com:8089/wp-content/uploads/2016/02/vnc_image008.png)
 
 Next, you will need to go on to the computer that you would like to use to control the LattePanda with, and using the same installation package install TightVNC viewer. When you have successfully installed TightVNC viewer, check that you are on the same network as your LattePanda, otherwise it will not work!
 
@@ -77,11 +77,11 @@ When you are certain that your computer and the LattePanda are on the same local
 
 ### Step 3 - Testing
 
-   ![vnc_image009](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image009.png)
+   ![vnc_image009](http://www.lattepanda.com:8089/wp-content/uploads/2016/02/vnc_image009.png)
 
 Open TightVNC Viewer. A window will appear for a new TightVNC Connection. At this point, you need to input the IP address of your LattePanda.
 
-   ![vnc_image010](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image010.png)
+   ![vnc_image010](http://www.lattepanda.com:8089/wp-content/uploads/2016/02/vnc_image010.png)
 
 Tip: A quick way to find this IP address is to hover over the system tray TightVNC icon on your LattePanda. A hint will pop up with “TightVNC Service - 
 
@@ -91,10 +91,10 @@ Tip: A quick way to find this IP address is to hover over the system tray TightV
    `e.g. 192.168.2.60:5900` Click connect. If all goes well you will be prompted to input a password. Please input the password that you created earlier. In this example, this password was “lattepan”. Then, press enter.
 
 
-![vnc_image011](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image011.png)
+![vnc_image011](http://www.lattepanda.com:8089/wp-content/uploads/2016/02/vnc_image011.png)
 
 You will now see a window containing your LattePanda’s GUI! You can now control it remotely!
 
-![vnc_image012](http://www.lattepanda.com/wp-content/uploads/2016/02/vnc_image012.png)
+![vnc_image012](http://www.lattepanda.com:8089/wp-content/uploads/2016/02/vnc_image012.png)
 
 This concludes the LattePanda VNC tutorial. If you have any questions or comments, please let us know in the forums. We hope this has has helped.
