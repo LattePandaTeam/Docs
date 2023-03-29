@@ -23,13 +23,13 @@ As soon as you get past the first blinking example, you can start preparing the 
 
 Here is the simple flow setup.
 
-![node-red_flow](http://www.lattepanda.com:8089/wp-content/uploads/2016/02/node-red_flow.png)
+![node-red_flow](/assets/images/LP V1/V1_NODE_red/node-red_flow.png)
 
 5.Configure Email Node
 
 Now we can configure the email node. I am using the Microsoft office email server. If you are using another email service provider, please check your server settings for setting up an `imap` client.
 
-![node-red_email](http://www.lattepanda.com:8089/wp-content/uploads/2016/02/node-red_email.png)
+![node-red_email](/assets/images/LP V1/V1_NODE_red/node-red_email.png)
 
 Also, if you are using *Gmail*, you need to create an application specific password for third-party application authentication.
 
@@ -44,13 +44,13 @@ Here is the code :
 
 `return msg;`
 
-![node-red_function](http://www.lattepanda.com:8089/wp-content/uploads/2016/02/node-red_function.png)
+![node-red_function](/assets/images/LP V1/V1_NODE_red/node-red_function.png)
 
 7.Configure the Arduino LED Node.
 
 You should have configured the LED node onto pin 13 already if you have gone through the previous examples. Here is a screenshot displaying the required setup.
 
-![node-red_pin](http://www.lattepanda.com:8089/wp-content/uploads/2016/02/node-red_pin.png)
+![node-red_pin](/assets/images/LP V1/V1_NODE_red/node-red_pin.png)
 
 ### Test
 
