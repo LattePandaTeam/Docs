@@ -174,5 +174,127 @@ If you choose to install Ubuntu alongside Windows Boot Manager, LattePanda may b
     <center>![](/assets/images/harddisk_order_3Delta.gif)</center>
 
 
+## Android
 
+The rapid advancement of technology in contemporary society has made people increasingly reliant on the internet in their daily lives. With the widespread use of smartphones and tablets, individuals are utilizing mobile devices for internet access more frequently. Consequently, the Android operating system, as one of the most popular mobile operating systems, has become a focal point of public attention.<br>
 
+Given this context, it has become a common technological practice to install the Android x86 system on single board computer (SBC) via virtual machines. By running the Android x86 system on a virtual machine, we can gain a better understanding of the workings of the Android system and easily utilize Android applications on the single-board computers (SBCs). Today, we will be using the Lattepanda 3 Delta as our testing subject and provide a comprehensive guide on the installation process.<br>
+
+In this section, we will show the step to install Android x86 OS on Lattepanda 3 Delta using a virtual machine.<br>
+
+### What You Will Need
+
+* [Android x86 OS Disc Image File](https://sourceforge.net/projects/android-x86/files/Release 9.0/)
+* Virtualization Software, such as [VMware](https://customerconnect.vmware.com/en/downloads/info/slug/desktop_end_user_computing/vmware_workstation_player/17_0), VirtualBox
+
+### Installation Steps
+
+* **Download the ISO mirror image file for Android x86.**
+
+  You may download the latest version of the mirror image file from the official website of Android x86.Download [android-x86_64-9.0-r2](https://sourceforge.net/projects/android-x86/files/Release%209.0/).
+
+* **Install virtualization software.**
+
+  You may utilize VMware, VirtualBox, or other virtualization software. For this instance, we will be utilizing VMware Player as the virtualization software. Download [VMware Player](https://customerconnect.vmware.com/en/downloads/info/slug/desktop_end_user_computing/vmware_workstation_player/17_0).
+
+* **Establish a virtual machine.**
+
+  1.Commence VMware Player and select "Create a new virtual machine"<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid1.jpg)</center>
+
+  2.After clicking on "Browse" for the installation program disc image file, select the above-mentioned downloaded mirror image file, and then click on Next.<br> 
+
+   <center> ![](/assets/images/android/3DeltaAndroid2.jpg)</center>
+
+  3.Select "Linux" for the operating system, and then choose "Other Linux 5.X Kernel 64-bit" as the version, and finally, click on Next.<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid3.jpg)</center>
+
+  4.Name the virtual machine and select the physical location for storing the virtual machine, then click on Next.<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid4.jpg)</center>
+
+  5.Choose a disk size of 8GB, and then split the virtual disk into multiple files before clicking on Next.<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid5.jpg)</center>
+
+  6.Confirm the virtual machine information and click on "Finish".<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid6.jpg)</center>
+
+  7.Click on "Play" to start the virtual machine.<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid7.jpg)</center>
+
+  8.Installing Android onto a virtual machine.<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid8.jpg)</center>
+
+  9.Press "C" on the keyboard, select "Create/Modify partitions" using the arrow keys, and then click "OK".<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid9.jpg)</center>
+
+  10.Choose not to use GPT.<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid10.jpg)</center>
+
+  11.Select "NEW", then "Primary". Confirm the amount of available disk space, and press "Enter".<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid11.jpg)</center>
+
+  12.Click on "Bootable" and press "Enter", ensuring that the "Bootable" option is present in the Flags.<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid12.jpg)</center>
+
+  13.Click on "Write" to write the image.<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid13.jpg)</center>
+
+  14.Manually type "yes" and press "Enter".<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid14.jpg)</center>
+
+  15.After waiting for the image to be written, select "Quit" and press "Enter".<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid15.jpg)</center>
+
+  16.Select the hard disk that was just written to, and click "OK" to confirm.<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid16.jpg)</center>
+
+  17.Select the EXT4 file system, and press "Enter" to confirm.<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid17.jpg)</center>
+
+  18.Select "Yes" to format the hard disk in EXT4 format.<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid18.jpg)</center>
+
+  19.Select "Yes" to install the GRUB bootloader..<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid19.jpg)</center>
+
+  20.Press "C" on the keyboard, select "Create/Modify partitions" using the arrow keys, and then click "OK".<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid20.jpg)</center>
+
+  21.Select "REBOOT" and then "OK", to complete the installation of Android onto the virtual machine..<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid21.jpg)</center>
+
+* **Modify the disabled graphics card driver.**
+
+  1.Select the second "debug" mode to enter the system.<br>
+
+  2.Enter "mount -o remount,rw /mnt" to modify the corresponding file's read and write permissions.<br>
+
+  3.Enter "vi /mnt/grub/menu.lst" to edit the corresponding file using the vi editor.<br>
+
+  4.Press "i" to enter the edit mode in the vi editor. Add "nomodeset" after "quiet" to disable the graphics card driver. Then, type ":wq" to save and exit the vi editor.<br>
+
+  5.Click on "Restart" to select and initiate a reboot.<br>
+
+  After completing the above steps, restart the virtual machine and select "Android x86". You can now begin using the Android x86 system.<br>
+  
+  In summary, the Android x86 virtual machine is a convenient way for users to experience the Android operating system on a Lattepanda. Users only need to follow the above steps to install and use it. It should be noted that Android x86 is designed for PC, not for mobile phones or tablets, so its user interface and operation may be slightly different from the Android system you use on mobile devices. However, by using a virtual machine to install Android x86, we can better understand the operating principles and application development methods of the Android system, thereby better meeting the needs of daily life and work.
