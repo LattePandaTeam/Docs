@@ -241,7 +241,11 @@ In this section, we will show the step to install Android x86 OS on Lattepanda 3
 
   11.Select "NEW", then "Primary". Confirm the amount of available disk space, and press "Enter".<br>
 
-   <center> ![](/assets/images/android/3DeltaAndroid11.jpg)</center>
+   <center> ![](/assets/images/android/3DeltaAndroid111.jpg)</center>
+
+  <center> ![](/assets/images/android/3DeltaAndroid112.jpg)</center>
+
+  <center> ![](/assets/images/android/3DeltaAndroid113.jpg)</center>
 
   12.Click on "Bootable" and press "Enter", ensuring that the "Bootable" option is present in the Flags.<br>
 
@@ -287,14 +291,26 @@ In this section, we will show the step to install Android x86 OS on Lattepanda 3
 
   1.Select the second "debug" mode to enter the system.<br>
 
+   <center> ![](/assets/images/android/3DeltaAndroid31.jpg)</center>
+
   2.Enter "mount -o remount,rw /mnt" to modify the corresponding file's read and write permissions.<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid32.jpg)</center>
 
   3.Enter "vi /mnt/grub/menu.lst" to edit the corresponding file using the vi editor.<br>
 
+   <center> ![](/assets/images/android/3DeltaAndroid33.jpg)</center>
+
   4.Press "i" to enter the edit mode in the vi editor. Add "nomodeset" after "quiet" to disable the graphics card driver. Then, type ":wq" to save and exit the vi editor.<br>
+
+   <center> ![](/assets/images/android/3DeltaAndroid34.jpg)</center>
 
   5.Click on "Restart" to select and initiate a reboot.<br>
 
+   <center> ![](/assets/images/android/3DeltaAndroid35.jpg)</center>
+
   After completing the above steps, restart the virtual machine and select "Android x86". You can now begin using the Android x86 system.<br>
+  
+   <center> ![](/assets/images/android/3DeltaAndroid36.jpg)</center>
   
   In summary, the Android x86 virtual machine is a convenient way for users to experience the Android operating system on a Lattepanda. Users only need to follow the above steps to install and use it. It should be noted that Android x86 is designed for PC, not for mobile phones or tablets, so its user interface and operation may be slightly different from the Android system you use on mobile devices. However, by using a virtual machine to install Android x86, we can better understand the operating principles and application development methods of the Android system, thereby better meeting the needs of daily life and work.
