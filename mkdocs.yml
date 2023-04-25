@@ -30,7 +30,7 @@ repo_url: https://github.com/LattePandaTeam/Docs
 edit_uri: ""
 
 # Copyright
-copyright: 'Copyright &copy; 2016 - 2018 LattePanda Team'
+copyright: 'Copyright &copy; 2016 - 2023 LattePanda Team'
 
 # Configuration
 theme:
@@ -151,6 +151,15 @@ nav:
     - BIOS Setup: content/3rd_delta_edition/bios.md
     - Specification: content/3rd_delta_edition/specification.md
     - FAQ: content/3rd_delta_edition/faq.md
+  - LattePanda Sigma:
+    - Getting Started: content/sigma_edition/Getting_Started.md
+    - Powering: content/sigma_edition/Powering_On.md
+    - Displays: content/sigma_edition/Display_Connection.md
+    - Multiple OS Support: content/sigma_edition/Operating_Systems.md
+    - Physical Playability: content/sigma_edition/IO_Playability.md
+    - Mutiple Internet Connections: content/sigma_edition/Internet_Connection.md
+    - BIOS Setup: content/sigma_edition/BIOS_Setup.md
+    - Specification: content/sigma_edition/Specification.md
   - Streaming Cable:
     - Get Started: content/streaming_cable/get_started.md
     - Setup Server Computer - Win: content/streaming_cable/set_up_windows_host.md
