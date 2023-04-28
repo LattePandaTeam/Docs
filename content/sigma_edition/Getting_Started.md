@@ -29,24 +29,24 @@ Before using the M.2 sockets, if a metal backplane has been installed, uninstall
 If you are using a SSD purchased by yourself, please refer to the [Multiple OS Support][3] section for instructions on installing Operating System on your SSD. <br>
 The 500GB PCIe 4.0 x4 SSD is already assembled on the DFR1081 model, and the Windows 11 Pro 22H2 OS(not actived) has been pre-burned.<br>
 
-[3]: /content/sigma_edition/Operating_Systems.md
+[3]: /content/sigma_edition/Operating_Systems
 
   ![Sigma SSD M key](https://dfimg.dfrobot.com/nobody/wiki/9ed16ad888644f1d2387952ee8a6b8d9.png)
 
 - **Install a compatible wireless network module to the M.2 E key socket. Then assemble the WiFi/BT Antennas.**<br> Please refer to [Mutiple Internet Connections][4] section for a list of compatible modules. If you don't need a wireless connection, you can skip this step. 
 
-[4]: /content/sigma_edition/Internet_Connection.md
+[4]: /content/sigma_edition/Internet_Connection
 
   ![Sigma SSD E key](https://dfimg.dfrobot.com/nobody/wiki/8277070fa553e4858aa69afa391218b7.png)
 
 - **Connect an HDMI display.** <br>Please refer to the [Display Connections][5] section for instructions on using different displays with your LattePanda.
-[5]: /content/sigma_edition/Display_Connection.md
+[5]: /content/sigma_edition/Display_Connection
 
 - **Connect a keyboard and mouse to the USB ports on LattePanda.**
 
 - **Connect the power adapter(Provided) to LattePanda.** <br>Please refer to the [Powering On][6] section for instructions on using different power solutions to power your LattePanda.
 
-[6]: /content/sigma_edition/Powering_On.md
+[6]: /content/sigma_edition/Powering_On
 
   ![Sigma HDMI and power](https://dfimg.dfrobot.com/nobody/wiki/7d575083947eacfd83f7d6259cb4e654.jpg)
 

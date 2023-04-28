@@ -105,7 +105,7 @@ The M.2 B key socket allows SATA III/PCIe 3.0 x1, USB2.0, USB3.0, SIM.
 
 There are four USB Type-A ports on the LattePanda Sigma. Two USB 2.0 ports are located on the front panel, with a theoretical maximum throughput of 480Mbps/s each. The other two ports on the back panel are USB 3.2 Gen 2 ports, with ultra-high bandwidth delivering **up to 10Gb/s** throughput, which is twice as fast as USB 3.2 Gen 1 x1 (previously known as USB 3.0). 
 
-These connectors are standard Type-A receptacles, allowing them to be connected to all types of USB 1.1/2.0/3.0 devices using standard-A USB 3.0 or USB 2.0 plugs.
+These connectors are standard Type-A receptacles, allowing them to be connected to all types of USB 1.1,2.0,3.0 devices using standard-A USB 3.0 or USB 2.0 plugs.
 
 All four USB Type-A ports on LattePanda Sigma support power control. 
 
@@ -120,7 +120,7 @@ The default configure is as following:
 |           | Enabled means the USB port can output 5V power; <br>Disabled means the USB port cannot output 5V power. |
 
 - When the LattePanda is disconnected from the power supply, then reconnected to the power supply but not turned on, the USB-A ports power control remain disabled.
-- You can change the USB port power control in the BIOS. Please refer the [USB Ports Power Control][https://docs.lattepanda.com/content/sigma_edition/BIOS_Setup/#usb-ports-power-control] section.
+- You can change the USB port power control in the BIOS. Please refer the [USB Ports Power Control](https://docs.lattepanda.com/content/sigma_edition/BIOS_Setup/#usb-ports-power-control) section.
 
 
 ## USB Type-C Port(Thunderbolt 4)
@@ -165,6 +165,14 @@ Two LEDs are built into the RJ-45 LAN connector, here are the LED states:
 | Data Rate LED | Yellow    | OFF       | 10/100 Mb/s data rate is selected, or no LAN Link |
 |               |           | Green     | 1000 Mb/s or 2500 Mb/s data rate is selected      |
 
+
+## SATA Port
+
+LattePanda Sigma has a SATA 6Gb/s data port and a power port. It can support 2.5 or 3.5 inch Hard Drive. To use with a HDD , a SATA data cable and a PH2.0-4Pin to 15Pin SATA power cable is needed. 
+
+The PH2.0-4Pin to 15Pin SATA power cable looks like the image below.
+
+<center> ![](/assets/images/sigma/SataPowerCable.jpg)</center>
 
 ## Female Header Pins
 

@@ -42,7 +42,7 @@ It is strongly recommended to use the attached power adapter to ensure the stabi
 ## Powered by USB Type C PD adapter
 
 !!! note
-The 65W PD adapter is not enough to power the LattePanda Sigma, and LattePanda Sigma may suddenly shut down when the processor is under high load. So please use the power adapter with at least 90W or more.
+    The 65W PD adapter is not enough to power the LattePanda Sigma, and LattePanda Sigma may suddenly shut down when the processor is under high load. So please use the power adapter with at least 90W or more.
 
 **Input Specifications**
 

@@ -15,7 +15,7 @@ We've tested the basic functions of various operating systems on LattePanda Sigm
 | Ubuntu  | 22.04.2 | 🟢    |      |
 | Rocky Linux | 9.1 | 🟢    |      |
 | Proxmox VE | 7.4  | 🟡    | Due to ack of driver support for the new generation of core graphics card, the GUI can not automatically start, please see [Installation Tutorial](https://docs.lattepanda.com/content/sigma_edition/Operating_Systems/#proxmox-ve) |
-| VMware ESXi | 8.0 U1  | 🟡 | Intel CPUs with P-core and E-core are not officially supported, you can install them by adding additional parameters, please see [Installation Tutorial](https://docs.lattepanda.com/content/sigma_edition/Operating_Systems/#VMware ESXi) |
+| VMware ESXi | 8.0 U1  | 🟡 | Intel CPUs with P-core and E-core are not officially supported, you can install them by adding additional parameters, please see [Installation Tutorial](https://docs.lattepanda.com/content/sigma_edition/Operating_Systems/#vmware-esxi) |
 | TrueNAS CORE | 13.0-U4 | 🟢 |      |
 | Android x86 | 9.0-r2 | 🔴 |      |
 | ChromeOS Flex | 15117.112.0 | 🔴 | |
@@ -338,7 +338,7 @@ The error code indicates that the issue is caused by CPU incompatibility. Howeve
 
 To resolve the issue, we will add an ESXi kernel boot option that disables the CPU uniformity check. Please refer to the instructions below for more details.
 
-#### **STEP 1** 
+* **STEP 1** 
 
 - When booting up the ESXi installer, you will be prompted to append additional ESXi kernel boot settings. Press **SHIFT+O** and add the following kernel option to the command line: **cpuUniformityHardCheckPanic=FALSE**. Then press enter to continue with the boot process.
 
@@ -348,7 +348,7 @@ To resolve the issue, we will add an ESXi kernel boot option that disables the C
 
 ![reboot_page](https://dfimg.dfrobot.com/nobody/wiki/e1799abf0370c30b855a1d217df44c92.jpg)
 
-#### **STEP 2**
+* **STEP 2**
 
 - Switch into the ESXi shell by pressing **ALT+F1**. 
 - Login using **'root'** and blank password as ESXi has not gone through full reboot and is not using the configured password. and Edit **vi /vmfs/volumes/BOOTBANK1/boot.cfg** 
@@ -366,7 +366,7 @@ To resolve the issue, we will add an ESXi kernel boot option that disables the C
 
 ![](https://dfimg.dfrobot.com/nobody/wiki/c905b91fad6dc6d9f60d615ec83a0687.png)
 
-#### **STEP 3** 
+* **STEP 3** 
 
 To permanently configure the ESXi kernel boot setting, in case of updates/upgrades in the future, we can set the kernel setting using ESXCLI. 
 
@@ -382,7 +382,7 @@ To permanently configure the ESXi kernel boot setting, in case of updates/upgrad
 
 ![](https://dfimg.dfrobot.com/nobody/wiki/261472a16217589638daff8797b796be.png)
 
-#### **STEP 4**
+* **STEP 4**
 
 Switch into the ESXi shell by pressing **ALT+F1**. Then login with '**root**' and the password you had configured during installation. Now run the following ESXCLI command to configure the kernel option:
 
@@ -390,7 +390,7 @@ Switch into the ESXi shell by pressing **ALT+F1**. Then login with '**root**' an
 
 ![](https://dfimg.dfrobot.com/nobody/wiki/c0b0c496bda6dfb7291fe18e01b7bc89.png)
 
-#### **STEP 5**
+* **STEP 5**
 
 Reboot it by executing the command "**reboot**". Now, you can run VMware ESXi on your LattePanda Sigma.
 

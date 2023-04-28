@@ -13,8 +13,8 @@ This guide will demonstrate multiple ways to connect display devices to your Lat
 
 ## HDMI
 
-!!! Note
-   The LattePanda Sigma supports HDMI 2.1, therefore, if you are using a display that supports 4K 60Hz HDR, it is recommended to use an HDMI 2.0b or 2.1 cable.
+!!! note
+    The LattePanda Sigma supports HDMI 2.1, therefore, if you are using a display that supports 4K 60Hz HDR, it is recommended to use an HDMI 2.0b or 2.1 cable.
 
 ### What You Will Need
 
@@ -36,8 +36,8 @@ Thunderbolt 4 also supports daisy-chaining multiple devices together. You can co
 
 Additionally, Thunderbolt 4 supports higher power delivery, which means you can charge your display devices while using the Thunderbolt 4 port for video output. 
 
-!!! Note
-   One Thunderbolt 4 supports up to 8K resolution and 60Hz refresh rate,  but only when connected to a single monitor and use a Thunderbolt 3/4 or USB 4 cable.
+!!! note
+    One Thunderbolt 4 supports up to 8K resolution and 60Hz refresh rate,  but only when connected to a single monitor and use a Thunderbolt 3 or 4, or USB 4 cable.
 
 ### What You Will Need
 
