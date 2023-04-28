@@ -15,7 +15,7 @@ We've tested the basic functions of various operating systems on LattePanda Sigm
 | Ubuntu  | 22.04.2 | 🟢    |      |
 | Rocky Linux | 9.1 | 🟢    |      |
 | Proxmox VE | 7.4  | 🟡    | Due to ack of driver support for the new generation of core graphics card, the GUI can not automatically start, please see [Installation Tutorial](https://docs.lattepanda.com/content/sigma_edition/Operating_Systems/#proxmox-ve) |
-| VMware ESXi | 8.0 U1  | 🟡 | Intel CPUs with P-core and E-core are not officially supported, you can install them by adding additional parameters, please see [Installation Tutorial](installation link) |
+| VMware ESXi | 8.0 U1  | 🟡 | Intel CPUs with P-core and E-core are not officially supported, you can install them by adding additional parameters, please see [Installation Tutorial](https://docs.lattepanda.com/content/sigma_edition/Operating_Systems/#VMware ESXi) |
 | TrueNAS CORE | 13.0-U4 | 🟢 |      |
 | Android x86 | 9.0-r2 | 🔴 |      |
 | ChromeOS Flex | 15117.112.0 | 🔴 | |
@@ -36,7 +36,7 @@ If you discover that an operating system has undergone a significant update and 
 !!! Warning
     It is highly recommended to create a backup of your important files or data before proceeding with the installation of an operating system on LattePanda Sigma.
 
-## Windows System
+## Windows
 
 <center>![](/assets/images/Windows_10_11_logo.jpg)</center>
 
@@ -53,7 +53,7 @@ The following contents will take the Windows OS installation as an example to de
 
 * Empty USB flash drive (16 GB or larger)
 * M.2 NVMe SSD(or SATA SSD)
-* OS Disc Image File for the LattePanda Sigma: Download from [Dropbox Link](https://www.dropbox.com/s/uitqb23soua6nrp/LP-JX-16-WTADLC1R200-001-D.7z?dl=0)
+* OS Disc Image File for the LattePanda Sigma: Download from [Dropbox Link](https://www.dropbox.com/s/uitqb23soua6nrp/LP-JX-16-WTADLC1R200-001-D.7z?dl=0) or [Google Drive](https://drive.google.com/file/d/1PSPULHW076BRwFyuzWzmk2vK5vnNoY2m/view?usp=share_link)
 
 ### Installation Steps
 
@@ -324,7 +324,7 @@ When accessing the Windows server system, if the network adapter appears as an u
 
 - Congrats, you geek.
 
-# VMware ESXi
+## VMware ESXi
 
 VMware ESXi is a software program that enables virtualization, allowing multiple virtual machines to run on a single physical host. It is used to create and manage virtual machines, providing a cost-effective and efficient way to utilize hardware resources, simplify IT management, and increase server utilization.
 
@@ -334,7 +334,7 @@ As ESXi does not support Intel's hybrid consumer CPU architecture that integrate
 
 The error code indicates that the issue is caused by CPU incompatibility. However, there is a workaround available that does not require disabling the E-Cores or P-Cores.
 
-## Solution
+### Solution
 
 To resolve the issue, we will add an ESXi kernel boot option that disables the CPU uniformity check. Please refer to the instructions below for more details.
 

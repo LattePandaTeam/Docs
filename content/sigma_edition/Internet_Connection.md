@@ -2,7 +2,9 @@
 
 ## WiFi
 
-Insert the wireless network card into the M.2 E key socket on LattePanda Sigma, and install the antennas, then you can go online! 
+Insert the wireless network card into the M.2 E key socket on LattePanda Sigma, and install the antennas.
+
+![Sigma SSD E key](https://dfimg.dfrobot.com/nobody/wiki/8277070fa553e4858aa69afa391218b7.png)
 
 Then install the driver. Now you can go online!
 
@@ -10,7 +12,17 @@ If the wireless network card is not included in the package you purchased, pleas
 
 The M.2 E key supports M.2 Type 2230 PCIe and CNVio wireless network card. The following are some compatible devices that we have tested:
 
-Intel AX210, Intel AX211, Intel AX200, Intel AX201, Intel AC9560.
+- Intel AX210
+
+- Intel AX211
+
+- Intel AX200
+
+- Intel AX201
+
+- Intel AC9560
+
+  
 
 ## Ethernet
 

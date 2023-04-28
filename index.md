@@ -2,16 +2,26 @@
 
 ## Overview
 
-| [LattePanda V1][1]                            | [LattePanda Alpha][2]                         | [LattePanda Delta][6] | [LattePanda 3 Delta][7] |
-| :--------------------------------------- | :--------------------------------------- | :--------------------------------------- | ---------------------------------------- |
-| ![lattepanda photo](/assets/images/lattepanda_photo_900x600.jpg) | ![lattepanda alpha image](/assets/images/lattepanda_alpha_photo_900x600.jpg) | ![lattepanda alpha image](/assets/images/lattepanda_alpha_photo_900x600.jpg) | ![lattepanda 3 delta image](/assets/images/lattepanda_3_delta_photo_900x600.jpg) |
-| Models                                   | Models                                   | Models                                   | Models                             |
-| 2G 32GB<br />4G 64GB<br />2G 32GB /w Windows 10 Home<br />4G 64GB /w Windows 10 Enterprise<br /> | 800 - 8G (No eMMC)<br />864 - 8G 64GB<br />864 - 8G 64GB /w Windows 10 Pro<br /> | 432 - 4G 32GB<br />432 - 4G 32GB /w Windows 10 Pro<br /> | 864 - 8G 64GB<br />864 - 8G 64GB /w Windows 10 Enterprise<br /> |
+| [LattePanda V1][1]                            | [LattePanda Alpha][2]                         | [LattePanda Delta][6] |
+| :--------------------------------------- | :--------------------------------------- | :--------------------------------------- |
+| ![lattepanda photo](/assets/images/lattepanda_photo_900x600.jpg) | ![lattepanda alpha image](/assets/images/lattepanda_alpha_photo_900x600.jpg) | ![lattepanda alpha image](/assets/images/lattepanda_alpha_photo_900x600.jpg) |
+| Model                                   | Model                                   | Model                                   |
+| DFR0444: 2GB RAM, 32GB eMMC<br />DFR0419: 4GB RAM, 64GB eMMC<br />DFR0418: 2GB RAM, 32GB eMMC,  Windows 10 Home License<br />DFR0470-ENT: 4GB RAM,  64GB eMMC, Windows 10 Enterprise 2016 LTSB License<br /> | DFR0545: 8GB RAM, No eMMC<br />DFR0546: 8GB RAM, 64GB eMMC<br />DFR0547: 8GB RAM, 64GB eMMC,  Windows 10 Pro License<br /> | DFR0543: 4GB RAM, 32GB eMMC<br />DFR0544: 4GB RAM, 32GB eMMC, Windows 10 Pro License<br /> |
 
 [1]: /content/1st_edition/power_on/
 [2]: /content/alpha_edition/get_started/
 [6]: /content/delta_edition/get_started/
+
+
+
+| [LattePanda 3 Delta][7] | [LattePanda Sigma][8] |
+| ---------------------------------------- | ---------------------------------------- |
+| ![lattepanda 3 delta image](/assets/images/lattepanda_3_delta_photo_900x600.jpg) | ![lattepanda Sigma image](/assets/images/sigma/SigmaBoardPhoto.jpg) |
+| Model                             | Model |
+| DFR0981: 8GB RAM, 64GB eMMC<br />DFR0982: 8GB RAM, 64GB eMMC, Windows 10 IoT Enterprise 2021 LTSC License<br /> | DFR1080: 16GB RAM, No eMMC & SSD, No WiFi<br />DFR1081: 16GB RAM, 500GB NVMe SSD(PCIe4.0 x4), WiFi 6E<br /> |
+
 [7]: /content/3rd_delta_edition/get_started/
+[8]: /content/sigma_edition/Getting_Started/
 
 This guide will show you how to use LattePanda products to start up your little drive first. And kick-off your adventure of software plus hardware development.
 

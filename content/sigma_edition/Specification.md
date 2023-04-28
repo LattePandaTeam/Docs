@@ -6,7 +6,7 @@
 |                  | Cores / Threads       | 12C(4P+8E) / 16T                                             |
 |                  | Max Turbo Frequency   | 4.60 GHz(Performance-core), 3.4 GHz(Efficient-core)          |
 |                  | L2 Cache              | 12 MB                                                        |
-|                  | Base Power            | 28 W                                                         |
+|                  | Base Power            | 28 W  <br>(BIOS Default: PL1 45W, PL2 64W)                   |
 |                  | Graphics              | Intel® Iris® Xe Graphics                                     |
 |                  | Max Dynamic Frequency | 1.45 GHz                                                     |
 |                  | Execution Units       | 80                                                           |
@@ -46,4 +46,4 @@
 |                  | Relative Humidity     | 0%~80%RH                                                     |
 | Dimension        | Form Factor           | 3.5", 146 x 102 mm                                           |
 | Model(SKU)       | DFR1080               | LattePanda Sigma (16GB RAM, no SSD, no WiFi)                 |
-|                  | DFR1081               | LattePanda Sigma (16GB RAM, 500GB SSD, WiFi6E)               |
+|                  | DFR1081               | LattePanda Sigma (16GB RAM, 500GB PCIe 4.0 x4 NVMe SSD, Intel AX211 WiFi6E) |

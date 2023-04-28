@@ -9,6 +9,14 @@
     <center>![](/assets/images/lp_boot_logo.jpg)</center>
 
 
+## Select Bootable Device
+
+* Power on or reboot LattePanda.
+* Press the **'F7'** key repeatedly before the LattePanda logo appears on the screen during the boot process.
+
+
+
+
 
 The following outlines some common BIOS settings.
 
@@ -22,7 +30,7 @@ You can modify the CPU fan settings through the following path. The default sett
 
 
 
-## USB ports Power Control
+## USB Ports Power Control
 
 All four USB Type-A ports on LattePanda Sigma support power control. The Font USB 2.0 port, rear USB 3.2 gen2 port and the USB 2.0 pin header can be set separately.
 

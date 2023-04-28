@@ -160,6 +160,7 @@ nav:
     - Mutiple Internet Connections: content/sigma_edition/Internet_Connection.md
     - BIOS Setup: content/sigma_edition/BIOS_Setup.md
     - Specification: content/sigma_edition/Specification.md
+    - FAQ: content/sigma_edition/FAQ.md
   - Streaming Cable:
     - Get Started: content/streaming_cable/get_started.md
     - Setup Server Computer - Win: content/streaming_cable/set_up_windows_host.md

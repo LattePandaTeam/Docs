@@ -31,18 +31,15 @@ However, the power supply solutions of LattePanda Sigma can also be switched acc
 
   The Specifications should be as follows:
 
-* 12~20V**(no higher than 20V!)**
+* <font color=#FF000 >12~20V (no higher than 20V)</font>
+
 * 90 watts or above is recommended 
+
+  <center> ![](/assets/images/sigma/DCJackPinout.png)</center>
 
 ## M.2 Sockets
 
-There are four M.2 sockets on LattePanda 3 Delta: 
-
-- M key x2
-
-- E key x1
-
-- B key x1
+There are four M.2 sockets on LattePanda 3 Delta: M key x2, E key x1, B key x1.
 
 ### M.2 M Key
 The M.2 M key sockets allow PCIe 4.0 x4 and PCIe 3.0 x4.
@@ -110,22 +107,45 @@ There are four USB Type-A ports on the LattePanda Sigma. Two USB 2.0 ports are l
 
 These connectors are standard Type-A receptacles, allowing them to be connected to all types of USB 1.1/2.0/3.0 devices using standard-A USB 3.0 or USB 2.0 plugs.
 
-<center>![](图片)</center>
+All four USB Type-A ports on LattePanda Sigma support power control. 
+
+The default configure is as following:
+
+| OS State  | USB Port Power Control                                       |
+| --------- | ------------------------------------------------------------ |
+| Run       | Enabled                                                      |
+| Sleep     | Enabled                                                      |
+| Hibernate | Disabled                                                     |
+| Shut Down | Disabled                                                     |
+|           | Enabled means the USB port can output 5V power; <br>Disabled means the USB port cannot output 5V power. |
+
+- When the LattePanda is disconnected from the power supply, then reconnected to the power supply but not turned on, the USB-A ports power control remain disabled.
+- You can change the USB port power control in the BIOS. Please refer the [USB Ports Power Control][https://docs.lattepanda.com/content/sigma_edition/BIOS_Setup/#usb-ports-power-control] section.
 
 
 ## USB Type-C Port(Thunderbolt 4)
 
-Both of the USB Type-C ports on the LattePanda Sigma are Thunderbolt™ 4. They have a 40Gbps (gigabits per second) bidirectional bandwidth. Thunderbolt 4 supports multiple 4K displays or a single 8K display, and it could be an ideal choice for video professionals and gamers. It can offer fast data transfer speeds, high-resolution display support, and fast charging simultaneously, enabling it to be used in a wide range of applications.
+Both of the two USB Type C ports on LattePanda Sigma are full function Thunderbolt™ 4, which support power, USB data, video and PCIe. They have a 40Gbps (gigabits per second) bidirectional bandwidth. Thunderbolt 4 supports multiple 4K displays or a single 8K display, and it could be an ideal choice for video professionals and gamers. It can offer fast data transfer speeds, high-resolution display support, and fast charging simultaneously, enabling it to be used in a wide range of applications.
 
 The following devices can be connected to Thunderbolt™ 4 ports:
 
 - Thunderbolt™ devices (bearing the Thunderbolt™ logo). Thunderbolt™ 3 devices and cables are compatible with Thunderbolt™ 4 ports. Older Thunderbolt™ devices will also work but require an adapter.
+
 - External monitors. One Thunderbolt™ 4 port can connect up to two 4K 60hz DisplayPort or HDMI monitors through a compatible dock or adapter.
+
 - Storage. Connect a high-speed external Thunderbolt™ SSD to expand the storage capacity of your system and achieve speeds on par with internal drives.
+
 - USB peripherals. Connect USB devices such as mice, keyboards, controllers, and headsets for gaming.
+
 - PCI Express (PCIe) devices. Utilize a PCIe expansion chassis to access compatible PCIe devices.
+
 - Networking. Connect to a high-speed 10 Gigabit Ethernet network via an adapter or use a Thunderbolt™ cable to connect two computers over a peer-to-peer network.
+
 - Charging. Connect your phone, a display, a lightweight notebook PC (that requires less than 100W), and other compatible USB devices to charge them quickly.
+
+  
+  
+  These two USB Type C ports on LattePanda Sigma can still output power when the OS in hibernate or shutdown state. If you want to disabled the power output in hibernate or shutdown state, please enabled EC EUP function in the BIOS.
 
 ## RJ-45 LAN Connector(2.5Gbps)
 
@@ -148,6 +168,8 @@ Two LEDs are built into the RJ-45 LAN connector, here are the LED states:
 
 ## Female Header Pins
 
+<center> ![](/assets/images/sigma/GPIOPinOut.png)</center>
+
 ### Status Indication Pins
 
 The S0, S3, S4 pins can indicate the current state of operating system through different output voltages. So the OS status can be obtained by reading these voltages or connecting LED indicators.
@@ -161,6 +183,7 @@ The voltage of these pins in different states are shown as follows:
 | S4 Pin | Low  | Low   | High      | Low       |
 
 * High: 5V; Low: 0V
+* The power output of these pins has built-in 1K ohm resistors.
 
 ### 5V Output Pins
 
@@ -171,3 +194,4 @@ The power output of these two 5V output pins is as follows:
 |                                      | Run     | Sleep   | Hibernate | Shut Down |
 | ------------------------------------ | ------- | ------- | --------- | --------- |
 | power output of these 5V output pins | Enabled | Enabled | Disabled  | Disabled  |
+
