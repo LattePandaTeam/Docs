@@ -2,7 +2,7 @@ In this article we will discuss the different features shown in these images of 
 
 ![image1](https://i.imgur.com/QCrLM6d.png)
 
-Pinouts in area U1 are assigned to the X-Z8300 core.
+Pinouts in area U1 are assigned to the X-Z8350 core.
 
 Pinouts in area U2 are assigned to the ATmega32u4 core. Each of the 20 digital pins (A0 - A5, D0 - D13) in area U2 can be used as an input or output, each operating at 5 volts. Each pin can output or receive 40 mA and each has an internal pull-up resistor (disconnected by default) of 20-50k ohm.
 **Caution:** Exceeding 40mA on any I/O pin may cause permanent damage to the ATmega32u4. 
