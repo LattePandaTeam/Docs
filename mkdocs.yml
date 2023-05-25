@@ -162,9 +162,9 @@ nav:
     - Specification: content/sigma_edition/Specification.md
     - FAQ: content/sigma_edition/FAQ.md
   - IO Playability:
-    - Pinpong Library - Introduction: content/IO Playability/1InstallPinpongLib.md
-    - Pinpong Library - Blink: content/IO Playability/2Blink.md
-    - Arduino Control Volume: content/IO Playability/ArduinoControlVolume.md
+    - Pinpong Library - Introduction: content/IO_Playability/InstallPinpongLibrary.md
+    - Pinpong Library - Blink: content/IO_Playability/Blink.md
+    - Arduino Control Volume: content/IO_Playability/ArduinoControlVolume.md
   - Streaming Cable:
     - Get Started: content/streaming_cable/get_started.md
     - Setup Server Computer - Win: content/streaming_cable/set_up_windows_host.md
