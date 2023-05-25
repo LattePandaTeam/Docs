@@ -161,6 +161,10 @@ nav:
     - BIOS Setup: content/sigma_edition/BIOS_Setup.md
     - Specification: content/sigma_edition/Specification.md
     - FAQ: content/sigma_edition/FAQ.md
+  - IO Playability:
+    - Pinpong Library - Introduction: content/IO Playability/1InstallPinpongLib.md
+    - Pinpong Library - Blink: content/IO Playability/2Blink.md
+    - Arduino Control Volume: content/IO Playability/ArduinoControlVolume.md
   - Streaming Cable:
     - Get Started: content/streaming_cable/get_started.md
     - Setup Server Computer - Win: content/streaming_cable/set_up_windows_host.md
@@ -169,6 +173,3 @@ nav:
     - Setup Client Computer RDP - Ubu: content/streaming_cable/set_up_ubu_rdp_client.md
     - NoMachine - Config Client Computer: content/streaming_cable/set_up_nomachine_client.md
     - FAQ: content/streaming_cable/faq.md
-   - I/O Playability:
-    - Introduction to Pinpong Library: content/IO Playability/Pinpong Library/1.Pinpong Library Installation.md
-    - Pinpong Library -Blink: content/IO Playability/Pinpong Library/2.Blink.md

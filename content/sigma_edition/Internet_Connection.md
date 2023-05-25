@@ -22,6 +22,8 @@ The M.2 E key supports M.2 Type 2230 PCIe and CNVio wireless network card. The f
 
 - Intel AC9560
 
+- Intel AC8265
+
   
 
 ## Ethernet

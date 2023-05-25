@@ -52,6 +52,8 @@ To turn on LattePanda without pressing the power button, please set AcPowerLoss 
 
 The default setting is Power Off.
 
+Please disabled the Deep Sleep EUP Support to ensure the Auto Power-on can work fine.
+
 !!! Warning
     When the RTC battery runs down, Auto Power-on function will not work, so please ensure that the RTC battery is fully charged.
 
@@ -95,9 +97,8 @@ The default setting is Disabled.
 
 **Attention:**
 
-* When deep sleep eup support is enabled, Wake On Lan will not work.  The power supply pins of 5V,3.3V, 1.8V, USB2.0 in the female header, and three USB Type-A ports will be forced to power off.
-
 * Only when Turning on Fast Startup in windows OS is disabled, Deep Sleep Eup function can work probably. 
+* When deep sleep Eup support is enabled, Wake On Lan will not work.  The 5V, 3.3V,1.8V, USB2.0 pins in the female headers, three USB Type-A ports and ATmega32U4 chip will be forced to power off. The wake on RTC will not work. 
 
 ## Update the BIOS Firmware
 
