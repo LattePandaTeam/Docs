@@ -169,3 +169,6 @@ nav:
     - Setup Client Computer RDP - Ubu: content/streaming_cable/set_up_ubu_rdp_client.md
     - NoMachine - Config Client Computer: content/streaming_cable/set_up_nomachine_client.md
     - FAQ: content/streaming_cable/faq.md
+   - I/O Playability:
+    - Introduction to Pinpong Library: content/IO Playability/Pinpong Library/1.Pinpong Library Installation.md
+    - Pinpong Library -Blink: content/IO Playability/Pinpong Library/2.Blink.md
