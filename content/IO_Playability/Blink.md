@@ -89,7 +89,7 @@ while True:
 
 -  Click the prompt to save the Python file. You can choose to save it in a folder of your choice. Here we will save it by default
 
-![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/ffad33ec87f88a2022dd44c9b2fff4a2.png)
+![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/ddec66e75a4e324bc81535f42ee21358.png)
 
 
 
