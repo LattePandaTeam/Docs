@@ -123,7 +123,7 @@ nav:
     - 4x OS Support: content/alpha_edition/os.md
     - Drivers: content/alpha_edition/drivers_and_software.md
     - Tools Recommended: content/alpha_edition/ide.md
-    - Physical Playability: content/alpha_edition/io_playability.md
+    - Hardware Inteface Introduction: content/alpha_edition/io_playability.md
     - Mutiple Internet Connections: content/alpha_edition/connectivity.md
     - Physical Programming /w Python: content/alpha_edition/python_arduino_bridge.md
     - Read Sensor Data /w Python: content/alpha_edition/python_read_sensor.md
@@ -135,7 +135,7 @@ nav:
     - 2x OS Support: content/delta_edition/os.md
     - Drivers: content/delta_edition/drivers_and_software.md
     - Tools Recommended: content/delta_edition/ide.md
-    - Physical Playability: content/delta_edition/io_playability.md
+    - Hardware Inteface Introduction: content/delta_edition/io_playability.md
     - Mutiple Internet Connections: content/delta_edition/connectivity.md
     - Physical Programming /w Python: content/delta_edition/python_arduino_bridge.md
     - Read Sensor Data /w Python: content/delta_edition/python_read_sensor.md
@@ -146,7 +146,7 @@ nav:
     - Displays and Touch: content/3rd_delta_edition/touch_and_display.md
     - 3x OS Support: content/3rd_delta_edition/os.md
     - Drivers: content/3rd_delta_edition/drivers_and_software.md
-    - Physical Playability: content/3rd_delta_edition/io_playability.md
+    - Hardware Inteface Introduction: content/3rd_delta_edition/io_playability.md
     - Mutiple Internet Connections: content/3rd_delta_edition/connectivity.md
     - BIOS Setup: content/3rd_delta_edition/bios.md
     - Specification: content/3rd_delta_edition/specification.md
@@ -156,7 +156,7 @@ nav:
     - Powering: content/sigma_edition/Powering_On.md
     - Displays: content/sigma_edition/Display_Connection.md
     - Multiple OS Support: content/sigma_edition/Operating_Systems.md
-    - Physical Playability: content/sigma_edition/IO_Playability.md
+    - Hardware Inteface Introduction: content/sigma_edition/IO_Playability.md
     - Mutiple Internet Connections: content/sigma_edition/Internet_Connection.md
     - BIOS Setup: content/sigma_edition/BIOS_Setup.md
     - Specification: content/sigma_edition/Specification.md
@@ -164,7 +164,8 @@ nav:
   - IO Playability:
     - Pinpong Library - Introduction: content/IO_Playability/InstallPinpongLibrary.md
     - Pinpong Library - Blink: content/IO_Playability/Blink.md
-    - Arduino Control Volume: content/IO_Playability/ArduinoControlVolume.md
+    - Arduino Control - Windows Volume: content/IO_Playability/ArduinoControlVolume.md
+    - Arduino Control - Windows Sleep or Wakeup: content/IO_Playability/ArduinoControlSleepWakeup.md
   - Streaming Cable:
     - Get Started: content/streaming_cable/get_started.md
     - Setup Server Computer - Win: content/streaming_cable/set_up_windows_host.md

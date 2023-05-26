@@ -1,4 +1,4 @@
-# Overview
+## Principle Overview
 
 The Arduino Leonardo, integrated into the Lattepanda board, employs the ATmega32u4 microcontroller and enables direct USB communication without requiring an additional processor. It possesses the ability to simulate Human Interface Devices (HID), allowing the transmission of keystrokes, mouse movements, and click events to a connected computer, thereby effectively managing functionalities of the Windows operating system such as volume control, sleep mode, and wake functions.
 
@@ -7,15 +7,15 @@ In this chapter, we utilize the HID library (developed by NicoHood) as an exampl
 
 ## Requirements
 
-- Software<br>
+### Software
 
-  [HID Library](https://github.com/NicoHood/HID/releases)<br>
+   [HID Library](https://github.com/NicoHood/HID/releases)<br>
+	
+   [Arduino IDE 1.8.x](https://www.arduino.cc/en/software)<br>
 
-  [Arduino IDE 1.8.x](https://www.arduino.cc/en/software)<br>
+### Hardware<br>
 
-- Hardware<br>
-
-  LattePanda Board with Windows 10<br>
+   LattePanda Board with Windows 10 System<br>
 
 
 ## Tutorial
@@ -75,9 +75,9 @@ void loop()
 
 - Once done, you'll be able to use two buttons that are connected to the A0 and A1 pins of the Arduino Leonardo to manipulate the volume of the Windows system.<br>
 
-  Press the button connected A0 pin: turn up the volume<br>
+   Press the button connected A0 pin: turn up the volume<br>
 
-  Press the button connected A1 pin: turn down the volume<br>
+   Press the button connected A1 pin: turn down the volume<br>
 
   Enjoy it!<br>
   

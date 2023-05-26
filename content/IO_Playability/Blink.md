@@ -1,4 +1,4 @@
-# Purpose of sample code
+## Purpose of sample code
 
 If you possess knowledge of programming, you are likely acquainted with the classic first test code, which is printing "Hello world!" onto the command line. This customary practice commenced with "The C Programming Language" where it was utilized as the initial demonstration program. Subsequently, fellow programmers sustained the tradition when studying programming or debugging novel device environments.
 
@@ -7,16 +7,16 @@ Similarly, within the embedded and hardware fields, a comparable "Hello world!" 
 This article will delineate how to manipulate the pinpong library on LattePanda 3 Delta to operate an LED light. With the support of pinpong library, you can facilely regulate a range of common open source hardware, accomplish seamless linkage between software and hardware, and significantly abbreviate the development process.
 
 
-# Hardware prepare
+## Hardware prepare
 
-LattePanda 3 delta \*1
+- 1 x LattePanda 3 delta (or other LattePanda board)
 
-Gravity:Digital Piranha LED Module-red \*1
+- 1 x Gravity:Digital Piranha LED Module-red
 
-Jumper Cables(M/M) \*3
+- 1 x Jumper Cables(M/M) 
 
 
-# Hardware connection
+## Hardware connection
 
 By viewing the product page of LED small lights:
 
@@ -29,7 +29,7 @@ This tutorial takes D13 pin as an example and connects the LED small light to 5V
 ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/2d4e9bcfbe9360c0ca0b418d4fe3b561.png)
 
 
-# Programming
+## Programming
 
 In this example, we use the IDLE text editor that comes with Python to edit code. If you are familiar with the editing and compiling process of Python code, you can also use your own preferred code editor
 
@@ -96,7 +96,3 @@ while True:
 -  After saving, the Python code will execute automatically. You can see that the LED light is flashing at an interval of one second
 
 ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/773cc04d66d0345b57bd686f0a941c5e.png)
-
-```
-
-```
