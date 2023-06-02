@@ -164,6 +164,8 @@ nav:
   - IO Playability:
     - Pinpong Library - Introduction: content/IO_Playability/InstallPinpongLibrary.md
     - Pinpong Library - Blink: content/IO_Playability/Blink.md
+    - Pinpong Library - ADC: content/IO_Playability/3.ADC.md
+    - Pinpong Library - PWM Output: content/IO_Playability/4.PWM output.md
     - Arduino Control - Windows Volume: content/IO_Playability/ArduinoControlVolume.md
     - Arduino Control - Windows Sleep or Wakeup: content/IO_Playability/ArduinoControlSleepWakeup.md
   - Streaming Cable:
