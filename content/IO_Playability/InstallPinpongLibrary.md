@@ -37,3 +37,43 @@ https://www.python.org/
 - After the installation is complete, enter pinpong in the terminal to view detailed information
 
 ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/328d1e87fb99b90fa298f824a3cdc58d.png)
+
+
+## Jupyter installation introduction
+
+Jupyter Notebook is opened in the form of a web page. You can directly write and run code on the web page, and the running result of the code will also be displayed directly under the code block. If you need to write an instruction document during the programming process, you can write it directly on the same page, which is convenient for timely explanation and explanation.
+
+If you are a beginner in python, we strongly recommend that you configure and install Jupyter Notebook by installing Anaconda.
+
+Anaconda download address: https://www.anaconda.com/download/
+
+
+- Click the Download button
+  ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/c46cd754f752aa794b70366e3b934bc1.png)
+
+- After the installtion tool was downloaded, run the installation tool and click Next
+  ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/e3571add68d43513d47609dd09af7fe6.png)
+
+- Click I Agree
+  ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/84c72a19347754d59e08587bfaf387ef.png)
+
+- Install for all users, and click Next
+  ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/7ef934bc3efecfc2922bae5b43c3849f.png)
+
+- Install on the Default location
+  ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/b62f1d1bee2848192725eb0719b850ad.png)
+
+- Set up on some Advanced Installation Options
+  ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/af3ae18a2f5c30d352f3ff562637bdbe.png)
+
+- Once the Installation was done, click on Next
+  ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/0fcce421b524ff750a47c114b81a88cf.png)
+
+- Then click on Next
+  ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/112e5ec1c0f007f11270112e74435e28.png)
+
+- Finish the Installation on the Anaconda
+  ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/fa0cac4c62c34784874b604d05de90d2.png)
+
+- You will find the Jupyter Notebook Anaconda3 in the Anaconda folder
+  ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/3489ef1e8dd024559aae0b7cfa6923f4.png)
