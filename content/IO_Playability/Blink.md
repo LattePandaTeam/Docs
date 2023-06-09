@@ -96,3 +96,25 @@ while True:
 -  After saving, the Python code will execute automatically. You can see that the LED light is flashing at an interval of one second
 
 ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/773cc04d66d0345b57bd686f0a941c5e.png)
+
+- Similarly, you can also use the Jupyter Notebook installed in the previous course to call the pinpong library to write Blink code
+- Click Jupyter Notebook in the Anaconda installation folder
+  
+  ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/7db31268adb035553c8e278ab7aad909.png)
+
+- Jupyter Notebook will open a Command Prompt.
+- When using Jupyter Notebook, be sure not to close this Command Prompt. Otherwise the connection to the Jupyter Notebook server will be lost
+  
+  ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/ac315d9753fce3305f8f73bfcb84d2ff.png)
+
+- At the same time, Jupyter Notebook opens a browser web page.
+- You can click New to create a new Jupyter Notebook project file，this will create a .ipynb file in the current folder.
+  
+  ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/868e6a8fc39de99374dea1cc663cb1e1.png)
+
+- Copy and paste the Blink python code above.
+- Then press the "shift+Enter" to run the Blink code.
+
+- Then you could see the blnk code is working now.
+  
+  ![](https://img.dfrobot.com.cn/wiki/62b2fb5caa613609f271523c/91f383b5af84f3881bf6014f6b54f631.png)
