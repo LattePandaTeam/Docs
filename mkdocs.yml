@@ -156,6 +156,7 @@ nav:
     - Powering: content/sigma_edition/Powering_On.md
     - Displays: content/sigma_edition/Display_Connection.md
     - Multiple OS Support: content/sigma_edition/Operating_Systems.md
+    - Drivers: content/sigma_edition/Driver.md
     - Hardware Inteface Introduction: content/sigma_edition/IO_Playability.md
     - Mutiple Internet Connections: content/sigma_edition/Internet_Connection.md
     - BIOS Setup: content/sigma_edition/BIOS_Setup.md
