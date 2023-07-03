@@ -25,17 +25,15 @@ All hardware drivers have been packaged in our Windows operating system, which a
 
 ## Touch Panel Driver
 
-The touch panel driver for LattePanda 3 Delta is the same as that for the LattePanda V1.0 and LattePanda Alpha/Delta.
-
 [Windows Touch Panel Drivers (V1.1) - 64Bit for Windows 10](https://github.com/LattePandaTeam/LattePanda-Win10-Software/raw/master/Drivers/4G64GB_Drivers/Touch/64%20bit%20GoodixTouchDriver%20v1.1.rar)
-
-<br>**PLEASE NOTE: “install.bat” must be run as administrator to update the driver correctly.**
 
 <br>
 
 [Windows Touch Panel Drivers(V1.3.2)-64bit for Windows 11](https://raw.githubusercontent.com/LattePandaTeam/LattePanda-Win10-Software/master/Drivers/4G64GB_Drivers/Touch/Goodix%20Touch%20HID(Win11).zip)
 
+<br>
 
+<font color="blue">Please note that “install.bat” must be run as administrator to update the driver correctly.</font>
 
 ## LattePanda Leonardo Driver and IDE Configuration
 

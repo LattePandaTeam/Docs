@@ -54,7 +54,7 @@ Additionally, Thunderbolt 4 supports higher power delivery, which means you can 
 	2. Connect the USB Type C HUB to the USB Type C port of your LattePanda. 
 	3. Locate the display cable that you want to use (DP / DVI / VGA).
 	4. Connect the display cable to the USB Type C HUB. 
-	5. Connect the other end of the display cable to your TV or monitor. 
+	5. Connect the other end of the display cable to your TV or monitor. <br>
 
 - If your display device has a USB Type C port, you can directly connect your LattePanda using a USB Type C cable. Follow these steps:
   1. Locate the USB Type C port on your LattePanda.
