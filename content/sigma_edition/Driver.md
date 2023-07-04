@@ -13,6 +13,8 @@ All hardware drivers have been packaged in our Windows operating system, which a
   
   * Unzip the driver files. You could unzip them in the same folder.
   
+  * Most drivers can be installed by double-clicking the .exe file. Some need to be installed manually, the steps are as follows:
+
   * Open the device manager, then select the unknown device. 
 
     Right Click -> Update driver -> Select "Browse my computer for drivers" and locate the folder where you have unzipped the driver files.
@@ -25,15 +27,13 @@ All hardware drivers have been packaged in our Windows operating system, which a
 
 ## Touch Panel Driver
 
-[Windows Touch Panel Drivers (V1.1) - 64Bit for Windows 10](https://github.com/LattePandaTeam/LattePanda-Win10-Software/raw/master/Drivers/4G64GB_Drivers/Touch/64%20bit%20GoodixTouchDriver%20v1.1.rar)
+* [Windows Touch Panel Drivers (V1.1) - 64Bit for Windows 10](https://github.com/LattePandaTeam/LattePanda-Win10-Software/raw/master/Drivers/4G64GB_Drivers/Touch/64%20bit%20GoodixTouchDriver%20v1.1.rar)
 
-<br>
-
-[Windows Touch Panel Drivers(V1.3.2)-64bit for Windows 11](https://raw.githubusercontent.com/LattePandaTeam/LattePanda-Win10-Software/master/Drivers/4G64GB_Drivers/Touch/Goodix%20Touch%20HID(Win11).zip)
-
-<br>
+* [Windows Touch Panel Drivers(V1.3.2)-64bit for Windows 11](https://raw.githubusercontent.com/LattePandaTeam/LattePanda-Win10-Software/master/Drivers/4G64GB_Drivers/Touch/Goodix%20Touch%20HID(Win11).zip)
 
 <font color="blue">Please note that “install.bat” must be run as administrator to update the driver correctly.</font>
+
+
 
 ## LattePanda Leonardo Driver and IDE Configuration
 
