@@ -145,9 +145,9 @@ nav:
     - Powering: content/3rd_delta_edition/powering.md
     - Displays and Touch: content/3rd_delta_edition/touch_and_display.md
     - 3x OS Support: content/3rd_delta_edition/os.md
-    - Drivers: content/3rd_delta_edition/drivers_and_software.md
-    - Hardware Inteface Introduction: content/3rd_delta_edition/io_playability.md
-    - Mutiple Internet Connections: content/3rd_delta_edition/connectivity.md
+    - Hardware Driver: content/3rd_delta_edition/drivers_and_software.md
+    - Hardware Inteface: content/3rd_delta_edition/io_playability.md
+    - Mutiple Network: content/3rd_delta_edition/connectivity.md
     - BIOS Setup: content/3rd_delta_edition/bios.md
     - Specification: content/3rd_delta_edition/specification.md
     - FAQ: content/3rd_delta_edition/faq.md
@@ -156,9 +156,9 @@ nav:
     - Powering: content/sigma_edition/Powering_On.md
     - Displays: content/sigma_edition/Display_Connection.md
     - Multiple OS Support: content/sigma_edition/Operating_Systems.md
-    - Drivers: content/sigma_edition/Driver.md
-    - Hardware Inteface Introduction: content/sigma_edition/IO_Playability.md
-    - Mutiple Internet Connections: content/sigma_edition/Internet_Connection.md
+    - Hardware Driver: content/sigma_edition/Driver.md
+    - Hardware Inteface: content/sigma_edition/IO_Playability.md
+    - Mutiple Network: content/sigma_edition/Internet_Connection.md
     - BIOS Setup: content/sigma_edition/BIOS_Setup.md
     - Specification: content/sigma_edition/Specification.md
     - FAQ: content/sigma_edition/FAQ.md

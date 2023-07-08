@@ -37,11 +37,11 @@ There are two Ethernet ports on the LattePanda board. Plug the ethernet cable, t
 
 * Assemble the 4G/5G module on the M.2 B key socket. Then assemble the 4G/5G antennas on the module. 
 
-  <center> ![](/assets/images/sigma/InsertLteModule.png)</center>
+  ![](https://dfimg.dfrobot.com/nobody/wiki/5aa909648371b63ff3ae1cdb7d3639bf.png)
 
 * Insert a micro-SIM card into the SIM card slot. The notch of the SIM card should face outward.
 
-  <center> ![](/assets/images/sigma/InsertSimCard.png)</center>
+  ![](https://dfimg.dfrobot.com/nobody/wiki/7e0c1de24c010ed3d5b6ad9d564ffaca.png)
 
 * After logging into the operating system, install the driver for the module. Make sure that there are no unknown devices in the device manager.
 

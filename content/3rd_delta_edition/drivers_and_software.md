@@ -1,6 +1,6 @@
 # Hardware Driver
 
-## Regular Driver
+## Standard Driver
 If you do not use the windows image file provided by us, you may encounter driver problems. **You can use Windows Update to get the latest drivers. Most drivers can be installed correctly, such as WiFi, ethernet, and graphics drivers.** 
 
 If you still find some unknown devices in the device manager, please refer to the following method.
@@ -13,11 +13,13 @@ We packaged all hardware drivers in our Windows operating system. So you could d
   
   * Unzip the driver files. You could unzip them in the same folder.
   
+  * Most drivers can be installed by double-clicking the .exe file. <br>Some need to be installed manually, the steps are as follows:
+  
   * Open the device manager, then select the unknown device. 
 
     Right Click -> Update driver -> Browse my computer for drivers, then select the folder where you unzip the driver files.
   
-    <center>![](/assets/images/unknow_device_install_driver.jpg)</center>
+    ![](https://dfimg.dfrobot.com/nobody/wiki/8d286d45709bcc61db8948f7e44ee430.jpg)
   
   * Then click Next. The driver will be automatically installed.
 
@@ -25,17 +27,17 @@ We packaged all hardware drivers in our Windows operating system. So you could d
 
 ## Touch Panel Driver
 
-The touch panel driver for LattePanda 3 Delta is the same as that for the LattePanda V1.0 and LattePanda Alpha/Delta.
+<br>
 
 [Windows Touch Panel Drivers (V1.1) - 64Bit for Windows 10](https://github.com/LattePandaTeam/LattePanda-Win10-Software/raw/master/Drivers/4G64GB_Drivers/Touch/64%20bit%20GoodixTouchDriver%20v1.1.rar)
 
-<br>**PLEASE NOTE: “install.bat” must be run as administrator to update the driver correctly.**
-
-<br><br>
+<br>
 
 [Windows Touch Panel Drivers(V1.3.2)-64bit for Windows 11](https://raw.githubusercontent.com/LattePandaTeam/LattePanda-Win10-Software/master/Drivers/4G64GB_Drivers/Touch/Goodix%20Touch%20HID(Win11).zip)
 
+<br>**PLEASE NOTE: “install.bat” must be run as administrator to update the driver correctly.**
 
+<br>
 
 ## LattePanda Leonardo Driver and IDE Configuration
 
@@ -51,15 +53,15 @@ The official windows 10/11 system image provided by LattePanda team has integrat
 
 * Enter into "Windows Driver" folder, and run "dpinst-amd64.exe" to install the driver. After that, you will see the LattePanda Leonardo port in the device manager.
 
-    <center>![](/assets/images/LattePandaLeonardoPort.jpg)</center>
+    ![](https://dfimg.dfrobot.com/nobody/wiki/15bd9d92c858bbaa3b64127ed4c0d7af.jpg)
 
 * Enter into "Arduino IDE Files" folder, copy "avr-0.0.3" folder to "C:\Program Files(x86)\Arduino\hardware". 
 
-  <center>![](/assets/images/avr003.jpg)</center>
+  ![](https://dfimg.dfrobot.com/nobody/wiki/880fa705b28ee905906731eaa156e8f2.jpg)
 
 * Run  Arduino IDE，Open “Tool” menu，Choose “Board：xxx” -> “LattePanda AVR Boards”->“LattePanda Leonardo”. If you see  “LattePanda Leonardo” board, the Arduino IDE files are correct.
 
-<center>![](/assets/images/ChooseLattePandaLeonardo.jpg)</center>
+![](https://dfimg.dfrobot.com/nobody/wiki/ccf3abb48ca1a0af09be0adf0a1e099b.jpg)
 
 ### In Ubuntu OS
 
@@ -104,12 +106,12 @@ sudo usermod -a -G dialout $USER
 
 * Enter into "Arduino IDE Files" folder, copy "avr-0.0.3" folder to "/opt/arduino-1.8.16/hardware". 
 
-  <center>![](/assets/images/CyLPLeoFile.png)</center>
+  ![](https://dfimg.dfrobot.com/nobody/wiki/5d2939ad512841b985e31fe54f998a10.png)
 
 * Run  Arduino IDE，Open “Tool” menu，Choose “Board：xxx” -> “LattePanda AVR Boards”->“LattePanda Leonardo”. 
 
-<center>![](/assets/images/LPLeoBoardUbuntu.png)</center>
+![](https://dfimg.dfrobot.com/nobody/wiki/d581ce754d99beca5e41bdb1fc2c05cf.png)
 
 * Then choose the serial port: “Port: /dev/ttyACM0 xxx” -> “/dev/ttyACM0(LattePanda Leonardo)”.
 
-<center>![](/assets/images/LPLeonardoPortUbuntu.png)</center>
+![](https://dfimg.dfrobot.com/nobody/wiki/1ca431082f3774ae8d0161eecf69a600.png)

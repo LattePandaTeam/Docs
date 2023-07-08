@@ -9,17 +9,17 @@ All hardware drivers have been packaged in our Windows operating system, which a
 
 ### How to install the driver of the unknown device?
 
-  * Download the driver files from [Dropbox Link](https://www.dropbox.com/scl/fo/jk3rml54hw39f5f0f598x/h?dl=0&rlkey=zkbshxpnha6bhijv1n2ksw6yz).
+  * Download the driver files from [Dropbox Link](https://www.dropbox.com/scl/fo/jk3rml54hw39f5f0f598x/h?dl=0&rlkey=zkbshxpnha6bhijv1n2ksw6yz) or [Google Drive](https://drive.google.com/file/d/1XOTnJm-djdfoGY9zl5cubOhT-CUWtjap/view?usp=sharing).
   
   * Unzip the driver files. You could unzip them in the same folder.
   
-  * Most drivers can be installed by double-clicking the .exe file. Some need to be installed manually, the steps are as follows:
+  * Most drivers can be installed by double-clicking the .exe file.<br> Some need to be installed manually, the steps are as follows:
 
   * Open the device manager, then select the unknown device. 
 
     Right Click -> Update driver -> Select "Browse my computer for drivers" and locate the folder where you have unzipped the driver files.
   
-    <center>![](/assets/images/unknow_device_install_driver.jpg)</center>
+    ![](https://dfimg.dfrobot.com/nobody/wiki/8d286d45709bcc61db8948f7e44ee430.jpg)
   
   * Then click "Next" and the driver will automatically install.
 
@@ -49,15 +49,15 @@ The official windows 10/11 system image provided by LattePanda team has integrat
 
 * Enter into "Windows Driver" folder, and run "dpinst-amd64.exe" to install the driver. After that, you will see the LattePanda Leonardo port in the device manager.
 
-    <center>![](/assets/images/LattePandaLeonardoPort.jpg)</center>
+    ![](https://dfimg.dfrobot.com/nobody/wiki/15bd9d92c858bbaa3b64127ed4c0d7af.jpg)
 
 * Enter into "Arduino IDE Files" folder, copy "avr-0.0.3" folder to "C:\Program Files(x86)\Arduino\hardware". 
 
-  <center>![](/assets/images/avr003.jpg)</center>
+  ![](https://dfimg.dfrobot.com/nobody/wiki/880fa705b28ee905906731eaa156e8f2.jpg)
 
 * Run  Arduino IDE，Open “Tool” menu，Choose “Board：xxx” -> “LattePanda AVR Boards”->“LattePanda Leonardo”. If you see  “LattePanda Leonardo” board, the Arduino IDE files are correct.
 
-<center>![](/assets/images/ChooseLattePandaLeonardo.jpg)</center>
+![](https://dfimg.dfrobot.com/nobody/wiki/ccf3abb48ca1a0af09be0adf0a1e099b.jpg)
 
 ### In Ubuntu OS
 
@@ -102,12 +102,12 @@ sudo usermod -a -G dialout $USER
 
 * Enter into "Arduino IDE Files" folder, copy "avr-0.0.3" folder to "/opt/arduino-1.8.16/hardware". 
 
-  <center>![](/assets/images/CyLPLeoFile.png)</center>
+  ![](https://dfimg.dfrobot.com/nobody/wiki/5d2939ad512841b985e31fe54f998a10.png)
 
 * Run  Arduino IDE，Open “Tool” menu，Choose “Board：xxx” -> “LattePanda AVR Boards”->“LattePanda Leonardo”. 
 
-<center>![](/assets/images/LPLeoBoardUbuntu.png)</center>
+![](https://dfimg.dfrobot.com/nobody/wiki/d581ce754d99beca5e41bdb1fc2c05cf.png)
 
 * Then choose the serial port: “Port: /dev/ttyACM0 xxx” -> “/dev/ttyACM0(LattePanda Leonardo)”.
 
-<center>![](/assets/images/LPLeonardoPortUbuntu.png)</center>
+![](https://dfimg.dfrobot.com/nobody/wiki/1ca431082f3774ae8d0161eecf69a600.png)

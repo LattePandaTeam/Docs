@@ -85,11 +85,11 @@ In most cases, any display devices which have a 40Pin eDP connector and is power
 
 - 2.Align the eDP cable with the eDP connector on LattePanda. Make sure the gold finger of the eDP cable face up.
 
-<center> ![](/assets/images/sigma/InsertEdpCable1.png)</center>
+![](https://dfimg.dfrobot.com/nobody/wiki/a7bfaf03afa9a7a7abbfe1e91d4fbc2c.png)
 
 - 3.Gently insert the eDP cable into the connector. If the cable has the latch, press down on the latch to secure the cable in place.
 
-<center> ![](/assets/images/sigma/InsertEdpCable2.png)</center>
+![](https://dfimg.dfrobot.com/nobody/wiki/3822e4e06f30141117ad8d1e0254f46c.png)
 
 
 
@@ -97,7 +97,7 @@ In most cases, any display devices which have a 40Pin eDP connector and is power
 
 When selecting a screen, please refer to the following pin definitions and voltage parameters.
 
-<center> ![](/assets/images/sigma/EdpPinout.png)</center>
+![](https://dfimg.dfrobot.com/nobody/wiki/c02eee6dea5a35491d064a90341b3406.png)
 
 Voltage of the Power Pin:
 

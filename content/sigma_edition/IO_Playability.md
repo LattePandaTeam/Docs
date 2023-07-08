@@ -35,7 +35,7 @@ However, the power supply solutions of LattePanda Sigma can also be switched acc
 
 * 90 watts or above is recommended 
 
-  <center> ![](/assets/images/sigma/DCJackPinout.png)</center>
+  ![](https://dfimg.dfrobot.com/nobody/wiki/d9072c1e2c7d35cbcdc23dab815a0c7c.png)
 
 ## M.2 Sockets
 
@@ -82,9 +82,9 @@ The M.2 B key socket allows SATA III/PCIe 3.0 x1, USB2.0, USB3.0, SIM.
 
   Before using the 4G or 5G module, please insert a micro-SIM card into the SIM card slot, then assemble the antennas on the module. 
 
-  <center> ![](/assets/images/sigma/InsertLteModule.png)</center>
+  ![](https://dfimg.dfrobot.com/nobody/wiki/5aa909648371b63ff3ae1cdb7d3639bf.png)
 
-  <center> ![](/assets/images/sigma/InsertSimCard.png)</center>
+  ![](https://dfimg.dfrobot.com/nobody/wiki/7e0c1de24c010ed3d5b6ad9d564ffaca.png)
 
   Then install the driver of the module after logging into the OS.
 
@@ -153,7 +153,7 @@ The LattePanda Sigma features two 2.5 Gigabit Ethernet ports, which use the Inte
 
 Whether streaming high-definition video, downloading large files, or managing a network of devices, the LattePanda Sigma's 2.5GbE RJ45 ports are sure to provide the speed and reliability to get the job done.
 
-<center> ![](/assets/images/sigma/RJ45LED.png)</center>
+![](https://dfimg.dfrobot.com/nobody/wiki/fbc95c86db96898ff4ef1727502846ae.png)
 
 Two LEDs are built into the RJ-45 LAN connector, here are the LED states:
 
@@ -176,7 +176,7 @@ The PH2.0-4Pin to 15Pin SATA power cable looks like the image below.
 
 ## Female Header Pins
 
-<center> ![](/assets/images/sigma/GPIOPinOut.png)</center>
+![](https://dfimg.dfrobot.com/nobody/wiki/a7a51876d4d43c653d87d72408644d59.png)
 
 ### Status Indication Pins
 

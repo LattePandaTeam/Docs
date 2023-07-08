@@ -111,7 +111,9 @@ The following contents will take the Windows OS installation as an example to de
 * Download the Ubuntu 22.04 LTS image.
 * Create a USB installation media for Ubuntu. We recommend using 'Rufus' to create the installation media. You can download it [here](https://rufus.akeo.ie/).  
 * Choose your USB flash drive, and load the ISO file. The GUI of Rufus will look like the picture below. Click the start button to burn the ISO file onto the USB flash drive.
-<center>![](/assets/images/Rufus%20setup--Ubuntu%2022.04.png)</center>
+
+![](https://dfimg.dfrobot.com/nobody/wiki/e294345c4f324e75eb3007ee204b45fb.png)
+
 * Insert your USB drive into LattePanda, and turn on the LattePanda(Note that if you created the USB installation media on the same LattePanda, you'll need to restart the device before beginning the installation process).
 * Press ‘**F7**’ key continuously to enter into **Bootable Device Selection Menu**. 
 

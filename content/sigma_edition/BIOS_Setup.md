@@ -14,7 +14,7 @@
 * Power on or reboot LattePanda.
 * Press the **'F7'** key repeatedly before the bootable devices appear on the screen during the boot process.
 
-<center>![](/assets/images/sigma/FastBootDevice.png)</center>
+![](https://dfimg.dfrobot.com/nobody/wiki/428d0b6aef5b4a65370c71fc2d41cb82.png)
 
 * Press 'Up' or 'Down' key to select the bootable device, and press 'Enter' key to boot from it. 
 

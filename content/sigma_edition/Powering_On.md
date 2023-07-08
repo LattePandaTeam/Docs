@@ -17,7 +17,7 @@ To power your LattePanda Sigma, you have several options depending on your speci
 
 * JST PH2.0-8Pin connector
 
-<center> ![](/assets/images/sigma/PowerConnectors.png)</center>
+![](https://dfimg.dfrobot.com/nobody/wiki/ec75152bb85c4baa93bf423ad10838bd.png)
 
 ### Power Supply Priority
 
@@ -33,7 +33,7 @@ To power your LattePanda Sigma, you have several options depending on your speci
 
 * 90 watts or above is recommended
 
-<center> ![](/assets/images/sigma/DCJackPinout.png)</center>
+![](https://dfimg.dfrobot.com/nobody/wiki/d9072c1e2c7d35cbcdc23dab815a0c7c.png)
 
 LattePanda Sigma has a DC 5.5mm x 2.5mm circular power jack onboard, and a 19V 90W power adapter is attached. 
 
@@ -65,7 +65,7 @@ If both Type C ports are plugged into the PD adapters, the power supply of the r
 
 * 90 watts or above is recommended
 
-<center> ![](/assets/images/sigma/PowerHeaderPinout.png)</center>
+![](https://dfimg.dfrobot.com/nobody/wiki/9d7853871bbe5df9b9519fbcd5d6ae50.png)
 
 When the LattePanda is placed inside a device, you can use this connector to power it through the internal wiring of the device.
 

@@ -12,7 +12,7 @@
 |                  | Execution Units       | 80                                                           |
 |                  | Co-processor          | Microchip® ATmega32U4-MU                                     |
 | Memory           | Technology            | Dual-Channel LPDDR5-6400                                     |
-|                  | Capacity              | 16GB                                                         |
+|                  | Capacity              | 16GB，32GB                                                   |
 | Storage          | Drive Form Factor     | M.2 SSD (NVMe/SATA), SATA Drive                              |
 | Wireless         | Wireless Form Factor  | M.2 Wireless Module (PCIe/CNVio)                             |
 | Display          | HDMI Port             | HDMI 2.1, Up to 4096 x 2304 @ 60Hz                           |
@@ -47,3 +47,5 @@
 | Dimension        | Form Factor           | 3.5", 146 x 102 mm                                           |
 | Model(SKU)       | DFR1080               | LattePanda Sigma (16GB RAM, no SSD, no WiFi)                 |
 |                  | DFR1081               | LattePanda Sigma (16GB RAM, 500GB PCIe 4.0 x4 NVMe SSD, Intel AX211 WiFi6E) |
+|                  | DFR1090               | LattePanda Sigma (32GB RAM, no SSD, no WiFi)                 |
+
