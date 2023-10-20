@@ -20,6 +20,7 @@ We've tested the basic functions of various operating systems on LattePanda Sigm
 | Android x86 | 9.0-r2 | 🔴 |      |
 | ChromeOS Flex | 15117.112.0 | 🔴 | |
 | OPNsense | 23.1   | 🟢    |      |
+| pfSense | 2.7.0-RELEASE | 🟢    |      |
 
 \> [!NOTE] 
 
