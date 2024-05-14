@@ -1,0 +1,287 @@
+# Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Project information
+site_name: LattePanda Documentation
+site_description: This is a tutorial site for LattePanda products
+site_author: LattePanda Team
+site_url: http://docs.lattepanda.com/
+
+# Repository
+repo_name: LattePandaTeam/Docs
+repo_url: https://github.com/LattePandaTeam/Docs
+edit_uri: blob/master/docs
+
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2024 LattePanda Team'
+
+# Configuration
+theme:
+  name: material
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    # - announce.dismiss
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    # - navigation.prune
+    # - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: brown
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: brown
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  #favicon: assets/images/favicon.ico
+  favicon: assets/logo/LattePandaLogo1.png
+  #icon:
+    #logo: material/library
+  logo: assets/logo/LattePandaLogo2.png
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+  - glightbox
+
+
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.lattepanda.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/LattePandaTeam
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/LattePandaCN
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/lattepandacn
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/UHgtJbf978
+#  alternate:
+#    - name: Chinese
+#      link: /zh/
+#      lang: zh
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.critic
+  # - markdown.extensions.meta
+
+
+extra_css:
+  - stylesheets/extra.css
+
+
+
+# Page tree
+nav:
+  - Mainboard:
+    - Overview: index.md
+    - LattePanda V1:
+      - Power on Device: content/1st_edition/power_on.md
+      - Building Connectivity: content/1st_edition/wifi.md
+      - Optional Peripherals: content/1st_edition/peripheral.md
+      - Connect Touch Display: content/1st_edition/display.md
+      - Multiple OS Support: content/1st_edition/os.md
+      - Tools: content/1st_edition/tools.md
+      - Hardware Introduction: content/1st_edition/hardware_introduction.md
+      - Physical Programming: content/1st_edition/vs_programming.md
+      - Programming Reference: content/1st_edition/io_programming_reference.md
+      - Read Sensor Data via WebClient: content/1st_edition/webclient_demo.md
+      - Projects:
+        - 3D Printer Server: content/1st_edition/3d_printer_server.md
+        - Face Recognition: content/1st_edition/face_recog.md
+        - Setup Azure IoT Hub: content/1st_edition/setup_azure_iot_hub.md
+        - IoT Edge Data to Azure: content/1st_edition/data_to_cloud.md
+        - Node-RED: content/1st_edition/nodered.md
+      - Troubleshooting: content/1st_edition/troubleshooting.md
+    - LattePanda Alpha:
+      - Get Started: content/alpha_edition/get_started.md
+      - Powering: content/alpha_edition/powering.md
+      - Displays and Touch: content/alpha_edition/touch_and_display.md
+      - 4x OS Support: content/alpha_edition/os.md
+      - Drivers: content/alpha_edition/drivers_and_software.md
+      - Tools Recommended: content/alpha_edition/ide.md
+      - Hardware Inteface Introduction: content/alpha_edition/io_playability.md
+      - Mutiple Internet Connections: content/alpha_edition/connectivity.md
+      - Physical Programming /w Python: content/alpha_edition/python_arduino_bridge.md
+      - Read Sensor Data /w Python: content/alpha_edition/python_read_sensor.md
+      - FAQ: content/alpha_edition/faq.md
+    - LattePanda Delta:
+      - Get Started: content/delta_edition/get_started.md
+      - Powering: content/delta_edition/powering.md
+      - Displays and Touch: content/delta_edition/touch_and_display.md
+      - 2x OS Support: content/delta_edition/os.md
+      - Drivers: content/delta_edition/drivers_and_software.md
+      - Tools Recommended: content/delta_edition/ide.md
+      - Hardware Inteface Introduction: content/delta_edition/io_playability.md
+      - Mutiple Internet Connections: content/delta_edition/connectivity.md
+      - Physical Programming /w Python: content/delta_edition/python_arduino_bridge.md
+      - Read Sensor Data /w Python: content/delta_edition/python_read_sensor.md
+      - FAQ: content/delta_edition/faq.md
+    - LattePanda 3 Delta:
+      - Tech Specs: content/3rd_delta_edition/specification.md
+      - Initial Setup: content/3rd_delta_edition/get_started.md
+      - Power Options: content/3rd_delta_edition/powering.md
+      - Display Connections: content/3rd_delta_edition/touch_and_display.md
+      - Multiple OS Support: 
+          - Compatible List: content/3rd_delta_edition/os.md
+          - Windows: content/3rd_delta_edition/Operating_Systems_Windows.md
+          - Ubuntu: content/3rd_delta_edition/Operating_Systems_Ubuntu.md
+          - Android: content/3rd_delta_edition/Operating_Systems_Android.md
+      - Mutiple Network: content/3rd_delta_edition/connectivity.md
+      - Hardware Inteface: 
+          - Pinout and Layout: content/3rd_delta_edition/io_playability.md
+          - External Interface: content/3rd_delta_edition/io_playability_External.md
+          - Internal Interface: content/3rd_delta_edition/io_playability_Internal.md
+      - BIOS Setup: 
+        - Entering BIOS Menu: content/3rd_delta_edition/bios.md
+        - Auto Power-on Function: content/3rd_delta_edition/bios_Auto_power_on.md
+        - USB-A Port Power Control Settings: content/3rd_delta_edition/bios_USB_Port_Power_Control.md
+        - Bootable Device Order: content/3rd_delta_edition/bios_bootable_device_order.md
+        - Deep Sleep EUP Support: content/3rd_delta_edition/bios_Deep_Sleep_EUP_Support.md
+        - Update BIOS Firmware: content/3rd_delta_edition/bios_update_BIOS_firmware.md
+      - Watchdog Timer: content/3rd_delta_edition/watchdog_timer.md
+      - Download Resources:
+        - OS Image: content/3rd_delta_edition/OS_image_download.md
+        - Driver: content/3rd_delta_edition/drivers_and_software.md
+        - BIOS Firmware: content/3rd_delta_edition/BIOS_Firmware_3_delta.md
+      - FAQ: content/3rd_delta_edition/faq.md
+    - LattePanda Sigma:
+      - Tech Specs: content/sigma_edition/Specification.md
+      - Initial Setup: content/sigma_edition/Getting_Started.md
+      - Power Options: content/sigma_edition/Powering_On.md
+      - Display Connections: content/sigma_edition/Display_Connection.md
+      - Multiple OS Support: 
+        - Compatible List: content/sigma_edition/Operating_Systems.md
+        - Windows: content/sigma_edition/Operating_Systems_Windows.md
+        - Ubuntu: content/sigma_edition/Operating_Systems_Ubuntu.md
+        - Proxmox VE: content/sigma_edition/Operating_Systems_PVE.md
+        - Windows Server: content/sigma_edition/Operating_Systems_WinServer.md
+        - VMWare EXSi: content/sigma_edition/Operating_Systems_ESXi.md
+      - Mutiple Network: content/sigma_edition/Internet_Connection.md
+      - Hardware Inteface: 
+        - Pinout and Layout: content/sigma_edition/IO_Playability.md
+        - External Interface: content/sigma_edition/IO_Playability_External.md
+        - Internal Interface: content/sigma_edition/IO_Playability_Internal.md
+      - BIOS Setup: content/sigma_edition/BIOS_Setup.md
+      - Download Resources: 
+        - OS and Driver: content/sigma_edition/Driver.md
+        - BIOS Firmware: content/sigma_edition/BIOS_Firmware.md
+        - EC Firmware: content/sigma_edition/EC_Firmware.md
+      - FAQ: content/sigma_edition/FAQ.md
+    - LattePanda Mu:
+      - Introduction: content/mu_edition/introduction.md
+      - Tech Specs: content/mu_edition/specification.md
+      - Dev Status: content/mu_edition/dev_status.md
+      - Initial Setup: content/mu_edition/get_started.md
+      - Multiple OS Support: content/mu_edition/os_compatible.md
+      - Download Resources: https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Softwares/Drivers
+      - Carriers:
+        - Lite Carrier: content/mu_edition/lite_carrier.md
+        - Full Eval Carrier: content/mu_edition/full_eval.md
+  - Accessory:
+#    - Overview: index1.md
+    - Streaming Cable:
+      - Get Started: content/streaming_cable/get_started.md
+      - Setup Server Computer - Win: content/streaming_cable/set_up_windows_host.md
+      - Setup Client Computer RDP - Win: content/streaming_cable/set_up_win_rdp_client.md
+      - Setup Client Computer RDP - Mac: content/streaming_cable/set_up_mac_rdp_client.md
+      - Setup Client Computer RDP - Ubu: content/streaming_cable/set_up_ubu_rdp_client.md
+      - NoMachine - Config Client Computer: content/streaming_cable/set_up_nomachine_client.md
+      - FAQ: content/streaming_cable/faq.md
+  - IO Playability:
+    - Pinpong Library - Introduction: content/IO_Playability/InstallPinpongLibrary.md
+    - Pinpong Library - Blink: content/IO_Playability/Blink.md
+    - Pinpong Library - ADC: content/IO_Playability/ADC.md
+    - Pinpong Library - PWM Output: content/IO_Playability/PWM.md
+    - Pinpong Library - IRQ Interrupts: content/IO_Playability/IRQ.md
+    - Pinpong Library - I2C Communication: content/IO_Playability/I2C.md
+    - Arduino Control - Windows Volume: content/IO_Playability/ArduinoControlVolume.md
+    - Arduino Control - Windows Sleep or Wakeup: content/IO_Playability/ArduinoControlSleepWakeup.md
+  - Contact Us: contact_us.md
