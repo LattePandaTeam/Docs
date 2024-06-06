@@ -6,7 +6,7 @@ In the event that a new BIOS firmware is necessary or if the BIOS doesn't work p
 Before the operation, it is recommended to disconnect any storage devices such as the SSD, TF card, or any other external storage mediums, in order to allow the BIOS to accurately identify the specific drive that contains the required BIOS firmware during the updating process.
 
 ### Preperations
-* Download [**the BIOS file of LattePanda 3 Delta**](https://github.com/LattePandaTeam/LattePanda-Win10-Software/tree/master/BIOS%20for%20LattePanda%203%20Delta).
+* Download [**the BIOS file of LattePanda 3 Delta**](BIOS_Firmware_3_delta.md).
 
 * Format your USB drive to **FAT32** format.
 
