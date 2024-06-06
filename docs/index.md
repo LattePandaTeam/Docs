@@ -1,6 +1,6 @@
 # Documentation
 
-## Overview
+## Single Board Computer Overview
 
 | [LattePanda V1][1]                            | [LattePanda Alpha][2]                         | [LattePanda Delta][6] |
 | :--------------------------------------- | :--------------------------------------- | :--------------------------------------- |
@@ -18,10 +18,20 @@
 | ---------------------------------------- | ---------------------------------------- |
 | ![lattepanda 3 delta image](assets/images/LattePanda 3 Delta/DFR0982LP.webp) | ![lattepanda Sigma image](assets/images/SigmaBoardPhoto.webp) |
 | Model                             | Model |
-| DFR0981: 8GB RAM, 64GB eMMC<br />DFR0982: 8GB RAM, 64GB eMMC, Windows 10 IoT Enterprise 2021 LTSC License<br /> | DFR1080: 16GB RAM, No eMMC & SSD, No WiFi<br />DFR1081: 16GB RAM, 500GB NVMe SSD(PCIe4.0 x4), WiFi 6E<br /> |
+| DFR0981: 8GB RAM, 64GB eMMC<br />DFR0982: 8GB RAM, 64GB eMMC, Windows 10 IoT Enterprise 2021 LTSC License<br /> | DFR1080: 16GB RAM, No eMMC & SSD, No WiFi<br />DFR1081: 16GB RAM, 500GB NVMe SSD(PCIe4.0 x4), WiFi 6E<br />DFR1090: 32GB RAM, No eMMC & SSD, No WiFi<br />DFR1091: 32GB RAM, 500GB NVMe SSD(PCIe4.0 x4), WiFi 6E<br /> |
 
 [7]: content/3rd_delta_edition/get_started.md
 [8]: content/sigma_edition/Getting_Started.md
+
+## Compute Module Overview
+
+| [LattePanda Mu][9] |
+| ---------------------------------------- |
+| ![lattepanda Mu image](assets/images/mu_edition/cover.jpg) |
+| Model                             |
+| DFR1146: N100 CPU, 8GB RAM, 64GB eMMC<br /> |
+
+[9]: content/mu_edition/introduction.md
 
 This guide will show you how to use LattePanda products to start up your little drive first. And kick-off your adventure of software plus hardware development.
 
@@ -34,7 +44,7 @@ This guide will show you how to use LattePanda products to start up your little 
 [4]: https://github.com/LattePandaTeam/Docs
 
 ## Content Structure
-The documentation is broken down into several parts, covering **LattePanda 1st gen boards**, **LattePanda Alpha,** **LattePanda Delta, LattePanda 3 Delta**:
+The documentation is broken down into several parts, covering **LattePanda 1st gen boards**, **LattePanda Alpha,** **LattePanda Delta, LattePanda 3 Delta**,**LattePanda Sigma**,**LattePanda Mu**.
 
 1. **Getting started** goes over how to power on your device with the pre-installed Windows system. Experience the power of the hardware.
     * Power on Device

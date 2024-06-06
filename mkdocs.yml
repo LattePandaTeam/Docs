@@ -160,7 +160,7 @@ extra_css:
 
 # Page tree
 nav:
-  - Mainboard:
+  - Single Board Computer:
     - Overview: index.md
     - LattePanda V1:
       - Power on Device: content/1st_edition/power_on.md
@@ -255,6 +255,7 @@ nav:
         - BIOS Firmware: content/sigma_edition/BIOS_Firmware.md
         - EC Firmware: content/sigma_edition/EC_Firmware.md
       - FAQ: content/sigma_edition/FAQ.md
+  - Compute Module:      
     - LattePanda Mu:
       - Introduction: content/mu_edition/introduction.md
       - Tech Specs: content/mu_edition/specification.md
