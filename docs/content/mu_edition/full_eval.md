@@ -123,9 +123,9 @@ The auto power-on function is hardware-implemented, so it is not affected by the
 
 ### Power Supply Compatibility
 
-Compatible with power adapters that output a voltage of 12~19V with an output power of at least 45W.
+Compatible with power adapters outputting a voltage between 12~19V and delivering a minimum output power of 45W.
 
-The above is the basic power supply requirement for only installing the LattePanda Mu. If you need to expand for other high-power hardware such as a graphics card, please recalculate the total power and use a suitable power adapter.
+The above is the basic power supply requirement for only installing the LattePanda Mu. If you need to expand for other high-power components such as a graphics card, please reassess the aggregate power demand and use a suitable power adapter.
 
 ### M.2 WLAN Module Compatibility
 
@@ -139,17 +139,17 @@ Tested M.2 WLAN modules include:
 - [Intel® Dual Band Wireless-AC 8265](https://www.dfrobot.com/product-1998.html)
 - Intel® Dual Band Wireless-AC 8260
 
-This list only includes modules we have tested. If you have tried modules not listed here and they work well, please pull request to add them.
+This list includes only the modules we have verified. If you have successfully tested modules not listed here and they function properly, we encourage you to submit a pull request to include them.
 
 ### SATA Compatibility
 
-Compatible with common SATA mechanical hard drives and solid-state drives, without special notes.
+Compatible with standard SATA mechanical hard drives and solid-state drives, ith no special requirements noted.
 
 ### M.2 NVMe SSD Compatibility
 
 The DFR1141 does not have an integrated M.2 M Key slot, so you need to use the included adapter to install an M.2 M Key SSD.
 
-The adapter compatibles with common M.2 2280 M Key PCIe NVMe protocol solid-state drives, without special notes.
+The adapter is compatible with standard M.2 2280 M Key PCIe NVMe protocol solid-state drives, with no special requirements noted.
 
 ### M.2 WWAN Module Compatibility
 
@@ -162,7 +162,7 @@ Tested M.2 WWAN modules include:
 - [SIMCom SIM8262A-M2](https://www.dfrobot.com/product-2636.html)
 - AirPrime EM7455
 
-This list only includes modules we have tested. If you have tried modules not listed here and they work well, please pull request to add them.
+This list includes only the modules we have verified. If you have successfully tested modules not listed here and they function properly, we encourage you to submit a pull request to include them.
 
 ### PCIe Expansion Card Compatibility
 
