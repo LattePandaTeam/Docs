@@ -119,6 +119,57 @@ The auto power-on jumper enables you to set the LattePanda Mu to either automati
 
 The auto power-on function is hardware-implemented, so it is not affected by the BIOS or operating system.
 
+## Compatibility List
+
+### Power Supply Compatibility
+
+Compatible with power adapters that output a voltage of 12~19V with an output power of at least 45W.
+
+The above is the basic power supply requirement for only installing the LattePanda Mu. If you need to expand for other high-power hardware such as a graphics card, please recalculate the total power and use a suitable power adapter.
+
+### M.2 WLAN Module Compatibility
+
+Compatible with M.2 E Key 2230 WLAN network cards, supporting only the PCIe protocol, not the CNVio protocol.
+
+Tested M.2 WLAN modules include:
+
+- [Intel® Wi-Fi 6E AX210](https://www.dfrobot.com/product-2325.html)
+- Intel® Wi-Fi 6 AX200
+- Intel® Wireless-AC 9260
+- [Intel® Dual Band Wireless-AC 8265](https://www.dfrobot.com/product-1998.html)
+- Intel® Dual Band Wireless-AC 8260
+
+This list only includes modules we have tested. If you have tried modules not listed here and they work well, please pull request to add them.
+
+### SATA Compatibility
+
+Compatible with common SATA mechanical hard drives and solid-state drives, without special notes.
+
+### M.2 NVMe SSD Compatibility
+
+The DFR1141 does not have an integrated M.2 M Key slot, so you need to use the included adapter to install an M.2 M Key SSD.
+
+The adapter compatibles with common M.2 2280 M Key PCIe NVMe protocol solid-state drives, without special notes.
+
+### M.2 WWAN Module Compatibility
+
+Compatible with M.2 B Key WWAN modules of sizes 3042, 3052, using the USB 2.0 or USB3.0 protocol. Not compatible with M.2 WWAN modules using the PCIe protocol.
+
+Tested M.2 WWAN modules include:
+
+- [SIMCom SIM7600G-H-M2](https://www.dfrobot.com/product-2643.html)
+- [SIMCom SIM8262E-M2](https://www.dfrobot.com/product-2635.html)
+- [SIMCom SIM8262A-M2](https://www.dfrobot.com/product-2636.html)
+- AirPrime EM7455
+
+This list only includes modules we have tested. If you have tried modules not listed here and they work well, please pull request to add them.
+
+### PCIe Expansion Card Compatibility
+
+Compatible with common standard PCIe expansion cards. If you need to insert high-power expansion cards, please check if the power adapter's power is sufficient.
+
+When using the M.2 NVMe SSD adapter card, it will occupy one PCIe expansion slot.
+
 ## Interface Pinouts
 
 Work in progress.
