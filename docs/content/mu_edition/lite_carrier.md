@@ -72,13 +72,45 @@ Since the M.2 M Key provides only PCIe 3.0 x1 signal, the maximum read/write spe
 
 Compatible with M.2 E Key 2230 WLAN network cards, supporting only the PCIe protocol, not the CNVio protocol.
 
-Recommended models include:
+In addition to WLAN modules, it is also compatible with other expansion cards designed for the M.2 E Key interface, such as "Coral M.2 Accelerator A+E key"
+
+## Compatibility List
+
+### Power Supply Compatibility
+
+The Lite Carrier supports two power supply methods:
+
+- USB Type-C: Compatible with power adapters that support the PD protocol with an output power of 45W or more.
+
+- DC Jack: Compatible with power adapters with an output voltage of 12~19V and an output power of 45W or more, with a DC connector specification of 5.5x2.5mm.
+
+**⚠ If you need to use the PCIe x4 Slot, you must use a DC 5.5x2.5mm interface power adapter with an output voltage of 12V. And increase the power supply according to the PCIe expansion card power specification**
+
+### M.2 WLAN Module Compatibility
+
+Compatible with M.2 E Key 2230 WLAN network cards, supporting only the PCIe protocol, not the CNVio protocol.
+
+Tested M.2 WLAN modules include:
 
 - [Intel® Wi-Fi 6E AX210](https://www.dfrobot.com/product-2325.html)
 - Intel® Wi-Fi 6 AX200
 - Intel® Wireless-AC 9260
 - [Intel® Dual Band Wireless-AC 8265](https://www.dfrobot.com/product-1998.html)
 - Intel® Dual Band Wireless-AC 8260
+
+This list only includes modules we have tested. If you have tried modules not listed here and they work well, please pull request to add them.
+
+### M.2 NVMe SSD Compatibility
+
+The Lite Carrier supports M.2 M Key NVMe solid-state drives of the 2230 size.
+
+If you need to expand the 2280 size M.2 SSD, you will need to use an M.2 adapter card to install it into the PCIe x4 slot.
+
+### PCIe Expansion Card Compatibility
+
+Compatible with common standard PCIe expansion cards. If you need to insert high-power expansion cards, please check if the power adapter's power is sufficient.
+
+When using the M.2 NVMe SSD adapter card, it will occupy PCIe expansion slot.
 
 ## Design Documentation
 
