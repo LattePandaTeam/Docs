@@ -98,22 +98,22 @@ Tested M.2 WLAN modules include:
 - [Intel® Dual Band Wireless-AC 8265](https://www.dfrobot.com/product-1998.html)
 - Intel® Dual Band Wireless-AC 8260
 
-This list only includes modules we have tested. If you have tried modules not listed here and they work well, please pull request to add them.
+This list includes only the modules we have verified. If you have successfully tested modules not listed here and they function properly, we encourage you to submit a pull request to include them.
 
 ### M.2 NVMe SSD Compatibility
 
 The Lite Carrier supports M.2 M Key NVMe solid-state drives of the 2230 size.
 
-If you need to expand the 2280 size M.2 SSD, you will need to use an M.2 adapter card to install it into the PCIe x4 slot.
+If you need to expand the 2280 M.2 SSD, you will need to use an M.2 adapter card to install it into the PCIe x4 slot.
 
 ### PCIe Expansion Card Compatibility
 
 Compatible with common standard PCIe expansion cards. If you need to insert high-power expansion cards, please check if the power adapter's power is sufficient.
 
-When using the M.2 NVMe SSD adapter card, it will occupy PCIe expansion slot.
+When using the M.2 NVMe SSD adapter card, it will occupy the PCIe expansion slot.
 
 ## Design Documentation
 
 The LattePanda Mu Lite carrier board is fully open-source and the complete design files can be downloaded from the [LattePanda Mu GitHub repository](https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Electricals/Examples) for modification as desired.
 
-The project is designed using the open-source electronic design software KiCAD. Please open with KiCAD version 8.0 or later.
+The project has been crafted using the open-source electronic design software KiCAD. For optimal compatibility, please open it with KiCAD version 8.0 or higher.
