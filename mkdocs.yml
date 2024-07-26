@@ -262,6 +262,7 @@ nav:
       - Dev Status: content/mu_edition/dev_status.md
       - Initial Setup: content/mu_edition/get_started.md
       - Multiple OS Support: content/mu_edition/os_compatible.md
+      - BIOS Setup: content/mu_edition/bios_setup.md
       - Download Resources: https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Softwares/Drivers
       - Carriers:
         - Lite Carrier: content/mu_edition/lite_carrier.md

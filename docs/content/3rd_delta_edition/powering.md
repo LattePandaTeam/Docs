@@ -65,9 +65,10 @@ LattePanda has a preference for using the power supply from the port with a high
 
 The pin mapping is marked on the board: -- DC ++, which means two negative pins and two positive pins.
 
-The input voltage range of the JST PH2.0-4Pin connector is **11~15V**. The recommended power source is 12V, at least 2A. The maximum required booting power is about **12V 1.5A** when no extra devices are connected to LattePanda. 
+The input voltage range of the JST PH2.0-4Pin connector is **11~15V**.
+The LattePanda requires a peak power of approximately **12V 1.5A** during boot-up when no additional devices are connected. However, to ensure system stability and compatibility, it is recommended to use a power supply capable of delivering **at least 12V 2A** output.
 
-**This connector can only be used as a power input, so it cannot output power and cannot charge the battery.**
+<span style="color: rgba(225, 103, 13);">**This connector is exclusively for power input and does NOT support power output or battery charging.**</span>
 
 ### Recommended Cable
 
