@@ -6,11 +6,13 @@
 
 This is a full-function evaluation carrier board which exposes all the pins of the LattePanda Mu compute module, providing an ideal platform for evaluating and developing each pin. With a wealth of onboard interfaces and expansion slots, it supports the connection of various peripherals and modules, greatly facilitating the testing of hardware and software and their compatibility evaluation, thus shortening the development time.
 
-!!! danger
+???+ danger
 
     - 🔌 Before inserting/removing the LattePanda Mu or connecting/disconnecting any type of ribbon cable and internal interface, ensure that the power is completely disconnected and wait for the power indicator light on the carrier board to turn off.
     - ❗ All pin headers operate at 3.3V levels; do NOT connect 5V peripherals.
     - 🔥 If installing high-powered expansion cards such as graphics cards into the PCIe x4 slot, verify that the power supply is sufficient.
+    - ⚡ The CPU FAN must be plugged into the corresponding connector, otherwise the fan may be damaged.  
+        ![cpu_fan_warning](../../assets/images/mu_edition/cpu_fan_warning.png){ width="512" }
 
 ## Get Started
 
