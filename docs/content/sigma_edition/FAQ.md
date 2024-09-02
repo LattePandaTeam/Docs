@@ -13,6 +13,10 @@
 | SIM Card Not Recognized                       | 1. Check if the 4G/5G module is correctly installed and properly recognized in the system;<br/>2. Verify if the SIM card is inserted in the right direction;<br/>3. If it still cannot be recognized despite correct installation, please disconnect the power supply from the Sigma board, hard reboot once and check again. |
 
 
+!!! question "**Q1:** Does LattePanda Sigma have plans to support 64GB RAM or more in the future?"
+    **:bulb: :** The LattePanda Sigma is designed with only two memory pad locations. Currently, the maximum capacity for a single LPDDR5 memory chip is 16GB. Therefore, until there is a breakthrough in the maximum capacity supported by a single memory chip, the Sigma can only support up to 32GB RAM.
+
+
 If you have problem when using LattePanda Sigma, please feel free to open your issue via [LattePanda forum](https://www.lattepanda.com/forum/).
 
 And we will really appreciate if you can help to optimize the tutorials by **commiting tutorials or updates** to [docs repo](https://github.com/LattePandaTeam/Docs). Help users, who have same interests or meet problems like you do.

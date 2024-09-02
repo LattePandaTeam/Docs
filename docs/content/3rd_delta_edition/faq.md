@@ -13,6 +13,9 @@
 !!! question "**Q1:** Why the LattePanda boot into the EFI shell upon powering on instead of the Windows or Linux OS?"
     **:bulb: :** Please update the BIOS firmware to the latest version. Detailed instructions on how to perform the update can be found in the [**BIOS Setup**](bios_update_BIOS_firmware.md) section. The latest version available is **`LP-BS-7-S70JR120-CN51G-E`**.
 
+!!! question "**Q2:** I have set up the auto power-on feature in the BIOS of the LattePanda 3 Delta, but it becomes ineffective once the RTC battery runs out. Is there any way to ensure that the auto power-on feature is natively supported by the hardware regardless of the RTC battery's status?"
+    **:bulb: :** Yes, there is a workaround provided by our community members. You can use the onboard Arduino pins to maintain the auto power-on functionality without being affected by the RTC battery's condition. For detailed instructions, please visit our forum: [**LattePanda Forum - Use the Onboard Arduino to enable LattePanda 3 Delta to auto power on**](https://www.lattepanda.com/forum/topic/335313).
+
 
 If you have problem when using LattePanda 3 Delta, please feel free to open your issue via [**LattePanda Forum**](https://www.lattepanda.com/forum/) or join our [**Discord**](https://discord.com/invite/UHgtJbf978).
 
