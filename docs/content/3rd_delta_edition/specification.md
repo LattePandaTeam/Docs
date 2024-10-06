@@ -4,8 +4,8 @@
 | ------------------- | ------------------------------------------------------------ |
 | Processor           | Intel® Celeron® Processor N5105 (Frequency: 2.00GHz ~ 2.90GHz) |
 | Graphics            | Intel® UHD Graphics (Frequency: 450MHz ~ 800MHz)             |
-| Memory              | Samsung 8GB LPDDR4 2933MHz                                   |
-| Storage             | SanDisk 64GB eMMC V5.1                                       |
+| Memory              | 8GB LPDDR4 2933MHz                                           |
+| Storage             | 64GB eMMC V5.1                                               |
 | Wireless            | Intel® AX201 WiFi 6 (802.11ax), 2.4GHz and 5GHz (160MHz) Supported; Bluetooth® 5.2 |
 | Ethernet            | Intel® I211-AT / I225-V PCIe Gigabit LAN, Wake-On-LAN Supported |
 | Video               | HDMI 2.0b; DP 1.4 via USB Type-C; eDP 30Pin (two lanes)      |

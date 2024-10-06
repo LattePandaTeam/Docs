@@ -261,12 +261,16 @@ nav:
       - Tech Specs: content/mu_edition/specification.md
       - Dev Status: content/mu_edition/dev_status.md
       - Initial Setup: content/mu_edition/get_started.md
-      - Multiple OS Support: content/mu_edition/os_compatible.md
+      - Multiple OS Support: 
+          - Compatible List: content/mu_edition/os_compatible.md
+          - Windows: content/mu_edition/os_windows.md
+          - Linux: content/mu_edition/os_linux.md
       - BIOS Setup: content/mu_edition/bios_setup.md
       - Download Resources: https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Softwares/Drivers
       - Carriers:
         - Lite Carrier: content/mu_edition/lite_carrier.md
         - Full Eval Carrier: content/mu_edition/full_eval.md
+      - FAQ: content/mu_edition/faq.md
   - Accessory:
 #    - Overview: index1.md
     - Streaming Cable:
