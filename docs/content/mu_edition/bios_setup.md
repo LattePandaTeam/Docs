@@ -50,8 +50,46 @@ You can also find the TDP settings under a different section:
 
 By following these steps, you can effectively adjust the TDP on your LattePanda Mu to find the right balance between performance and power consumption that suits your needs.
 
-    
-    If you encounter any further issues, feel free to reach out to the [**LattePanda tech support team**](mailto:techsupport@lattepanda.com) for assistance.
+
+## Update BIOS Firmware
+
+To enable your Lattepanda Mu to support different functionalities, such as various PCIe and USB lanes, it is necessary to flash the appropriate BIOS firmware.
+
+In this section, we will demonstrate the specific steps for using FPTW64 to fully update the BIOS firmware in the Windows OS. 
+
+For steps in the Linux OS, please refer to the readme_linux document in the toolkit.
+
+
+### Steps
+
+!!! Warning "Correct BIOS Firmware"
+
+    - Kindly ensure that you download the **correct version of the BIOS**. Flashing an incorrect BIOS file can result in the LattePanda board being unable to boot.
+
+* Download [**the BIOS file of LattePanda Mu**](https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Softwares/BIOS).
+
+* Download [**LattePanda Mu BIOS Flashing Toolkit**](../../assets/drivers/mu_edition/LattePanda Mu BIOS Flashing Toolkit.zip).
+
+* Unzip the `LattePanda Mu BIOS Flashing Toolkit` in the Windows OS, then copy the BIOS firmware(.bin file) into this folder.
+
+   **The whole files should be as shown below.**
+
+  ![](../../assets/images/mu_edition/mubiosfile.png){width="600" }
+
+* Run the `UPDATE` as a administrator. Then Type `YES` to start the update.
+
+   ![](../../assets/images/mu_edition/readytoupdatebios.png){width="600" }
+
+* Updating the BIOS firmware. This process will take approximately 2 to 3 minutes, please be patient.
+
+   ![](../../assets/images/mu_edition/updatingbios.png){width="600" }
+
+* After the update is complete, please shut down the LattePanda, and unplug the power. Wait for 30 seconds, then plug it back in and power on the LattePanda board.
+
+   ![](../../assets/images/mu_edition/biosupdatecomplete.png){width="600" }
+
+
+If you encounter any further issues, feel free to reach out to the [**LattePanda tech support team**](mailto:techsupport@lattepanda.com) for assistance.
 
 
 

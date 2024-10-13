@@ -36,9 +36,6 @@
 !!! question " Is the SIO_UART considered COM1 or COM0?"
     **:bulb:** COM1 in Windows, /dev/ttyS0 in Linux.
 
-!!! question " What are the 8 header pads on the bottom of the LattePanda Mu module?"
-    **:bulb:** eSPI contact, can be used to listen to the communication between CPU and SuperIO, common use is to connect the diagnostic card.
-
 !!! question " What is the specific function of BIOS_SEL, SPI_CS, SPI_CS2 pin on the SPI port of the Mu module?"
     **:bulb:** SPI_CS is for external BIOS chip. Pull BIOS_SEL high for Mu's onboard BIOS chip, low for external carrier board BIOS chip. You can refer the schematic of full function carrier board.
 
@@ -48,14 +45,8 @@
 !!! question " How does ECC work on the Mu if the CPU and RAM itself does not have support for it?"
     **:bulb:** The N100 processor supports in-band ECC, which does not have additional data lines or memory particles, but instead transfers data and ECC code sequentially within the 64bit bit width, so enabling IB ECC will reduce memory performance. The NVIDIA A100 uses the same in-band ECC technology (obviously the HBM memory has more bandwidth to absorb the loss).Note that this has nothing to do with the on-die ECC in the DDR5 specification. Linux systems with ECC turned on and a newer kernel installed should see messages from the EDAC module in the kernel log. If ECC detects an error, it will also be shown in the EDAC module's log.
 
-!!! question " Can I use 1 REFCLK for 2 PCIe device that use different lanes?"
-    **:bulb:** No, if you need to split a REFCLK into multiple REFCLKs, you must use the HCSL clock buffer, e.g. 9DBL411, LMK00334. The PI6C20400 mentioned by CrashSys(Community Member) is indeed the cheapest option.
-
 !!! question " What is the PCB layer stackup of the lite carrier board?"
-    **:bulb:** It is the JLC04161H-7628 from JLCPCB.
-
-!!! question " Can I use 1 REFCLK for 2 PCIe device that use different lanes?"
-    **:bulb:** No, if you need to split a REFCLK into multiple REFCLKs, you must use the HCSL clock buffer, e.g. 9DBL411, LMK00334. The PI6C20400 mentioned by CrashSys(Community Member) is indeed the cheapest option.
+    **:bulb:** It is the JLC04161H-7628 from JLCPCB. However, 7628 is common and available at most PCB manufacturers. It is recommended that you consult your manufacturer for further details.
 
 !!! question " Does each HSIO lane on the LattePanda Mu module have the decoupling capacitor in series?"
     **:bulb:** No! The HSIO signal pins, after being routed out from the CPU, go directly to the edge connector without passing through decoupling capacitors. Therefore, you need to place the appropriate decoupling capacitors on the carrier board.
