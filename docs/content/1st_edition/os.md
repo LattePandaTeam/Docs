@@ -33,7 +33,7 @@ You can also re-install your LattePanda if you just want to re-install it.
 
     * [x86 version for z8300 2GB+32GB](https://drive.google.com/file/d/0B5YJ8UIGswVqeXFsbnRnWi1xXzg/view?usp=sharing&resourcekey=0-UcPEVwu0X5KhUPg5e4tVIQ)
 
-    * [x64 version for z8300 4GB+64GB](https://drive.google.com/file/d/0B5YJ8UIGswVqSm5qWF91MG1NWnc/view?usp=sharing&resourcekey=0-rMtO5czLZPmNUUixiqzfTQ)
+    * [x64 version for z8300 4GB+64GB](https://www.dropbox.com/scl/fi/h8tworx53p06kpbeitrrm/image_x64.rar?rlkey=79usd1brjly6kwqep78hmh590&st=0jzt3067&dl=0)
 
     * [x86 version for **CR110** z8350 2GB+32GB](https://drive.google.com/file/d/0BzUYTecbiooHdVhHbFVZak4xREk/view?usp=sharing&resourcekey=0-rGktlhr7TKYGXwsdunrfng)
 
