@@ -88,13 +88,18 @@ When the headphone is inserted, the audio output automatically switches to the h
 
 ### :material-battery-clock: External RTC Power Pin
 
-The LattePanda 3 Delta comes equipped with an onboard CR927 RTC battery, with a voltage of 3.0V, capable of maintaining power for **around 9~12 months**. 
+The LattePanda 3 Delta comes equipped with an onboard CR927 RTC battery, with a voltage of 3.0V, capable of maintaining power for **around 9~12 months**.
 
-If your project requires the auto power on feature, or demands a longer RTC maintenance time, please use a battery with a larger capacity, connecting it to the external RTC power pin in the pin header. Since the external RTC power pin in the pin header is directly connected to the onboard RTC battery, remove the onboard CR927 battery when using an externally connected larger capacity battery. 
+If you require a longer battery life for the RTC (Real-Time Clock), you can connect a battery with a larger capacity to the external RTC power pin in the pin header. Since the external RTC power pin in the pin header is directly connected to the onboard RTC battery, **remove the onboard CR927 battery** when using an externally battery.
 
 Larger capacity batteries include the CR2032, among others. The power voltage should not exceed 3.3V.
 
 ![](../../assets/images/LattePanda 3 Delta/ExteranlRTCPowerPin_3Delta.webp){width="300"}
+
+!!! note ""
+    #### Note for Old Version Users
+    If you are using the old version of the LattePanda 3 Delta, be aware that the status of the RTC battery will affect the Auto Power-On function. For more details, refer to the section on the [**Auto Power-On Function**](../3rd_delta_edition/bios_Auto_power_on.md) in the BIOS Setup.
+
 
 ### GPIO Pin
 
