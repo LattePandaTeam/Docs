@@ -2,7 +2,7 @@
 
 ## Pinout and Hardware Diagram
 ### Top Layout
-![](../../assets/images/LattePanda 3 Delta/LP3DeltaTopPinout.webp)
+![](../../assets/images/LattePanda 3 Delta/3_delta_pinout_update.webp){width="800"}
 
 
 

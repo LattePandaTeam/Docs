@@ -7,7 +7,7 @@ The Auto Power-On feature allows the LattePanda to start up automatically withou
 ### Identifying Your Version
 - **New Version:** There are the AUTO and SW pins as shown below.
 - **Old Version:** There are the NC and NC pins as shown below.
-![](new and old pinout){width="600"}
+![](../../assets/images/LattePanda 3 Delta/old VS New_3_delta_pinout.webp){width="600"}
 
 === "For the New Version"
 
