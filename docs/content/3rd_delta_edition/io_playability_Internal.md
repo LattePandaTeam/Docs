@@ -102,13 +102,24 @@ Larger capacity batteries include the CR2032, among others. The power voltage sh
 
 
 ### GPIO Pin
-
+#### :simple-arduino: Arduino Leonardo Pins
 Lattepanda 3 Delta has an ATmega32u4 chip on board, and the built-in firmware is compatible with LattePanda Leonardo. It is connected to the processor through the USB 2.0 lane, and is mapped to a COM port device in the operating system, named LattePanda Leonardo. 
 
 ![](../../assets/images/LattePanda 3 Delta/GPIO_3Delta.webp){width="300"}
 
 Its usage is consistent with Arduino Leonardo. We developed the pinpong library, you can easily use python to control GPIO. For specific usage, please refer to [**IO Playability chapter**](../IO_Playability/InstallPinpongLibrary.md).
 
+- **MCU Power Configuration**
+
+By default, the Arduino Leonardo pins on the LattePanda 3 Delta are powered only when the device is either turned on or in sleep mode. However, **enabling the MCU Power Control** in the BIOS settings will keep them powered even when the device is off.
+
+**Path: BIOS menu --> Advanced --> Power Management --> MCU Power Control**
+
+![BIOS setting MCU Power Control](../../assets/images/LattePanda 3 Delta/3_delta_MCU_POWER.webp)
+
+!!! note
+    **This setup only functions with a constant power supply.** If the power is interrupted, the Arduino pins will not receive power until the device is rebooted. To ensure the pins remain powered whenever the device is connected to a power source, you can connect the 5V pins as shown below, allowing the DC 5V to continuously power the Arduino.
+    ![](../../assets/images/LattePanda 3 Delta/5V_pin.webp)
 
 
 ## JST PH2.0-4Pin Power Input
