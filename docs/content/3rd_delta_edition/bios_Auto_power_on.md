@@ -14,8 +14,8 @@ The Auto Power-On feature allows the LattePanda to start up automatically withou
     !!! note ""
         #### Step 1: Short-Circuiting the Pins
         Short-circuit the AUTO and SW pins on the board.
-        ![](Short-Circuit Diagram){width="600"}
-        
+        ![](../../assets/images/LattePanda 3 Delta/auto-power-on pins.webp){width="400" }
+
         #### Step 2: BIOS Configuration
         1. Power on the LattePanda and enter the BIOS.
         2. Navigate through the following path:

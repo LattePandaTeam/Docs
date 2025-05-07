@@ -1,10 +1,27 @@
 # BIOS Firmware
 !!! Note "Firmware Compatibility"
-    The S70JR200 series BIOS firmware version is compatible with both the S70JR200 and S70JR120 series hardware versions. <br>We suggest utilizing the most recent BIOS firmware version.
+    - The S70JR230 series BIOS firmware version is compatible with both the S70JR200 and S70JR120 series hardware versions. <br>
+    - We suggest utilizing the most recent BIOS firmware version.
 
 ## **Standard BIOS**
 
 !!! note ""
+    ### :fontawesome-solid-microchip: **S70JR230-8G-A_20250416093826** (Latest BIOS version)
+    - **Version:** S70JR230-8G-A
+    - **Update Time:** 2025/4/16
+    - **Size:** 6MB
+    - **Update Information:**
+        1. Modified Logo
+        2. Modified the Main page of BIOS menu 
+        3. Added Tcc Activation Offset option
+        4. Added options for TP Controller, EDP Display, BIOS Write Protect, Screen Rotation, and Post Logo Message.
+        5. Modified Network card info display
+        6. Modified DMI information
+        7. Update version S70JR230
+    - **Checksum** 4B75
+    - :fontawesome-solid-download: [**Download**](https://github.com/LattePandaTeam/LattePanda-Win10-Software/blob/master/BIOS%20for%20LattePanda%203%20Delta/S70JR230-8G-A_20250416093826.zip)
+
+??? Info "Legacy Version"
     ### :fontawesome-solid-microchip: **LP-BS-7-S70JR200-CN51G-8G-A**
     - **Version:** S70JR200-8G-A
     - **Update Time:** 2023/09/07
@@ -14,7 +31,6 @@
         * Update version S70JR120 to S70JR200
     - **Checksum** 83A8
     - :fontawesome-solid-download: [**Download**](https://github.com/LattePandaTeam/LattePanda-Win10-Software/blob/master/BIOS%20for%20LattePanda%203%20Delta/LP-BS-7-S70JR200-CN51G-8G-A.zip)
-??? Info "Legacy Version"
     ### :fontawesome-solid-microchip: **LP-BS-7-S70JR120-CN51G-E**
     - **Version:** S70JR120-E
     - **Update Time:** 2023/05/22
