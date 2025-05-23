@@ -119,5 +119,18 @@ By connecting an LED light, it serves as the system's power indicator, providing
 #### :material-lightbulb-on: Hard Drive LED Pins
 By connecting an LED light, it serves as the hard drive activity indicator. This LED illuminates whenever the hard drive is accessed, providing a visual indication of hard drive activity.
 
+## RS232/485 Pins
+
+![Sigma RS232_485 pins](../../assets/images/Sigma/Sigma RS232_485 pins.webp)
+
+The LattePanda Sigma features shared pinout design for its RS232 and RS485 serial interfaces. These functions are controlled by **a DIP switch** located on the back side of Sigma board, near the RTC battery.
+
+![RS232_485 DIP Switch](../../assets/images/Sigma/RS232_485 DIP Switch.webp){width="300"}
+
+Before using either the RS232 or RS485 functionality, please ensure that the DIP switch is properly configured according to your intended communication protocol. Incorrect settings may result in communication failure or signal interference.
+
+!!! note
+    Please note that changes to the DIP switch setting require the system to be powered off. Do not adjust the switch while the board is in operation.
+
 
 [**:simple-discord: Join our Discord**](https://discord.gg/k6YPYQgmHt){ .md-button .md-button--primary }
