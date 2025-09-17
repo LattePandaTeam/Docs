@@ -255,6 +255,23 @@ nav:
         - BIOS Firmware: content/sigma_edition/BIOS_Firmware.md
         - EC Firmware: content/sigma_edition/EC_Firmware.md
       - FAQ: content/sigma_edition/FAQ.md
+    - LattePanda IOTA:
+      - Tech Specs: content/iota_edition/specification.md
+      - Initial Setup: content/iota_edition/get_started.md
+      - Power Options: content/iota_edition/powering.md
+      - Display Connections: content/iota_edition/touch_and_display.md
+      - Multiple OS Support: 
+          - Compatible List: content/iota_edition/os.md
+          - Windows: content/iota_edition/Operating_Systems_Windows.md
+          - Ubuntu: content/iota_edition/Operating_Systems_Ubuntu.md
+      - Multiple Network: content/iota_edition/connectivity.md
+      - Hardware Inteface: 
+          - Pinout and Layout: content/iota_edition/io_playability.md
+          - External Interface: content/iota_edition/io_playability_External.md
+          - Internal Interface: content/iota_edition/io_playability_Internal.md
+      - BIOS Setup: 
+        - Entering BIOS Menu: content/3rd_delta_edition/bios.md
+      - FAQ: content/iota_edition/faq.md
   - Compute Module:      
     - LattePanda Mu:
       - Introduction: content/mu_edition/introduction.md

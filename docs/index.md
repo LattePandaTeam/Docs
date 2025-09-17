@@ -2,6 +2,16 @@
 
 ## Single Board Computer Overview
 
+
+| [LattePanda IOTA][10] |
+| ---------------------------------------- |
+| ![lattepanda IOTA Image](assets/images/LattePandaIotaPhoto.jpg) |
+| Model                             |
+| DFR1226: N150 Processor, 8GB RAM, 64GB eMMC<br />DFR1226-ENT: N150 Processor, 8GB RAM, 64GB eMMC, Win11 IoT Ent License <br />DFR1227: N150 Processor, 16GB RAM, 128GB eMMC<br />DFR1227-ENT: N150 Processor, 16GB RAM, 128GB eMMC, Win11 IoT Ent License |
+
+[10]: content/iota_edition/get_started.md
+
+
 | [LattePanda V1][1]                            | [LattePanda Alpha][2]                         | [LattePanda Delta][6] |
 | :--------------------------------------- | :--------------------------------------- | :--------------------------------------- |
 | ![lattepanda photo](assets/images/lattepanda_photo_900x600.webp) | ![lattepanda alpha image](assets/images/lattepanda_alpha_photo_900x600.webp) | ![lattepanda alpha image](assets/images/lattepanda_alpha_photo_900x600.webp) |
@@ -29,7 +39,7 @@
 | ---------------------------------------- |
 | ![lattepanda Mu image](assets/images/mu_edition/cover.jpg) |
 | Model                             |
-| DFR1146: N100 CPU, 8GB RAM, 64GB eMMC<br /> |
+| DFR1146: N100 CPU, 8GB RAM, 64GB eMMC<br />DFR1146-ENT: N100 CPU, 8GB RAM, 64GB eMMC, Win11 Enterprise License<br />DFR1147: N100 CPU, 16GB RAM, 64GB eMMC<br />DFR1149: N305 CPU, 16GB RAM, 64GB eMMC |
 
 [9]: content/mu_edition/introduction.md
 
