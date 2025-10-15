@@ -4,52 +4,60 @@
 
 The LattePanda Iota motherboard features an M.2 E key slot, designed for installing compatible M.2 Wi-Fi/Bluetooth modules.
 
-#### Install an M.2 Wi-Fi Module
+### Installation Steps
 
-- Insert a compatible M.2 2230 Wi-Fi/Bluetooth module into the M.2 E key slot.
+- Connect the antennas to the M.2 2230 Wi-Fi/Bluetooth module. (Typically, two dual-band antennas with IPEX4 connectors.)
+
+- Insert a compatible M.2 2230 Wi-Fi/Bluetooth module into the M.2 E-key slot.
+
 - Secure the module using the provided mounting screw.
-- Connect the antenna(s) to the module if applicable.
 
   ![LattePanda Iota Wi-Fi Module Installation](../../assets/images/LattePanda Iota/wifi_module.webp){: style="width:500px; height:auto;"}
 
-#### Tested Modules
+### Compatible Modules
 
-- [**:material-cart: WiFi Module for LattePanda / NVIDIA Jetson Nano**](https://www.dfrobot.com/product-1998.html)
-- [**:material-cart: M.2 (A+E Key) AX210 WiFi 6E Network Card**](https://www.dfrobot.com/product-2325.html)
-- [**:material-cart: M.2 E Key WiFi 7 Wireless Network Card**](https://www.dfrobot.com/product-2877.html)
+The M.2 E key supports M.2 Type 2230 PCIe and CNVio wireless network card. The following are some compatible devices that we have tested:
+
+- [Intel BE200](https://www.dfrobot.com/product-2877.html)
+- [Intel AX210](https://www.dfrobot.com/product-2325.html)
+- Intel AX211
+- Intel AX200
+- Intel AX201
+- Intel AC9560
+- [Intel AC8265](https://www.dfrobot.com/product-1998.html)
 
 
 ## :material-lan-connect: Ethernet
 
 The LattePanda Iota board comes equipped with a built-in 1GbE Ethernet port. Simply plug in an Ethernet cable to establish a wired internet connection.
 
-> **Dual Ethernet Ports?**  
+### PoE & Dual Ethernet Ports
 
-> For applications requiring dual network interfaces, you can add our optional [**:material-cart: 51W POE Expansion Board**](https://www.dfrobot.com/product-2984.html) to enable a dual-port Ethernet configuration.
-> ![LattePanda Iota PoE Installation](../../assets/images/LattePanda Iota/POE_installation_3.webp){: style="width:500px; height:auto;"}
+For applications requiring POE support, or dual network interfaces, you can add our optional [**:material-cart: 51W POE Expansion Board**](https://www.dfrobot.com/product-2984.html) to enable PoE and dual-port Ethernet configuration.
+![LattePanda Iota PoE Installation](../../assets/images/LattePanda Iota/POE_installation_3.webp){: style="width:500px; height:auto;"}
 
 
 
-## :material-signal-cellular-3: Cellular (4G/5G)
+## :material-signal-cellular-3: Cellular (4G)
 
-The LattePanda Iota does not include a built-in M.2 B key slot. However, you can easily expand cellular connectivity by using our dedicated [**:material-cart: 4G LTE Expansion Board**](https://www.dfrobot.com/product-2982.html), which adds an M.2 B key interface for installing 4G/5G modules.
+The LattePanda Iota does not include a built-in M.2 B key slot. However, you can easily expand cellular connectivity by using our dedicated [**:material-cart: 4G LTE Expansion Board**](https://www.dfrobot.com/product-2982.html), which adds an M.2 B key interface for installing 4G modules.
 
-**Installation Steps:**
+### Installation Steps
 
-- Mount the 4G LTE Expansion Board onto your Iota.
+- Mount the 4G LTE Expansion Board onto your Iota board.
   ![LattePanda Iota 4G module Installation](../../assets/images/LattePanda Iota/4G_module_installation_1.webp){: style="width:500px; height:auto;"}
-- Install a compatible 4G/5G module (e.g., SIM7600G-H-M2) onto the expansion board’s M.2 B key slot.
+- Install a compatible 4G module (e.g., SIM7600G-H-M2) onto the expansion board’s M.2 B key slot.
 - Attach the required cellular and GNSS antennas to the module.
 - Insert a micro-SIM card into the module’s SIM slot.
   ![LattePanda Iota 4G Module Installation](../../assets/images/LattePanda Iota/4G_module_insert_SIM.webp){: style="width:500px; height:auto;"}
 
-- After booting into the operating system, install the appropriate drivers for your 4G/5G module. Ensure no unknown devices appear in Device Manager.
+- After booting into the operating system, install the appropriate drivers for your 4G module. Ensure no unknown devices appear in Device Manager.
 
-> For detailed step-by-step assembly and configuration instructions, please refer to the [**4G LTE Expansion Board User Guide**](https://wiki.dfrobot.com/SKU_DFR1049_LattePanda_Iota_4G_LTE_Expansion_Board?heisgoodman).
+> For detailed step-by-step assembly and configuration instructions, please refer to the [**4G LTE Expansion Board User Guide**](https://wiki.dfrobot.com/SKU_DFR1049_LattePanda_Iota_4G_LTE_Expansion_Board).
 
+### Compatible Modules
 
-
-We have conducted thorough testing on the following modules, all of which have demonstrated excellent functionality within the Windows 10 operating system:
+We have conducted thorough testing on the following modules, all of which have demonstrated excellent functionality within the Windows 10/11 operating system:
 
 * [SIMCom SIM7600G-H-M2 (4G)](https://www.dfrobot.com/product-2643.html)
 * [Quectel EM05-CE (4G)](https://www.quectel.com/product/lte-em05-series/)

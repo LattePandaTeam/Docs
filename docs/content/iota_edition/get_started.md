@@ -8,12 +8,13 @@ This chapter will guide you through setting up your LattePanda Iota for the firs
 
 Before powering on your LattePanda Iota, ensure you have the following accessories:
 
-- :material-fan:     Cooling Fan or Heatsink (Required)
+- :material-fan:    <span style="color: rgba(225, 0, 0);"> Cooling Fan or Heatsink (Required)</span>
 - :material-cable-data:     HDMI Cable
 - :material-monitor:    External HDMI Monitor
 - :material-keyboard:    Keyboard and Mouse
 - :material-power-plug-battery:    Power Adapter (PD 15V or 10–15V DC)
 - :material-antenna:     M.2 Wi-Fi/Bluetooth Module (Optional)
+- :material-battery:   CR2032 3V RTC Battery
 
 !!! Danger "Critical Cooling Warning"
 
@@ -30,18 +31,25 @@ Before powering on your LattePanda Iota, ensure you have the following accessori
     
 - Apply an even layer of thermal paste directly onto the CPU surface.
 - Remove the protective film from the thermal pad on the back of the fan assembly.
-- Mount the fan onto the back of the board and secure it using the provided screws.
+- Mount the fan onto the back of the board and secure it using the provided screws and standoffs.
+
     ![LattePanda Iota Fan Installation](../../assets/images/LattePanda Iota/cooling_fan.webp){: style="width:400px; height:auto;"}
+    
 
 
 !!! Tip
-    For optimal thermal performance, we recommend using high-quality thermal paste and ensuring full contact between the fan and CPU.
+    For optimal thermal performance, we recommend using high-quality thermal paste and ensuring full contact between the fan and CPU.<br><br>
+    The fan comes with two lengths of standoffs.<br>
+    - 10mm short standoffs are for when the fan faces down and the board faces up.<br>
+    - 18mm long standoffs are for when the fan faces up and the board faces down.
 
-#### Step 2: Install an M.2 Wi-Fi Module
+#### Step 2: Install an M.2 Wi-Fi Module(Optional)
 
-- Insert a compatible M.2 2230 Wi-Fi/Bluetooth module into the M.2 slot.
+- Connect the antennas to the M.2 2230 Wi-Fi/Bluetooth module. (Typically, two dual-band antennas with IPEX4 connectors.)
+
+- Insert a compatible M.2 2230 Wi-Fi/Bluetooth module into the M.2 E-key slot.
+
 - Secure the module with the mounting screw.
-- Connect the antenna(s) if applicable.
 
     ![LattePanda Iota Wi-Fi Module Installation](../../assets/images/LattePanda Iota/wifi_module.webp){: style="width:400px; height:auto;"}
 
@@ -59,6 +67,10 @@ Before powering on your LattePanda Iota, ensure you have the following accessori
 #### Step 4: Connect Peripherals and Power
 
 - Connect your keyboard and mouse via USB ports.
+- Connect the CR2032 RTC battery via the RTC battery connector.
+
+    ![LattePanda Iota Wi-Fi Module Installation](../../assets/images/LattePanda Iota/rtc_battery.webp){: style="width:400px; height:auto;"}
+
 - **Connect the power adapter** using either:
 
     - ✅ USB Type-C: PD 15V

@@ -56,8 +56,10 @@ The LattePanda Iota’s eDP interface supports 30-pin, 2-lane eDP displays opera
 
 - Locate the eDP connector on the LattePanda Iota.
 - Gently lift the black latch on the eDP socket.
-- Align the gold contacts of the eDP cable toward the board (away from the latch).
+- Align the gold contacts of the eDP cable toward the board.
 - Insert the cable fully and press the latch down to lock it.
+
+- In the same way, connect the touch cable. The gold contacts of the touch cable should also face downwards.
 
     ![edp_install_iota](../../assets/images/LattePanda Iota/eDP_display.webp){ width="600" }
 
@@ -81,7 +83,7 @@ Engineered for embedded systems: ultra-low power, minimal wiring, and seamless i
     - ✅ **Official LattePanda eDP Display**: Fully plug-and-play. Works instantly with Windows and Linux — zero setup required.
     - ⚠️ **Third-party Touch Panels**: Require installation of vendor-specific drivers (e.g., Goodix, FT5x06, etc.) to enable full touch functionality. Always verify chipset compatibility before use.
 
-
+## Official eDP Touch Display
 
 
 * [**:material-cart: 7-inch eDP display with I2C touch panel**](https://www.dfrobot.com/product-2993.html)

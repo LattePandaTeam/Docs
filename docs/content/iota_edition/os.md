@@ -6,12 +6,12 @@ This chapter will guide you through installing operating systems compatible with
 
 We have tested core functionality — including Wi-Fi, Ethernet, USB, display output, and audio — on the following operating systems with LattePanda Iota:
 
-| Operating System | Compatibility                                               |
-| :--------------- | :---------------------------------------------------------- |
-| Windows 10       | <span style="color: green">:fontawesome-solid-check:</span> |
-| Windows 11       | <span style="color: green">:fontawesome-solid-check:</span> |
-| Ubuntu 22.04 LTS | <span style="color: green">:fontawesome-solid-check:</span> |
-| Ubuntu 24.04 LTS | <span style="color: green">:fontawesome-solid-check:</span> |
+| Operating System                  | Compatibility                                               |
+| :-------------------------------- | :---------------------------------------------------------- |
+| Windows 10                        | <span style="color: green">:fontawesome-solid-check:</span> |
+| Windows 11                        | <span style="color: green">:fontawesome-solid-check:</span> |
+| Ubuntu 22.04 LTS(With HWE Kernel) | <span style="color: green">:fontawesome-solid-check:</span> |
+| Ubuntu 24.04 LTS                  | <span style="color: green">:fontawesome-solid-check:</span> |
 
 > If you encounter compatibility issues after an OS update, or wish to request testing for another distribution (e.g., Debian, Fedora, or specialized IoT OS), please:
 > 

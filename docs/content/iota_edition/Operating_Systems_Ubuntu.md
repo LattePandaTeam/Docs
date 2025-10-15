@@ -76,6 +76,18 @@ In this chapter, we will guide you through installing **Ubuntu 22.04 LTS** on th
         After reboot, log in with your credentials — welcome to Ubuntu on LattePanda Iota!
 
 ---
+###  Install HWE Kernel
 
+- Update package lists and install the HWE kernel meta-package for Ubuntu 22.04 LTS:
+```bash
+sudo apt update
+sudo apt install --install-recommends linux-generic-hwe-22.04
+```
+   > What these commands do:<br>
+   >  `sudo apt update`: Refreshes the package index.<br>
+   > `sudo apt install --install-recommends linux-generic-hwe-22.04`: Installs the Hardware Enablement (HWE) kernel and its recommended dependencies for Ubuntu 22.04.
+
+
+---
 
 [**:simple-discord: Join our Discord**](https://discord.gg/k6YPYQgmHt){ .md-button .md-button--primary }

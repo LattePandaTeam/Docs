@@ -4,13 +4,13 @@ The LattePanda Iota is a compact yet powerful single-board computer designed for
 
 In this chapter, we will explore the available power input options for the LattePanda Iota, helping you choose the right solution based on your application needs—whether it's for portable projects, industrial setups, or long-term deployments.
 
-## 2 Ways to Power LattePanda Iota
+## 3 Ways to Power LattePanda Iota
 
 !!! Warning "Voltage and Power Requirements"
 
     - **USB Type-C Port**: Requires **15V PD (Power Delivery)** input only.
     - **PH2.0-4Pin Power Header**: Accepts **10–15V DC**, with no more than 15V.
-    - The power adapter must provide **at least 30W** for stable operation.
+    - The power adapter must provide **at least 24W** for stable operation.
     - Using underpowered or out-of-spec adapters may result in boot failure, system instability, or hardware damage.
 
 You can power the LattePanda Iota via:
@@ -21,8 +21,10 @@ You can power the LattePanda Iota via:
 2. **PH2.0-4Pin Power Header**  
    Ideal for integration into custom enclosures or systems with existing DC power rails.
 
+3. **Power Management Connector**  
+   With [LattePanda UPS expansion board(DFR1247)](https://www.dfrobot.com/product-2983.html) and 18650 batteries, it is very suitable for seamless battery backup and intelligent power management of mission-critical applications.
 
----
+
 
 ## Power Supply Priority
 
@@ -41,13 +43,13 @@ LattePanda Iota intelligently selects its power source based on voltage level. I
 
 ---
 
-## Powered by USB Type-C PD Adapter (🔌) or Power Bank (🔋)
+## Powered by USB Type-C PD Adapter (🔌)
 
 This is the **recommended method** for powering the LattePanda Iota due to its simplicity and compliance with modern standards.
 
 ### Input Specifications
 
-- Supports **USB Power Delivery (PD)**
+- Supports  **USB Power Delivery (PD)**
 - Must negotiate **15V output** from the power source
 - Minimum power: **15V @ 1.8A**
 - Compatible with any PD-compliant charger or power bank that supports 15V output
@@ -65,8 +67,8 @@ Ideal for embedded applications where a dedicated DC power supply is already ava
 ### Input Specifications
 
 - Voltage: **10–15V DC** (do not exceed 15V)
-- Power: **At least 30W recommended**
-- Current: ≥2.0A at 15V or ≥3.0A at 12V
+- Power: **At least 24W recommended**
+- Current: ≥2.0A at 12V
 
 <span style="color: rgba(225, 103, 13);">**Important:** This connector is for power INPUT ONLY. It does NOT support battery charging or power output to other devices.</span>
 
@@ -92,6 +94,8 @@ Ideal for embedded applications where a dedicated DC power supply is already ava
 [LattePanda DC 5.5x2.1mm Power Cable](https://www.dfrobot.com/product-2624.html)  
 This cable allows easy connection from a standard 5.5×2.1mm DC barrel jack power supply to the PH2.0-4Pin header.
 
+![](https://dfimg.dfrobot.com/enshop/FIT0903/FIT0903_Main_01.jpg){width="400" }
+
 
 ---
 
@@ -106,8 +110,7 @@ The LattePanda 18650 UPS Expansion Board is a plug-and-play uninterruptible powe
 Features include intelligent power management, ultra-low power standby (**~30μA**), and support for up to 8 hours of runtime with three 18650 cells. Ideal for mobile robotics, portable systems, and applications requiring reliable power-fail protection.
 
 
-
-[LattePanda UPS Exp. Board (DFR1247) Tutorial](https://wiki.dfrobot.com/SKU_DFR1247_UPS_Expansion_Board)
+> For detailed step-by-step assembly and configuration instructions, please refer to the [LattePanda UPS Exp. Board (DFR1247) Tutorial](https://wiki.dfrobot.com/SKU_DFR1247_UPS_Expansion_Board)
 
 
 

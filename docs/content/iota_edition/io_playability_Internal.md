@@ -2,35 +2,36 @@
 
 ## M.2 E Key Socket
 
-LattePanda Iota features a dedicated M.2 E Key socket for wireless connectivity modules.
+LattePanda Iota features a dedicated M.2 E Key socket for wireless connectivity modules. It supports M.2 Type 2230 PCIe and CNVio wireless network card.
 
 ![](../../assets/images/LattePanda Iota/m2_e_key.webp){: style="width:400px; height:auto;"}
 
 !!! note ""
     
     #### <span style="color: green">:material-check-circle:</span> **Compatible Device**
-      - **Wireless Modules:** M.2 2230 form factor (e.g., Intel AX210, MEDIATEK MT7922, MEDIATEK MT7925)
-      - **Other E Key Devices:** CNVi modules, combo Wi-Fi/BT cards
-
+      - **Wireless Modules:** M.2 2230 form factor, PCIe or CNVio lanes
+      - **Other E Key Devices:** M.2 to SATA, etc.
+    
     Tested Modules
-
-    - [**:material-cart: WiFi Module for LattePanda / NVIDIA Jetson Nano**](https://www.dfrobot.com/product-1998.html)
-    - [**:material-cart: M.2 (A+E Key) AX210 WiFi 6E Network Card**](https://www.dfrobot.com/product-2325.html)
-    - [**:material-cart: M.2 E Key WiFi 7 Wireless Network Card**](https://www.dfrobot.com/product-2877.html)
+    
+    - [**:material-cart: Intel AC8265 WiFi 5**](https://www.dfrobot.com/product-1998.html)
+    - [**:material-cart: Intel AX210 WiFi 6E**](https://www.dfrobot.com/product-2325.html)
+    - [**:material-cart: Intel BE200 WiFi 7**](https://www.dfrobot.com/product-2877.html)
 
 
 
 ## PCIe x1 FPC Expansion Interface
 
-LattePanda Iota provides a flexible PCIe x1 expansion interface using the same FPC (Flexible Printed Circuit) pinout as the Raspberry Pi.
+LattePanda Iota provides a flexible PCIe x1 expansion interface using the same FPC (Flexible Printed Circuit) pinout as the Raspberry Pi 5.
 
 ![](../../assets/images/LattePanda Iota/pciex1.webp){width="400"}
 
 This interface exposes a native <span style="color: rgba(225, 103, 13);">**PCIe 3.0 x1 lane**</span> for high-speed expansion.
     
 #### <span style="color: green">:material-check-circle:</span> **Compatible Device**
-- [**M.2 M Key Expansion Board**](https://www.dfrobot.com/product-2985.html) (for NVMe SSDs or other M.2 devices)
+- [**M.2 M-Key Expansion Board**](https://www.dfrobot.com/product-2985.html) (for NVMe SSDs or other M.2 devices)
 - [**PoE Expansion Board**](https://www.dfrobot.com/product-2984.html) (Power over Ethernet for network connectivity)
+- Most PCIe expansion boards or HATs for Raspberry Pi 4 or 5
 
 
 
@@ -66,9 +67,10 @@ You can also connect our dedicated [**:material-cart: 4G LTE Expansion Board**](
 #### RP2040 Microcontroller Pins
 
 - Built-in RP2040 chip (same as Raspberry Pi Pico) for real-time I/O control
-- Programmable via C/C++ or MicroPython
+- Programmable via Arduino C/C++ or MicroPython
 - Direct access to multiple GPIOs, I2C, SPI, UART, and ADC pins
-- Communicates with main CPU via USB CDC (appears as a serial device)
+- Communicates with Intel N150 Processor via USB 2.0 CDC (appears as a serial device)
+- 3.3V I/O Level
 
 
 

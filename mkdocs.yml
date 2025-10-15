@@ -215,7 +215,7 @@ nav:
           - Ubuntu: content/3rd_delta_edition/Operating_Systems_Ubuntu.md
           - Android: content/3rd_delta_edition/Operating_Systems_Android.md
       - Mutiple Network: content/3rd_delta_edition/connectivity.md
-      - Hardware Inteface: 
+      - Hardware Interface: 
           - Pinout and Layout: content/3rd_delta_edition/io_playability.md
           - External Interface: content/3rd_delta_edition/io_playability_External.md
           - Internal Interface: content/3rd_delta_edition/io_playability_Internal.md
@@ -245,7 +245,7 @@ nav:
         - Windows Server: content/sigma_edition/Operating_Systems_WinServer.md
         - VMWare EXSi: content/sigma_edition/Operating_Systems_ESXi.md
       - Mutiple Network: content/sigma_edition/Internet_Connection.md
-      - Hardware Inteface: 
+      - Hardware Interface: 
         - Pinout and Layout: content/sigma_edition/IO_Playability.md
         - External Interface: content/sigma_edition/IO_Playability_External.md
         - Internal Interface: content/sigma_edition/IO_Playability_Internal.md
@@ -265,7 +265,7 @@ nav:
           - Windows: content/iota_edition/Operating_Systems_Windows.md
           - Ubuntu: content/iota_edition/Operating_Systems_Ubuntu.md
       - Multiple Network: content/iota_edition/connectivity.md
-      - Hardware Inteface: 
+      - Hardware Interface: 
           - Pinout and Layout: content/iota_edition/io_playability.md
           - External Interface: content/iota_edition/io_playability_External.md
           - Internal Interface: content/iota_edition/io_playability_Internal.md
