@@ -1,6 +1,11 @@
 # Hardware Interface
 
-## Pinout and Hardware Diagram
+## Block Diagram
+
+![](../../assets/images/LattePanda Iota/lattepanda_iota_block_diagram.png)
+
+## Pinout Diagram
+
 ### Top Layout
 ![](../../assets/images/LattePanda Iota/front.webp)
 ![](../../assets/images/LattePanda Iota/pinout.webp)
