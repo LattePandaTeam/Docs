@@ -27,7 +27,7 @@ Incredibly, the LattePanda Delta is a **development device which supports 2 diff
 ### What You Will Need
 
 * 1 x Blank USB flash drive (8 GB or larger)
-* [Windows 10 Disc Image File for the LattePanda Delta](https://www.dropbox.com/s/ysh0o1ksi1rurlu/CDJQ-JX-7-S70GR110-GA54A-101-D.zip?dl=0)
+* [Windows 10 Disc Image File for the LattePanda Delta](https://www.dropbox.com/scl/fo/4t8nqj0z89ygsugzes3ks/AMemhBNYwJkEcwyJGJdUmmM?rlkey=2qm0ho4pehpqjtqo837c2l8p8&st=lmbm2ray&dl=0)
 
 ### Installation Steps
 

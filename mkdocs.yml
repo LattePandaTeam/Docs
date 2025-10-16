@@ -271,6 +271,11 @@ nav:
           - Internal Interface: content/iota_edition/io_playability_Internal.md
       - BIOS Setup: 
         - Entering BIOS Menu: content/3rd_delta_edition/bios.md
+      - RP2040 Programming: 
+        - Overview: content/iota_edition/rp2040_programming.md
+        - MicroPython: content/iota_edition/rp2040_programming_micropython.md
+        - Arduino C++: content/iota_edition/rp2040_programming_arduino.md
+        - Firmata: content/iota_edition/rp2040_programming_firmata.md
       - FAQ: content/iota_edition/faq.md
   - Compute Module:      
     - LattePanda Mu:
