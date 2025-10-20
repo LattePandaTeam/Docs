@@ -2,7 +2,7 @@
 
 ## Block Diagram
 
-![](../../assets/images/LattePanda Iota/lattepanda_iota_block_diagram.png)
+![](../../assets/images/LattePanda Iota/lattepanda_iota_block_diagram.webp)
 
 ## Pinout Diagram
 

@@ -22,15 +22,15 @@ Most of the RP2040's GPIOs are routed out through the header, as shown in the fi
 
 | RP2040 Pin | Board Connection / Function | Notes |
 | ------------- | ----------------- | ----------------- |
-| GPIO0 ~ GPIO13 | Header Pin `GP0` ~ Head Pin `GP13` |  |
-| GPIO14 ~ GPIO17 | Not Connected | Internally Floating |
+| GPIO0 ~ 13 | Header Pin `GP0` ~ `GP13` |  |
+| GPIO14 ~ 17 | Not Connected | Internally Floating |
 | GPIO18 | S0 | Internally Connected to S0 State Pin |
 | GPIO19 | S3 | Internally Connected to S3 State Pin |
 | GPIO20 | SW | Internally Connected to SW Button |
 | GPIO21 | RST | Internally Connected to RST Button |
-| GPIO22 ~ GPIO24 | Not Connected | Internally Floating |
+| GPIO22 ~ 24 | Not Connected | Internally Floating |
 | GPIO25 | Onboard Blue LED | Internally Connected to Blue LED |
-| GPIO26 ~ GPIO28 | Header Pin `GP26` ~ Header Pin `GP28` | Multiplexing Function: ADC |
+| GPIO26 ~ 28 | Header Pin `GP26` ~ `GP28` | Multiplexing Function: ADC |
 | GPIO29 | Not Connected | Internally Floating |
 | SWCLK | Header Pin `SCLK` |  |
 | SWDIO | Header Pin `SDIO` |  |

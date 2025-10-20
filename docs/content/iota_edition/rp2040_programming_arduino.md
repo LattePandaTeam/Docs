@@ -42,7 +42,7 @@ Follow these steps to set up your development environment:
 
    > After installation, navigate to: **Tools → Board → Raspberry Pi RP2040 Boards** → Select **Raspberry Pi Pico**.
 
-![](../../assets/images/LattePanda Iota/rp2040_arduino_3.png)
+![](../../assets/images/LattePanda Iota/rp2040_arduino_3.webp)
 
 ## Upload the First Sketch
 
@@ -64,7 +64,7 @@ For the first upload, you must manually put the RP2040 into bootloader mode. Thi
    > Navigate to: **Tools → Port** → Select `UF2 Board`.
    > After the first upload, this is not necessary as the arduino-pico core has auto-reset support. Select the appropriate serial port shown in the Arduino Tools->Port->Serial Port menu once.
 
-![](../../assets/images/LattePanda Iota/arduinopico_uf2.png)
+![](../../assets/images/LattePanda Iota/rp2040_arduino_4.webp)
 
 - Click the **Upload** button to upload the code to the RP2040.
    > Wait for the upload process to complete. You should see "Done uploading" in the status bar.
@@ -80,7 +80,7 @@ After the first upload, the arduino-pico core enables an auto-reset feature, whi
 
   > Connect your board. Navigate to **Tools → Port** and select the serial port corresponding to your RP2040 (e.g., `COM3` or `/dev/ttyACM0`).
 
-![](../../assets/images/LattePanda Iota/arduinopico_serial.png)
+![](../../assets/images/LattePanda Iota/rp2040_arduino_5.webp)
 
 - **Upload your code**
 

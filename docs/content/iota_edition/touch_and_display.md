@@ -11,13 +11,15 @@ This chapter will demonstrate multiple ways to connect display devices to your *
 
     * via HDMI port
     * HDMI 2.1: Up to 4096x2160 @ 60Hz HDR
-    * for standard desktop usage, plug-and-play
+    * for standard desktop usage 
+    * hot-plug support
 
 === "eDP Screen"
 
-    * via 30-pin eDP slot
+    * via 30-pin eDP FPC connector
     * 2 Lanes, Up to 1920×1080 @ 60Hz
     * for embedded, compact, or portable applications
+    * <span style="color: red;">no hot-plug support</span>
 
 ## HDMI
 
@@ -56,10 +58,9 @@ The LattePanda Iota’s eDP interface supports 30-pin, 2-lane eDP displays opera
 
 - Locate the eDP connector on the LattePanda Iota.
 - Gently lift the black latch on the eDP socket.
-- Align the gold contacts of the eDP cable toward the board.
+- Align the gold contacts of the eDP cable toward the board. The gold contacts face downwards as shown in the figure below.
 - Insert the cable fully and press the latch down to lock it.
-
-- In the same way, connect the touch cable. The gold contacts of the touch cable should also face downwards.
+- In the same way, connect the touch cable. The gold contacts of the touch cable should also face downwards as shown in the figure below.
 
     ![edp_install_iota](../../assets/images/LattePanda Iota/eDP_display.webp){ width="600" }
 
@@ -80,7 +81,7 @@ Engineered for embedded systems: ultra-low power, minimal wiring, and seamless i
 
 !!! Note "Driver Compatibility"
 
-    - ✅ **Official LattePanda eDP Display**: Fully plug-and-play. Works instantly with Windows and Linux — zero setup required.
+    - ✅ **Official LattePanda eDP Display**: Fully plug-and-play. Works instantly with the pre-installed Windows OS image,  or any standard Linux distributio — zero setup required.
     - ⚠️ **Third-party Touch Panels**: Require installation of vendor-specific drivers (e.g., Goodix, FT5x06, etc.) to enable full touch functionality. Always verify chipset compatibility before use.
 
 ## Official eDP Touch Display

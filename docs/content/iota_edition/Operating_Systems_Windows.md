@@ -4,20 +4,19 @@
 
 ![](../../assets/images/Windows_10_11_logo.webp)
 
-The following guide demonstrates how to install Windows on your **LattePanda Iota**. By default, the operating system will be installed on the onboard eMMC storage.
-
+The following guide demonstrates how to install Windows OS on your **LattePanda Iota**. By default, the operating system will be installed on the onboard eMMC storage.
 
 ??? tip "How to install the official system image to the SSD?"
-    - Insert your SSD into the LattePanda, then remove all other storage.
-        - Enter into the BIOS setup(**Chipset -> Device Configuration ->eMMC 5.1 Controller**) to disable the onboard eMMC. Then save the change.
-        ![DisableEMMC_3Delta](../../assets/images/LattePanda 3 Delta/DisableEMMC_3Delta.webp)
-        - Restart the LattePanda. Use the following installation steps to install the system image.
+    - Insert your SSD into LattePanda Iota via [M.2 M-Key Expansion Board(DFR1250)](https://www.dfrobot.com/product-2985.html), then remove all other storage.
+    - Enter into the BIOS setup(**Chipset -> Device Configuration ->eMMC 5.1 Controller**) to disable the onboard eMMC. Then save the change.
+            ![DisableEMMC_3Delta](../../assets/images/LattePanda Iota/disable_emmc.gif)
+    - Restart the LattePanda. Use the following installation steps to install the system image.
 
 ### 🧰 Preparations
 
 * :material-usb-flash-drive-outline: USB flash drive (8GB or larger, formatted as NTFS)
 * 💿 Official Windows 11 System Image for LattePanda Iota:  
-  Download from [:material-dropbox: Dropbox](https://www.dropbox.com/scl/fo/vrixaulo9d8m4yirj2hve/AJ6sthTkhp0a3l51_3r8BVA?rlkey=2qfyd0gyukr9tag3x87vixmiu&st=gt4d54q3&dl=0)
+  Download from [:material-dropbox: Dropbox](https://www.dropbox.com/scl/fo/vrixaulo9d8m4yirj2hve/AJ6sthTkhp0a3l51_3r8BVA?rlkey=2qfyd0gyukr9tag3x87vixmiu&st=gt4d54q3&dl=0) or [:material-google-drive:Google Drive](https://drive.google.com/drive/folders/1hYB2sx3qW3o2guAHZ-LShZc6exy8XJSf?usp=sharing)
 
 !!! Note
 

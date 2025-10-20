@@ -2,7 +2,7 @@
 
 ## :material-wifi: WIFI
 
-The LattePanda Iota motherboard features an M.2 E key slot, designed for installing compatible M.2 Wi-Fi/Bluetooth modules.
+The LattePanda Iota board features an M.2 E key slot, designed for installing compatible M.2 Wi-Fi/Bluetooth modules.
 
 ### Installation Steps
 
@@ -30,6 +30,10 @@ The M.2 E key supports M.2 Type 2230 PCIe and CNVio wireless network card. The f
 ## :material-lan-connect: Ethernet
 
 The LattePanda Iota board comes equipped with a built-in 1GbE Ethernet port. Simply plug in an Ethernet cable to establish a wired internet connection.
+
+### Compatible Speed
+
+Supports 10/100/1000 Mbps Ethernet speeds
 
 ### PoE & Dual Ethernet Ports
 

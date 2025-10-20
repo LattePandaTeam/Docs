@@ -2,9 +2,9 @@
 
 This chapter will guide you through installing operating systems compatible with the **LattePanda Iota**. It covers supported OS versions, recommended boot media, installation instructions, and important considerations to ensure a smooth setup.
 
-## Compatible System List
+## Compatible OS List
 
-We have tested core functionality — including Wi-Fi, Ethernet, USB, display output, and audio — on the following operating systems with LattePanda Iota:
+We have tested core functionality — including WiFi(AX211 & AX210), Ethernet, USB, HDMI and Headphone — on the following operating systems with LattePanda Iota:
 
 | Operating System                  | Compatibility                                               |
 | :-------------------------------- | :---------------------------------------------------------- |
@@ -15,7 +15,6 @@ We have tested core functionality — including Wi-Fi, Ethernet, USB, display ou
 
 > If you encounter compatibility issues after an OS update, or wish to request testing for another distribution (e.g., Debian, Fedora, or specialized IoT OS), please:
 > 
-> - ✏️ Open an issue in our [**Documentation Repository**](https://github.com/LattePandaTeam/Docs/issues)
 > - 📧 Contact [**LattePanda Tech Support**](mailto:techsupport@lattepanda.com)
 
 

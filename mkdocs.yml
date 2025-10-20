@@ -276,6 +276,7 @@ nav:
         - MicroPython: content/iota_edition/rp2040_programming_micropython.md
         - Arduino C++: content/iota_edition/rp2040_programming_arduino.md
         - Firmata: content/iota_edition/rp2040_programming_firmata.md
+      - Migration Guide (V1 to Iota): content/iota_edition/migration_guide_v1_to_iota.md
       - FAQ: content/iota_edition/faq.md
   - Compute Module:      
     - LattePanda Mu:
