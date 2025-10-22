@@ -23,7 +23,6 @@ The M.2 E key supports M.2 Type 2230 PCIe and CNVio wireless network card. The f
 - Intel AX211
 - Intel AX200
 - Intel AX201
-- Intel AC9560
 - [Intel AC8265](https://www.dfrobot.com/product-1998.html)
 
 
@@ -31,9 +30,21 @@ The M.2 E key supports M.2 Type 2230 PCIe and CNVio wireless network card. The f
 
 The LattePanda Iota board comes equipped with a built-in 1GbE Ethernet port. Simply plug in an Ethernet cable to establish a wired internet connection.
 
+It is also compatible with **Wake-On-LAN (WOL)** for remote device management.
+
 ### Compatible Speed
 
 Supports 10/100/1000 Mbps Ethernet speeds
+
+### LED Function
+
+![](../../assets/images/LattePanda Iota/Iota_RJ45_LED.webp)
+
+| LED           | LED Color | LED State | Meaning                                       |
+| :------------ | :-------- | :-------- | :-------------------------------------------- |
+| ACT LED       | Yellow    | Blinking  | LAN activity is occurring                     |
+| Data Rate LED | Green     | OFF       | 10 Mb/s data rate is selected, or no LAN Link |
+|               |           | Green     | 100/1000 Mb/s data rate is selected           |
 
 ### PoE & Dual Ethernet Ports
 
@@ -57,7 +68,8 @@ The LattePanda Iota does not include a built-in M.2 B key slot. However, you can
 
 - After booting into the operating system, install the appropriate drivers for your 4G module. Ensure no unknown devices appear in Device Manager.
 
-> For detailed step-by-step assembly and configuration instructions, please refer to the [**4G LTE Expansion Board User Guide**](https://wiki.dfrobot.com/SKU_DFR1049_LattePanda_Iota_4G_LTE_Expansion_Board).
+!!! note
+    For detailed step-by-step assembly and configuration instructions, please refer to the [**4G LTE Expansion Board User Guide**](https://wiki.dfrobot.com/SKU_DFR1049_LattePanda_Iota_4G_LTE_Expansion_Board).
 
 ### Compatible Modules
 

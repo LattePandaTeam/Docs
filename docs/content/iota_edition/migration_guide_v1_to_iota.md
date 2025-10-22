@@ -135,7 +135,7 @@ Using your device's own metal enclosure for passive cooling is a viable option, 
 - You must use a thermal pad or thermal grease to fill the gap between the processor and the inner wall of the enclosure. This is critical for transferring heat from the processor to the enclosure.
 - If your enclosure has limited size or insufficient surface area for heat dissipation, we strongly recommend that you enter the BIOS settings and limit the processor's TDP (PL1) to **6W**. This action will significantly reduce peak heat generation, prevent the enclosure from overheating, and ensure long-term system stability.
 
-!!! Warning
+!!! Warning "Thermal Validation Before Deployment"
 
     Before mass deployment, be sure to conduct full-load stress tests to ensure both the processor and enclosure temperatures remain within a safe and acceptable range.
 

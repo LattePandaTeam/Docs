@@ -15,8 +15,9 @@ The following guide demonstrates how to install Windows OS on your **LattePanda 
 ### 🧰 Preparations
 
 * :material-usb-flash-drive-outline: USB flash drive (8GB or larger, formatted as NTFS)
-* 💿 Official Windows 11 System Image for LattePanda Iota:  
-  Download from [:material-dropbox: Dropbox](https://www.dropbox.com/scl/fo/vrixaulo9d8m4yirj2hve/AJ6sthTkhp0a3l51_3r8BVA?rlkey=2qfyd0gyukr9tag3x87vixmiu&st=gt4d54q3&dl=0) or [:material-google-drive:Google Drive](https://drive.google.com/drive/folders/1hYB2sx3qW3o2guAHZ-LShZc6exy8XJSf?usp=sharing)
+* 💿 Official Windows 11 System Image for LattePanda Iota:
+  
+    Download from [:material-dropbox: **Dropbox**](https://www.dropbox.com/scl/fo/vrixaulo9d8m4yirj2hve/AJ6sthTkhp0a3l51_3r8BVA?rlkey=2qfyd0gyukr9tag3x87vixmiu&st=gt4d54q3&dl=0) or [:material-google-drive:**Google Drive**](https://drive.google.com/drive/folders/1hYB2sx3qW3o2guAHZ-LShZc6exy8XJSf?usp=sharing)
 
 !!! Note
 

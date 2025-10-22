@@ -54,7 +54,7 @@ Before powering on your LattePanda Iota, ensure you have the following accessori
 
     ![LattePanda Iota Wi-Fi Module Installation](../../assets/images/LattePanda Iota/wifi_module.webp){: style="width:400px; height:auto;"}
 
-    !!! Caution
+    !!! note
         If wireless connectivity is not required, this step can be skipped.  
         Refer to the [**Connectivity Options**](connectivity.md) section for more network connections.
 
@@ -62,7 +62,7 @@ Before powering on your LattePanda Iota, ensure you have the following accessori
 
 - Use an HDMI cable to connect your monitor to the HDMI port on the LattePanda Iota.
 
-    !!! Caution
+    !!! note
         See the [**Display Connections**](touch_and_display.md) section for details on display compatibility and resolution settings.
 
 #### Step 4: Connect Peripherals and Power
@@ -77,7 +77,7 @@ Before powering on your LattePanda Iota, ensure you have the following accessori
     - ✅ USB Type-C: PD 15V
     - ✅ PH2.0-4Pin Header: 10–15V DC
 
-    !!! Caution
+    !!! note
         See the [**Power Options**](powering.md) section for details on power supply requirements.
     
 - Once all connections are secure, press the power button to start the device.

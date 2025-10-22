@@ -96,7 +96,8 @@ As shown in the figure above, from left to right:
 
 ### Recommended Adapter Cable
 
-[LattePanda DC 5.5x2.1mm Power Cable(FIT0903)](https://www.dfrobot.com/product-2624.html)  
+:material-cable-data:[**LattePanda DC 5.5x2.1mm Power Cable(FIT0903)**](https://www.dfrobot.com/product-2624.html) 
+
 This cable allows easy connection from a standard 5.5×2.1mm DC barrel jack power supply to the PH2.0-4Pin header.
 Thus, with this adapter cable, you can use a standard DC 2.1 power adapter to power the Iota board.
 
