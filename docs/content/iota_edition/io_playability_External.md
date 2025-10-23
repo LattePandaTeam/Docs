@@ -38,7 +38,7 @@ The LattePanda Iota features a total of three USB Type-A ports.
 
 - Each port offers an impressive throughput of up to 10Gb/s — ideal for high-speed data transfer, external SSDs, and bandwidth-intensive peripherals.
 
-- All ports are routed from the processor's PCH and do not use any HUB chips.
+- All ports are native to the processor's PCH and do not pass through any USB hub chips.
 
 - The default BIOS setting is that the USB Type-A ports lose power after shutdown. If you want them to continue supplying power after the system is shut down, please refer to the [BIOS power control](bios_power_control.md) section.
 
