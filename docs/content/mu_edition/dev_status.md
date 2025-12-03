@@ -21,7 +21,7 @@ You can track the development status of LattePanda Mu's interface features here.
 | UART                     | A        | :material-check:      |
 | I2C                      | A        | :material-check:      |
 | SPI                      | A        | :material-check:      |
-| HD Aduio                 | A        | :material-check:      |
+| HD Audio                 | A        | :material-check:      |
 | I2S                      | A        | :material-calendar:   |
 | MIPI CSI-2               | A        | :material-calendar:   |
 | HDMI                     | A        | :material-check:      |
