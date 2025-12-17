@@ -20,7 +20,7 @@ This section covers installing the server firmware onto the RP2040 and the clien
 
 - Install the Server Firmware on RP2040
 
-> Refer to the [Uploading new Firmware to RP2040](rp2040_programming.md#upload-instructions) section, copy the downloaded `Telemetrix4PriPico.uf2` file to the RP2040's drive.
+    > Refer to the [Uploading new Firmware to RP2040](rp2040_programming.md#upload-instructions) section, copy the downloaded `Telemetrix4PriPico.uf2` file to the RP2040's drive.
 
 - Download and install [Python](https://www.python.org/downloads/)
 
@@ -29,7 +29,7 @@ This section covers installing the server firmware onto the RP2040 and the clien
 ```
 pip install telemetrix-rpi-pico
 ```
-> Linux/macOS:
+> Linux:
 ```
 sudo pip3 install telemetrix-rpi-pico
 ```
@@ -41,8 +41,13 @@ Now let's run a Python script to control the RP2040's LED(pin 25).
 - Download the [blink.py](https://github.com/MrYsLab/telemetrix-rpi-pico/blob/master/examples/blink.py)
 
 - Run the blink.py script
+> Windows:
 ```python
 python blink.py
+```
+> Linux:
+```
+python3 blink.py
 ```
 - The script will automatically find and connect to the RP2040, let the blue LED on the Iota board begin to flash.
 

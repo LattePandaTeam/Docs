@@ -1,5 +1,20 @@
 # Internal Interface
 
+## DIP Switch
+
+![](../../assets/images/LattePanda Iota/dipsw.png)
+
+The DIP switch on the LattePanda Iota allows you to customize system behavior for **Auto Power-On** and **MCU Power Control**. Below is a detailed breakdown of each setting:
+
+| Actuator Label | Function | Position | Behavior                                                                                     |
+|-------------------|----------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| **APO** | **Auto Power-On** | OFF *(Default)* | System requires manual press of the power button to boot after power is connected.           |
+|                   |            | ON           | System automatically powers on as soon as external power is applied — ideal for headless or embedded deployments. |
+| **MCU** | **MCU Power Control** | OFF *(Default)* | Onboard MCU remains **inactive** until the system is powered on via the power button.        |
+|                   |            | ON           | Onboard MCU stays **active immediately** upon power connection(before OS boot). Useful for pre-boot sensor control or automation. |
+
+⚠️ **Note:** Once Auto Power-On is set to ON, the Iota Board will automatically power on as soon as it receives power, regardless of the RTC battery.
+
 ## M.2 E Key Slot
 
 LattePanda Iota features one M.2 E Key slot for modern wireless modules, enabling high-speed Wi-Fi and Bluetooth connectivity. 
@@ -55,13 +70,13 @@ This connector exposes a native PCIe 3.0 x1 lane, delivering up to 8 GT/s of ban
 | 3   | GND         | Ground                       |
 | 4   | PCIE_CLK_P | Reference Clock, Positive |
 | 5   | PCIE_CLK_N | Reference Clock, Negative |
-| 6   | GND    | GND |
+| 6   | GND    | Ground |
 | 7   | PCIE_RX_P | PCIe Receive Lane 0, Positive |
 | 8   | PCIE_RX_N | PCIe Receive Lane 0, Negative |
-| 9   | GND | GND                                                          |
+| 9   | GND | Ground                                                    |
 | 10  | PCIE_TX_P | PCIe Transmit Lane 0, Positive |
 | 11  | PCIE_TX_N | PCIe Transmit Lane 0, Negative |
-| 12  | GND | GND  |
+| 12  | GND | Ground |
 | 13  | PCIE_PWR_EN | High Level(3.3V) Output to enable PMIC on exp. board or HAT.<br>When OS is running or sleeping, this pin will output HIGH. |
 | 14  | PCIE_DET_WAKE | Wake-up Signal, Active Low<br>Pull this pin LOW to wake the LattePanda board from sleep state. |
 | 15  | PCIE_CLKREQ_N | Reference Clock Request, Active Low |
@@ -145,7 +160,7 @@ LattePanda Iota features a comprehensive 36-pin GPIO header, serving as a versat
 | 5V        | Power          |           | 5V Power Output 1<br>Current Limit: 0.5A<br>Do not connect to 5V Power Output 2 |
 | GP0 ~ 6   | Input/Output   | 3.3V      | RP2040 GPIO 0~6                                              |
 | GP26 ~ 28 | Input/Output   | 3.3V      | RP2040 GPIO 26~28<br>Multiplexed as: ADC Input               |
-| 3.3V      | Power          |           | RP2040 3.3V Power Output<br>Current Limit: 1.2A              |
+| 3.3V      | Power          |           | RP2040's 3.3V Power Output<br>Current Limit: 1.2A            |
 | RST       | Pull-up Input  | 3.3V      | System Reset<br>Pull this pin low is equivalent to press `RST` button. |
 
 | Pin Name | Type          | I/O Level | Description                                                  |
@@ -223,7 +238,7 @@ LattePanda Iota equips a power management expansion connector, designed as a res
 
 | Pin  | Signal Name | Type              | Description                                                  |
 | :--- | :---------- | :---------------- | :----------------------------------------------------------- |
-| 1    | VIN         | Power             | DC power input from the LattePanda Iota board<br>Input Range: 9 ~15V |
+| 1    | VIN         | Power             | DC Power Input<br>Input Range: 9 ~15V                        |
 | 2    | VIN         | Power             | same as above                                                |
 | 3    | VIN         | Power             | same as above                                                |
 | 4    | STATE       | Output            | OS State Indicator<br/>Output 3.3V only when OS is running or sleeping |

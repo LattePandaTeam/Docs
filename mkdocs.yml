@@ -30,7 +30,7 @@ repo_url: https://github.com/LattePandaTeam/Docs
 edit_uri: blob/master/docs
 
 # Copyright
-copyright: 'Copyright &copy; 2016 - 2024 LattePanda Team'
+copyright: 'Copyright &copy; 2015 - 2025 LattePanda Team'
 
 # Configuration
 theme:
@@ -270,13 +270,18 @@ nav:
           - External Interface: content/iota_edition/io_playability_External.md
           - Internal Interface: content/iota_edition/io_playability_Internal.md
       - BIOS Setup: 
-        - Entering BIOS Menu: content/3rd_delta_edition/bios.md
+        - Entering BIOS Menu: content/iota_edition/bios.md
+        - USB Power Control Settings: content/iota_edition/bios_USB_Port_Power_Control.md
+        - MCU Power Control Settings: content/iota_edition/bios_MCU_Power_Control.md
+        - Restore Default Settings: content/iota_edition/bios_Restore_Default_Settings.md
+      - Auto Power-On: content/iota_edition/auto_power_on.md
       - RP2040 Programming: 
         - Overview: content/iota_edition/rp2040_programming.md
         - MicroPython: content/iota_edition/rp2040_programming_micropython.md
         - Arduino C++: content/iota_edition/rp2040_programming_arduino.md
         - Firmata: content/iota_edition/rp2040_programming_firmata.md
       - Migration Guide (V1 to Iota): content/iota_edition/migration_guide_v1_to_iota.md
+      - Download Resources: content/iota_edition/download_resources.md
       - FAQ: content/iota_edition/faq.md
   - Compute Module:      
     - LattePanda Mu:

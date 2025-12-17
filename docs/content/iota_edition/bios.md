@@ -4,7 +4,7 @@
 
 * Power on or reboot LattePanda.
 
-* Press **++del++** or **++esc++** key continuously to enter into BIOS menu before you see the LattePanda logo on the splash screen. 
+* Press **++del++** key continuously to enter into BIOS menu before you see the LattePanda logo on the splash screen. 
 
     ![](../../assets/images/lp_boot_logo.webp)
 
@@ -15,7 +15,7 @@
 
 * Press ++arrow-up++ or ++arrow-up++ key to select the bootable device, and press ++enter++ key to boot from it.
 
-  ![BootableDevice_3Delta](../../assets/images/LattePanda 3 Delta/BootableDevice_3Delta.webp)
+    ![BootableDevice_3Delta](../../assets/images/LattePanda 3 Delta/BootableDevice_3Delta.webp)
 
 
 !!! Note
