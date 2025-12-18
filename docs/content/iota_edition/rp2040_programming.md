@@ -17,7 +17,7 @@ The LattePanda Iota integrates a RP2040 MCU, which communicate with Intel N150 p
 
 Most of the RP2040's GPIOs are routed out through the header, as shown in the figure below.
 
-![](../../assets/images/LattePanda Iota/pinheader_rp2040part.png)
+![](../../assets/images/LattePanda Iota/pinheader_rp2040part.webp){width="600" }
 
 
 | RP2040 Pin | Board Connection / Function | Notes |

@@ -6,7 +6,7 @@ Three USB Type-A ports on LattePanda Iota support power control.
 
 **Path: Advanced --> Power Configuration --> Always On Double/Single  Deck USB Port**
 
-![](../../assets/images/LattePanda 3 Delta/USBcontrol_BIOS_3Delta.webp){width="600" }
+![](../../assets/images/LattePanda Iota/bios_usbpwrctl.webp){width="600" }
 
 The default setting is **disabled**.
 
@@ -22,7 +22,7 @@ The default setting is **disabled**.
     - If the LattePanda Iota is disconnected from the power supply, all USB-A ports are powered off by default when the LattePanda Iota is reconnected power supply and not turned on.
 
 
-## 5V Pin Header Power Control
+## USB 2.0 Pin Header Power Control
 
 The 5V pin of the USB 2.0 pin header (marked with a red arrow in the picture below) on the LattePanda Iota also supports power control.
 
@@ -36,7 +36,7 @@ The default setting is **disabled**.
 | ------------------------ | ------------------------------------------------------------ |
 | Enabled                  | Running Mode: <span style="color: green">:fontawesome-solid-check:</span> <br> Sleep Mode: <span style="color: green">:fontawesome-solid-check:</span> <br> Hibernate Mode: <span style="color: green">:fontawesome-solid-check:</span> <br> Shut Down Mode: <span style="color: green">:fontawesome-solid-check:</span> |
 | Disabled                 | Running Mode: <span style="color: green">:fontawesome-solid-check:</span> <br> Sleep Mode: <span style="color: green">:fontawesome-solid-check:</span> <br> Hibernate Mode: :x: <br> Shut Down Mode: :x: |
-|                          | <span style="color: green">:fontawesome-solid-check:</span> means **Enabled**, the 5V pin can output power;<br> :x: means **Disabled** , the 5V pin can't output 5V power supply. |
+|                          | <span style="color: green">:fontawesome-solid-check:</span> means **Enabled**, the 5V pin can output power;<br> :x: means **Disabled** , the 5V pin can't output power. |
 
 !!! note
 

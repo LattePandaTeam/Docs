@@ -34,10 +34,12 @@ The Windows system will automatically connect to the internet to fetch driver up
 | Intel Serial IO Driver             | 30.100.2422.24   | 2.6 MB  | [:material-download:](../../assets/drivers/iota_edition/SerialIO_30.100.2422.24-ADL-N.zip) |
 | Realtek Audio Driver               | 6.0.9782.1       | 38.1 MB | [:material-download:](../../assets/drivers/iota_edition/Realtek_Audio_9782.1_UAD_WHQL_2025_0109_1C6C1249.zip) |
 | Realtek Ethernet Controller Driver | 1168.21.903.2024 | 5.0 MB  | [:material-download:](../../assets/drivers/iota_edition/Install_PCIE_Win11_11021_10242024.zip) |
-| Intel SST Driver                   | 10.29.0.10981    | 112 MB  | [:material-download:](../../assets/drivers/iota_edition/Intel_SST_TWL_v10.29.00.10981.zip) |
-| Touch Panel Driver                 | 1.3.2.0          | 63.4 KB | [:material-download:](../../assets/drivers/3rd_delta_edition/TouchPanel_1.3.2.0.zip) |
+| Intel SST Driver                   | 10.29.0.10981    | 61.7 MB  | [:material-download:](../../assets/drivers/iota_edition/Intel_SST_TWL_v10.29.00.10981.7z)[^2] |
+| Intel MEI Driver | 2306.4.10.0 | 20.5 MB | [:material-download:](../../assets/drivers/iota_edition/MEI_2306.4.10.0.zip) |
+| Touch Panel Driver                 | 1.3.2.0          | 69.3 KB | [:material-download:](../../assets/drivers/iota_edition/TouchPanel_1.3.2.0.zip) |
 
 [^1]: Download from intel.com
+[^2]: 7z compressed format, please install [7-Zip](https://www.7-zip.org/) to unzip
 
 ## BIOS Firmware
 

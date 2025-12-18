@@ -8,7 +8,7 @@ When the LattePanda Iota is running, sleeping, shutting down, or in hibernation 
 
 **Path: Advanced --> Power Configuration --> MCU Power Control**
 
-![](../../assets/images/LattePanda 3 Delta/USBcontrol_BIOS_3Delta.webp){width="600" }
+![](../../assets/images/LattePanda Iota/bios_mcupwrctl.webp){width="600" }
 
 The default setting is **Auto**.
 

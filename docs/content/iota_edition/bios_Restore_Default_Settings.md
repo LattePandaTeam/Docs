@@ -14,7 +14,7 @@ The BIOS settings of the LattePanda Iota support power-off retention. This means
 
 - After these settings, the BIOS will be restored to its factory default values.
 
-![](../../assets/images/LattePanda 3 Delta/USBcontrol_BIOS_3Delta.webp){width="600" }
+![](../../assets/images/LattePanda Iota/bios_loaddefault.webp){width="600" }
 
 ## Restore via Jumper
 
