@@ -28,10 +28,10 @@ When the LattePanda Iota is connected to power but not turned on, the RP2040 MCU
 
 - Set the actuator:
 
-| Actuator Position | Power Supply of the RP2040 MCU                               |
-| ----------------- | ------------------------------------------------------------ |
-| OFF (Left Side)   | <span style="color: green">:fontawesome-solid-check:</span> Enabled |
-| ON (Right Side)   | :x:Disabled                                                  |
+    | Actuator Position | Power Supply of the RP2040 MCU                               |
+  | ----------------- | ------------------------------------------------------------ |
+  | OFF (Left Side)   | <span style="color: green">:fontawesome-solid-check:</span> Enabled |
+  | ON (Right Side)   | :x:Disabled                                                  |
   This setting take effect immediately, and is unaffected by the RTC battery.
 
 [**:simple-discord: Join our Discord**](https://discord.gg/k6YPYQgmHt){ .md-button .md-button--primary }
