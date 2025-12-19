@@ -162,6 +162,34 @@ extra_css:
 nav:
   - Single Board Computer:
     - Overview: index.md
+    - LattePanda IOTA:
+      - Tech Specs: content/iota_edition/specification.md
+      - Initial Setup: content/iota_edition/get_started.md
+      - Power Options: content/iota_edition/powering.md
+      - Display Connections: content/iota_edition/touch_and_display.md
+      - Multiple OS Support: 
+          - Compatible List: content/iota_edition/os.md
+          - Windows: content/iota_edition/Operating_Systems_Windows.md
+          - Ubuntu: content/iota_edition/Operating_Systems_Ubuntu.md
+      - Multiple Network: content/iota_edition/connectivity.md
+      - Hardware Interface: 
+          - Pinout and Layout: content/iota_edition/io_playability.md
+          - External Interface: content/iota_edition/io_playability_External.md
+          - Internal Interface: content/iota_edition/io_playability_Internal.md
+      - BIOS Setup: 
+        - Entering BIOS Menu: content/iota_edition/bios.md
+        - USB Power Control Settings: content/iota_edition/bios_usb_port_power_control.md
+        - MCU Power Control Settings: content/iota_edition/bios_mcu_power_control.md
+        - Restore Default Settings: content/iota_edition/bios_restore_default_settings.md
+      - Auto Power-On: content/iota_edition/auto_power_on.md
+      - RP2040 Programming: 
+        - Overview: content/iota_edition/rp2040_programming.md
+        - MicroPython: content/iota_edition/rp2040_programming_micropython.md
+        - Arduino C++: content/iota_edition/rp2040_programming_arduino.md
+        - Firmata: content/iota_edition/rp2040_programming_firmata.md
+      - Migration Guide (V1 to Iota): content/iota_edition/migration_guide_v1_to_iota.md
+      - Download Resources: content/iota_edition/download_resources.md
+      - FAQ: content/iota_edition/faq.md
     - LattePanda V1:
       - Power on Device: content/1st_edition/power_on.md
       - Building Connectivity: content/1st_edition/wifi.md
@@ -192,18 +220,6 @@ nav:
       - Physical Programming /w Python: content/alpha_edition/python_arduino_bridge.md
       - Read Sensor Data /w Python: content/alpha_edition/python_read_sensor.md
       - FAQ: content/alpha_edition/faq.md
-    - LattePanda Delta:
-      - Get Started: content/delta_edition/get_started.md
-      - Powering: content/delta_edition/powering.md
-      - Displays and Touch: content/delta_edition/touch_and_display.md
-      - 2x OS Support: content/delta_edition/os.md
-      - Drivers: content/delta_edition/drivers_and_software.md
-      - Tools Recommended: content/delta_edition/ide.md
-      - Hardware Inteface Introduction: content/delta_edition/io_playability.md
-      - Mutiple Internet Connections: content/delta_edition/connectivity.md
-      - Physical Programming /w Python: content/delta_edition/python_arduino_bridge.md
-      - Read Sensor Data /w Python: content/delta_edition/python_read_sensor.md
-      - FAQ: content/delta_edition/faq.md
     - LattePanda 3 Delta:
       - Tech Specs: content/3rd_delta_edition/specification.md
       - Initial Setup: content/3rd_delta_edition/get_started.md
@@ -255,34 +271,18 @@ nav:
         - BIOS Firmware: content/sigma_edition/BIOS_Firmware.md
         - EC Firmware: content/sigma_edition/EC_Firmware.md
       - FAQ: content/sigma_edition/FAQ.md
-    - LattePanda IOTA:
-      - Tech Specs: content/iota_edition/specification.md
-      - Initial Setup: content/iota_edition/get_started.md
-      - Power Options: content/iota_edition/powering.md
-      - Display Connections: content/iota_edition/touch_and_display.md
-      - Multiple OS Support: 
-          - Compatible List: content/iota_edition/os.md
-          - Windows: content/iota_edition/Operating_Systems_Windows.md
-          - Ubuntu: content/iota_edition/Operating_Systems_Ubuntu.md
-      - Multiple Network: content/iota_edition/connectivity.md
-      - Hardware Interface: 
-          - Pinout and Layout: content/iota_edition/io_playability.md
-          - External Interface: content/iota_edition/io_playability_External.md
-          - Internal Interface: content/iota_edition/io_playability_Internal.md
-      - BIOS Setup: 
-        - Entering BIOS Menu: content/iota_edition/bios.md
-        - USB Power Control Settings: content/iota_edition/bios_usb_port_power_control.md
-        - MCU Power Control Settings: content/iota_edition/bios_mcu_power_control.md
-        - Restore Default Settings: content/iota_edition/bios_restore_default_settings.md
-      - Auto Power-On: content/iota_edition/auto_power_on.md
-      - RP2040 Programming: 
-        - Overview: content/iota_edition/rp2040_programming.md
-        - MicroPython: content/iota_edition/rp2040_programming_micropython.md
-        - Arduino C++: content/iota_edition/rp2040_programming_arduino.md
-        - Firmata: content/iota_edition/rp2040_programming_firmata.md
-      - Migration Guide (V1 to Iota): content/iota_edition/migration_guide_v1_to_iota.md
-      - Download Resources: content/iota_edition/download_resources.md
-      - FAQ: content/iota_edition/faq.md
+    - LattePanda Delta(Discontinued):
+      - Get Started: content/delta_edition/get_started.md
+      - Powering: content/delta_edition/powering.md
+      - Displays and Touch: content/delta_edition/touch_and_display.md
+      - 2x OS Support: content/delta_edition/os.md
+      - Drivers: content/delta_edition/drivers_and_software.md
+      - Tools Recommended: content/delta_edition/ide.md
+      - Hardware Inteface Introduction: content/delta_edition/io_playability.md
+      - Mutiple Internet Connections: content/delta_edition/connectivity.md
+      - Physical Programming /w Python: content/delta_edition/python_arduino_bridge.md
+      - Read Sensor Data /w Python: content/delta_edition/python_read_sensor.md
+      - FAQ: content/delta_edition/faq.md
   - Compute Module:      
     - LattePanda Mu:
       - Introduction: content/mu_edition/introduction.md

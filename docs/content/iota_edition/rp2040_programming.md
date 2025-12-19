@@ -30,7 +30,7 @@ Most of the RP2040's GPIOs are routed out through the header, as shown in the fi
 | GPIO21 | RST | Internally Connected to RST Button |
 | GPIO22 ~ 24 | Not Connected | Internally Floating |
 | GPIO25 | Onboard Blue LED | Internally Connected to Blue LED |
-| GPIO26 ~ 28 | Header Pin `GP26` ~ `GP28` | Multiplexing Function: ADC |
+| GPIO26 ~ 28 | Header Pin `GP26` ~ `GP28` | Multiplexing Function: ADC<br>each pin in parallel with a 100nF capacitor |
 | GPIO29 | Not Connected | Internally Floating |
 | SWCLK | Header Pin `SCLK` |  |
 | SWDIO | Header Pin `SDIO` |  |
@@ -38,6 +38,9 @@ Most of the RP2040's GPIOs are routed out through the header, as shown in the fi
 | IOVDD/DVDD | Header Pin `3.3V` | RP2040 Power Supply |
 
 
+!!! note
+
+    GPIO26 to GPIO28 of the RP2040 can be muxed as ADC input. To ensure stable ADC sampling values, these pins are paralleled with 100nF capacitors, which can affect rapidly changing signals such as I2C. If using I2C, please avoid these three GPIO pins and choose alternative GPIO pins instead.
 
 ## Uploading new Firmware to RP2040
 
@@ -65,5 +68,11 @@ Follow these steps to upload a .uf2 file to the RP2040:
 - Once the file is copied, the bootloader will automatically verify the firmware, write it to the RP2040's flash memory, and then reboot the device. Your new program will start running immediately.
 
 ---
+
+## RP2040 Power Control
+
+LattePanda Iota allows control of RP2040 power supply through BIOS settings and DIP switches: you can flexibly configure whether the RP2040 remains powered and running in different states such as when the LattePanda board is powered but not booted, during system operation, in sleep mode, after hibernation, and after shutdown, thereby adapting to various application scenarios.
+
+Please refer to the [BIOS MCU Power Control](bios_mcu_power_control.md) section for details.
 
 [**:simple-discord: Join our Discord**](https://discord.gg/k6YPYQgmHt){ .md-button .md-button--primary }

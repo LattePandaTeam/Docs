@@ -1,10 +1,14 @@
 # Operating Systems
 
-## Windows
+## Windows Recovery Image
 
 ![](../../assets/images/Windows_10_11_logo.webp)
 
-The following guide demonstrates how to install Windows OS on your **LattePanda Iota**. By default, the operating system will be installed on the onboard eMMC storage.
+The following guide demonstrates how to use the Windows 11 recovery image file, which is the Windows 11 image pre-installed on the LattePanda Iota from the factory. This image comes with all hardware drivers and is ready to use, providing you with a fast and ultimate experience.
+
+This image does not update in real-time. Therefore, if you need to install the latest version of the Windows OS, you will need to download it yourself and install the drivers.
+
+The Operating system will be installed on the eMMC by default.
 
 ??? tip "How to install the official system image to the SSD?"
     - Insert your SSD into LattePanda Iota via [M.2 M-Key Expansion Board(DFR1250)](https://www.dfrobot.com/product-2985.html), then remove all other storage.
@@ -62,5 +66,20 @@ If you purchased an **activated model**, a Windows license sticker is included i
 6. Enter the key → Click **Next** → Activation will complete automatically.
 
 ---
+## Standard Windows Installation
+
+Lattepanda Iota runs a full version of the Windows OS, which means that the installation process is the same as on a regular laptop or desktop computer. The general steps are as follows:
+
+- Search for and download the version of Windows you need.  
+
+    > You can download from [Microsoft Software Download Center](https://www.microsoft.com/en-us/software-download/windows11).
+
+- Burn the Windows image into a USB drive. You can use the [Rufus](https://rufus.ie/) for this purpose.
+
+- Plug the USB drive into the LattePanda, and continuously press ++del++ after turning it on to enter the BIOS settings. Configure the LattePanda to boot from the USB drive.
+
+- Follow the on-screen instructions to complete the operating system installation.
+
+- Refer to the [drivers section](download_resources.md#windows-1011-driver) and complete the installation of all necessary drivers.
 
 [**:simple-discord: Join our Discord**](https://discord.gg/k6YPYQgmHt){ .md-button .md-button--primary }

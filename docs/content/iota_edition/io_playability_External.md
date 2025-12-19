@@ -40,7 +40,7 @@ The LattePanda Iota features a total of three USB Type-A ports.
 
 - All ports are native to the processor's PCH and do not pass through any USB hub chips.
 
-- The default BIOS setting is that the USB Type-A ports lose power after shutdown. If you want them to continue supplying power after the system is shut down, please refer to the [BIOS power control](bios_power_control.md) section.
+- The default BIOS setting is that the USB Type-A ports lose power after shutdown. If you want them to continue supplying power after the system is shut down, please refer to the [BIOS USB Power Control](bios_usb_port_power_control.md) section.
 
 !!! note "Maximum Current"
 

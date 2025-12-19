@@ -4,7 +4,7 @@
 
 The LattePanda Iota integrates an RP2040 MCU, which supports power control via BIOS settings and a DIP switch.
 
-When the LattePanda Iota is running, sleeping, shutting down, or in hibernation mode after startup, the power supply to the RP2040 MCU is controlled by the BIOS settings.
+When the LattePanda Iota is running, sleeping, in shutdown, or in hibernation mode, the power supply to the RP2040 MCU is controlled by the BIOS settings.
 
 **Path: Advanced --> Power Configuration --> MCU Power Control**
 
@@ -12,12 +12,12 @@ When the LattePanda Iota is running, sleeping, shutting down, or in hibernation 
 
 The default setting is **Auto**.
 
-| MCU Power Control | Power Supply of the RP2040 MCU                               |
+| MCU Power Control | Power Supply to the RP2040 MCU                               |
 | ----------------- | ------------------------------------------------------------ |
 | Enabled           | Running Mode: <span style="color: green">:fontawesome-solid-check:</span> <br> Sleep Mode: <span style="color: green">:fontawesome-solid-check:</span> <br> Hibernate Mode: <span style="color: green">:fontawesome-solid-check:</span> <br> Shut Down Mode: <span style="color: green">:fontawesome-solid-check:</span> |
 | Auto              | Running Mode: <span style="color: green">:fontawesome-solid-check:</span> <br> Sleep Mode: <span style="color: green">:fontawesome-solid-check:</span> <br> Hibernate Mode: :x: <br> Shut Down Mode: :x: |
 | Disabled          | Running Mode: <span style="color: green">:x:</span> <br/> Sleep Mode: <span style="color: green">:x:</span> <br/> Hibernate Mode: :x: <br/> Shut Down Mode: :x: |
-|                   | <span style="color: green">:fontawesome-solid-check:</span> means **Enabled**, the RP2040 MCU is powered on and run;<br> :x: means **Disabled** , the RP2040 MCU is powered off. |
+|                   | <span style="color: green">:fontawesome-solid-check:</span> means **Enabled**, the RP2040 MCU is powered on and run.<br> :x: means **Disabled** , the RP2040 MCU is powered off. |
 
 
 When the LattePanda Iota is connected to power but not turned on, the RP2040 MCU's power supply is controlled by the DIP switch.

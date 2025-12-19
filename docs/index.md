@@ -12,7 +12,7 @@
 [10]: content/iota_edition/get_started.md
 
 
-| [LattePanda V1][1]                            | [LattePanda Alpha][2]                         | [LattePanda Delta][6] |
+| [LattePanda V1][1]                            | [LattePanda Alpha][2]                         | [LattePanda Delta(Discontinued)][6] |
 | :--------------------------------------- | :--------------------------------------- | :--------------------------------------- |
 | ![lattepanda photo](assets/images/lattepanda_photo_900x600.webp) | ![lattepanda alpha image](assets/images/lattepanda_alpha_photo_900x600.webp) | ![lattepanda alpha image](assets/images/lattepanda_alpha_photo_900x600.webp) |
 | Model                                   | Model                                   | Model                                   |

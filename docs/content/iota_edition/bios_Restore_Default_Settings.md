@@ -1,6 +1,6 @@
 # BIOS Setup
 
-The BIOS settings of the LattePanda Iota support power-off retention. This means that even if the RTC battery is depleted, the BIOS settings will not be lost and will not automatically revert to defaults due to a low RTC battery. This feature prevents the inconvenience of manual reconfiguration should the BIOS reset during unattended device operation.
+The BIOS settings of the LattePanda Iota support power-off retention. This means that even if the RTC battery is depleted or lost, the BIOS settings will not be lost and will not revert to defaults. In unattended scenarios, this feature avoids the inconvenience of manual reconfiguration when the BIOS reset.
 
 ## Restore via BIOS Setup
 

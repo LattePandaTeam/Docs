@@ -4,7 +4,7 @@
 
 ![](../../assets/images/LattePanda Iota/dipsw.png)
 
-The DIP switch on the LattePanda Iota allows you to customize system behavior for **Auto Power-On** and **MCU Power Control**. Below is a detailed breakdown of each setting:
+The DIP switch on the LattePanda Iota allows you to customize the behavior for **Auto Power-On** and **MCU Power Control**. Below is a detailed breakdown of each setting:
 
 | Actuator Label | Function | Position | Behavior                                                                                     |
 |-------------------|----------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
@@ -13,7 +13,9 @@ The DIP switch on the LattePanda Iota allows you to customize system behavior fo
 | **MCU** | **MCU Power Control** | OFF *(Default)* | Onboard MCU remains **inactive** until the system is powered on via the power button.        |
 |                   |            | ON           | Onboard MCU stays **active immediately** upon power connection(before OS boot). Useful for pre-boot sensor control or automation. |
 
-⚠️ **Note:** Once Auto Power-On is set to ON, the Iota Board will automatically power on as soon as it receives power, regardless of the RTC battery.
+!!! note
+
+    Once Auto Power-On is set to ON, LattePanda board will automatically power on when it receives power, regardless of the RTC battery.
 
 ## M.2 E Key Slot
 
@@ -159,9 +161,15 @@ LattePanda Iota features a comprehensive 36-pin GPIO header, serving as a versat
 | GND       | Power          |           | Ground                                                       |
 | 5V        | Power          |           | 5V Power Output 1<br>Current Limit: 0.5A<br>Do not connect to 5V Power Output 2 |
 | GP0 ~ 6   | Input/Output   | 3.3V      | RP2040 GPIO 0~6                                              |
-| GP26 ~ 28 | Input/Output   | 3.3V      | RP2040 GPIO 26~28<br>Multiplexed as: ADC Input               |
+| GP26 ~ 28 | Input/Output   | 3.3V      | RP2040 GPIO 26~28<br>Multiplexed as: ADC Input<br>each pin in parallel with a 100nF capacitor |
 | 3.3V      | Power          |           | RP2040's 3.3V Power Output<br>Current Limit: 1.2A            |
 | RST       | Pull-up Input  | 3.3V      | System Reset<br>Pull this pin low is equivalent to press `RST` button. |
+
+
+!!! note
+
+    GPIO26 to GPIO28 of the RP2040 can be muxed as ADC input. To ensure stable ADC sampling values, these pins are paralleled with 100nF capacitors, which can affect rapidly changing signals such as I2C. If using I2C, please avoid these three GPIO pins and choose alternative GPIO pins instead.
+
 
 | Pin Name | Type          | I/O Level | Description                                                  |
 | :------- | :------------ | --------- | :----------------------------------------------------------- |
