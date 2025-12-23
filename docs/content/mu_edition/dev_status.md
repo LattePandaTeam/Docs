@@ -6,27 +6,27 @@ But sorry, the firmware engineers couldn't keep up with the hardware engineers. 
 
 You can track the development status of LattePanda Mu's interface features here. As the BIOS is updated, this table will be filled up.
 
-| Function                 | BIOS Ver | Status                |
-|--------------------------|:--------:|:---------------------:|
-| Power Control            | A        | :material-check:      |
-| Serial Console           | A        | :material-check:      |
-| Smart Fan                | A        | :material-check:      |
-| Temp Sensor              | A        | :material-timer-sand: |
-| USB 3.2 10Gbps           | A        | :material-check:      |
-| PCIe 3.0                 | A        | :material-check:      |
-| SATA 3.0                 | A        | :material-check:      |
-| USB 2.0                  | A        | :material-check:      |
-| GPIO                     | A        | :material-timer-sand: |
-| GPIO with shift register | A        | :material-timer-sand: |
-| UART                     | A        | :material-check:      |
-| I2C                      | A        | :material-check:      |
-| SPI                      | A        | :material-check:      |
-| HD Aduio                 | A        | :material-check:      |
-| I2S                      | A        | :material-calendar:   |
-| MIPI CSI-2               | A        | :material-calendar:   |
-| HDMI                     | A        | :material-check:      |
-| Type-C                   | A        | :material-check:      |
-| DisplayPort              | A        | :material-timer-sand: |
+| Function                 | Min BIOS Version |         Status          |
+| ------------------------ | :------: | :---------------------: |
+| Power Control            |    A     |    :material-check:     |
+| Serial Console           |    A     |    :material-check:     |
+| Smart Fan                |    A     |    :material-check:     |
+| Temp Sensor              |          |  :material-timer-sand:  |
+| USB 3.2 10Gbps           |    A     |    :material-check:     |
+| PCIe 3.0                 |    A     |    :material-check:     |
+| SATA 3.0                 |    A     |    :material-check:     |
+| USB 2.0                  |    A     |    :material-check:     |
+| GPIO                     |          |    :material-check:     |
+| GPIO with shift register |          | :material-block-helper: |
+| UART                     |    A     |    :material-check:     |
+| I2C                      |    A     |    :material-check:     |
+| SPI(only for BIOS Flash Chip)                      |    A     |    :material-check:     |
+| HD Aduio                 |    A     |    :material-check:     |
+| I2S                      |          | :material-block-helper: |
+| MIPI CSI-2               |          | :material-block-helper: |
+| HDMI                     |    A     |    :material-check:     |
+| Type-C                   |    A     |    :material-check:     |
+| DisplayPort              |          |  :material-timer-sand:  |
 
 !!! Note
 
@@ -37,6 +37,6 @@ You can track the development status of LattePanda Mu's interface features here.
     :material-calendar: In development
     
     :material-block-helper: Development blocked
-    
+
 
 [**:simple-discord: Join our Discord**](https://discord.gg/RkSvc9g7eU){ .md-button .md-button--primary }
