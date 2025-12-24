@@ -178,6 +178,7 @@ nav:
           - Internal Interface: content/iota_edition/io_playability_Internal.md
       - BIOS Setup: 
         - Entering BIOS Menu: content/iota_edition/bios.md
+        - Adjusting TDP Settings: content/iota_edition/bios_adjust_tdp.md
         - USB Power Control Settings: content/iota_edition/bios_usb_port_power_control.md
         - MCU Power Control Settings: content/iota_edition/bios_mcu_power_control.md
         - Restore Default Settings: content/iota_edition/bios_restore_default_settings.md
