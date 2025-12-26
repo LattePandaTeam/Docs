@@ -40,9 +40,9 @@ The pin locations and their default functions are listed in the table below:
 
 ## BIOS Requirements
 
-GPIO function requires BIOS support. Please ensure that the BIOS version used by your LattePanda Mu module is XX or higher.
+GPIO function requires BIOS support. Please ensure that the BIOS version used by your LattePanda Mu module is *S70NC1R200-8G/16G-A* or higher.
 
-If you are using an older version such as *S70NC1R200-SR-B* or *S70NC1R200-DR-B*, please refer to the [Update BIOS Firmware](bios_setup.md#update-bios-firmware) section to complete a BIOS update.
+If you are using an older version such as *LP-BS-S70NC1R200-SR/DR-B*, please refer to the [Update BIOS Firmware](bios_setup.md#update-bios-firmware) section to complete a BIOS update.
 
 ## Switch Multiplexed Pins to GPIO Mode
 
@@ -72,6 +72,8 @@ For LattePanda Mu modules (Intel N100 or N305 processor), the underlying GPIO co
 You can verify the controller status using the `gpiodetect` command from the terminal:
 
 ```bash
+sudo apt update
+sudo apt install gpiod
 sudo gpiodetect
 ```
 The line offsets corresponding to each GPIO pin are detailed in the following table:
@@ -98,19 +100,19 @@ The line offsets corresponding to each GPIO pin are detailed in the following ta
 
 ## GPIO Programming in Linux
 
-In Linux OS, the Python or C version of the gpiod library can be used for GPIO programming.
+In Linux OS, the Python or C version of the **libgpiod** can be used for GPIO programming.
 
 The following demonstration uses an Ubuntu OS(either version 22.04 or 24.04) to control the GPP_F12 pin as an example.
 
-### Python
+### libgpiod Python
 
 #### Environment Preparation
 
 - Install the Python gpiod library
 
   ```bash
-  sudo apt-get update
-  sudo apt-get install python3-libgpiod
+  sudo apt update
+  sudo apt install python3-libgpiod
   ```
   :warning: This case uses gpiod library from the system repository, installed via `apt install python3-libgpiod` — not the PyPI version installed via `pip install gpiod`.
 
@@ -254,15 +256,15 @@ if __name__ == "__main__":
     main()
 ```
 
-### C
+### libgpiod C
 
 #### Environment Preparation
 
 - Install the C gpiod library
 
   ```bash
-  sudo apt-get update
-  sudo apt-get install libgpiod-dev
+  sudo apt update
+  sudo apt install libgpiod-dev
   ```
 
 #### Outputting High and Low Signals
@@ -440,6 +442,72 @@ int main(void) {
     return 0;
 }
 ```
-### Programming Reference
+### libgpiod Programming Reference
 
-[libgpiod documentation](https://libgpiod.readthedocs.io/en/latest/index.html)
+- [libgpiod documentation](https://libgpiod.readthedocs.io/en/latest/index.html)
+
+
+### GPIO Sysfs Interface
+
+The `libgpiod` project provides a low-level C library, bindings to high-level languages and tools for interacting with the GPIO (General Purpose Input/Output) lines on Linux systems. 
+
+It replaces the older, legacy GPIO sysfs interface, which has been deprecated in the Linux kernel. The newer GPIO character device interface (introduced in Linux kernel version 4.8) provides a more flexible and efficient way to interact with GPIO lines, and libgpiod is the primary tool for working with this interface.
+
+However, if you still want to use the legacy GPIO sysfs interface, please follow the steps below.
+
+#### GPIO Number
+
+The sysfs interface uses a global GPIO numbering scheme. The formula is:
+
+```
+GPIO Number = Base Address + Offset Address
+```
+
+The base address of `gpiochip0 [INTC1057:00]` is fixed at 512.
+
+**Example:**
+
+If the target pin is `GPP_F12` and its offset address is 300.
+
+So its global GPIO number is: 812
+
+#### Output Control
+
+Writing to the GPIO sysfs interface requires root privileges. It is recommended to switch to the root user first.
+
+```bash
+sudo -i
+```
+
+The following commands configure the `GPP_F12` pin as an output and toggle the voltage level.
+
+```bash
+cd /sys/class/gpio
+echo 812 > export
+cd gpio812
+echo out > direction
+# Set output to High (Logic 1)
+echo 1 > value
+# Set output to Low (Logic 0)
+echo 0 > value
+```
+
+#### Read Input
+
+The following commands configure the pin as an input and read the current level status.
+
+```bash
+# Ensure you are inside the gpio812 directory
+echo in > direction
+# Read current value(0 or 1) every 1 second
+watch -n 1 cat value
+```
+
+#### Release Resource
+
+After finishing your operations, it is good practice to release the GPIO pin:
+
+```bash
+cd /sys/class/gpio
+echo 812 > unexport
+```

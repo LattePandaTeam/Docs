@@ -16,7 +16,7 @@ The BIOS settings of the LattePanda Iota support power-off retention. This means
 
 ![](../../assets/images/LattePanda Iota/bios_loaddefault.webp){width="600" }
 
-## Restore via Jumper
+## Hardware Forced Restore
 
 If your LattePanda Iota is unable to enter the BIOS setup interface, you may attempt to force a BIOS reset using a jumper.
 
@@ -26,10 +26,14 @@ If your LattePanda Iota is unable to enter the BIOS setup interface, you may att
 
    ![](../../assets/images/LattePanda Iota/biosresettestpad.webp){ width="400" }
    
-- Using a DuPont wire, short-circuit this test pad to any GND pin in the GPIO header.
+- Using a jumper wire, short-circuit this test pad to any GND pin in the GPIO header. Keep the jumper wire connected, do not disconnect it.
 
 - Connect the LattePanda Iota to the  power supply and press the power button to turn it on.
 
-- Wait for at least 10 seconds. Then, remove the DuPont wire. The BIOS restore will be complete when the LattePanda Logo appears during boot.
+- Wait for at least 10 seconds. Then, remove the jumper wire. The BIOS restore will be complete when the LattePanda Logo appears during boot.
 
+<br>
+:pencil: [Related Posts:How to Properly Reset BIOS on LattePanda IOTA (Hard Reset)](https://www.lattepanda.com/forum/topic/399095)
+
+<br>
 [**:simple-discord: Join our Discord**](https://discord.gg/k6YPYQgmHt){ .md-button .md-button--primary }

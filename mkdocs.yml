@@ -297,6 +297,7 @@ nav:
           - Linux: content/mu_edition/os_linux.md
       - BIOS Setup: content/mu_edition/bios_setup.md
       - GPIO Programming: content/mu_edition/gpio_ctl.md
+      - HSIO Multiplexing: content/mu_edition/hsio_multiplexing.md
       - Download Resources: https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Softwares/Drivers
       - Carriers:
         - Lite Carrier: content/mu_edition/lite_carrier.md
