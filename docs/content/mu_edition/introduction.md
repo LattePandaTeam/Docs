@@ -31,4 +31,10 @@ Welcome to the powerful LattePanda Mu, an x86 compute module with customizable i
 
 - :material-chip: [Evaluating different BIOS branches or trying beta BIOS](https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Softwares/BIOS)
 
+- :material-map-outline: [LattePanda Mu Pinout Documentation](https://github.com/LattePandaTeam/LattePanda-Mu/blob/main/Electricals/Pinouts)
+
+- :material-book: [Carrier Board Design Guide](design_guide_foreword.md)
+
+- :simple-github: [LattePanda Mu Github Repository](https://github.com/LattePandaTeam/LattePanda-Mu)
+
 [**:simple-discord: Join our Discord**](https://discord.gg/RkSvc9g7eU){ .md-button .md-button--primary }

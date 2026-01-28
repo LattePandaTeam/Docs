@@ -14,7 +14,7 @@ Based on the Intel hardware reference[^1], the supported functions for each HSIO
 
 [^1]:[Intel® Processor and Intel® Core™ i3 N-Series Datasheet, Volume 1 of 2](https://www.intel.com/content/www/us/en/content-details/759603/intel-processor-and-intel-core-i3-and-intel-core-3-n-series-datasheet-volume-1-of-2.html) 
 
-## PCIe Link Configuration
+## PCIe Bifurcation
 
 When configured in PCIe mode, these HSIO lanes support **flexible bifurcation**. For clarity, the 9 HSIO lanes are categorized into three groups:
 
@@ -51,9 +51,8 @@ The bifurcation above apply when the entire group is dedicated to PCIe. However,
 - **Rule:** Lanes configured as USB 3.2 or SATA are removed from the PCIe pool. The remaining lanes can still form valid PCIe links based on the grouping logic.
 - 💡**Example:** If HSIO 0 & 1 are set to USB 3.2, the remaining HSIO 2 & 3 can still be configured as 1x2 Mode (One PCIe x2) or 2x1 Mode (Two PCIe x1).
 
-## Important Configuration Notes
 
-###  Exclusivity and Constraints
+##  Exclusivity and Constraints
 
 HSIO lane multiplexing is **mutually exclusive** and does not support runtime protocol adaptation.
 
@@ -65,17 +64,17 @@ HSIO lane multiplexing is **mutually exclusive** and does not support runtime pr
     > **Conflict Scenario (Mixed Use):** If you configure HSIO 0 to function as a USB 3.2 port, HSIO 0 is removed from the PCIe pool. The remaining lanes (HSIO 1, 2, 3) cannot form an x4 link anymore.<br>
     > **Result:** HSIO 2 and 3 can still be aggregated to form one PCIe x2 link, while HSIO 1 is forced to operate as an independent PCIe x1 link (alternatively, all three can be configured as independent x1 links).
 
-###  Applying Configuration Changes
+##  Applying Configuration Changes
 
 HSIO lane assignments and PCIe link configurations are **static**. They cannot be configured via the BIOS setup menu, nor do they support auto-negotiation or runtime switching.
 
 To apply changes, you must follow this procedure:
 
-1. Modify the **BIOS firmware** to define the new configuration.
-2. **Re-flash** the updated firmware into the LattePanda Mu module.
+1. Customize the **BIOS firmware** to define the new configuration.
+2. **Re-flash** the updated firmware into the LattePanda Mu module (or flash chip on the carrier board).
 3. Then **reboot** the LattePanda module for the changes to take effect.
 
-###  PCIe Clock Distribution & Expansion
+##  PCIe Clock Distribution & Expansion
 
 The LattePanda Mu compute module exposes 5 independent PCIe REFCLKs(Reference Clocks).
 
@@ -85,7 +84,7 @@ If your carrier board design requires connecting more than 5 PCIe devices, you m
 
     Do not attempt to parallel a single clock signal to multiple devices directly. This will cause signal integrity issues and result in device recognition failure.
 
-### CLKREQ Mapping & Control
+## CLKREQ Mapping & Control
 
 The LattePanda Mu compute module exposes only two PCIe CLKREQ(Clock Request) pins: `CLKREQ3` and `CLKREQ4`.
 
@@ -97,11 +96,11 @@ These pins strictly control specific reference clock output:
 
 With the default BIOS configuration, for REFCLK outputs that lack dedicated CLKREQ pins:
 
-- **REFCLK 0 & 2:** The clock output is enabled automatically once the system detects a device presence on the corresponding PCIe lane. The mapping between clock and lane is provided [in the following section](hsio_multiplexing.md#clock-to-lane-mapping).
+- **REFCLK 0 & 2:** The clock output is enabled automatically once the system detects a device presence on the corresponding PCIe lane. The mapping between clock and lane is provided in the following table.
 
 - **REFCLK 1:** The clock output is always enabled regardless of a device's presence.
 
-### **Clock-to-Lane Mapping**
+## **Clock-to-Lane Mapping**
 
 The BIOS defaultly defines a specific binding between the PCIe Clock Outputs (REFCLK) and PCIe Data Lanes (HSIO). 
 
@@ -112,7 +111,16 @@ The BIOS defaultly defines a specific binding between the PCIe Clock Outputs (RE
 | REFCLK 3          | HSIO 3    |
 | REFCLK 4          | HSIO 6    |
 
-Altering this pairing on your carrier board (e.g., routing REFCLK 0 to a device on HSIO 8) will prevent the PCIe device from receiving the correct clock signal, causing enumeration failure.
+REFCLK1 is a forced output and is not binded to any HSIO.
+
+To modify the clock-to-lane mapping, customized BIOS firmware is required. It cannot be changed via the BIOS setup menu.
+
+Use the default BIOS firmware, but altering this pairing on your carrier board (e.g., routing REFCLK 0 to a device on HSIO 8) will prevent the PCIe device from receiving the correct clock signal, causing enumeration failure.
+
+>Here is why:
+>
+>- According to the table above, REFCLK 2 and HSIO 8 are bound together by default BIOS firmware. This means that when the system detects a PCIe device on HSIO 8, it automatically enables the clock output via REFCLK 2.
+>- However, in this hardware design, the device on HSIO 8 is physically connected to receive its clock from REFCLK 0. Since the system logic expects HSIO 8 to act in tandem with REFCLK 2, it does not activate the output for REFCLK 0. Consequently, the PCIe device receives no clock signal (as REFCLK 0 remains silent) and fails to enumerate.
 
 If this happens, you can try to set the corresponding REFCLK to forced output in the BIOS menu. In most cases, the device will then be recognized normally. 
 
@@ -123,7 +131,7 @@ For example, set REFCLK0 to forced output.
 ```
 Chipset -> PCH-IO Configuration -> PCI Express Configuration -> PCIE Clocks -> Clock assignment / Clkreq for clock
 ```
-    
+
   - Set the corresponding options:
 
 ```
@@ -133,3 +141,4 @@ Clkreq for Clock0: Disabled
 ![](../../assets/images/mu_edition/refclk0_forceoutput.webp){width="500" }
 
   - Then save the BIOS settings and restart.
+  - If the steps mentioned above do not resolve the issue, a custom firmware will be required.

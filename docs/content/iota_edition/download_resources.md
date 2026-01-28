@@ -69,7 +69,7 @@ The Windows system will automatically connect to the internet to fetch driver up
         - :fontawesome-solid-download: [**Download**](https://github.com/LattePandaTeam/LattePanda-Win10-Software/blob/master/BIOS%20for%20LattePanda%20IOTA/SBCADLCXR120-16G-B.zip)
 
 
-## Structure File
+## Mechanical File
 
 - [:fontawesome-solid-download:3D Model](https://github.com/LattePandaTeam/LattePanda-3D-Models/tree/master/LattePanda%20IOTA)
 

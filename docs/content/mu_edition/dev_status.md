@@ -16,7 +16,7 @@ You can track the development status of LattePanda Mu's interface features here.
 | PCIe 3.0                 |    A     |    :material-check:     |
 | SATA 3.0                 |    A     |    :material-check:     |
 | USB 2.0                  |    A     |    :material-check:     |
-| GPIO                     |          |    :material-check:     |
+| GPIO                     | C |    :material-check:     |
 | GPIO with shift register |          | :material-block-helper: |
 | UART                     |    A     |    :material-check:     |
 | I2C                      |    A     |    :material-check:     |
@@ -27,6 +27,16 @@ You can track the development status of LattePanda Mu's interface features here.
 | HDMI                     |    A     |    :material-check:     |
 | Type-C                   |    A     |    :material-check:     |
 | DisplayPort              |          |  :material-timer-sand:  |
+
+>**Version abbreviation:**
+>
+>A: LP-BS-S70NC1R200-DR/SR-A; LP-BS-S70NC1R200-DR/SR-A-SATA; 
+>
+>B: LP-BS-S70NC1R200-DR/SR-B; LP-BS-S70NC1R200-DR/SR-B-SATA; 
+>
+>C: S70NC1R200-8G/16G-A; S70NC1R200-8G/16G-A-SATA;
+>
+>The later it appears, the newer the version.
 
 !!! Note
 
