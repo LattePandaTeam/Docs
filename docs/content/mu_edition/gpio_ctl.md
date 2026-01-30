@@ -1,8 +1,59 @@
+## UART Pinout Assignment
+
+The LattePanda Mu compute module provides up to 4 UART ports.
+
+Users can read from and write to these ports using standard serial terminal tools. Various serial monitors are available for Windows, while Linux users can utilize tools like CuteCom.
+
+The pin locations and corresponding system port mappings are detailed below:
+
+| **Pin#(Edge Connector)** | Pin Name | Note |
+| ------------------------ | -------- | ---- |
+| 10                     | SIO_UART_TX | UART exposed from SuperIO; <br>Typically mapped as `COM1` in Windows or `/dev/ttyS0` in Linux |
+| 12                      | SIO_UART_RX | As above |
+| 139                      | SOC_UART0_TXD | UART0 exposed from PCH; <br/>Typically mapped as `COM2` in Windows or `/dev/ttyS4` in Linux |
+| 137                      | SOC_UART0_RXD | As above |
+| 143                      | SOC_UART1_TXD | UART1 exposed from PCH; <br/>Typically mapped as `COM3` in Windows or `/dev/ttyS5` in Linux |
+| 141                      | SOC_UART1_RXD | As above |
+| 138                      | SOC_UART2_TXD  | UART2 exposed from PCH; <br/>Typically mapped as `COM4` in Windows or `/dev/ttyS6` in Linux |
+| 140                      | SOC_UART2_RXD  | As above |
+
+!!!tip "BIOS Firmware Requirement"
+
+    To ensure the port mapping matches the table above, the BIOS version must be `S70NC1R200-8G/16G-A` or `S70NC1R200-8G/16G-A-SATA` (Build Date: 2025/12/19) or newer.
+    
+    Older BIOS versions may cause duplicate serial port mappings. If upgrading from an older BIOS version:
+    
+    - Windows: It is recommended to uninstall all COM devices in Device Manager and reboot the system to refresh the mapping.
+    - Linux: A simple system reboot is sufficient.
+
+
+## I2C Pinout Assignment
+
+The LattePanda Mu compute module provides up to 4 I2C ports.
+
+The pin locations are detailed below:
+
+| **Pin#(Edge Connector)** | Pin Name |
+| ------------------------ | -------- |
+| 154                   | I2C2_SCL |
+| 156                    | I2C2_SDA |
+| 150                    | I2C3_SCL |
+| 152                    | I2C3_SDA |
+| 146                     | I2C4_SCL |
+| 148                     | I2C4_SDA |
+| 142                    | I2C5_SCL |
+| 144                     | I2C5_SDA |
+
+## I2C Programming in Linux
+
+Please refer to the ["How to Use the I2C Pins on LattePanda Mu in Ubuntu OS"](https://www.lattepanda.com/forum/topic/336132) post in our forum.
+
+
+## GPIO Pinout Assignment
+
 The LattePanda Mu compute module currently provides up to 17 GPIO pins that can be configured as either inputs or outputs. You can execute scripts within the system to control these GPIOs to read signals from or send signals to peripheral devices.
 
 The pin locations and their default functions are listed in the table below:
-
-## GPIO Pinout Assignment
 
 | **Pin#(Edge Connector)** | Pin Name                | Default Function |
 | ------------------------ | ----------------------- | ---------------- |

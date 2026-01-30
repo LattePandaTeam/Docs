@@ -298,17 +298,18 @@ nav:
       - BIOS Setup: content/mu_edition/bios_setup.md
       - GPIO Programming: content/mu_edition/gpio_ctl.md
       - Download Resources: https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Softwares/Drivers
-      - Carrier Board Design Guide:
-        - Foreword: content/mu_edition/design_guide_foreword.md
-        - Power Supply: content/mu_edition/design_guide_power.md
-        - Dual BIOS: content/mu_edition/design_guide_bios.md
-        - Power Control & Status: content/mu_edition/design_guide_pwctl_stat.md
-        - USB 2.0: content/mu_edition/design_guide_usb_20.md
-        - USB 3.2: content/mu_edition/design_guide_usb_32.md
-        - HDMI 2.1: content/mu_edition/design_guide_hdmi.md
-        - HSIO Multiplexing & PCIe Bifurcation: content/mu_edition/hsio_multiplexing.md
-        - Fan: content/mu_edition/design_guide_fan.md
       - FAQ: content/mu_edition/faq.md
+    - Carrier Board Design Guide:
+      - Foreword: content/mu_edition/design_guide_foreword.md
+      - Edge Connector: content/mu_edition/design_guide_edge_connector.md
+      - Power Supply: content/mu_edition/design_guide_power.md
+      - Dual BIOS: content/mu_edition/design_guide_bios.md
+      - Power Control & Status: content/mu_edition/design_guide_pwctl_stat.md
+      - USB 2.0: content/mu_edition/design_guide_usb_20.md
+      - USB 3.2: content/mu_edition/design_guide_usb_32.md
+      - HDMI 2.1: content/mu_edition/design_guide_hdmi.md
+      - HSIO Multiplexing & PCIe Bifurcation: content/mu_edition/hsio_multiplexing.md
+      - Fan: content/mu_edition/design_guide_fan.md
     - Carrier Board:
       - Lite Carrier: content/mu_edition/lite_carrier.md
       - Full Eval Carrier: content/mu_edition/full_eval.md

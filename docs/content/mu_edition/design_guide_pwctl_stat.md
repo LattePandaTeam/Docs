@@ -11,6 +11,8 @@ LattePanda Mu x86 compute module provides two status output pins, **PSON** and *
 | PSON     | 5          | Output HIGH only when S0(Working)                  |
 | SLP_S4   | 7          | Output HIGH only when S0(Working) and S3(Sleeping) |
 
+💡 Due to the limited drive capability of the `PSON` and `SLP_S4` pins, an external NMOS is required to drive an LED indicator.
+
 ### Status Logic Table
 
 | System State   | PSON Level | SLP_S4 Level | Note               |
@@ -36,6 +38,7 @@ LattePanda Mu x86 compute module provides signal lines for power and reset butto
 
 - Connect to a physical power button. Active Low.
 - A low pulse duration of **≥ 125ms** is recommended for reliable detection.
+- Holding Low for **> 4 seconds** will trigger a forced shutdown.
 
 ### RST_SW\#
 

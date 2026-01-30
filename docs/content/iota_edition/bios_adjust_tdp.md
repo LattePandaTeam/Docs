@@ -21,9 +21,9 @@ To adjust the TDP, you can modify the PL1 (Power Limit 1) and PL2 (Power Limit 2
     ```Advanced -> CPU Configuration -> Power Limit 1 / 2```
 
 - Set the Power Limit 1 and Power Limit 2. The unit for both values is milliwatts.
-> 10W Mode(Default) : ```Power Limit 1 = 20000; Power Limit 2 = 10000```<br>
-> 6W Mode: ```Power Limit 1 = 6000; Power Limit 2 = 6000```<br>
-> 15W Mode: ```Power Limit 1 = 20000; Power Limit 2 = 15000```
+    - 10W Mode(Default) : ```Power Limit 1 = 10000; Power Limit 2 = 20000```<br>
+    - 6W Mode: ```Power Limit 1 = 6000; Power Limit 2 = 6000```<br>
+    - 15W Mode: ```Power Limit 1 = 15000; Power Limit 2 = 20000```
 
     ![](../../assets/images/LattePanda Iota/bios_tdp.webp){width="600" }
 
