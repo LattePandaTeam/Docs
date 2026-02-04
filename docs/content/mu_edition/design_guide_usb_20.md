@@ -22,19 +22,19 @@ LattePanda Mu provides up to **8 independent** USB 2.0 lanes.
 
 !!! warning "Restriction on USB2_P6"
     
-    - The default BIOS configures `USB2_P6` specifically for use with a Type-C connector. So With the default BIOS, this port **CANNOT** be used directly as a generic Type-A USB 2.0 port.
-    - To use it as a standard USB 2.0 port, a **BIOS firmware modification** is required.
+    - The default BIOS configures `USB2_P6` specifically for use with USB Type-C port. So with the default BIOS, `USB2_P6` port **CANNOT** be used directly as a generic Type-A USB 2.0 port.
+    - To use it as a standard Type-A USB 2.0 port, **customized BIOS firmware** is required.
 
 ### Polarity Check
 
-The USB 2.0 controller does **NOT** support automatic differential pair polarity inversion.
+The USB 2.0 controller does not support automatic differential pair polarity inversion.
 
-- Strictly ensure one-to-one mapping between the Compute Module and the device.
+- Strictly ensure one-to-one mapping between the compute module and the USB device.
 - Do not swap `D+` and `D-`. Incorrect polarity will result in communication failure.
 
 ```text  
 +-----------------------+                    +-----------------------+  
-|   Compute Module      |                    |       Device          |  
+|   Compute Module      |                    |      USB Device       |  
 |      (Host)           |                    |      (Slave)          |  
 +-----------------------+                    +-----------------------+  
 |                       |                    |                       |  
@@ -50,18 +50,15 @@ The USB 2.0 controller does **NOT** support automatic differential pair polarity
 
 ### No AC Coupling
 
-- Do **NOT** place series AC coupling capacitors on USB 2.0 differential lines. Direct connection is required.
+- Do not place series AC coupling capacitors on USB 2.0 differential lines. Direct connection is required.
 
 ### ESD Protection
 
 Since USB ports are subject to frequent hot-plugging, they are vulnerable to Electrostatic Discharge (ESD). Adding ESD protection diodes on data lines is highly recommended.
 
 - **Recommended Specifications**:
-    - Junction Capacitance: **< 0.8 pF** (To preserve signal integrity)
-    - Reverse Working Voltage: **5V**
-- **Recommended Parts**:
-    - Integrated: TS3314PL
-    - Discrete: BV-FA05ZCT
+    - Junction Capacitance: < 3 pF
+    - Reverse Working Voltage: 5V (Minimum), 5.5V (Recommended)
 
 ### Layout Guidelines
 
@@ -69,7 +66,6 @@ Since USB ports are subject to frequent hot-plugging, they are vulnerable to Ele
 | :--------------------- | :------------------------- |
 | Differential Impedance | 90Ω                        |
 | Intra-pair Skew        | < 15 mil                   |
-| Number of Vias Allowed | Max 3 Vias                 |
 | Reference Plane        | Continuous GND Recommended |
 
 

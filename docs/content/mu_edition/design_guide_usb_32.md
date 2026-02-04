@@ -10,11 +10,11 @@ LattePanda Mu x86 compute module derives up to **4 lanes** of USB 3.2 Gen 2 sign
 
 - The default BIOS enables **HSIO 0** and **HSIO 1** as USB 3.2 lane.
 
-!!!note "HSIO Exclusivity"
+!!!note
 
-    - HSIO lanes are multiplexed resources.
-    - Once a lane is configured as USB 3.2, it cannot be used as PCIe.
-    - To change an HSIO lane to PCIe (or to configure other HSIO lanes as USB 3.2), a specific BIOS firmware must be flashed. Dynamic switching via the BIOS menu is not supported.
+    - HSIO lanes are multiplexed resources. Once a lane is configured as USB 3.2, it cannot be used as PCIe.
+    - Customized BIOS firmware is required for any HSIO configuration changes. Dynamic switching via the BIOS menu is not supported. 
+        For example, to configure HSIO 2 or HSIO 3 lane as USB 3.2, a specific BIOS firmware must be flashed. 
 
 - For more details, please see the [HSIO Multiplexing chapter](hsio_multiplexing.md).
 
@@ -43,7 +43,7 @@ USB 3.2 links require AC coupling.
 
 ```
 +---------------------+       +---------------------+
-|    Carrier Board    |       |       Device        |
+|    Carrier Board    |       |    USB3.2  Device   |
 |                     |       |                     |
 | SSTX+ ---||---------o-->>---o--- SSRX+            |
 |        0.1uF        |       |                     |
@@ -60,12 +60,6 @@ USB 3.2 links require AC coupling.
 +---------------------+       +---------------------+
 ```
 
-### Polarity Check
-The USB 3.2 controller supports automatic Lane Polarity Inversion.
-
-- **Recommendation**: Although the controller supports auto-correction, **it is strongly recommended to design the PCB with correct polarity matching (Direct Mapping).**
-- **Reason**: To minimize link training latency and ensure optimal signal integrity margins by not relying on the auto-negotiation feature.
-
 ### Pairing Requirement
 
 A standard USB 3.2 Type-A connector consists of two parts:
@@ -73,20 +67,18 @@ A standard USB 3.2 Type-A connector consists of two parts:
 - **SuperSpeed Signals**: USB 3.2 Lane (SSTX / SSRX) from HSIO.
 - **HighSpeed Signals**: USB 2.0 Lane (D+ / D-).
 
-Any USB 3.2 lane can be paired with any USB 2.0 lane (except USB2_P6). There is no fixed hardware binding between them.
+A USB 3.2 lane can be paired with any USB 2.0 lane (except USB2_P6). There is no fixed hardware binding between them.
 
 !!! note "USB2_P6 Restriction"
-    As [USB2.0 chapter](design_guide_usb_20.md) noted, **USB2_P6** is reserved for Type-C connector by default and cannot be used as a generic USB 2.0 companion for a USB 3.2 port without BIOS modification.
+    As [USB2.0 chapter](design_guide_usb_20.md) noted, **USB2_P6** is reserved for USB Type-C port by default and cannot be used as a generic USB 2.0 companion for a USB 3.2 port without BIOS modification.
 
 ### ESD Protection
 
 Since USB ports are subject to frequent hot-plugging, they are vulnerable to Electrostatic Discharge (ESD). And  USB 3.2 10Gbps signals are extremely sensitive to capacitance. So **Ultra-low capacitance** ESD protection diodes are mandatory.
 
 - Recommended Specs:
-    - Junction Capacitance: **< 0.18 pF**
-    - Reverse Working Voltage: **3.3V**
-- Recommended Parts:
-    - AZ1023-04F
+    - Junction Capacitance: < 0.18 pF
+    - Reverse Working Voltage: 3.3V
 
 ### Layout Guidelines
 
@@ -96,5 +88,15 @@ Since USB ports are subject to frequent hot-plugging, they are vulnerable to Ele
 | Intra-pair Skew | < 5 mil |
 | Inter-pair Skew | Length matching between the SSTX pair and SSRX pair is **NOT** required. |
 | SSTX AC Cap for USB 3.2 | 100nF nominal |
-| Number of Vias Allowed | Max 2 Vias |
 | Reference Plane | Continuous GND Recommended |
+
+#### Spacing & Crosstalk
+
+- Trace Type: Microstrip Differential Pair
+
+- Recommended Pair-to-Pair Spacing: ≥ 5W (where W is trace width).
+> To ensure signal integrity for USB 3.2 (10Gbps) , a spacing of at least 5W is required to strictly minimize crosstalk.
+
+- Recommended  General Spacing: Maintain at least 5W spacing between high-speed SSTX/SSRX pairs and other signals (USB 2.0 D+/D-, Power).
+
+- [More details in *High-Speed Interface Layout Guidelines*](https://www.ti.com/lit/an/spraar7j/spraar7j.pdf?ts=1718105682488)

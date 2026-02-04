@@ -21,7 +21,7 @@ LattePanda Mu x86 compute module provides two status output pins, **PSON** and *
 | Sleep (S3)     | LOW        | HIGH         | Suspend to RAM            |
 | Hibernate (S4) | LOW        | LOW          | Suspend to Disk           |
 | Shutdown (S5)  | LOW        | LOW          | Soft OFF                  |
-| Standby (G3)   | LOW        | LOW          | Powered but not booted |
+| Standby (G3)   | LOW        | LOW          | Powered but not Turned ON |
 
 ## Power Control
 

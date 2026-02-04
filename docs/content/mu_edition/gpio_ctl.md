@@ -21,7 +21,7 @@ The pin locations and corresponding system port mappings are detailed below:
 
     To ensure the port mapping matches the table above, the BIOS version must be `S70NC1R200-8G/16G-A` or `S70NC1R200-8G/16G-A-SATA` (Build Date: 2025/12/19) or newer.
     
-    Older BIOS versions may cause duplicate serial port mappings. If upgrading from an older BIOS version:
+    Older BIOS versions may cause duplicate serial port mappings or mappings that don't match the table above. If upgrading from an older BIOS version:
     
     - Windows: It is recommended to uninstall all COM devices in Device Manager and reboot the system to refresh the mapping.
     - Linux: A simple system reboot is sufficient.
@@ -43,6 +43,8 @@ The pin locations are detailed below:
 | 148                     | I2C4_SDA |
 | 142                    | I2C5_SCL |
 | 144                     | I2C5_SDA |
+
+All the pins mentioned above are pulled up to 3.3 V via 2.2 kΩ resistors inside the compute module.
 
 ## I2C Programming in Linux
 

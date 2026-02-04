@@ -74,6 +74,14 @@ To apply changes, you must follow this procedure:
 2. **Re-flash** the updated firmware into the LattePanda Mu module (or flash chip on the carrier board).
 3. Then **reboot** the LattePanda module for the changes to take effect.
 
+> 💡**Example**
+> 
+> Customized BIOS firmware is required for any HSIO or PCIe bifurcation configuration changes. The list below provides a few common examples.
+>
+> - Configure HSIO 2 to USB 3.2, or configure HSIO 3 to USB 3.2
+> - Configure aggregation of HSIO 2 and HSIO 3 to PCIe x2
+> - Split PCIe x4 into two PCIe x2 or four PCIe x1 on HSIO 8–HSIO 11
+
 ##  PCIe Clock Distribution & Expansion
 
 The LattePanda Mu compute module exposes 5 independent PCIe REFCLKs(Reference Clocks).
@@ -141,4 +149,4 @@ Clkreq for Clock0: Disabled
 ![](../../assets/images/mu_edition/refclk0_forceoutput.webp){width="500" }
 
   - Then save the BIOS settings and restart.
-  - If the steps mentioned above do not resolve the issue, a custom firmware will be required.
+  - If the steps mentioned above do not resolve the issue, a customized firmware will be required.

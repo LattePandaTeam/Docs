@@ -23,26 +23,25 @@ This feature allows you to flash custom BIOS firmware directly to the carrier bo
 
 ### Boot Selection Configuration
 
-| BIOS_SEL Level | Boot Source              | Description                                      |
-| :------------- | :----------------------- | :----------------------------------------------- |
-| HIGH           | Module's Integrate Flash | Uses the module's integrate flash chip           |
-| LOW            | Carrier Board Flash      | Uses the flash chip located on the carrier board |
+| BIOS_SEL Level | Boot Source         | Description                                      |
+| :------------- | :------------------ | :----------------------------------------------- |
+| HIGH           | Integrate Flash     | Uses the module's integrate flash chip           |
+| LOW            | Carrier Board Flash | Uses the flash chip located on the carrier board |
 
 The **BIOS_SEL** pin features an integrated **100K pull-up resistor**. If the carrier board BIOS is not required, this pin can be left floating (NC), and the BIOS will default to booting from the compute module‘s integrate flash.
 
-!!! warning "Do Not Hot-Switch"
-    Once power (VIN) is applied to the Compute Module, and the system has not yet been booted, the BIOS_SEL pin level MUST remain fixed.
+!!! warning "Do Not Toogle BIOS_SEL Pin immediately after Applying Power"
 
-    - Reason: Upon receiving power, the transmission of ME data from the BIOS Flash to the CPU may begin immediately.
-    - Consequence: Changing the pin state during this powered standby phase will interrupt the data transfer.
+    - The transmission of ME data from the BIOS Flash to the CPU begins shortly after power-up (approx. 50ms) and lasts for approximately 150ms.
+    - Toggling the pin state during this critical window will corrupt the data transfer and cause boot failure.
 
 ### Component Selection
 
-| Parameter        | Requirement    |
-| :--------------- | :------------- |
-| Voltage          | 3.3V           |
-| Capacity         | 16 MB (128 Mb) |
-| Recommended Part | W25Q128JVSIQ   |
+| Parameter               | Requirement    |
+| :---------------------- | :------------- |
+| Voltage                 | 3.3V           |
+| Capacity                | 16 MB (128 Mb) |
+| Recommended Part Number | W25Q128JVSIQ   |
 
 ### Power Sequencing
 
@@ -51,7 +50,7 @@ The **BIOS_SEL** pin features an integrated **100K pull-up resistor**. If the ca
     - The 3.3V power supply to the flash chip MUST be stable AT THE SAME TIME as power is applied to the Compute Module (VIN).
 
 - Do NOT power the flash chip after the Compute Module has booted.
-- The compute module attempts to read the BIOS flash when powered. If the flash chip is unpowered at that moment, the read fails, and the system may not boot.
+- The compute module attempts to read the flash chip shortly after power-up. If the flash chip is unpowered at that moment, the read fails, and the system will not boot.
 
 ### Boot Selection Circuit
 
@@ -68,14 +67,14 @@ Leveraging the internal pull-up resistor on `BIOS_SEL`, the carrier board design
 
 ### Series Resistors
 
-Series resistors are recommended on SPI signal lines (CLK, IO0~IO3) to reduce reflections.
+Intel's reference design recommends series resistors on SPI signal lines (CLK, IO0~IO3).
 
-- Value: 15Ω is recommended.
+- Value: 15Ω
 - Placement: Place them in series with the signal traces, close to the flash chip.
 
 ### Layout Guidelines
 
-| Parameter                  | Requirement                                                  |
-| :------------------------- | :----------------------------------------------------------- |
-| **Single-ended Impedance** | 50Ω                                                          |
-| **Length Matching**        | The length mismatch between CLK and DATA (IO0~3) signals must be **< 12.7 mm (500 mil)**. |
+| Parameter                  | Requirement                                        |
+| :------------------------- | :------------------------------------------------- |
+| **Single-ended Impedance** | 50Ω                                                |
+| **Length Matching**        | Recommended CLK to DATA Mismatch < 1.25 mm (50mil) |
