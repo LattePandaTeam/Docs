@@ -310,6 +310,7 @@ nav:
       - HDMI 2.1: content/mu_edition/design_guide_hdmi.md
       - HSIO Multiplexing & PCIe Bifurcation: content/mu_edition/hsio_multiplexing.md
       - Fan: content/mu_edition/design_guide_fan.md
+      - Auto Power-On: content/mu_edition/design_guide_auto_power_on.md
     - Carrier Board:
       - Lite Carrier: content/mu_edition/lite_carrier.md
       - Full Eval Carrier: content/mu_edition/full_eval.md

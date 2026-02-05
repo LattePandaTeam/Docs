@@ -10,7 +10,8 @@ LattePanda Mu x86 compute module derives up to 3 HDMI outputs from the DDIB, TCP
 - The default BIOS enables DDIB and TCP0 as HDMI.
 > To configure TCP1 as HDMI(TMDS mode), a specific BIOS firmware must be flashed. Dynamic switching via the BIOS menu is not supported.
 
-- ⚠️ Due to processor limitations, **a maximum of three displays** is supported simultaneously.
+!!!note
+    Due to processor limitations, **a maximum of three displays** is supported simultaneously.
 
 ## Design Guidelines
 
@@ -42,6 +43,27 @@ Intel's reference design requires a specific **AC Coupling + Pull-down Bias** to
 !!! tip "Why are 470Ω pull-down resistors mandatory?"
 
     This is the standard design required by Intel. Omitting the 470Ω resistor will cause the signal eye diagram to fail and lead to compatibility issues.
+
+### Polarity Check
+
+HDMI TMDS differential pairs do not support polarity inversion.
+
+Strict polarity matching must be implemented on the carrier board. Ensure that Positive (+) maps to Positive (+) and Negative (-) maps to Negative (-), as illustrated in the figure below.
+
+```text
++---------------------+                            +---------------------+
+|  Compute Module     |                            |   HDMI Connector    |
+|                     |      Carrier Board         |                     |
+|  [TMDS_DATA_P] (+)  | O========================O |  (+) [Pin X]        |
+|                     |                            |                     |
+|  [TMDS_DATA_N] (-)  | O========================O |  (-) [Pin Y]        |
+|                     |                            |                     |
++---------------------+                            +---------------------+
+          ^                                                   ^
+          |                                                   |
+          +----------- STRICT 1:1 MAPPING REQUIRED -----------+
+                       (Do NOT Swap P & N Signals)
+```
 
 ### Level Shifter
 

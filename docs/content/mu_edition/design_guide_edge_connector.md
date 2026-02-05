@@ -1,8 +1,10 @@
 LattePanda Mu x86 compute module utilizes a **260-Pin Edge Connector**, physically compatible with standard laptop **DDR4 SODIMM** memory sockets.
 
+## Pinout
+
+Given the high-density edge connector and the versatile pin definitions of the LattePanda Mu compute module, we provided the detailed pin introduction into the separate [**LattePanda Mu Pinout Documentation**](https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Electricals/Pinouts).
+
 ## Mechanical Specs
-
-
 
 ![LattePanda Mu Dimension](../../assets/images/mu_edition/LattePandaMuDimension.png)
 

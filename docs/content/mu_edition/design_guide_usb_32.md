@@ -60,6 +60,11 @@ USB 3.2 links require AC coupling.
 +---------------------+       +---------------------+
 ```
 
+### Polarity Check
+Intel's reference design document does not explicitly confirm support for polarity inversion on USB 3.2 differential pairs.
+
+Therefore, implement strict polarity matching on the carrier board (As shown in the figure above).
+
 ### Pairing Requirement
 
 A standard USB 3.2 Type-A connector consists of two parts:
