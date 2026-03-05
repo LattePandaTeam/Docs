@@ -63,7 +63,7 @@ USB 3.2 links require AC coupling.
 ### Polarity Check
 Intel's reference design document does not explicitly confirm support for polarity inversion on USB 3.2 differential pairs.
 
-Therefore, implement strict polarity matching on the carrier board (As shown in the figure above).
+Therefore, implement strict polarity matching on the carrier board. **Do NOT Swap P & N Signals**. As shown in the figure above.
 
 ### Pairing Requirement
 
@@ -76,6 +76,17 @@ A USB 3.2 lane can be paired with any USB 2.0 lane (except USB2_P6). There is no
 
 !!! note "USB2_P6 Restriction"
     As [USB2.0 chapter](design_guide_usb_20.md) noted, **USB2_P6** is reserved for USB Type-C port by default and cannot be used as a generic USB 2.0 companion for a USB 3.2 port without BIOS modification.
+
+### Host's Perspective
+
+The USB 3.2 Type-A female connector pinout is defined from the host's perspective.
+When routing, connect the host's TX signals directly to the connector's TX pins, and the RX signals to the RX pins. Do not swap these signals. As shown in the figure below.
+
+![](../../assets/images/mu_edition/usb_32_connector_routing.webp){width="600" }
+
+### Power Requirement
+
+One USB 3.2 port (single device only): Recommended minimum current is 1.0A.
 
 ### ESD Protection
 
@@ -93,6 +104,7 @@ Since USB ports are subject to frequent hot-plugging, they are vulnerable to Ele
 | Intra-pair Skew | < 5 mil |
 | Inter-pair Skew | Length matching between the SSTX pair and SSRX pair is **NOT** required. |
 | SSTX AC Cap for USB 3.2 | 100nF nominal |
+| SSTX AC Cap Placement | As close to USB connector as possible (<25 mm) |
 | Reference Plane | Continuous GND Recommended |
 
 #### Spacing & Crosstalk

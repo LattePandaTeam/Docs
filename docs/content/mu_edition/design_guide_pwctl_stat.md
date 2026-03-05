@@ -2,16 +2,17 @@
 
 ## Status Indication
 
-LattePanda Mu x86 compute module provides two status output pins, **PSON** and **SLP_S4**, to indicate the current system power state (e.g., S0, S3). These pins can be used to control the power enable lines for carrier board peripherals or to drive status LEDs.
+LattePanda Mu x86 compute module provides two status output pins, **PSON** and **SLP_S4**, to indicate the current system power state (e.g., S0, S3). These pins are dedicated to controlling the power enable lines for peripherals or to drive status LEDs.
 
 ### Pin Definition
 
 | Pin Name | Pin Number | Note                                               |
 | -------- | ---------- | -------------------------------------------------- |
-| PSON     | 5          | Output HIGH only when S0(Working)                  |
+| PSON     | 5          | Output HIGH(Weak Drive) only when S0(Working)      |
 | SLP_S4   | 7          | Output HIGH only when S0(Working) and S3(Sleeping) |
 
-💡 Due to the limited drive capability of the `PSON` and `SLP_S4` pins, an external NMOS is required to drive an LED indicator.
+!!!note
+    The `PSON` pin relies on the 10kΩ pull-up resistor to output HIGH. It cannot source significant current (max source current is approximately 0.33 mA). Thus, an external NMOS is required to drive an LED indicator or other components that need higher current.
 
 ### Status Logic Table
 
@@ -22,6 +23,32 @@ LattePanda Mu x86 compute module provides two status output pins, **PSON** and *
 | Hibernate (S4) | LOW        | LOW          | Suspend to Disk           |
 | Shutdown (S5)  | LOW        | LOW          | Soft OFF                  |
 | Standby (G3)   | LOW        | LOW          | Powered but not Turned ON |
+
+The above logic simplifies the power enable control of peripherals and the driving of status LEDs, and can be implemented purely in hardware. 
+
+Examples will be given separately below.
+
+### Peripheral Power Control
+
+![](../../assets/images/mu_edition/control_peripheral_enable_line.webp){width="600" }
+
+As shown in the schematic above, using `SLP_S4` to control the EN pin of the DCDC Buck chip allows the 5V power supply to remain on in working and sleep states. In other states, such as shutdown or standby, the 5V power is cut off. This 5V power logic is suitable for USB ports and similar applications.
+
+If 5V power is only needed in the working state, the DCDC Buck chip's EN pin can instead be controlled by `PSON`.
+
+### Status LED Drive
+
+![](../../assets/images/mu_edition/working_sleep_led_circuit.webp){width="600" }
+
+As shown in the schematic above, the following behavior is achieved: 
+
+- When powered on(in working mode), only the left LED illuminates. 
+
+- In sleep mode, only the right LED illuminates. 
+
+- In other states, such as power off or standby, both LEDs are off. 
+
+These two LEDs can be set to different colors(e.g. blue, green) to reflect the current status.
 
 ## Power Control
 

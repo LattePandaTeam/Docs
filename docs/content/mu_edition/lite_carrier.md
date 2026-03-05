@@ -33,7 +33,7 @@ Because the RTC loses power, the initial boot may be slow and the system may aut
 3. **DC 5.5x2.5mm**: Power input, supports 12~20V wide voltage range.
 4. **HDMI 2.0**: Video output, supports 4K resolution, maximum signal bandwidth TMDS 600MHz.
 5. **USB 2.0 x2**: Standard USB 2.0 interfaces.
-6. **Power Mode Jumper**: Used to switch power modes, see [Power Mode Switch](### Power Mode Jumper) for details.
+6. **Power Mode Jumper**: Used to switch power modes, see [Power Mode Jumper](#power-mode-jumper) for details.
 7. **Gigabit Ethernet**: RTL8111 NIC.
 8. **USB 3.2 10Gbps x2**: Standard USB 3.0 interfaces, supporting 5Gbps and 10Gbps transfer rates.
 9. **PCIe 3.0 x4 Slot**: For expanding PCIe devices, available only with 12V power supply via the DC 5.5x2.5mm input.

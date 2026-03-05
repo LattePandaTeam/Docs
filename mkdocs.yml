@@ -314,6 +314,7 @@ nav:
     - Carrier Board:
       - Lite Carrier: content/mu_edition/lite_carrier.md
       - Full Eval Carrier: content/mu_edition/full_eval.md
+      - Open-Source Carrier Board by Community Members: https://www.lattepanda.com/forum/topic/401250
   - Accessory:
 #    - Overview: index1.md
     - Streaming Cable:

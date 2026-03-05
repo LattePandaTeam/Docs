@@ -50,7 +50,13 @@ The **BIOS_SEL** pin features an integrated **100K pull-up resistor**. If the ca
     - The 3.3V power supply to the flash chip MUST be stable AT THE SAME TIME as power is applied to the Compute Module (VIN).
 
 - Do NOT power the flash chip after the Compute Module has booted.
-- The compute module attempts to read the flash chip shortly after power-up. If the flash chip is unpowered at that moment, the read fails, and the system will not boot.
+
+     > The compute module attempts to read the flash chip shortly after power-up. If the flash chip is unpowered at that moment, the read fails, and the system will not boot.
+
+- `+3V3_SB` standby power supply is recommended for powering the flash chip.
+
+    > `+3V3_SB` indicates that as long as the carrier board is connected to an external power source, `+3V3_SB` remains continuously powered, regardless of whether the compute module is operating or shut down.
+
 
 ### Boot Selection Circuit
 

@@ -53,17 +53,19 @@ Strict polarity matching must be implemented on the carrier board. Ensure that P
 ```text
 +---------------------+                            +---------------------+
 |  Compute Module     |                            |   HDMI Connector    |
-|                     |      Carrier Board         |                     |
-|  [TMDS_DATA_P] (+)  | O========================O |  (+) [Pin X]        |
 |                     |                            |                     |
-|  [TMDS_DATA_N] (-)  | O========================O |  (-) [Pin Y]        |
+|  [TMDS_DATA_P] (+)  | O========================O |  [TMDS_DATA_P] (+)  |
+|                     |                            |                     |
+|  [TMDS_DATA_N] (-)  | O========================O |  [TMDS_DATA_N] (-)  |
 |                     |                            |                     |
 +---------------------+                            +---------------------+
           ^                                                   ^
           |                                                   |
           +----------- STRICT 1:1 MAPPING REQUIRED -----------+
-                       (Do NOT Swap P & N Signals)
+                       Do NOT Swap P & N Signals!
+ 
 ```
+(The diagram above emphasizes polarity; therefore, AC coupling capacitors and pull-down resistors are omitted.)
 
 ### Level Shifter
 
@@ -80,6 +82,14 @@ For example, when DDIB is operating in TMDS mode, the following pins should be N
 Pin 191: DDIB_AUX_N 
 Pin 193: DDIB_AUX_P
 ```
+
+### Power Backflow Prevention
+
+A diode must be connected in series between the system power and the 5V pin of the HDMI connector to prevent power conflict between the host and the device. As shown below, **diode D4 cannot be omitted**.
+
+However, the resettable fuse F1 is optional if space is constrained.
+
+![](../../assets/images/mu_edition/hdmi_pwr_diode.webp){width="600" }
 
 ### ESD Protection
 
@@ -98,6 +108,8 @@ Since HDMI ports are subject to frequent hot-plugging, they are vulnerable to El
 | Intra-pair Skew | < 5 mil |
 | Inter-pair Skew | < 13 mm |
 | AC Cap for TMDS | 100nF nominal |
+| Bias Resistor for TMDS | 470Ω nominal |
+| AC Cap & Bias Resistor Placement | As close to HDMI connector as possible (<25 mm) |
 | Reference Plane | Continuous GND Recommended |
 
 #### Spacing & Crosstalk

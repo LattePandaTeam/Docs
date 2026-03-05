@@ -34,15 +34,15 @@ The USB 2.0 controller does not support automatic differential pair polarity inv
 
 ```text  
 +-----------------------+                    +-----------------------+  
-|   Compute Module      |                    |      USB Device       |  
-|      (Host)           |                    |      (Slave)          |  
-+-----------------------+                    +-----------------------+  
+|   Compute Module      |                    |      USB Connector    |  
 |                       |                    |                       |  
-|   [ USB D+ ] ---------+--------------------+---------> [ USB D+ ]  |  
+|                       |                    |                       |
+|                       |                    |                       |  
+|     [ USB D+ ] -------+--------------------+---- -> [ USB D+ ]     |  
 |                       |                    |                       |  
 |                       |                    |                       |  
 |                       |                    |                       |  
-|   [ USB D- ] ---------+--------------------+---------> [ USB D- ]  |  
+|     [ USB D- ] -------+--------------------+------> [ USB D- ]     |  
 |                       |                    |                       |  
 |                       |                    |                       |  
 +-----------------------+                    +-----------------------+  
@@ -51,6 +51,10 @@ The USB 2.0 controller does not support automatic differential pair polarity inv
 ### No AC Coupling
 
 - Do not place series AC coupling capacitors on USB 2.0 differential lines. Direct connection is required.
+
+### Power Requirement
+
+One USB 2.0 port (single device only): Recommended minimum current is 0.5A.
 
 ### ESD Protection
 

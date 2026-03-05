@@ -31,7 +31,7 @@ Since there are many `GND` pins, they are not listed individually here; please r
 
 To minimize impedance and support high current, ALL **VIN** pins must be connected to the positive power rail, and ALL **GND** pins must be connected to the negative power rail.
 
-## Power Budget
+## Power Requirements
 
 The power supply design must account for sufficient power headroom. Excluding power consumption from carrier board peripherals (e.g., high-power USB devices, PCIe cards), the minimum power requirements for the compute module itself with default BIOS firmware are:
 
