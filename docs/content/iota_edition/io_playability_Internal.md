@@ -211,7 +211,7 @@ When headphones are inserted, the audio output automatically switches to the hea
 ### USB 2.0 Pins
 
 - D+ , D- and power pins exposed for custom USB device integration.
-- It can be used to interface with USB-to-serial converters, custom HID devices, or debug probes.
+- It can be used to interface with USB flash drive, USB-to-serial converters, custom HID devices, etc.
 - It is native to the Porcessor's PCH and does not pass through any USB hub chip.
 
 - You can also connect our dedicated [**:material-cart: 4G LTE Expansion Board**](https://www.dfrobot.com/product-2982.html) to expand cellular connectivity.

@@ -1,6 +1,6 @@
 # DFR1141 Full Eval Carrier
 
-![full eval carrier cover](../../assets/images/mu_edition/full_eval_cover.png){ width="400" }
+![full eval carrier cover](../../assets/images/mu_edition/full_eval_cover.png){ width="600" }
 
 ## Introduction
 
@@ -12,7 +12,7 @@ This is a full-function evaluation carrier board which exposes all the pins of t
     - ❗ All pin headers operate at 3.3V levels; do NOT connect 5V peripherals.
     - 🔥 If installing high-powered expansion cards such as graphics cards into the PCIe x4 slot, verify that the power supply is sufficient.
     - ⚡ The CPU FAN must be plugged into the corresponding connector, otherwise the fan may be damaged.  
-        ![cpu_fan_warning](../../assets/images/mu_edition/cpu_fan_warning.png){ width="512" }
+        ![cpu_fan_warning](../../assets/images/mu_edition/cpu_fan_warning.png){ width="400" }
 
 ## Get Started
 
@@ -57,11 +57,10 @@ This way, no matter what errors occur in the second BIOS, you can still boot up 
 
 === "1. Download"
 
-    - Download flashing tool [AfuWin64](https://github.com/LattePandaTeam/LattePanda-Mu/raw/main/Softwares/BIOS/Tools/AfuWin64.zip)
+    - Download [LattePanda Mu BIOS Flashing Toolkit](../../assets/drivers/mu_edition/LattePanda Mu BIOS Flashing Toolkit.zip)
     
-    - Download BIOS version you need at [BIOS repo](https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Softwares/BIOS)  
-        If you are trying to switch to SATA branch, please download [this BIOS](https://github.com/LattePandaTeam/LattePanda-Mu/raw/main/Softwares/BIOS/SATA/LP-BS-S70NC1R200-SR-A-SATA.bin.zip) directly
-
+    - Download BIOS version you need at [BIOS repo](https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Softwares/BIOS)
+    
     - Unzip all the files you downloaded
 
 === "2. Boot and switch BIOS"
@@ -72,11 +71,10 @@ This way, no matter what errors occur in the second BIOS, you can still boot up 
 
 === "3. Flash BIOS"
 
-    1. Open `AFUWINGUIx64`, select the BIOS file you need to flash, and set the flashing block as shown below  
-        ![BIOS Flash Setting](../../assets/images/mu_edition/bios_flash_setting.jpg){width=400}
+    1. Follow the instructions in the [update bios firmware chapter](bios_setup.md#update-bios-firmware).
     
     2. After flashing, turn off, unplug the power, press and hold the power button for 10s to clear RTC and reset BIOS setting.
-
+    
     3. Keep `ID_SW` on `BOT BIOS` side, plug in power supply and turn on, then the second BIOS will be used.
 
 !!! note
@@ -89,9 +87,9 @@ The USB ports on the evaluation board are controlled in two groups, allowing con
 === "F_USB_PWR"
 
     The F_USB_PWR controls the power mode of the F_USB1 pin header
-
+    
     ![F_USB_PWR](../../assets/images/mu_edition/f_usb_pwr.png){width=320}
-
+    
     | Jumper | Setting | Function |
     | :----: |  :----: |  -------- |
     | ![jumper_12](../../assets/images/mu_edition/jumper_12.png){width=64} | Short 1-2 | Enable USB power supply during power-on and sleep |
@@ -100,9 +98,9 @@ The USB ports on the evaluation board are controlled in two groups, allowing con
 === "R_USB_PWR"
 
     The R_USB_PWR controls the power mode for the front two USB 2.0 and four USB 3.0 ports
-
+    
     ![R_USB_PWR](../../assets/images/mu_edition/r_usb_pwr.png){width=320}
-
+    
     | Jumper | Setting | Function |
     | :----: |  :----: |  -------- |
     | ![jumper_12](../../assets/images/mu_edition/jumper_12.png){width=64} | Short 1-2 | Enable USB power supply during power-on and sleep |
@@ -174,10 +172,8 @@ When using the M.2 NVMe SSD adapter card, it will occupy one PCIe expansion slot
 
 ## Interface Pinouts
 
-Work in progress.
-
-Please refer to the paper manual inside the package first.
+Please refer to the [Full Eval Carrier User Manual](../../assets/images/mu_edition/LattePanda_Mu_EVA_Board_User_Manual.pdf).
 
 ## Design Documentation
 
-Full Eval Carrier for LattePanda Mu provides full schematics and PCB drawings. You can download them at [LattePanda Mu GitHub repository](https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Electricals/Examples/%5BDFR1141%5DFull%20EVA%20Carrier%20for%20LattePanda%20Mu).
+Full Eval Carrier for LattePanda Mu provides full schematics PDF and PCB Gerber drawings. You can download them at [LattePanda Mu GitHub repository](https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Electricals/Examples/%5BDFR1141%5DFull%20EVA%20Carrier%20for%20LattePanda%20Mu).

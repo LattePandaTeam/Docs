@@ -22,23 +22,23 @@ To address these issues, we are introducing the new-generation **LattePanda IOTA
 
 ## Specifications Comparison
 
-|                     | **LattePanda IOTA**                                | **LattePanda V1**                           |
-| ------------------- | -------------------------------------------------- | ------------------------------------------- |
-| **Processor**       | Intel® Processor N150 (Twin Lake, Intel 7)         | Intel Atom® x5-Z8350 (Cherry Trail, 14nm)   |
-| **Cores/Threads**   | 4C / 4T                                            | 4C / 4T                                     |
-| **Max Burst Freq.** | 3.60 GHz                                           | 1.92 GHz                                    |
-| **Cache**           | 6MB                                                | 2MB                                         |
-| **Co-processor**    | RP2040                                             | ATmega32U4                                  |
-| **Memory**          | LPDDR5, up to 16GB, supports IBECC                 | DDR3L, up to 4GB                            |
-| **Storage**         | eMMC 64GB / 128GB                                  | eMMC 32GB / 64GB                            |
-| **Wireless**        | M.2 E-Key Slot (supports PCIe/CNVio Wi-Fi modules) | Onboard Wi-Fi 802.11n (2.4GHz) Wi-Fi module |
-| **Wired Network**   | 1GbE Ethernet (supports Wake-on-LAN)               | 100Mbps Ethernet                            |
-| **Display Output**  | HDMI 2.1 (4K@60Hz) + eDP 1.4b (2-lane)             | HDMI 1.4 (1080P) + MIPI-DSI (4-lane)        |
-| **USB Ports**       | 3× USB 3.2 Gen 2 (10Gbps)                          | 1× USB 3.0 (5Gbps) + 2× USB 2.0             |
-| **Power Input**     | USB-C PD (15V) or 10–15V DC Input                  | Micro-USB (5V/3A)                           |
-| **Security**        | TPM 2.0 (Integrated in Processor)                  | None                                        |
-| **OS Support**      | Windows 10/11, Ubuntu 22.04 and later              | Windows 10, Ubuntu 16.04                    |
-| **Operating Temp.** | 0°C ~ 60°C                                         | 0°C ~ 60°C                                  |
+|                     | **LattePanda IOTA**                                          | **LattePanda V1**                           |
+| ------------------- | ------------------------------------------------------------ | ------------------------------------------- |
+| **Processor**       | Intel® Processor N150 (Twin Lake, Intel 7)                   | Intel Atom® x5-Z8350 (Cherry Trail, 14nm)   |
+| **Cores/Threads**   | 4C / 4T                                                      | 4C / 4T                                     |
+| **Max Burst Freq.** | 3.60 GHz                                                     | 1.92 GHz                                    |
+| **Cache**           | 6MB                                                          | 2MB                                         |
+| **Co-processor**    | RP2040                                                       | ATmega32U4                                  |
+| **Memory**          | LPDDR5, up to 16GB, supports IBECC                           | DDR3L, up to 4GB                            |
+| **Storage**         | eMMC 64GB / 128GB                                            | eMMC 32GB / 64GB                            |
+| **Wireless**        | M.2 E-Key Slot (supports PCIe/CNVio Wi-Fi modules)           | Onboard Wi-Fi 802.11n (2.4GHz) Wi-Fi module |
+| **Wired Network**   | 1GbE Ethernet (supports Wake-on-LAN)                         | 100Mbps Ethernet                            |
+| **Display Output**  | HDMI 2.1 (4K@60Hz) + eDP 1.4b (2-lane)                       | HDMI 1.4 (1080P) + MIPI-DSI (4-lane)        |
+| **USB Ports**       | 3× USB 3.2 Gen 2 (10Gbps)<br>1× USB 2.0 Header (on GPIO Header) | 1× USB 3.0 (5Gbps) <br>2× USB 2.0           |
+| **Power Input**     | USB-C PD (15V) or 10–15V DC Input                            | Micro-USB (5V/3A)                           |
+| **Security**        | TPM 2.0 (Integrated in Processor)                            | None                                        |
+| **OS Support**      | Windows 10/11, Ubuntu 22.04 and later                        | Windows 10, Ubuntu 16.04                    |
+| **Operating Temp.** | 0°C ~ 60°C                                                   | 0°C ~ 60°C                                  |
 
 ## What Stays the Same
 
@@ -198,6 +198,12 @@ For connecting an power management system board.
 Connect a 3V CR2032 or similar coin cell battery with leads to ensure the system time is not lost after power down, improving log accuracy and system reliability.
 
 The RTC battery comes with the board.
+
+####  GPIO Header (2.54mm 36-pin)
+
+In addition to exposing the RP2040 pins, the GPIO header include USB 2.0, UART, power and reset, audio, and status indicator pins, making integration into devices easier.
+
+For a detailed description of the GPIO header, refer to the [GPIO Section](io_playability_Internal.md#gpio-header).
 
 ### 9. New DIP Switch
 

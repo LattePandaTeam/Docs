@@ -6,9 +6,11 @@ When the **BIOS_SEL** pin is pulled low, LattePanda Mu Compute Module bypasses i
 
 This feature allows you to flash custom BIOS firmware directly to the carrier board's flash chip without needing to modify the BIOS on the computing module itself.
 
+Additionally, regardless of errors in the carrier board's BIOS flash, you can still boot using the compute module's BIOS flash.
+
 ## Design Guidelines
 
-## Pin Definition
+### Pin Definition
 
 | Pin Name     | Pin Number | Note                                                   |
 | :----------- | :--------- | :----------------------------------------------------- |
@@ -45,18 +47,15 @@ The **BIOS_SEL** pin features an integrated **100K pull-up resistor**. If the ca
 
 ### Power Sequencing
 
-!!! warning
+- `3.3V standby power supply` is required for powering the flash chip.
 
-    - The 3.3V power supply to the flash chip MUST be stable AT THE SAME TIME as power is applied to the Compute Module (VIN).
+    > The standby power remains continuously active as long as external power is applied to the carrier board, regardless of the compute module's operational state (running or shut down).
+    >
+    > For the flash chip, a 3.3V standby power supply is required.
 
 - Do NOT power the flash chip after the Compute Module has booted.
 
      > The compute module attempts to read the flash chip shortly after power-up. If the flash chip is unpowered at that moment, the read fails, and the system will not boot.
-
-- `+3V3_SB` standby power supply is recommended for powering the flash chip.
-
-    > `+3V3_SB` indicates that as long as the carrier board is connected to an external power source, `+3V3_SB` remains continuously powered, regardless of whether the compute module is operating or shut down.
-
 
 ### Boot Selection Circuit
 
@@ -84,3 +83,10 @@ Intel's reference design recommends series resistors on SPI signal lines (CLK, I
 | :------------------------- | :------------------------------------------------- |
 | **Single-ended Impedance** | 50Ω                                                |
 | **Length Matching**        | Recommended CLK to DATA Mismatch < 1.25 mm (50mil) |
+
+## Carrier BIOS Flash Boot Restriction
+
+After replacing the compute module, the BIOS firmware in the carrier board’s flash chip must be fully re-flashed.
+>- The BIOS flash chip contains an ME region. When a compute module is powered on for the first time, it checks whether the ME region already contains CPU information. If this is the initial boot, the CPU information field will be empty, then writes the current CPU’s details into this region and proceeds with a normal boot. On subsequent power-ons,  it compares the stored information in the flash with the current CPU. If the verification fails (e.g. after replacing the compute module), it will prevent the compute module from powering up.
+>- When the BIOS flash chip is located on the carrier board, replacing the compute module while the flash still contains the original CPU information. This causes verification to fail, and the compute module will be unable to boot.
+>- This is dictated by CPU hardware and cannot be modified.

@@ -19,7 +19,7 @@ The pin locations and corresponding system port mappings are detailed below:
 
 !!!tip "BIOS Firmware Requirement"
 
-    To ensure the port mapping matches the table above, the BIOS version must be `S70NC1R200-8G/16G-A` or `S70NC1R200-8G/16G-A-SATA` (Build Date: 2025/12/19) or newer.
+    To ensure the port mapping matches the table above, the BIOS version must be `S70NC1R200-8G-A` or the 16G variant or the SATA variant (Build Date: 2025/12/19) or higher.
     
     Older BIOS versions may cause duplicate serial port mappings or mappings that don't match the table above. If upgrading from an older BIOS version:
     
@@ -93,9 +93,9 @@ The pin locations and their default functions are listed in the table below:
 
 ## BIOS Requirements
 
-GPIO function requires BIOS support. Please ensure that the BIOS version used by your LattePanda Mu module is *S70NC1R200-8G/16G-A* or higher.
+GPIO function requires BIOS support. Please ensure that the BIOS version used by your LattePanda Mu module is `S70NC1R200-8G-A` or the 16G variant or the SATA variant (Build Date: 2025/12/19) or higher.
 
-If you are using an older version such as *LP-BS-S70NC1R200-SR/DR-B*, please refer to the [Update BIOS Firmware](bios_setup.md#update-bios-firmware) section to complete a BIOS update.
+If you are using an older version such as `LP-BS-S70NC1R200-SR-B`, please refer to the [Update BIOS Firmware](bios_setup.md#update-bios-firmware) section to complete a BIOS update.
 
 ## Switch Multiplexed Pins to GPIO Mode
 

@@ -24,6 +24,8 @@ JP1 is a jumper. When JP1 is ON, the automatic power-on function is enabled.
 
 ### Power Requirement
 
-- `+3V3_SB` standby power supply is recommended for powering the auto power-on circuit.
+- `3.3V standby power supply` is required for powering the auto power-on circuit.
 
-    > `+3V3_SB` indicates that as long as the carrier board is connected to an external power source, `+3V3_SB` remains continuously powered, regardless of whether the compute module is operating or shut down.
+    > The standby power remains continuously active as long as external power is applied to the carrier board, regardless of the compute module's operational state (running or shut down).
+    > 
+    > For this auto power-on circuit, a 3.3V standby power supply is required.

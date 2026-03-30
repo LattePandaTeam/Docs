@@ -79,10 +79,11 @@ A USB 3.2 lane can be paired with any USB 2.0 lane (except USB2_P6). There is no
 
 ### Host's Perspective
 
-The USB 3.2 Type-A female connector pinout is defined from the host's perspective.
+In our schematics (such as the DFR1142 Lite Carrier), the USB 3.2 Type-A female connector pinout is defined from the host's perspective.
+
 When routing, connect the host's TX signals directly to the connector's TX pins, and the RX signals to the RX pins. Do not swap these signals. As shown in the figure below.
 
-![](../../assets/images/mu_edition/usb_32_connector_routing.webp){width="600" }
+![](../../assets/images/mu_edition/usb_32_connector_routing.webp){width="800" }
 
 ### Power Requirement
 

@@ -1,6 +1,6 @@
 # DFR1142 Lite Carrier Board
 
-![lite carrier cover](../../assets/images/mu_edition/lite_carrier_cover.png){ width="400" }
+![lite carrier cover](../../assets/images/mu_edition/lite_carrier_cover.png){ width="600" }
 
 ## Introduction
 
@@ -60,7 +60,9 @@ The PCIe slot is available only when powered by a 12V supply via the DC 5.5x2.5m
 
 Compatible with common PCIe slot devices such as NVMe SSDs, network cards, and graphics cards. If a device requires more than x4 PCIe lanes, it will automatically downgrade to operate at x4 lanes.
 
-**⚠️ Caution**: When installing power-hungry devices such as graphics cards, ensure that the power adapter is sufficiently powerful. For example, a 75W graphics card should be paired with a 12V 120W power supply for system stability.
+!!!warning
+
+    When installing power-hungry devices such as graphics cards, ensure that the power adapter is sufficiently powerful. For example, a 75W graphics card should be paired with a 12V 120W power supply for system stability.
 
 ### M.2 M Key
 
@@ -84,7 +86,9 @@ The Lite Carrier supports two power supply methods:
 
 - DC Jack: Compatible with power adapters with an output voltage of 12~19V and an output power of 45W or more, with a DC connector specification of 5.5x2.5mm.
 
-**⚠ If you need to use the PCIe x4 Slot, you must use a DC 5.5x2.5mm interface power adapter with an output voltage of 12V. And increase the power supply according to the PCIe expansion card power specification**
+!!!warning
+
+    If you need to use the PCIe x4 Slot, you must use a DC 5.5x2.5mm interface power adapter with an output voltage of 12V. And increase the power supply according to the PCIe expansion card power specification.
 
 ### M.2 WLAN Module Compatibility
 
@@ -117,3 +121,5 @@ When using the M.2 NVMe SSD adapter card, it will occupy the PCIe expansion slot
 The LattePanda Mu Lite carrier board is fully open-source and the complete design files can be downloaded from the [LattePanda Mu GitHub repository](https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Electricals/Examples) for modification as desired.
 
 The project has been crafted using the open-source electronic design software KiCAD. For optimal compatibility, please open it with KiCAD version 8.0 or higher.
+
+The PCB layer stackup of the lite carrier board is the JLC04161H-7628.
