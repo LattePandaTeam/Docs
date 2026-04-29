@@ -8,7 +8,7 @@ Given the high-density edge connector and the versatile pin definitions of the L
 
 ![LattePanda Mu Dimension](../../assets/images/mu_edition/LattePandaMuDimension.png)
 
-- Vertical distance from top PCB surface to processor boss surface: 1.55mm
+- Vertical distance from the PCB surface to the top of the processor thermal pad: 1.55 mm
 - Max component height on top PCB: 3mm
 - Max component height on bottom PCB: 2mm
 
@@ -21,7 +21,7 @@ While compatible with standard DDR4 sockets, strict adherence to the following s
 - **Pin Count**: Must use a **260-Pin** DDR4 SODIMM socket.
 - **Orientation**: Must use **Standard (STD)** type sockets, not Reverse (RVS) type sockets. 
 
-!!! note "How to identify a Standard (STD) socket?"
+??? note "How to identify a Standard (STD) socket?"
     
     - **Marking**: Most sockets have "STD" stamped on the plastic body.
     - **Notch Position**: When facing the socket opening (as if inserting the module) with the pads facing down, the Keying Notch should be offset to the LEFT.
@@ -40,7 +40,7 @@ While compatible with standard DDR4 sockets, strict adherence to the following s
     | 9.2mm  | LOTES           | ADDR0110-P005A   |
     | 5.2mm  | LOTES           | ADDR0207-P001A   |
 
-### Solderable Standoff Selection
+## Solderable Standoff Selection Guidelines
 
 ![install_Standoff](../../assets/images/mu_edition/getstarted3.jpg){width="400"}
 

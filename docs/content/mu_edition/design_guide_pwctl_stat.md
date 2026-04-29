@@ -12,7 +12,9 @@ LattePanda Mu x86 compute module provides two status output pins, **PSON** and *
 | SLP_S4   | 7          | Output HIGH only when S0(Working) and S3(Sleeping) |
 
 !!!note
-    The `PSON` pin relies on the 10kΩ pull-up resistor to output HIGH. It cannot source significant current (max source current is approximately 0.33 mA). Thus, an external NMOS is required to drive an LED indicator or other components that need higher current.
+
+    - The `PSON` pin relies on the 10kΩ pull-up resistor to output HIGH. It cannot source significant current (max source current is approximately 0.33 mA). Thus, an external NMOS is required to drive an LED indicator or other components that need higher current.
+    - When the LattePanda Mu compute module is powered but not started while the RTC battery is missing or low, the `SLP_S4` pin will output HIGH. In this case, please assemble a new RTC battery and complete one full power cycle (power on and then power off). After this, `SLP_S4` pin's level indication will function normally as described in the table above.
 
 ### Status Logic Table
 
@@ -78,10 +80,12 @@ Since buttons are frequently touched, they are vulnerable to electrostatic disch
 
 - Reverse Working Voltage: 5V
 
-### FAQ
+## FAQ
 
-| Question                                  | Potential Cause / Check Point                | Explanation / Solution                                       |
-| ----------------------------------------- | -------------------------------------------- | ------------------------------------------------------------ |
-| CMOS Error appears after boot             | Low RTC battery voltage                      | Replace the RTC battery with a new one.                      |
-|                                           | First initialization after BIOS update       | This is normal behavior. The message will disappear once initialization is complete. |
-| Boot process is extremely slow every time | `PWR_SW#` pin held low (>10s) before booting | If the `PWR_SW#` is held for over 10s, it triggers a **BIOS Reset**. The subsequent boot requires full hardware re-initialization, causing a significant delay. |
+| Question                                          | Potential Cause / Check Point                                | Explanation / Solution                                       |
+| ------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| CMOS Error appears after boot                     | Low RTC battery voltage                                      | Replace the RTC battery with a new one.                      |
+|                                                   | First initialization after BIOS update                       | This is normal behavior. The message will disappear once initialization is complete. |
+| Boot process is extremely slow every time         | `PWR_SW#` pin held low (>10s) before booting                 | If the `PWR_SW#` is held for over 10s, it triggers a **BIOS Reset**. The subsequent boot requires full hardware re-initialization, causing a significant delay. |
+| Powered but not started, `SLP_S4` pin output HIGH | Low RTC battery voltage                                      | Replace the RTC battery with a new one. Then complete one full power cycle (power on and then power off). |
+|                                                   | First powered but not started after being assembled into the carrier board | Ensure the RTC battery is assembled. Then complete one full power cycle (power on and then power off). |

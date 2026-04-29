@@ -64,35 +64,17 @@ HSIO lane multiplexing is **mutually exclusive** and does not support runtime pr
     > **Conflict Scenario (Mixed Use):** If you configure HSIO 0 to function as a USB 3.2 port, HSIO 0 is removed from the PCIe pool. The remaining lanes (HSIO 1, 2, 3) cannot form an x4 link anymore.<br>
     > **Result:** HSIO 2 and 3 can still be aggregated to form one PCIe x2 link, while HSIO 1 is forced to operate as an independent PCIe x1 link (alternatively, all three can be configured as independent x1 links).
 
-##  Applying Configuration Changes
-
-HSIO lane assignments and PCIe link configurations are **static**. They cannot be configured via the BIOS setup menu, nor do they support auto-negotiation or runtime switching.
-
-To apply changes, you must follow this procedure:
-
-1. Customize the **BIOS firmware** to define the new configuration.
-2. **Re-flash** the updated firmware into the LattePanda Mu module (or flash chip on the carrier board).
-3. Then **reboot** the LattePanda module for the changes to take effect.
-
-> 💡**Example**
-> 
-> Customized BIOS firmware is required for any HSIO or PCIe bifurcation configuration changes. The list below provides a few common examples.
->
-> - Configure HSIO 2 to USB 3.2, or configure HSIO 3 to USB 3.2
-> - Configure aggregation of HSIO 2 and HSIO 3 to PCIe x2
-> - Split PCIe x4 into two PCIe x2 or four PCIe x1 on HSIO 8–HSIO 11
-
 ##  PCIe Clock Distribution & Expansion
 
 The LattePanda Mu compute module exposes 5 independent PCIe REFCLKs(Reference Clocks).
 
-If your carrier board design requires connecting more than 5 PCIe devices, you must use a PCIe clock fanout buffer chip to expand the clock signals.
+If your carrier board design requires connecting more than 5 PCIe devices, you must use a PCIe clock fanout buffer chip(e.g. 9DBL411BGLFT, LMK00334RTVR) to expand the clock signals.
 
 !!!warning
 
     Do not attempt to parallel a single clock signal to multiple devices directly. This will cause signal integrity issues and result in device recognition failure.
 
-## CLKREQ Mapping & Control
+### CLKREQ Mapping & Control
 
 The LattePanda Mu compute module exposes only two PCIe CLKREQ(Clock Request) pins: `CLKREQ3` and `CLKREQ4`.
 
@@ -108,7 +90,7 @@ With the default BIOS configuration, for REFCLK outputs that lack dedicated CLKR
 
 - **REFCLK 1:** The clock output is always enabled regardless of a device's presence.
 
-## **Clock-to-Lane Mapping**
+### Clock-to-Lane Mapping
 
 The BIOS defaultly defines a specific binding between the PCIe Clock Outputs (REFCLK) and PCIe Data Lanes (HSIO). 
 
@@ -123,9 +105,9 @@ REFCLK1 is a forced output and is not binded to any HSIO.
 
 To modify the clock-to-lane mapping, customized BIOS firmware is required. It cannot be changed via the BIOS setup menu.
 
-Use the default BIOS firmware, but altering this pairing on your carrier board (e.g., routing REFCLK 0 to a device on HSIO 8) will prevent the PCIe device from receiving the correct clock signal, causing enumeration failure.
+Use the default BIOS firmware, but altering this pairing on your carrier board will prevent the PCIe device from receiving the correct clock signal, causing enumeration failure.
 
->Here is why:
+>💡 **Example:** Let's assume that on your carrier board, REFCLK0 was routed to the PCIe device on HSIO8 and the default BIOS firmware was used.
 >
 >- According to the table above, REFCLK 2 and HSIO 8 are bound together by default BIOS firmware. This means that when the system detects a PCIe device on HSIO 8, it automatically enables the clock output via REFCLK 2.
 >- However, in this hardware design, the device on HSIO 8 is physically connected to receive its clock from REFCLK 0. Since the system logic expects HSIO 8 to act in tandem with REFCLK 2, it does not activate the output for REFCLK 0. Consequently, the PCIe device receives no clock signal (as REFCLK 0 remains silent) and fails to enumerate.
@@ -150,3 +132,28 @@ Clkreq for Clock0: Disabled
 
   - Then save the BIOS settings and restart.
   - If the steps mentioned above do not resolve the issue, a customized firmware will be required.
+
+!!!warning "Strict  Mapping Required for RTL8111H NIC"
+
+    We have identified that the RTL8111H network controller (NIC) has strict requirements for Clock-to-Lane Mapping. Any mismatch in this mapping will cause Blue Screen errors in Windows OS.
+    
+    **Example:** The RTL8111H chip is connected to the `HSIO6` channel. When using the default BIOS firmware, it must use `REFCLK4`. Switching to any other REFCLK—even `REFCLK1`, which is force output by default—will cause the system to crash.
+    
+    **Action required:** For such devices, strictly adhere to the Clock-to-Lane Mapping requirements, or use customized firmware that matches the actual mapping of your carrier board.
+
+##  Applying Configuration Changes
+
+HSIO lane assignments and PCIe link configurations are **static**. They cannot be configured via the BIOS setup menu, nor do they support auto-negotiation or runtime switching.
+
+Thus，customized BIOS firmware is required for any HSIO, PCIe clock or bifurcation configuration changes, such as:
+
+- Configure HSIO 2 to USB 3.2, or configure HSIO 3 to USB 3.2
+- Configure aggregation of HSIO 2 and HSIO 3 to PCIe x2
+- Split PCIe x4 into two PCIe x2 or four PCIe x1 on HSIO 8–HSIO 11
+- Modify PCIe clock-to-lane mapping
+
+To apply changes, you must follow this procedure:
+
+1. Customize the **BIOS firmware** to define the new configuration.
+2. **Re-flash** the updated firmware into the LattePanda Mu module or flash chip on the carrier board.
+3. Then **reboot** the LattePanda module for the changes to take effect.

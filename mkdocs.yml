@@ -30,7 +30,7 @@ repo_url: https://github.com/LattePandaTeam/Docs
 edit_uri: blob/master/docs
 
 # Copyright
-copyright: 'Copyright &copy; 2015 - 2025 LattePanda Team'
+copyright: 'Copyright &copy; 2015 - 2026 LattePanda Team'
 
 # Configuration
 theme:
@@ -222,6 +222,14 @@ nav:
       - Physical Programming /w Python: content/alpha_edition/python_arduino_bridge.md
       - Read Sensor Data /w Python: content/alpha_edition/python_read_sensor.md
       - FAQ: content/alpha_edition/faq.md
+      - Streaming Cable:
+        - Get Started: content/streaming_cable/get_started.md
+        - Setup Server Computer - Win: content/streaming_cable/set_up_windows_host.md
+        - Setup Client Computer RDP - Win: content/streaming_cable/set_up_win_rdp_client.md
+        - Setup Client Computer RDP - Mac: content/streaming_cable/set_up_mac_rdp_client.md
+        - Setup Client Computer RDP - Ubu: content/streaming_cable/set_up_ubu_rdp_client.md
+        - NoMachine - Config Client Computer: content/streaming_cable/set_up_nomachine_client.md
+        - FAQ: content/streaming_cable/faq.md
     - LattePanda 3 Delta:
       - Tech Specs: content/3rd_delta_edition/specification.md
       - Initial Setup: content/3rd_delta_edition/get_started.md
@@ -285,7 +293,7 @@ nav:
       - Physical Programming /w Python: content/delta_edition/python_arduino_bridge.md
       - Read Sensor Data /w Python: content/delta_edition/python_read_sensor.md
       - FAQ: content/delta_edition/faq.md
-  - Compute Module:      
+  - Compute Module:
     - LattePanda Mu:
       - Introduction: content/mu_edition/introduction.md
       - Tech Specs: content/mu_edition/specification.md
@@ -315,16 +323,6 @@ nav:
       - Lite Carrier: content/mu_edition/lite_carrier.md
       - Full Eval Carrier: content/mu_edition/full_eval.md
       - Open-Source Carrier Board by Community Members: https://www.lattepanda.com/forum/topic/401250
-  - Accessory:
-#    - Overview: index1.md
-    - Streaming Cable:
-      - Get Started: content/streaming_cable/get_started.md
-      - Setup Server Computer - Win: content/streaming_cable/set_up_windows_host.md
-      - Setup Client Computer RDP - Win: content/streaming_cable/set_up_win_rdp_client.md
-      - Setup Client Computer RDP - Mac: content/streaming_cable/set_up_mac_rdp_client.md
-      - Setup Client Computer RDP - Ubu: content/streaming_cable/set_up_ubu_rdp_client.md
-      - NoMachine - Config Client Computer: content/streaming_cable/set_up_nomachine_client.md
-      - FAQ: content/streaming_cable/faq.md
   - IO Playability:
     - Pinpong Library - Introduction: content/IO_Playability/InstallPinpongLibrary.md
     - Pinpong Library - Blink: content/IO_Playability/Blink.md

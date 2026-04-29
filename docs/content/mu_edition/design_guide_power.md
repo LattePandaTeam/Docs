@@ -10,12 +10,15 @@ LattePanda Mu x86 compute module features a wide voltage input design. To ensure
 | Absolute Maximum Input | 7.6V | -         | 22.3V | Exceeding limits triggers UVLO or OVP |
 | Voltage Ripple         | -    | -         | 200mV | Peak-to-Peak                          |
 
-- Without an eDP display, for maximum compatibility and safety, maintaining the input voltage between 9V - 20V is strongly recommended.
+=== "Without eDP display"
 
-- ⚠️ With the eDP display, the maximum power supply voltage is limited by the eDP display.
->-    In the hardware design of the LattePanda Mu compute module, the power supply for the eDP display's converter is directly to the system power rail without any voltage step-down circuit.
->-    So if your design includes an eDP display connected to the LattePanda Mu compute module, the overall system maximum voltage will be limited by the eDP display's converter maximum input voltage.
+    For maximum compatibility and safety, maintaining the input voltage between 9V - 20V is strongly recommended.
 
+=== "With eDP display"
+
+    The maximum power supply voltage is limited by the eDP display.<br>
+    1. In the hardware design of the LattePanda Mu compute module, the power supply for the eDP display's converter is directly to the system power rail without any voltage step-down circuit.<br>
+    2. So if your design includes an eDP display connected to the LattePanda Mu compute module, the overall system maximum voltage will be limited by the eDP display's converter maximum input voltage.<br>
 
 ## Connection Guidelines
 
