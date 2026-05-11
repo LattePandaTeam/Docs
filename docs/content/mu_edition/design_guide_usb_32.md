@@ -1,7 +1,9 @@
 
 # USB 3.2
+LattePanda Mu x86 compute module provides up to **4 independent** USB 3.2 Gen 2 lanes.
 
-LattePanda Mu x86 compute module derives up to **4 lanes** of USB 3.2 Gen 2 signals from the HSIO (High Speed I/O) lanes, supporting speeds up to **10Gbps**, full-duplex communication, backward compatible with USB 3.0 (5Gbps).
+- Each supports **SuperSpeed USB 10 Gbps**, backward compatible with **SuperSpeed USB 5Gbps**.
+- All ports operate in **Host Mode ONLY**. USB OTG is NOT supported.
 
 ## Lane Configuration
 

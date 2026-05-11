@@ -317,6 +317,8 @@ nav:
       - USB 3.2: content/mu_edition/design_guide_usb_32.md
       - HDMI 2.1: content/mu_edition/design_guide_hdmi.md
       - HSIO Multiplexing & PCIe Bifurcation: content/mu_edition/hsio_multiplexing.md
+      - PCIe 3.0: content/mu_edition/design_guide_pcie.md
+      - SATA III: content/mu_edition/design_guide_sata.md
       - Fan: content/mu_edition/design_guide_fan.md
       - Auto Power-On: content/mu_edition/design_guide_auto_power_on.md
     - Carrier Board:
