@@ -1,8 +1,12 @@
-## UART Pinout Assignment
+This chapter guides you through configuring and programming the UART, I2C, and GPIO ports on the LattePanda Mu compute module under the Linux OS.
+
+The sample code and procedures in this tutorial are based on Ubuntu 24.04 LTS.
+
+## UART
+
+### Pinout Assignment
 
 The LattePanda Mu compute module provides up to 4 UART ports.
-
-Users can read from and write to these ports using standard serial terminal tools. Various serial monitors are available for Windows, while Linux users can utilize tools like CuteCom.
 
 The pin locations and corresponding system port mappings are detailed below:
 
@@ -17,17 +21,221 @@ The pin locations and corresponding system port mappings are detailed below:
 | 138                      | SOC_UART2_TXD  | UART2 exposed from PCH; <br/>Typically mapped as `COM4` in Windows or `/dev/ttyS6` in Linux |
 | 140                      | SOC_UART2_RXD  | As above |
 
-!!!tip "BIOS Firmware Requirement"
+### Logic Level
 
-    To ensure the port mapping matches the table above, the BIOS version must be `S70NC1R200-8G-A` or the 16G variant or the SATA variant (Build Date: 2025/12/19) or higher.
+All the UART pins mentioned above use 3.3V levels. Do not apply voltages higher than 3.3V.
+
+### BIOS Requirement
+
+To ensure the port mapping matches the table above, the BIOS version must be `S70NC1R200-8G-A` or the 16G variant or the SATA variant (Build Date: 2025/12/19) or higher.
+
+Older BIOS versions may cause duplicate serial port mappings or mappings that don't match the table above. If upgrading from an older BIOS version:
+
+  - Windows: It is recommended to uninstall all COM devices in Device Manager and reboot the system to refresh the mapping.
+  - Linux: A simple system reboot is sufficient.
+
+### Programming with Python pyserial
+
+- Regular users must be added to the `dialout` group to access serial ports, otherwise, a permission error will occur. 
+
+    ```bash
+    sudo usermod -aG dialout $USER
+    ```
+    This change takes effect after a restart or re-login.
     
-    Older BIOS versions may cause duplicate serial port mappings or mappings that don't match the table above. If upgrading from an older BIOS version:
+- Install dependencies
+
+    ```bash
+    pip install pyserial
+    ```
+
+- Complete sample code for serial loopback(`uart_tx_rx.py`)
+
+    ```python
+    import serial
+    import time
     
-    - Windows: It is recommended to uninstall all COM devices in Device Manager and reboot the system to refresh the mapping.
-    - Linux: A simple system reboot is sufficient.
+    DEVICE = '/dev/ttyS0'    #SIO_UART
+    BAUD_RATE = 9600
+    
+    def main():
+        try:
+            # Open serial port
+            ser = serial.Serial(
+                port=DEVICE,
+                baudrate=BAUD_RATE,
+                bytesize=serial.EIGHTBITS,   # 8 data bits
+                parity=serial.PARITY_NONE,   # No parity
+                stopbits=serial.STOPBITS_ONE, # 1 stop bit
+                timeout=1                   # Read timeout (seconds)
+            )
+    
+            print(f"Serial port opened: {ser.name}")
+    
+            tx_data = b"Hello from Python UART (ttyS0, 9600)\r\n"    # TX: Send data
+            ser.write(tx_data)
+            print(f"Sent: {tx_data}")
+    
+            # Wait a bit for response
+            time.sleep(0.5)
+    
+            print("Waiting for data...")
+            rx_data = ser.read(128)  #RX: Receive data, Read up to 128 bytes
+    
+            if rx_data:
+                print(f"Received: {rx_data}")
+            else:
+                print("No data received")
+    
+        except Exception as e:
+            print(f"Error: {e}")
+    
+        finally:
+            if 'ser' in locals() and ser.is_open:
+                ser.close()    # Close serial port
+                print("Serial port closed")
+    
+    if __name__ == "__main__":
+        main()
+    ```
+
+- Short-circuit the TX and RX pins of the SIO_UART, then run the following command to view the looped-back data.
+
+    ```bash
+    python3 uart_tx_rx.py
+    ```
+
+### Programming with C termios
+
+- Regular users must be added to the `dialout` group to access serial ports, otherwise, a permission error will occur. 
+
+    ```bash
+    sudo usermod -aG dialout $USER
+    ```
+    This change takes effect after a restart or re-login.
+    
+- Install dependencies
+
+    ```bash
+    sudo apt install build-essential
+    ```
+
+- Complete sample code for serial loopback(`uart_tx_rx.c`)
+
+    ```c
+    #include <stdio.h>
+    #include <stdlib.h>
+    #include <string.h>
+    #include <unistd.h>
+    #include <fcntl.h>
+    #include <termios.h>
+    #include <errno.h>
+    
+    #define DEVICE "/dev/ttyS0"
+    #define BAUDRATE B9600
+    
+    int main() {
+        int fd;
+    
+        // Open serial port
+        fd = open(DEVICE, O_RDWR | O_NOCTTY);
+        if (fd < 0) {
+            perror("Failed to open serial port");
+            return -1;
+        }
+    
+        printf("Serial port opened: %s\n", DEVICE);
+    
+        // Configure serial port
+        struct termios options;
+        memset(&options, 0, sizeof(options));
+    
+        // Get current attributes
+        if (tcgetattr(fd, &options) != 0) {
+            perror("tcgetattr failed");
+            close(fd);
+            return -1;
+        }
+    
+        // Set baud rate
+        cfsetispeed(&options, BAUDRATE);
+        cfsetospeed(&options, BAUDRATE);
+    
+        // Configure: 8N1 (8 data bits, no parity, 1 stop bit)
+        options.c_cflag &= ~PARENB;   // Disable parity
+        options.c_cflag &= ~CSTOPB;   // 1 stop bit
+        options.c_cflag &= ~CSIZE;
+        options.c_cflag |= CS8;       // 8 data bits
+    
+        options.c_cflag |= CREAD | CLOCAL; // Enable receiver, ignore modem control lines
+    
+        // Raw input/output mode
+        options.c_lflag &= ~(ICANON | ECHO | ECHOE | ISIG); // Non-canonical mode
+        options.c_iflag &= ~(IXON | IXOFF | IXANY);         // Disable software flow control
+        options.c_oflag &= ~OPOST;                          // Raw output
+    
+        // Set read timeout
+        options.c_cc[VMIN]  = 0;  // Minimum number of bytes
+        options.c_cc[VTIME] = 10; // Timeout in deciseconds (1 second)
+    
+        // Apply settings
+        if (tcsetattr(fd, TCSANOW, &options) != 0) {
+            perror("tcsetattr failed");
+            close(fd);
+            return -1;
+        }
+    
+        // ---------------------------
+        // TX: Send data
+        // ---------------------------
+        char *tx_data = "Hello from C UART (ttyS0, 9600)\r\n";
+        int len = strlen(tx_data);
+    
+        int written = write(fd, tx_data, len);
+        if (written < 0) {
+            perror("Write failed");
+        } else {
+            printf("Sent %d bytes: %s", written, tx_data);
+        }
+    
+        // Wait before reading
+        usleep(500000); // 500 ms
+    
+        // ---------------------------
+        // RX: Receive data
+        // ---------------------------
+        char buffer[128];
+        memset(buffer, 0, sizeof(buffer));
+    
+        int n = read(fd, buffer, sizeof(buffer));
+    
+        if (n < 0) {
+            perror("Read failed");
+        } else if (n == 0) {
+            printf("No data received\n");
+        } else {
+            printf("Received %d bytes: %s\n", n, buffer);
+        }
+    
+        // Close serial port
+        close(fd);
+        printf("Serial port closed\n");
+    
+        return 0;
+    }
+    ```
+
+- Short-circuit the TX and RX pins of the SIO_UART, then run the following command to view the looped-back data.
+
+    ```bash
+    gcc uart_tx_rx.c -o uart_tx_rx
+    ./uart_tx_rx
+    ```
 
 
-## I2C Pinout Assignment
+## I2C
+
+### Pinout Assignment
 
 The LattePanda Mu compute module provides up to 4 I2C ports.
 
@@ -44,14 +252,22 @@ The pin locations are detailed below:
 | 142                    | I2C5_SCL |
 | 144                     | I2C5_SDA |
 
-All the pins mentioned above are pulled up to 3.3 V via 2.2 kΩ resistors inside the compute module.
+!!!note
 
-## I2C Programming in Linux
+    If you are using the [DFR1141 Full Eval Carrier](https://www.dfrobot.com/product-2821.html), an I2C device(IT8851 chip) with address `0x40` is already present on the `I2C2` port. Therefore, avoid connecting any other I2C device with the same address to this port.
 
-Please refer to the ["How to Use the I2C Pins on LattePanda Mu in Ubuntu OS"](https://www.lattepanda.com/forum/topic/336132) post in our forum.
+### Logic Level
+
+All the I2C pins mentioned above are pulled up to 3.3 V via 2.2kΩ resistors inside the compute module. Do not apply voltages higher than 3.3V.
+
+### Programming in Linux
+
+Please refer to the ["How to Use the I2C Port on LattePanda Mu in Ubuntu OS"](https://www.lattepanda.com/forum/topic/336132) post in our forum.
 
 
-## GPIO Pinout Assignment
+## GPIO
+
+### Pinout Assignment
 
 The LattePanda Mu compute module currently provides up to 17 GPIO pins that can be configured as either inputs or outputs. You can execute scripts within the system to control these GPIOs to read signals from or send signals to peripheral devices.
 
@@ -77,7 +293,7 @@ The pin locations and their default functions are listed in the table below:
 | 132                      | GPP_D2                  | IT8851_INT       |
 | 134                      | GPP_D3                  | CAM_PWR_EN       |
 
-## GPIO Features
+### GPIO Features
 
 - 3.3V I/O voltage levels
 
@@ -91,15 +307,15 @@ The pin locations and their default functions are listed in the table below:
 
     Since these GPIOs originate directly from the processor's PCH, special care must be taken during use.<br>Overvoltage, overcurrent, and short circuits are strictly prohibited, as any damage to the pins is irreparable.
 
-## BIOS Requirements
+### BIOS Requirement
 
 GPIO function requires BIOS support. Please ensure that the BIOS version used by your LattePanda Mu module is `S70NC1R200-8G-A` or the 16G variant or the SATA variant (Build Date: 2025/12/19) or higher.
 
 If you are using an older version such as `LP-BS-S70NC1R200-SR-B`, please refer to the [Update BIOS Firmware](bios_setup.md#update-bios-firmware) section to complete a BIOS update.
 
-## Switch Multiplexed Pins to GPIO Mode
+### Switch Multiplexed Pins to GPIO Mode
 
-GPP_F12 to GPP_F16 pins can be used directly as GPIOs without requiring any BIOS configuration. 
+`GPP_F12` to `GPP_F16` pins can be used directly as GPIOs without requiring any BIOS configuration. 
 
 The remaining pins are not set to GPIO by default and must be switched to GPIO mode in the BIOS.
 
@@ -111,14 +327,13 @@ The remaining pins are not set to GPIO by default and must be switched to GPIO m
 
 - Configure the required pins to GPIO mode.
 
-     For example: If you do not need to use UART2 but wish to use the UART2 TXD and RXD pins as GPIOs, select "GPIO" as shown in the figure below.
-     ![](../../assets/images/mu_edition/sw_uart2_gpio.webp){width="600" }
+    >For example: If you do not need to use UART2 but wish to use the UART2 TXD and RXD pins as GPIOs, select "GPIO" as shown in the figure below.
+
+    ![](../../assets/images/mu_edition/sw_uart2_gpio.webp){width="600" }
 
 - Navigate to the `Save & Exit page` and select  `Save Changes and Exit`option to save the BIOS settings and restart the LattePanda board.
 
-
-
-## GPIO Address
+### GPIO Address
 
 For LattePanda Mu modules (Intel N100 or N305 processor), the underlying GPIO controller is mapped to `gpiochip0` with the device identifier `[INTC1057:00]`.
 
@@ -151,13 +366,11 @@ The line offsets corresponding to each GPIO pin are detailed in the following ta
 | GPP_D2                  | 194             |
 | GPP_D3                  | 195             |
 
-## GPIO Programming in Linux
+### Programming with Python libgpiod
 
 In Linux OS, the Python or C version of the **libgpiod** can be used for GPIO programming.
 
-The following demonstration uses an Ubuntu OS(either version 22.04 or 24.04) to control the GPP_F12 pin as an example.
-
-### libgpiod Python
+The following demonstration uses an Ubuntu OS(either version 22.04 or 24.04) to control the `GPP_F12` pin as an example.
 
 #### Environment Preparation
 
@@ -169,9 +382,9 @@ The following demonstration uses an Ubuntu OS(either version 22.04 or 24.04) to 
   ```
   :warning: This case uses gpiod library from the system repository, installed via `apt install python3-libgpiod` — not the PyPI version installed via `pip install gpiod`.
 
-#### Outputting High and Low Signals
+#### GPIO Output
 
-The following code sets the GPP_F12 pin to output mode and toggles the output level signal every second.
+The following code sets the `GPP_F12` pin to output mode and toggles the output level signal every second.
 
 -  Save the following code as a Python file, for example, `gpio_toggle_demo.py`.
 
@@ -242,15 +455,15 @@ if __name__ == "__main__":
     main()
 ```
 
-- Navigate to the directory containing the `gpio_toggle_demo.py` file and run the following command in the terminal. You will observe the GPP_F12 pin outputting high and low signals at approximately 1-second intervals.
+- Navigate to the directory containing the `gpio_toggle_demo.py` file and run the following command in the terminal. You will observe the `GPP_F12` pin outputting high and low signals at approximately 1-second intervals.
 
   ```bash
   sudo python3 gpio_toggle_demo.py
   ```
 
-#### Reading High and Low Signals
+#### GPIO Input
 
-The following code sets the GPP_F12 pin to input mode and read its level status at one-second intervals.
+The following code sets the `GPP_F12` pin to input mode and read its level status at one-second intervals.
 
 ```python
 import gpiod
@@ -309,7 +522,11 @@ if __name__ == "__main__":
     main()
 ```
 
-### libgpiod C
+### Programming with C libgpiod
+
+In Linux OS, the Python or C version of the **libgpiod** can be used for GPIO programming.
+
+The following demonstration uses an Ubuntu OS(either version 22.04 or 24.04) to control the `GPP_F12` pin as an example.
 
 #### Environment Preparation
 
@@ -320,9 +537,9 @@ if __name__ == "__main__":
   sudo apt install libgpiod-dev
   ```
 
-#### Outputting High and Low Signals
+#### GPIO Output
 
-The following code sets the GPP_F12 pin to output mode and toggles the output level signal every second.
+The following code sets the `GPP_F12` pin to output mode and toggles the output level signal every second.
 
 - Save the following code as a C file, for example, `gpio_toggle_demo.c`.
 
@@ -410,16 +627,16 @@ The following code sets the GPP_F12 pin to output mode and toggles the output le
   }
   ```
 
-- Navigate to the directory containing the `gpio_toggle_demo.c` file and run the following command in the terminal. You will observe the GPP_F12 pin outputting high and low signals at approximately 1-second intervals.
+- Navigate to the directory containing the `gpio_toggle_demo.c` file and run the following command in the terminal. You will observe the `GPP_F12` pin outputting high and low signals at approximately 1-second intervals.
 
   ```bash
   gcc -o gpio_toggle_demo gpio_toggle_demo.c -lgpiod
   sudo ./gpio_toggle_demo
   ```
 
-#### Reading High and Low Signals
+#### GPIO Input
 
-The following code sets the GPP_F12 pin to input mode and read its level status at one-second intervals.
+The following code sets the `GPP_F12` pin to input mode and read its level status at one-second intervals.
 
 ```c
 #include <gpiod.h>
@@ -497,10 +714,10 @@ int main(void) {
 ```
 ### libgpiod Programming Reference
 
-- [libgpiod documentation](https://libgpiod.readthedocs.io/en/latest/index.html)
+- [libgpiod documentation](https://libgpiod.readthedocs.io)
 
 
-### GPIO Sysfs Interface
+### Programming with GPIO Sysfs Interface
 
 The `libgpiod` project provides a low-level C library, bindings to high-level languages and tools for interacting with the GPIO (General Purpose Input/Output) lines on Linux systems. 
 

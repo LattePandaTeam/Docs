@@ -304,7 +304,8 @@ nav:
           - Windows: content/mu_edition/os_windows.md
           - Linux: content/mu_edition/os_linux.md
       - BIOS Setup: content/mu_edition/bios_setup.md
-      - GPIO Programming: content/mu_edition/gpio_ctl.md
+      - GPIO Programming(Linux): content/mu_edition/gpio_ctl.md
+      - GPIO Programming(Windows): content/mu_edition/gpio_ctl_windows.md
       - Download Resources: https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Softwares/Drivers
       - FAQ: content/mu_edition/faq.md
     - Carrier Board Design Guide:
@@ -324,6 +325,7 @@ nav:
     - Carrier Board:
       - Lite Carrier: content/mu_edition/lite_carrier.md
       - Full Eval Carrier: content/mu_edition/full_eval.md
+      - MXM GPU Carrier: https://wiki.dfrobot.com/kit0206/docs/24175
       - Open-Source Carrier Board by Community Members: https://www.lattepanda.com/forum/topic/401250
   - IO Playability:
     - Pinpong Library - Introduction: content/IO_Playability/InstallPinpongLibrary.md
