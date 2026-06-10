@@ -38,7 +38,7 @@
 | Compliance       | Certification              | FCC, CE, UKCA, RoHS, KC, Safety                              |
 
 ## Dimension Drawing
-LattePanda Mu 3D model available on [GitHub repo](https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Mechanicals)
+LattePanda Mu 2D drawings and 3D models available on [GitHub repo](https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Mechanicals)
 
 
 [**:simple-discord: Join our Discord**](https://discord.gg/RkSvc9g7eU){ .md-button .md-button--primary }

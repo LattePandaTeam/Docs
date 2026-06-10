@@ -304,9 +304,12 @@ nav:
           - Windows: content/mu_edition/os_windows.md
           - Linux: content/mu_edition/os_linux.md
       - BIOS Setup: content/mu_edition/bios_setup.md
-      - GPIO Programming(Linux): content/mu_edition/gpio_ctl.md
-      - GPIO Programming(Windows): content/mu_edition/gpio_ctl_windows.md
-      - Download Resources: https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Softwares/Drivers
+      - Linux GPIO Programming: content/mu_edition/gpio_ctl.md
+      - Windows GPIO Programming: 
+          - Python: content/mu_edition/gpio_ctl_windows_python.md
+          - C#: content/mu_edition/gpio_ctl_windows_csharp.md
+          - C++: content/mu_edition/gpio_ctl_windows_cplusplus.md
+      - Download Resources: content/mu_edition/download_resources.md
       - FAQ: content/mu_edition/faq.md
     - Carrier Board Design Guide:
       - Foreword: content/mu_edition/design_guide_foreword.md
