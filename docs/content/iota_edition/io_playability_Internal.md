@@ -174,8 +174,8 @@ LattePanda Iota features a comprehensive 36-pin GPIO header, serving as a versat
 | Pin Name | Type          | I/O Level | Description                                                  |
 | :------- | :------------ | --------- | :----------------------------------------------------------- |
 | 5V       | Power         |           | 5V Power Output 2<br/>Current Limit: 1.2A<br>Do not connect to 5V Power Output 1 |
-| D-       | Input/Output  |           | USB 2.0 Data-<br/>Native to the Porcessor's PCH              |
-| D+       | Input/Output  |           | USB2.0 Data+<br/>Native to the Porcessor's PCH               |
+| D-       | Input/Output  |           | USB 2.0 Data-<br/>Native to the Processor's PCH              |
+| D+       | Input/Output  |           | USB2.0 Data+<br/>Native to the Processor's PCH               |
 | GND      | Power         |           | Ground                                                       |
 | S0       | Output        | 3.3V      | Running State Indicator<br>Output HIGH only when OS is running |
 | S3       | Output        | 3.3V      | Sleeping State Indicator<br>Output HIGH only when OS is sleeping |
@@ -212,7 +212,7 @@ When headphones are inserted, the audio output automatically switches to the hea
 
 - D+ , D- and power pins exposed for custom USB device integration.
 - It can be used to interface with USB flash drive, USB-to-serial converters, custom HID devices, etc.
-- It is native to the Porcessor's PCH and does not pass through any USB hub chip.
+- It is native to the Processor's PCH and does not pass through any USB hub chip.
 
 - You can also connect our dedicated [**:material-cart: 4G LTE Expansion Board**](https://www.dfrobot.com/product-2982.html) to expand cellular connectivity.
 
@@ -232,7 +232,7 @@ The voltage of these pins in different states are shown as follows:
 
 ## Power Management Connector
 
-LattePanda Iota equips a power management expansion connector, designed as a reserved connecor for integrating with advanced power control expansion boards, such as a UPS (Uninterruptible Power Supply) expansion board.
+LattePanda Iota equips a power management expansion connector, designed as a reserved connector for integrating with advanced power control expansion boards, such as a UPS (Uninterruptible Power Supply) expansion board.
 
 ![](../../assets/images/LattePanda Iota/pwrmgmt.webp){width="400"}
 
@@ -251,8 +251,8 @@ LattePanda Iota equips a power management expansion connector, designed as a res
 | 3    | VIN         | Power             | same as above                                                |
 | 4    | STATE       | Output            | OS State Indicator<br/>Output 3.3V only when OS is running or sleeping |
 | 5    | SW          | Open-drain Output | When the `SW` button of LattePanda is pressed, this pin is pulled LOW(0V). |
-| 6    | USB_DN      | Input/Output      | USB 2.0 Data-<br>Native to the Porcessor's PCH               |
-| 7    | USB_DP      | Input/Output      | USB 2.0 Data+<br>Native to the Porcessor's PCH               |
+| 6    | USB_DN      | Input/Output      | USB 2.0 Data-<br>Native to the Processor's PCH               |
+| 7    | USB_DP      | Input/Output      | USB 2.0 Data+<br>Native to the Processor's PCH               |
 | 8    | GND         | Power             | Ground                                                       |
 | 9    | GND         | Power             | same as above                                                |
 | 10   | GND         | Power             | same as above                                                |
