@@ -8,8 +8,6 @@ Support Email: techsupport@lattepanda.com
 
 Customization Email: solution@lattepanda.com
 
-Sales Email: lattepanda@outlook.com
-
 Facebook: lattepandacn 
 
 Twitter: lattepandacn

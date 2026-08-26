@@ -17,9 +17,13 @@ Welcome to the powerful LattePanda Mu, an x86 compute module with customizable i
 
 - :material-truck-flatbed: View Carrier Board Detailed Documentation
 
+    - [Check compatibility between compute modules and carrier boards](./module_carrier_compatibility.md)
+
     - [Lite Carrier](./lite_carrier.md)
 
     - [Full Evaluation Carrier](./full_eval.md)
+
+    - [Mini Carrier](../mu_ultra_edition/mini_carrier.md)
 
 ## For Developer
 

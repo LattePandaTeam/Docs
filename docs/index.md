@@ -12,36 +12,35 @@
 [10]: content/iota_edition/get_started.md
 
 
-| [LattePanda V1][1]                            | [LattePanda Alpha][2]                         | [LattePanda Delta(Discontinued)][6] |
-| :--------------------------------------- | :--------------------------------------- | :--------------------------------------- |
-| ![lattepanda photo](assets/images/lattepanda_photo_900x600.webp) | ![lattepanda alpha image](assets/images/lattepanda_alpha_photo_900x600.webp) | ![lattepanda alpha image](assets/images/lattepanda_alpha_photo_900x600.webp) |
-| Model                                   | Model                                   | Model                                   |
-| DFR0444: 2GB RAM, 32GB eMMC<br />DFR0419: 4GB RAM, 64GB eMMC<br />DFR0418: 2GB RAM, 32GB eMMC,  Windows 10 Home License<br />DFR0470-ENT: 4GB RAM,  64GB eMMC, Windows 10 Enterprise 2016 LTSB License<br /> | DFR0545: 8GB RAM, No eMMC<br />DFR0546: 8GB RAM, 64GB eMMC<br />DFR0547: 8GB RAM, 64GB eMMC,  Windows 10 Pro License<br /> | DFR0543: 4GB RAM, 32GB eMMC<br />DFR0544: 4GB RAM, 32GB eMMC, Windows 10 Pro License<br /> |
-
-[1]: content/1st_edition/power_on.md
-[2]: content/alpha_edition/get_started.md
-[6]: content/delta_edition/get_started.md
-
-
-
-| [LattePanda 3 Delta][7] | [LattePanda Sigma][8] |
+| [LattePanda Alpha][2] | [LattePanda 3 Delta][7] |
 | ---------------------------------------- | ---------------------------------------- |
-| ![lattepanda 3 delta image](assets/images/LattePanda 3 Delta/DFR0982LP.webp) | ![lattepanda Sigma image](assets/images/SigmaBoardPhoto.webp) |
+| ![lattepanda alpha image](assets/images/lattepanda_alpha_photo_900x600.webp) | ![lattepanda 3 delta image](assets/images/LattePanda 3 Delta/DFR0982LP.webp) |
 | Model                             | Model |
-| DFR0981: 8GB RAM, 64GB eMMC<br />DFR0982: 8GB RAM, 64GB eMMC, Windows 10 IoT Enterprise 2021 LTSC License<br /> | DFR1080: 16GB RAM, No eMMC & SSD, No WiFi<br />DFR1081: 16GB RAM, 500GB NVMe SSD(PCIe4.0 x4), WiFi 6E<br />DFR1090: 32GB RAM, No eMMC & SSD, No WiFi<br />DFR1091: 32GB RAM, 500GB NVMe SSD(PCIe4.0 x4), WiFi 6E<br /> |
+| DFR0545: 8GB RAM, No eMMC<br />DFR0546: 8GB RAM, 64GB eMMC<br />DFR0547: 8GB RAM, 64GB eMMC,  Windows 10/11 Pro License<br /> | DFR0981: 8GB RAM, 64GB eMMC<br />DFR0982: 8GB RAM, 64GB eMMC, Windows 10 IoT Enterprise 2021 LTSC License<br /> |
 
+[2]: content/alpha_edition/get_started.md
 [7]: content/3rd_delta_edition/get_started.md
+
+
+
+| [LattePanda Sigma][8] |
+| ---------------------------------------- |
+| ![lattepanda Sigma image](assets/images/SigmaBoardPhoto.webp) |
+| Model                             |
+| DFR1080: 16GB RAM, No eMMC & SSD, No WiFi<br />DFR1081: 16GB RAM, 500GB NVMe SSD(PCIe4.0 x4), WiFi 6E<br />DFR1090: 32GB RAM, No eMMC & SSD, No WiFi<br />DFR1091: 32GB RAM, 500GB NVMe SSD(PCIe4.0 x4), WiFi 6E<br /> |
+
 [8]: content/sigma_edition/Getting_Started.md
 
-## Compute Module Overview
 
-| [LattePanda Mu][9] |
-| ---------------------------------------- |
-| ![lattepanda Mu image](assets/images/mu_edition/cover.jpg) |
-| Model                             |
-| DFR1146: N100 CPU, 8GB RAM, 64GB eMMC<br />DFR1146-ENT: N100 CPU, 8GB RAM, 64GB eMMC, Win11 Enterprise License<br />DFR1147: N100 CPU, 16GB RAM, 64GB eMMC<br />DFR1149: N305 CPU, 16GB RAM, 64GB eMMC |
 
-[9]: content/mu_edition/introduction.md
+| [LattePanda V1(Discontinued)][1] | [LattePanda Delta(Discontinued)][6] |
+| :--------------------------------------- | :--------------------------------------- |
+| ![lattepanda photo](assets/images/lattepanda_photo_900x600.webp) | ![lattepanda delta image](assets/images/lattepanda_alpha_photo_900x600.webp) |
+| Model                                   | Model                                   |
+| DFR0444: 2GB RAM, 32GB eMMC<br />DFR0419: 4GB RAM, 64GB eMMC<br />DFR0418: 2GB RAM, 32GB eMMC,  Windows 10 Home License<br />DFR0470-ENT: 4GB RAM,  64GB eMMC, Windows 10 Enterprise 2016 LTSB License<br /> | DFR0543: 4GB RAM, 32GB eMMC<br />DFR0544: 4GB RAM, 32GB eMMC, Windows 10 Pro License<br /> |
+
+[1]: content/1st_edition/power_on.md
+[6]: content/delta_edition/get_started.md
 
 This guide will show you how to use LattePanda products to start up your little drive first. And kick-off your adventure of software plus hardware development.
 
@@ -54,29 +53,18 @@ This guide will show you how to use LattePanda products to start up your little 
 [4]: https://github.com/LattePandaTeam/Docs
 
 ## Content Structure
-The documentation is broken down into several parts, covering **LattePanda 1st gen boards**, **LattePanda Alpha,** **LattePanda Delta, LattePanda 3 Delta**,**LattePanda Sigma**,**LattePanda Mu**.
+The documentation for each product generally follows a consistent structure. 
 
-1. **Getting started** goes over how to power on your device with the pre-installed Windows system. Experience the power of the hardware.
-    * Power on Device
-    * Building Connectivity
-    * Optional Peripherals Introduction
-2. **Multiple OS Support** shows different operating systems supported on LattePanda boards
-    * OS Installation and setup
-    * Tools recommended
-3. **Hardware Introduction** details the different parts of the LattePanda platform that come in handy as you build a cool project or commercial product. 
-    * Hardware Interface
-    * Programming guidance
-4. **Projects** introduces small projects you can build with entry level hardware tinkering background. Start your hardware innovation experience.
-5. **Troubleshooting** links tutorials and guides contributed by our community members to fix the problems you met with when tinkering the device.
-
-
-The best way to use the guide is:
-
-* Go through **Getting started**
-* Review **Hardware reference**
-* Check out **Applications and OS recommendation** for getting familiar with the software resources
-* Search the **Forums**, reply posts or **create** topics for discussing your idea and problems when tinkering
-* If you're going to production with LattePanda, **contact** with **LattePanda biz team** via [Email](mailto:lattepanda@outlook.com)
+1. **Tech Specs** details the hardware specifications of the board — processor, memory, storage, interfaces and dimensions.
+2. **Initial Setup** goes over how to unbox, connect and power on your device for the first time.
+3. **Power Options** introduces the different ways to power the board, such as USB PD and DC jack.
+4. **Display Connections** shows how to connect displays and touch panels, including eDP and HDMI.
+5. **Multiple OS Support** lists compatible operating systems and provides installation guides for Windows, Ubuntu, and more.
+6. **Multiple Network** covers the available network connectivity options — Ethernet, Wi-Fi and cellular.
+7. **Hardware Interface** details the pinout and layout, plus external and internal interfaces for your projects and products.
+8. **BIOS Setup** explains how to enter the BIOS and adjust common settings such as TDP, USB power control and boot order.
+9. **Download Resources** collects OS images, drivers and BIOS / EC firmware downloads.
+10. **FAQ** answers frequently asked questions and helps troubleshoot common issues.
 
 ## How to Contribute
 
@@ -93,4 +81,4 @@ Making a contribution is as simple as forking this repository, making edits to y
 
 
 ## Ready?  [Go!][5]
-[5]: content/1st_edition/power_on.md
+[5]: content/iota_edition/get_started.md

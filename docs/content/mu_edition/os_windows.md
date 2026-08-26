@@ -20,7 +20,7 @@ The Operating system will be installed on the eMMC by default.
 ### Preparations
 
 * :material-usb-flash-drive-outline: An empty USB flash drive (8 GB or larger)
-* 💿 OS Disc Image File for the LattePanda Mu: Download from [:material-dropbox:Dropbox](https://www.dropbox.com/scl/fo/2t7hqjg8frdaxhyhz8nn2/AD8SyaccaXlrLU_3vBq3fuY?rlkey=wxmxp2edmmygsv3r8yixf5vj8&st=8olwrik0&dl=0) or [:material-google-drive:Google Drive](https://drive.google.com/drive/folders/1_idMEHEUTjU8OPoml1TSp8KbzQ5p-wwr?usp=sharing)
+* 💿 OS Disc Image File for the LattePanda Mu: Download from [:material-dropbox:Dropbox](https://www.dropbox.com/scl/fo/2t7hqjg8frdaxhyhz8nn2/AD8SyaccaXlrLU_3vBq3fuY?rlkey=gm1ovsgq07syxck1fx9vha9i5&st=ssri5ekz&dl=0) or [:material-google-drive:Google Drive](https://drive.google.com/drive/folders/1_idMEHEUTjU8OPoml1TSp8KbzQ5p-wwr?usp=sharing)
 
 
 ### Installation Steps

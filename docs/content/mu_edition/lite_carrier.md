@@ -1,6 +1,6 @@
 # DFR1142 Lite Carrier Board
 
-![lite carrier cover](../../assets/images/mu_edition/lite_carrier_cover.png){ width="600" }
+![lite carrier cover](../../assets/images/mu_edition/lite_carrier_v2_cover.jpg){ width="600" }
 
 ## Introduction
 

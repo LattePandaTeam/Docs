@@ -192,24 +192,6 @@ nav:
       - Download Resources: content/iota_edition/download_resources.md
       - FAQ: content/iota_edition/faq.md
       - Product Catalog: content/iota_edition/product_catalog.md
-    - LattePanda V1:
-      - Power on Device: content/1st_edition/power_on.md
-      - Building Connectivity: content/1st_edition/wifi.md
-      - Optional Peripherals: content/1st_edition/peripheral.md
-      - Connect Touch Display: content/1st_edition/display.md
-      - Multiple OS Support: content/1st_edition/os.md
-      - Tools: content/1st_edition/tools.md
-      - Hardware Introduction: content/1st_edition/hardware_introduction.md
-      - Physical Programming: content/1st_edition/vs_programming.md
-      - Programming Reference: content/1st_edition/io_programming_reference.md
-      - Read Sensor Data via WebClient: content/1st_edition/webclient_demo.md
-      - Projects:
-        - 3D Printer Server: content/1st_edition/3d_printer_server.md
-        - Face Recognition: content/1st_edition/face_recog.md
-        - Setup Azure IoT Hub: content/1st_edition/setup_azure_iot_hub.md
-        - IoT Edge Data to Azure: content/1st_edition/data_to_cloud.md
-        - Node-RED: content/1st_edition/nodered.md
-      - Troubleshooting: content/1st_edition/troubleshooting.md
     - LattePanda Alpha:
       - Get Started: content/alpha_edition/get_started.md
       - Powering: content/alpha_edition/powering.md
@@ -293,7 +275,26 @@ nav:
       - Physical Programming /w Python: content/delta_edition/python_arduino_bridge.md
       - Read Sensor Data /w Python: content/delta_edition/python_read_sensor.md
       - FAQ: content/delta_edition/faq.md
+    - LattePanda V1(Discontinued):
+      - Power on Device: content/1st_edition/power_on.md
+      - Building Connectivity: content/1st_edition/wifi.md
+      - Optional Peripherals: content/1st_edition/peripheral.md
+      - Connect Touch Display: content/1st_edition/display.md
+      - Multiple OS Support: content/1st_edition/os.md
+      - Tools: content/1st_edition/tools.md
+      - Hardware Introduction: content/1st_edition/hardware_introduction.md
+      - Physical Programming: content/1st_edition/vs_programming.md
+      - Programming Reference: content/1st_edition/io_programming_reference.md
+      - Read Sensor Data via WebClient: content/1st_edition/webclient_demo.md
+      - Projects:
+        - 3D Printer Server: content/1st_edition/3d_printer_server.md
+        - Face Recognition: content/1st_edition/face_recog.md
+        - Setup Azure IoT Hub: content/1st_edition/setup_azure_iot_hub.md
+        - IoT Edge Data to Azure: content/1st_edition/data_to_cloud.md
+        - Node-RED: content/1st_edition/nodered.md
+      - Troubleshooting: content/1st_edition/troubleshooting.md
   - Compute Module:
+    - content/mu_edition/index.md
     - LattePanda Mu:
       - Introduction: content/mu_edition/introduction.md
       - Tech Specs: content/mu_edition/specification.md
@@ -311,7 +312,7 @@ nav:
           - C++: content/mu_edition/gpio_ctl_windows_cplusplus.md
       - Download Resources: content/mu_edition/download_resources.md
       - FAQ: content/mu_edition/faq.md
-    - Carrier Board Design Guide:
+    - Carrier Board Design Guide for LattePanda Mu:
       - Foreword: content/mu_edition/design_guide_foreword.md
       - Edge Connector: content/mu_edition/design_guide_edge_connector.md
       - Power Supply: content/mu_edition/design_guide_power.md
@@ -325,11 +326,23 @@ nav:
       - SATA III: content/mu_edition/design_guide_sata.md
       - Fan: content/mu_edition/design_guide_fan.md
       - Auto Power-On: content/mu_edition/design_guide_auto_power_on.md
-    - Carrier Board:
-      - Lite Carrier: content/mu_edition/lite_carrier.md
-      - Full Eval Carrier: content/mu_edition/full_eval.md
-      - MXM GPU Carrier: https://wiki.dfrobot.com/kit0206/docs/24175
-      - Open-Source Carrier Board by Community Members: https://www.lattepanda.com/forum/topic/401250
+    - LattePanda Mu Ultra:
+      - Introduction: content/mu_ultra_edition/introduction.md 
+      - Tech Specs: content/mu_ultra_edition/specification.md
+      - Initial Setup: content/mu_ultra_edition/get_started.md
+      - Multiple OS Support: 
+          - Windows: content/mu_ultra_edition/os_windows.md
+          - Linux: content/mu_ultra_edition/os_linux.md
+      - BIOS Setup: content/mu_ultra_edition/bios_setup.md
+      - Download Resources: content/mu_ultra_edition/download_resources.md
+      - FAQ: content/mu_ultra_edition/faq.md
+  - Carrier Board:
+    - Compatibility List: content/mu_edition/module_carrier_compatibility.md
+    - Mini Carrier: content/mu_ultra_edition/mini_carrier.md
+    - Lite Carrier: content/mu_edition/lite_carrier.md
+    - Full Eval Carrier: content/mu_edition/full_eval.md
+    - MXM GPU Carrier: https://wiki.dfrobot.com/kit0206/docs/24175
+    - Open-Source Carrier Board by Community Members: https://www.lattepanda.com/forum/topic/401250
   - IO Playability:
     - Pinpong Library - Introduction: content/IO_Playability/InstallPinpongLibrary.md
     - Pinpong Library - Blink: content/IO_Playability/Blink.md

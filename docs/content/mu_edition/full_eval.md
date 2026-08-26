@@ -8,6 +8,7 @@ This is a full-function evaluation carrier board which exposes all the pins of t
 
 ???+ danger
 
+    - ❗ This carrier board is not compatible with the LattePanda Mu Ultra compute module. Please do not insert this module, as it will cause hardware damage.
     - 🔌 Before inserting/removing the LattePanda Mu or connecting/disconnecting any type of ribbon cable and internal interface, ensure that the power is completely disconnected and wait for the power indicator light on the carrier board to turn off.
     - ❗ All pin headers operate at 3.3V levels; do NOT connect 5V peripherals.
     - 🔥 If installing high-powered expansion cards such as graphics cards into the PCIe x4 slot, verify that the power supply is sufficient.
@@ -120,6 +121,11 @@ The auto power-on jumper enables you to set the LattePanda Mu to either automati
 The auto power-on function is hardware-implemented, so it is not affected by the BIOS or operating system.
 
 ## Compatibility List
+
+!!!warning
+
+    This carrier board is **compatible only with the LattePanda Mu** and is not compatible with the LattePanda Mu Ultra!
+
 
 ### Power Supply Compatibility
 
