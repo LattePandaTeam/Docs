@@ -334,6 +334,7 @@ nav:
           - Windows: content/mu_ultra_edition/os_windows.md
           - Linux: content/mu_ultra_edition/os_linux.md
       - BIOS Setup: content/mu_ultra_edition/bios_setup.md
+      - Migration Guide from LattePanda Mu: content/mu_ultra_edition/migration_guide_mu_to_mu_ultra.md
       - Download Resources: content/mu_ultra_edition/download_resources.md
       - FAQ: content/mu_ultra_edition/faq.md
   - Carrier Board:
