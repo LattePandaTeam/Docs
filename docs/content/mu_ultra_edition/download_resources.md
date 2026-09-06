@@ -28,11 +28,13 @@ The Windows OS will automatically connect to the internet to fetch driver update
 
 [^1]:Download from intel.com
 
+*If the downloads from the link above are slow, you can also access the [GitHub repository](https://github.com/LattePandaTeam/LattePanda-Mu-Ultra/tree/main/Softwares/Drivers) to download them. The driver versions are the same.*
+
 ## Linux Drivers
 
 Linux drivers are typically provided by the distribution via kernel and kernel module updates. Please use a newer kernel for full driver support and optimal hardware compatibility.
 
-- **Recommend Kernel Requirement:** 6.12 or higher
+- **Minimum Kernel Requirement:** 6.11 or higher
 
 The following two drivers need to be installed separately:
 

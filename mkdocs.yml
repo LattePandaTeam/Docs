@@ -342,7 +342,7 @@ nav:
     - Mini Carrier: content/mu_ultra_edition/mini_carrier.md
     - Lite Carrier: content/mu_edition/lite_carrier.md
     - Full Eval Carrier: content/mu_edition/full_eval.md
-    - MXM GPU Carrier: https://wiki.dfrobot.com/kit0206/docs/24175
+    - MXM GPU Carrier: content/mu_edition/mxm_gpu_carrier.md
     - Open-Source Carrier Board by Community Members: https://www.lattepanda.com/forum/topic/401250
   - IO Playability:
     - Pinpong Library - Introduction: content/IO_Playability/InstallPinpongLibrary.md

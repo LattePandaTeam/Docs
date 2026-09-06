@@ -34,7 +34,7 @@ The mini carrier board is a compact, highly expandable development platform desi
 
 - If you are using the **LattePanda Mu** compute module (with N100 or N305 processor), please **reflash** the BIOS firmware so that the two full-featured USB Type-C ports, headphone jack, speaker output, and button LED can work properly.
 
-    - Download the [**dedicated BIOS firmware**](https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Softwares/BIOS/MiniCarrier) matching the mini carrier board.
+    - Download the [**dedicated BIOS firmware**](https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Softwares/BIOS/Carrier-Boards/Mini-Carrier) matching the mini carrier board.
     - Follow the [**BIOS firmware flashing guide**](./../mu_edition/bios_setup.md#update-bios-firmware).
 
 ## Board Layout

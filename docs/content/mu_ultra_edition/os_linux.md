@@ -10,7 +10,7 @@ For other Linux distributions (such as Debian, Arch Linux, Fedora), you can foll
 
 ## Kernel Requirement
 
-For the best hardware compatibility with the LattePanda Mu Ultra, we recommend using a Linux distribution with a kernel version of **6.12 or higher**.
+For the best hardware compatibility with the LattePanda Mu Ultra, we recommend using a Linux distribution with a kernel version of **6.11 or higher**.
 
 ## General Installation Steps
 
@@ -39,7 +39,7 @@ For the best hardware compatibility with the LattePanda Mu Ultra, we recommend u
     After the installation is complete, if you find that certain peripherals (such as Wi-Fi, Bluetooth, or audio) are not functioning properly, it is usually due to missing drivers in the default kernel. 
    
     - **Update the System**: Run a full system update to fetch the latest packages.
-    - **Upgrade the Kernel**: If issues persist, try upgrading to a newer Linux kernel (e.g., Kernel 6.12 or later), which often includes better support for newer hardware.
+    - **Upgrade the Kernel**: If issues persist, try upgrading to a newer Linux kernel (e.g., Kernel 6.11 or later), which often includes better support for newer hardware.
     - **Install Proprietary Drivers**: Some components may require proprietary drivers. Check your distribution's "Additional Drivers" utility.
 
 ## Intel GPU Compute Driver

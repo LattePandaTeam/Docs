@@ -55,7 +55,7 @@
     **:bulb:** On the Mu module, or full function carrier board, the 3.3V power goes through a diode before reaching the power pin of the BIOS Flash chip, which prevents reverse current flow. Therefore, powering the BIOS Flash chip with a programmer will not activate other circuits.
     
 !!! question " LattePanda Mu and LattePanda Mu Ultra use the same DDR4 260P SODIMM edge connector, what are the specific differences in their pin definitions?"
-    **:bulb:** We have provided a detailed pin comparison document, including comparisons of functions and voltage levels. Please refer to the [GitHub pinout repository](https://github.com/LattePandaTeam/LattePanda-Mu/blob/main/Electricals/Pinouts/LattePanda_Mu_and_Mu_Ultra_Pinout_Comparison.xlsx).
+    **:bulb:** We have provided a detailed pin comparison document, including comparisons of functions and voltage levels. Please refer to the [GitHub pinout repository](https://github.com/LattePandaTeam/LattePanda-Mu-Ultra/blob/main/Electricals/Pinouts/LattePanda_Mu_and_Mu_Ultra_Pinout_Comparison.xlsx).
     
 !!! question "Which carrier boards are compatible with LattePanda Mu compute module?"
     **:bulb:** We maintain a full compatibility list covering every compute module and carrier board — see the [Compatibility List](../mu_edition/module_carrier_compatibility.md).

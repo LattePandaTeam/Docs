@@ -88,8 +88,8 @@ The two status pins (Pin 5 and Pin 7) keep the same position and IO level, but t
 ### 3. High-Speed Lanes: USB 3.2, Display & PCIe
 
 - **USB 3.2**: In the default BIOS configuration, the two USB 3.2 ports of the LattePanda Mu (HSIO0/HSIO1, pins 13–21 / 16–24) map to USB3_P1 / USB3_P2 on the Mu Ultra at the **same pin positions**, still requiring external AC coupling capacitors. Carrier boards that expose these two ports as USB 3.2 Type-A can reuse the routing directly.
-- **Display Lanes**: The TCP0 and TCP1 port lanes (DP/HDMI/Type-C high-speed pairs, AUX channels, HPD, and control I2C) are **completely identical** between the two modules. The DDIB port of the Mu is changed to TCP2 on the Mu Ultra, but all lane positions, voltage levels, and functions are the same. With the default BIOS firmware, the HDMI output on this port (DDIB on Mu / TCP2 on Mu Ultra) works out of the box.
-- **USB 2.0 (Partial)**: The USB 2.0 differential pairs on pins 73/75, 79/81, and 76/78 are identical in position, voltage level, and direction on both modules — only the port numbers differ (Mu USB2_P2/P3/P7 → Mu Ultra USB2_P3/P4/P5). The carrier board routing for these ports can be reused as-is; no circuit changes are needed. (Note: the remaining USB 2.0 pins are remapped or reserved — see [USB 2.0 Port Remapping & Bound Ports](#10-usb-20-port-remapping-bound-ports) in *What's Different*.)
+- **Display Lanes**: The TCP0 and TCP1 port lanes (DP/HDMI lanes, AUX channels, HPD, and CTRL CLK/DATA) are **completely identical** between the two modules. The DDIB port of the Mu is changed to TCP2 on the Mu Ultra, but all lane positions, voltage levels, and functions are the same. With the default BIOS firmware, the HDMI output on this port (DDIB on Mu / TCP2 on Mu Ultra) works out of the box.
+- **USB 2.0 (Partial)**: The USB 2.0 differential pairs on pins 73/75, 79/81, and 76/78 are identical in position, voltage level, and direction on both modules — only the port numbers differ (Mu USB2_P2/P3/P7 → Mu Ultra USB2_P3/P4/P5). The carrier board routing for these ports can be reused as-is; no circuit changes are needed. (Note: the remaining USB 2.0 pins are remapped or have special default assignments — see [USB 2.0 Port Remapping & Bound Ports](#10-usb-20-port-remapping-bound-ports) in *What's Different*.)
 - **PCIe Lanes (Conditional)**: If your carrier board used the Mu's HSIO lanes **purely as PCIe** (i.e., you did not multiplex any of them into USB 3.2 or SATA), the routing is electrically compatible with the Mu Ultra — same pin positions, same signaling level, and the same external AC coupling requirement. Only the lane numbering and PCIe generation (3.0 → 4.0) change:
 
     | TX / RX Pins      | LattePanda Mu (as PCIe) | LattePanda Mu Ultra |
@@ -102,12 +102,13 @@ The two status pins (Pin 5 and Pin 7) keep the same position and IO level, but t
     | 49/51, 52/54      | HSIO10                  | PCIe Lane 7         |
     | 55/57, 58/60      | HSIO11                  | PCIe Lane 8         |
 
-    Four things still need attention even in this "compatible" case:
+    Five things still need attention even in this "compatible" case:
     
     - verify signal integrity against **PCIe 4.0** requirements (the links now run at twice the speed); 
     - connect the **CLKREQ** pin for every PCIe device if you need Modern Standby (see *What's Different* — [Sleep Behavior](#5-sleep-behavior-modern-standby-only-and-clkreq-is-mandatory)); 
     - HSIO10/11 can no longer serve as SATA — PCIe only on the Mu Ultra; 
     - The Mu Ultra additionally exposes **PCIe Lane 2** on pins 67/69/70/72, which are USB 2.0 pins on the Mu — check for conflicts in *What's Different* — [PCIe Lane 2 Occupies the Mu's USB 2.0 Pins](#8-pcie-lane-2-occupies-the-mus-usb-20-pins-67697072).
+    - LattePanda Mu Ultra's PCle lanes 5-8 do not support x1 configuration.
 
 ### 4. Fan Control & Miscellaneous
 
@@ -280,7 +281,7 @@ Whether this conflict is dangerous depends on what your carrier board connects t
 
 ### 9. Large-Scale Pin Changes: 1.8V Levels, Removed and New Ports
 
-Beyond the items above, many low-speed pins have changed voltage level, function, or been removed/added. A detailed pin-by-pin comparison (with color-coded risk levels) is available in the [**LattePanda Mu & Mu Ultra Pinout Comparison**](https://github.com/LattePandaTeam/LattePanda-Mu/blob/main/Electricals/Pinouts/LattePanda_Mu_and_Mu_Ultra_Pinout_Comparison.xlsx).
+Beyond the items above, many low-speed pins have changed voltage level, function, or been removed/added. A detailed pin-by-pin comparison (with color-coded risk levels) is available in the [**LattePanda Mu & Mu Ultra Pinout Comparison**](https://github.com/LattePandaTeam/LattePanda-Mu-Ultra/blob/main/Electricals/Pinouts/LattePanda_Mu_and_Mu_Ultra_Pinout_Comparison.xlsx).
 
 **Key changes to review:**
 
@@ -296,7 +297,7 @@ The following ports moved from 3.3V on the Mu to **1.8V** on the Mu Ultra. Conne
 
 - **HD Audio** port (pins 172–180)
 
-Since too many pins are affected to list in a table here, please refer to the **yellow-highlighted rows** in the [Pinout Comparison xlsx](https://github.com/LattePandaTeam/LattePanda-Mu/blob/main/Electricals/Pinouts/LattePanda_Mu_and_Mu_Ultra_Pinout_Comparison.xlsx) for the complete list of voltage-level changes.
+Since too many pins are affected to list in a table here, please refer to the **yellow-highlighted rows** in the [Pinout Comparison xlsx](https://github.com/LattePandaTeam/LattePanda-Mu-Ultra/blob/main/Electricals/Pinouts/LattePanda_Mu_and_Mu_Ultra_Pinout_Comparison.xlsx) for the complete list of voltage-level changes.
 
 !!! danger "Level Shifters Required"
     Any 3.3V peripheral connected to these pins on your Mu carrier board — MCUs, sensors, UART adapters, audio codecs, I2C devices — needs a **level shifter** (or a 1.8V-native replacement) before it can be used with the Mu Ultra!
@@ -331,27 +332,27 @@ The new ports on the Mu Ultra, compared with the original functions at the same 
 
 #### 9.4 Other Items to Verify
 
-- **Wireless Module & Antennas**: Your existing PCIe/USB Wi-Fi modules remain usable, but if you plan to take advantage of the new CNVio port you will need an Intel CNVi companion RF (CRF) module (e.g. AX201, AX211) instead. Wi-Fi modules usually require dual antennas — reserve the extra antenna opening in your enclosure if you route antennas externally.
+- **Wireless Module & Antennas**: Your existing PCIe/USB Wi-Fi modules remain usable, but if you plan to take advantage of the new CNVio port you will need an Intel CNVi companion RF (CRF) module (e.g. AX201, AX211) instead, and its Bluetooth function must be connected to USB2_P6 (pins 82/84). Wi-Fi modules usually require dual antennas — reserve the extra antenna opening in your enclosure if you route antennas externally.
 - **eDP Display Cabling**: Both modules provide an onboard eDP port for embedded panels — you can continue using the original 7-inch (FIT0950) or 11.6-inch (FIT0955) eDP displays.
 
 ### 10. USB 2.0 Port Remapping & Bound Ports
 
 The USB 2.0 port numbering has changed between the two modules. Check every USB 2.0 connection on your carrier board against the new pinout:
 
-| Pins    | LattePanda Mu           | LattePanda Mu Ultra          |
-| ------- | ----------------------- | ---------------------------- |
-| 73/75   | USB2_P2                 | USB2_P3                      |
-| 79/81   | USB2_P3                 | USB2_P4                      |
-| 76/78   | USB2_P7                 | USB2_P5                      |
-| 82/84   | USB2_P8                 | USB2_P6 — **Bluetooth only** |
-| 109/111 | USB2_P5                 | USB2_P1 — bound to TCP1      |
-| 112/114 | USB2_P6 — bound to TCP1 | USB2_P2 — bound to TCP0      |
+| Pins    | LattePanda Mu                               | LattePanda Mu Ultra               |
+| ------- | ------------------------------------------- | --------------------------------- |
+| 73/75   | USB2_P2                                     | USB2_P3                           |
+| 79/81   | USB2_P3                                     | USB2_P4                           |
+| 76/78   | USB2_P7                                     | USB2_P5                           |
+| 82/84   | USB2_P8                                     | USB2_P6 — Bluetooth for wireless modules (also usable as generic USB 2.0) |
+| 109/111 | USB2_P5                                     | USB2_P1 — bound to TCP1           |
+| 112/114 | USB2_P6 — bound to TCP1; Must use with TCP1 | USB2_P2 — bound to TCP0           |
 
-!!! warning "Dedicated USB 2.0 Port for Bluetooth on the Mu Ultra"
-    - **Pins 82/84 (USB2_P6)**: Reserved exclusively for the **Bluetooth** function of a wireless module. **Cannot be used as a generic USB 2.0 port.** This is a hardware limitation and cannot be changed.
+!!! note "Dedicated USB 2.0 Port for Bluetooth on the Mu Ultra"
+    - **Pins 82/84 (USB2_P6)**: If you are using the CNVio wireless module, you must use this port. It can also be used directly as a generic USB 2.0 port.
 
 !!! note "USB 2.0 Ports Bound to Type-C in the Default BIOS"
-    - **Pins 109/111 (USB2_P1) and 112/114 (USB2_P2)**: Bound to TCP1 / TCP0 (USB Type-C ports) by default in the BIOS firmware and cannot be used directly as generic USB 2.0 ports unless you modify the BIOS. If you do not plan to modify the BIOS, avoid using these ports.
+    - **Pins 109/111 (USB2_P1) and 112/114 (USB2_P2)**: In the default BIOS firmware, these two ports are associated with TCP1 / TCP0 (USB Type-C ports). Unlike the LattePanda Mu, however, they can also be used directly as generic USB 2.0 ports when the Type-C function is not in use.
 
 ## Migration Recommendations & Steps
 
@@ -359,7 +360,7 @@ The steps below follow the same order as the *What's Different* section — from
 
 1. **Audit Every Pin Against the Comparison Table**
 
-    - Open the [Pinout Comparison xlsx](https://github.com/LattePandaTeam/LattePanda-Mu/blob/main/Electricals/Pinouts/LattePanda_Mu_and_Mu_Ultra_Pinout_Comparison.xlsx) and audit **every pin your carrier board uses**. Pay special attention to the **yellow-highlighted rows** (3.3V → 1.8V level changes) and the white rows (function changes).
+    - Open the [Pinout Comparison xlsx](https://github.com/LattePandaTeam/LattePanda-Mu-Ultra/blob/main/Electricals/Pinouts/LattePanda_Mu_and_Mu_Ultra_Pinout_Comparison.xlsx) and audit **every pin your carrier board uses**. Pay special attention to the **yellow-highlighted rows** (3.3V → 1.8V level changes) and the white rows (function changes).
 
     - Classify each affected pin: *must re-route*, *needs level shifter*, *leave unconnected*, or *reuse as-is*.
 
@@ -373,14 +374,13 @@ The steps below follow the same order as the *What's Different* section — from
 
     - Remove any connections to the former **SMBus** pins (104/106/108, now REFCLK_REQ0–2).
 
-    - Check the **USB 2.0 port map**: keep only the reusable ports (73/75, 79/81, 76/78 — note the port numbers change); pay attention to the Bluetooth-only port (82/84); Leave the TCP-bound ports (109/111, 112/114) unconnected unless you plan a custom BIOS.
+    - Check the **USB 2.0 port map**: keep only the reusable ports (73/75, 79/81, 76/78, 109/111, 112/114) — note the port numbers change; pay attention to the Bluetooth port (82/84) when using a CNVio wireless module.
 
 3. **Mechanical & Thermal Adaptation**
-
     - The bare-board thickness, component heights, and standoff positions remain valid — but the **cooler mounting holes and processor height changed**, so the Mu cooler cannot be reused. Re-verify mechanical fit, standoff heights, and airflow with the Mu Ultra's Active Cooler (FIT1049).
-
+    
     - Confirm your power path (connector, traces, protection) and adapter support **50W or above** (recommended input DC 12–20V).
-
+    
 4. **Boot Storage (Mandatory)**
 
     - The Mu Ultra has **no onboard eMMC** — route at least one PCIe lane group to a storage connector (e.g., M.2 M-Key NVMe). This is a hard requirement, not an option.
@@ -400,20 +400,19 @@ The steps below follow the same order as the *What's Different* section — from
 
     - **MIPI CSI cameras / I2S audio**: no direct migration path — plan for USB cameras and HD Audio / USB audio alternatives.
 
-    - **Wireless**: PCIe/USB Wi-Fi modules keep working. To use the new CNVio port, switch to an Intel CRF module and reserve dual-antenna openings.
+    - **Wireless**: PCIe/USB Wi-Fi modules keep working. To use the new CNVio port, switch to an Intel CRF module, use the USB2_P6 (82/84) for Bluetooth and reserve dual-antenna openings.
 
     - **eDP panels**: the original 7-inch (FIT0950) and 11.6-inch (FIT0955) displays remain usable.
 
     - If your design uses **SMLink1**, note that only SML1_ALERT# (pin 149) is gone; the data/clock lines are unchanged.
 
 7. **Software & Firmware Migration**
-
     - Move the OS baseline to **Windows 11 or Ubuntu 24.04 (HWE) or later**; Windows 10 runs but is not recommended due to suboptimal hybrid-core scheduling.
-
+    
     - Update applications that reference the Mu's **GPIO/I2C numbering** (pins were renumbered and are now 1.8V).
-
+    
     - Re-apply BIOS customizations on the [Mu Ultra BIOS branches](https://github.com/LattePandaTeam/LattePanda-Mu-Ultra/tree/main/Softwares/BIOS) — Mu BIOS assets are not portable.
-
+    
 8. **Functional Re-Test**
 
     - Verify power/reset buttons, RTC, USB 3.2, HDMI/DP, and fan control — these should work unchanged.
