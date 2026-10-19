@@ -11,6 +11,14 @@
 
 [10]: content/iota_edition/get_started.md
 
+| [LattePanda Sigma 2][11] |
+| ---------------------------------------- |
+| ![lattepanda IOTA Image](assets/images/LattePandaSigma2Photo.webp) |
+| Model                             |
+| DFR1316: Intel Core Ultra X7 358H processor, 64GB RAM, 1TB SSD) |
+
+[11]: content/sigma2_edition/getting_started.md
+
 
 | [LattePanda Alpha][2] | [LattePanda 3 Delta][7] |
 | ---------------------------------------- | ---------------------------------------- |

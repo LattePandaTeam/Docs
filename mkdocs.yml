@@ -263,6 +263,31 @@ nav:
         - BIOS Firmware: content/sigma_edition/BIOS_Firmware.md
         - EC Firmware: content/sigma_edition/EC_Firmware.md
       - FAQ: content/sigma_edition/FAQ.md
+    - LattePanda Sigma 2:
+      - Tech Specs: content/sigma2_edition/specification.md
+      - Initial Setup: content/sigma2_edition/getting_started.md
+      - Local AI Quick Start: content/sigma2_edition/local_ai_getting_started.md
+      - Power Options: content/sigma2_edition/powering.md
+      - Display Connections: content/sigma2_edition/touch_and_display.md
+      - Multiple OS Support:
+        - Compatible List: content/sigma2_edition/os.md
+        - Windows: content/sigma2_edition/os_windows.md
+        - Ubuntu: content/sigma2_edition/os_linux.md
+      - Multiple Network: content/sigma2_edition/connectivity.md
+      - Hardware Port:
+        - Pinout and Layout: content/sigma2_edition/io_playability.md
+        - External Port: content/sigma2_edition/io_playability_external.md
+        - Internal Port: content/sigma2_edition/io_playability_internal.md
+      - GPIO Programming:
+        - RP2350 GPIO:
+          - Overview: content/sigma2_edition/rp2350_programming.md
+          - MicroPython: content/sigma2_edition/rp2350_programming_micropython.md
+          - Arduino C++: content/sigma2_edition/rp2350_programming_arduino.md
+        - Processor GPIO: content/sigma2_edition/processor_gpio.md
+      - BIOS Setup: content/sigma2_edition/bios_setup.md
+      - Auto Power-On: content/sigma2_edition/auto_power_on.md
+      - Download Resources: content/sigma2_edition/download_resources.md
+      - FAQ: content/sigma2_edition/faq.md
     - LattePanda Delta(Discontinued):
       - Get Started: content/delta_edition/get_started.md
       - Powering: content/delta_edition/powering.md

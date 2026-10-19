@@ -1,0 +1,23 @@
+# FAQ
+
+| Q | A |
+| --- | --- |
+| Can not boot up | 1. Check that the power adapter is tightly connected, and the voltage is within the acceptable range of 12–20 V (15–20 V recommended).<br>2. Try disconnecting the power adapter for a few seconds, then uninstall the RTC battery. Wait for at least 30 seconds, then reinstall the RTC battery and connect the power adapter. Turn on the LattePanda again. |
+| Suddenly shuts down or restarts while running | Ensure that the power adapter meets the minimum requirements: **120 W or above** for DC power input (the attached 180 W adapter is recommended), or **USB-C PD 20 V at 100 W or above**. Sigma 2 detects the PD adapter's wattage at power-on and adjusts the processor's power limits (PL1 / PL2) accordingly, so a 45 W or 65 W PD adapter limits performance instead of causing shutdowns — but an unstable or under-specified power supply can still lead to sudden shutdowns or restarts. For details, see [Power Options](powering.md). |
+| No screen output | 1. Re-tighten the display cable and wait a few minutes until the system starts completely.<br>2. If there is no picture when using a Type-C display, please try an HDMI display to test. |
+| Takes a long time to boot | Confirm the voltage of the RTC battery is enough. Low voltage or no battery will cause the operating system to take too long to boot. |
+| Cooling fan doesn't start | 1. The default setting is that the fan automatically starts when the temperature reaches the startup threshold.<br>2. Check the BIOS fan settings and change the cooling fan temperature setting. |
+| Access BIOS setup | Short press the power button and repeatedly press the **DEL** key on the keyboard until you see the BIOS Setup Menu.<br>To select a bootable device after pressing the power button, continuously press the **F7** key. |
+| Auto Power-on doesn't work | Check that the DIP switch for Auto Power-ON is set to ON. |
+| Why does the fan sometimes keep spinning in sleep mode — the screen turns off but the fan keeps running? | LattePanda Sigma 2 uses the Intel Panther Lake processor, which supports only **Modern Standby** (S0 low-power idle); the traditional S3 sleep state is not supported. Entering Modern Standby requires PCIe devices to signal through the **CLKREQ** pin — the onboard OCuLink connector does not provide this pin, so a PCIe device connected via OCuLink may prevent the system from entering Modern Standby: only the display turns off while the fan keeps running. For details, please refer to the [OCuLink Connector](io_playability_external.md#oculink-connector) section. |
+| Why does Sigma 2 occasionally wake up briefly during Modern Standby — the fan spins up without the screen turning on — and then go back to sleep? | During Modern Standby, background maintenance tasks and connected-standby updates can briefly wake the system without turning on the display. Once the tasks are complete, the system automatically re-enters Modern Standby. This is why you may occasionally notice the fan suddenly spinning with no display output, then stopping again after a while. This is normal behavior, not a malfunction. |
+| Performance seems lower when powered by a USB Type-C PD adapter | This is expected.  LattePanda Sigma 2 detects the PD adapter's maximum wattage at power-on and adjusts the processor's power limits (PL1 / PL2) accordingly — a 45W or 65W PD adapter results in lower performance than the DC jack. For full performance, use the attached DC power adapter. For details, please refer to the [PD Adapter Wattage and Performance](powering.md#pd-adapter-wattage-and-performance) section. |
+| Local AI service is not running | 1. Make sure you are using the pre-installed Ubuntu OS on the attached SSD.<br>2. Double-click the **🔮 Start AI Assistant** icon on the desktop and wait until the terminal shows `✅ AI services are ready`.<br>3. Check whether the local inference API is online: `curl http://localhost:8080/v3/models`.<br>For more details, please refer to [Local AI Quick Start](local_ai_getting_started.md) and the `README.md` file on the desktop. |
+
+If you have any problem when using LattePanda Sigma 2, please feel free to open your issue via [LattePanda forum](https://www.lattepanda.com/forum/).
+
+And we will really appreciate it if you can help to optimize the tutorials by **committing tutorials or updates** to the [docs repo](https://github.com/LattePandaTeam/Docs). Help users who have the same interests or meet problems like you do.
+
+Appreciate your great support! And enjoy tinkering! ;)
+
+[**:simple-discord: Join our Discord**](https://discord.gg/k6YPYQgmHt){ .md-button .md-button--primary }
