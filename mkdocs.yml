@@ -362,6 +362,19 @@ nav:
       - Migration Guide from LattePanda Mu: content/mu_ultra_edition/migration_guide_mu_to_mu_ultra.md
       - Download Resources: content/mu_ultra_edition/download_resources.md
       - FAQ: content/mu_ultra_edition/faq.md
+    - Carrier Board Design Guide for LattePanda Mu Ultra:
+      - Preface: content/mu_ultra_edition/design_guide_preface.md
+      - Edge Connector: content/mu_ultra_edition/design_guide_edge_connector.md
+      - Power Supply: content/mu_ultra_edition/design_guide_power.md
+      - Dual BIOS: content/mu_ultra_edition/design_guide_bios.md
+      - Power Control & Status: content/mu_ultra_edition/design_guide_pwctl_stat.md
+      - USB 2.0: content/mu_ultra_edition/design_guide_usb_20.md
+      - USB 3.2: content/mu_ultra_edition/design_guide_usb_32.md
+      - HDMI 2.1: content/mu_ultra_edition/design_guide_hdmi.md
+      - PCIe Bifurcation: content/mu_ultra_edition/design_guide_pcie_bifurcation.md
+      - PCIe 4.0: content/mu_ultra_edition/design_guide_pcie.md
+      - Fan: content/mu_ultra_edition/design_guide_fan.md
+      - Auto Power-On: content/mu_ultra_edition/design_guide_auto_power_on.md
   - Carrier Board:
     - Compatibility List: content/mu_edition/module_carrier_compatibility.md
     - Mini Carrier: content/mu_ultra_edition/mini_carrier.md

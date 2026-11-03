@@ -91,6 +91,12 @@ However, the resettable fuse F1 is optional if space is constrained.
 
 ![](../../assets/images/mu_edition/hdmi_pwr_diode.webp){width="600" }
 
+### Pull-Down for Unused HPD
+
+The HPD pin of an unused video port must be pulled down to GND through a **100kΩ resistor** to prevent a floating HPD input and false display detection. Use a separate resistor for each HPD pin.
+
+For example, with the default BIOS firmware, `DDIB` is configured for HDMI (TMDS) output. If `TCP0` and `TCP1` are not used for video output, pull down `TCP0_HPD (pin 187)` and `TCP1_HPD (pin 185)` to GND through individual 100kΩ resistors.
+
 ### ESD Protection
 
 Since HDMI ports are subject to frequent hot-plugging, they are vulnerable to Electrostatic Discharge (ESD). And TMDS signals are extremely sensitive to capacitance. So **Ultra-low capacitance** ESD protection diodes are mandatory.
@@ -109,7 +115,7 @@ Since HDMI ports are subject to frequent hot-plugging, they are vulnerable to El
 | Inter-pair Skew | < 13 mm |
 | AC Cap for TMDS | 100nF nominal |
 | Bias Resistor for TMDS | 470Ω nominal |
-| AC Cap & Bias Resistor Placement | As close to HDMI connector as possible (<25 mm) |
+| AC Cap & Bias Resistor Placement | As close to HDMI connector as possible (<13mm) |
 | Reference Plane | Continuous GND Recommended |
 
 #### Spacing & Crosstalk
