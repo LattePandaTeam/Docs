@@ -22,9 +22,7 @@
 
 ## Carrier Board Design
 
-Designing your own carrier board for LattePanda Mu? Check out the [Carrier Board Design Guide for LattePanda Mu](./design_guide_foreword.md), which covers the edge connector, power supply, USB, HDMI, PCIe, SATA and more.
-
-We are preparing the carrier board design guide for the LattePanda Mu Ultra, please stay tuned.
+Designing your own carrier board for LattePanda Mu or LattePanda Mu Ultra? Check out the [Carrier Board Design Guide for LattePanda Mu](./design_guide_foreword.md) or [Carrier Board Design Guide for LattePanda Mu Ultra](../mu_ultra_edition/design_guide_preface.md), which covers the edge connector, power supply, USB, HDMI, PCIe, and more.
 
 ## Ready-to-Use Carrier Boards
 

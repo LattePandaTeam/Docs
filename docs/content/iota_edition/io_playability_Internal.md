@@ -265,6 +265,60 @@ It is a plug-and-play uninterruptible power supply module designed for the Latte
 
 For detailed step-by-step assembly and configuration instructions, please refer to the [LattePanda UPS Exp. Board (DFR1247) Tutorial](https://wiki.dfrobot.com/SKU_DFR1247_UPS_Expansion_Board).
 
+## eDP Connector
+
+LattePanda Iota provides an eDP connector, offering a compact, easy-to-use display method for embedded applications.
+
+![](../../assets/images/LattePanda Iota/edp_connector.webp){width="600"}
+
+### Key Specifications
+
+- 30-pin, 0.5 mm FPC connector
+- 2 lanes
+- 3.3 V logic
+
+
+### Pinout Definition
+
+| Pin  | Signal Name | Description                   |
+| ---- | ----------- | ----------------------------- |
+| 1    | GND         | Ground                        |
+| 2    | GND         | Ground                        |
+| 3    | TX1_DN      | Lane 1 Negative Data          |
+| 4    | TX1_DP      | Lane 1 Positive Data          |
+| 5    | GND         | Ground                        |
+| 6    | TX0_DN      | Lane 0 Negative Data          |
+| 7    | TX0_DP      | Lane 0 Positive Data          |
+| 8    | GND         | Ground                        |
+| 9    | AUX_DP      | Auxiliary Channel Positive    |
+| 10   | AUX_DN      | Auxiliary Channel Negative    |
+| 11   | GND         | Ground                        |
+| 12   | LCD_VCC     | LCD Logic Power Supply (3.3V) |
+| 13   | LCD_VCC     | LCD Logic Power Supply (3.3V) |
+| 14   | NC          | No Connect                    |
+| 15   | GND         | Ground                        |
+| 16   | GND         | Ground                        |
+| 17   | HPD         | Hot Plug Detect               |
+| 18   | BL_GND      | Backlight Ground              |
+| 19   | BL_GND      | Backlight Ground              |
+| 20   | BL_GND      | Backlight Ground              |
+| 21   | BL_GND      | Backlight Ground              |
+| 22   | BL_EN       | Backlight Enable              |
+| 23   | BL_PWM      | Backlight PWM Dimming         |
+| 24   | NC          | No Connect                    |
+| 25   | NC          | No Connect                    |
+| 26   | NC          | No Connect                    |
+| 27   | BL_PWR      | Backlight Power Supply        |
+| 28   | BL_PWR      | Backlight Power Supply        |
+| 29   | BL_PWR      | Backlight Power Supply        |
+| 30   | NC          | No Connect                    |
+
+> `BL_PWR` is switched directly from main input power (Type-C PD IN / DC_IN); voltage equals input voltage.
+
+### Compatible eDP Display
+
+- [7-inch eDP Touch Display](https://www.dfrobot.com/product-2993.html)
+- [11.6-inch eDP Touch Display](https://www.dfrobot.com/product-2794.html)
 
 ## Fan Connector
 
