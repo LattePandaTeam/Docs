@@ -330,6 +330,7 @@ LattePanda Iota is equipped with a 4-pin fan connector to support active cooling
 
 - Connector Type: 4-Pin, 1.25mm Pitch
 - Operating Voltage: 5V DC
+- Continuous Current: 1A Max
 - Control Method: PWM
 
 ### Pinout Definition
