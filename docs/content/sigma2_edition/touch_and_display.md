@@ -135,7 +135,7 @@ The LattePanda Sigma 2 provides a dedicated touch panel connector (**6-pin FPC, 
 
 - Before starting, ensure that your LattePanda is powered off and disconnected from its power supply cable.
 
-- Gently lift the black latch on the touch conector.
+- Gently lift the black latch on the touch connector.
 
 - Align the touch cable with the touch connector on LattePanda. Make sure the gold fingers of the touch cable face up. 
 
