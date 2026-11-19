@@ -44,7 +44,7 @@ There are four M.2 slots on LattePanda Sigma 2:
         <span style="color: green">:material-check-circle:</span> **Compatible Devices**
     
           - **Wireless Devices** (tested on LattePanda Sigma 2)
-            * M.2 WiFi Module via CNVio3, Type 2230, e.g. Intel AX211.
+            * M.2 WiFi Module via CNVio2, Type 2230, e.g. Intel AX211.
             * M.2 WiFi Module via PCIe, Type 2230, e.g. Intel AX210, Intel BE200.
     
     !!! note "Antennas and Drivers"
