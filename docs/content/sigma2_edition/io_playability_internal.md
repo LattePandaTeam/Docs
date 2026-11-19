@@ -44,7 +44,7 @@ There are four M.2 slots on LattePanda Sigma 2:
         <span style="color: green">:material-check-circle:</span> **Compatible Devices**
     
           - **Wireless Devices** (tested on LattePanda Sigma 2)
-            * M.2 WiFi Module via CNVio3, Type 2230, e.g. Intel AX211.
+            * M.2 WiFi Module via CNVio2, Type 2230, e.g. Intel AX211.
             * M.2 WiFi Module via PCIe, Type 2230, e.g. Intel AX210, Intel BE200.
     
     !!! note "Antennas and Drivers"
@@ -95,7 +95,7 @@ The LattePanda Sigma 2 features a **34-pin GPIO header (2.54mm pitch)** connecte
 | GP26~28  | Input/Output | 3.3V      | RP2350 GPIO 26~28<br>Multiplexed as: ADC Input<br>each pin in parallel with a 100nF capacitor |
 | 3.3V     | Power        |           | RP2350's 3.3V Power Output<br>Current Limit: 1.2A            |
 | 5V       | Power        |           | 5V Power Output <br>Current Limit: 1.2A                      |
-| S4       | Input/Output | 3.3V      | Hibernating State Indicator<br>Output HIGH only when OS is Hibernating<br>Integrated 1K Current-limiting Resistor |
+| S4       | Output       | 3.3V      | Hibernating State Indicator<br>Output HIGH only when OS is Hibernating<br>Integrated 1K Current-limiting Resistor |
 | S0       | Output       | 3.3V      | Running State Indicator<br>Output HIGH only when OS is running<br>Integrated 1K Current-limiting Resistor |
 
 - **Second Row**
