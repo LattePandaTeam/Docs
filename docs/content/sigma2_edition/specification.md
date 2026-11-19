@@ -40,7 +40,7 @@
 | | Linux | Ubuntu 24.04 LTS or later |
 | Environment | Operating Temperature | 0~40°C |
 |  | Relative Humidity | 0%~80%RH |
-| Power | Power Input | DC 15~20V (Recommended), ≥ 120W<br>USB-C PD 20V, ≥ 100W |
+| Power | Power Input | DC 15~20V (Recommended),<br>  12~20V (Acceptable), ≥ 120W<br>USB-C PD 20V, ≥ 100W |
 |  | RTC Battery | CR1220 Battery Holder: 3V<br>1.25mm Pitch 2-Pin Connector: 3V |
 | Dimension | Board Size | 3.5-inch, 146mm x 102mm |
 
