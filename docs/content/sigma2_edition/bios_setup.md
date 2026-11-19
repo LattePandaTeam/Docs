@@ -97,7 +97,7 @@ The power supply of the onboard RP2350 co-processor is controlled jointly by the
     |                   | Hibernate                        | Disabled                       |
     |                   | Shut Down                        | Disabled                       |
 
-    > Enabled means the RP2350 MCU is powered on; Disabled means the P2350 MCU is powered off.
+    > Enabled means the RP2350 MCU is powered on; Disabled means the RP2350 MCU is powered off.
 
 ## Cooling Fan Settings
 
