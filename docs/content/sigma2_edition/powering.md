@@ -29,6 +29,7 @@ USB Type C(Front) > USB Type C(Rear) > DC Jack = PH2.0-8Pin connector
 The power supply with high priority will be used first.
 
 !!! Example
+
     === "Scenario 1"
         If the USB Type-C port is powered by 20V PD adapter, and the DC Jack port is powered by 19V adapter, **LattePanda will prioritize the power supply from the USB Type-C port.**<br>
         > 1. In case the power supply from the USB Type-C port is accidentally cut off, LattePanda will automatically switch to the power supply from the DC Jack port.<br>
