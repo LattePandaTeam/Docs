@@ -31,7 +31,7 @@ Run `bash` code blocks in an Ubuntu terminal. Enter slash commands such as `/new
 
 ## OpenCode
 
-[OpenCode](https://opencode.ai/) is an AI coding agent that can read and edit files, execute terminal commands, and assist with software development.
+[OpenCode](https://opencode.ai/) is an open-source AI coding agent that helps with software development using your choice of model.
 
 Tested with version **2.3.2**.
 
@@ -114,7 +114,7 @@ Tested with version **2.3.2**.
 
 ## Pi
 
-[Pi](https://pi.dev/) is a lightweight terminal AI coding agent with file operations, shell tools, and customizable project instructions.
+[Pi](https://pi.dev/) is a lightweight terminal coding agent that you can customize with extensions and skills.
 
 Tested with version **1.6.0**.
 
@@ -198,7 +198,7 @@ Tested with version **1.6.0**.
 
 ## Hermes Agent
 
-[Hermes Agent](https://hermes-agent.nousresearch.com/) supports terminal operations, file management, and persistent memory across sessions.
+[Hermes Agent](https://hermes-agent.nousresearch.com/) is a personal AI assistant from Nous Research, with persistent memory and tools for automating everyday tasks.
 
 Tested with version **0.23.3**.
 
@@ -271,7 +271,7 @@ Tested with version **0.23.3**.
 
 ## Reasonix
 
-[Reasonix](https://github.com/loserbcc/reasonix) is an AI coding agent that supports custom API providers, terminal operations, and persistent memory.
+[Reasonix](https://github.com/loserbcc/reasonix) is a terminal AI coding agent with support for multiple models and plugins.
 
 Tested with version **2.61.0**.
 
