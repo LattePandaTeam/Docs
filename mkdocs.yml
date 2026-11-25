@@ -267,8 +267,8 @@ nav:
       - Tech Specs: content/sigma2_edition/specification.md
       - Initial Setup: content/sigma2_edition/getting_started.md
       - Local AI Quick Start:
-        - Run the Pre-installed AI: content/sigma2_edition/local_ai_getting_started.md
-        - Connect the Local LLM to Other Agents: content/sigma2_edition/local_ai_agents.md
+        - Pre-installed AI: content/sigma2_edition/local_ai_getting_started.md
+        - Other AI Agents: content/sigma2_edition/local_ai_agents.md
       - Power Options: content/sigma2_edition/powering.md
       - Display Connections: content/sigma2_edition/touch_and_display.md
       - Multiple OS Support:

@@ -1,9 +1,6 @@
+# Other AI Agents
 
-# Connect the Local LLM to Other Agents
-
-LattePanda Sigma 2 comes with a pre-installed local LLM and OpenClaw AI assistant. In addition to OpenClaw, you can connect the local model to other AI agents using the OpenAI-compatible API provided by OVMS (OpenVINO Model Server).
-
-This guide demonstrates how to configure **OpenCode, Pi, Hermes Agent, and Reasonix**, and verify their file operations and memory capabilities.
+Connect **OpenCode, Pi, Hermes Agent, or Reasonix** to the pre-installed local model on LattePanda Sigma 2 through OVMS (OpenVINO Model Server). Each example tests file creation and persistent instructions or memory.
 
 ## Preparation
 
@@ -25,441 +22,338 @@ The following settings will be used throughout this guide:
 | :--- | :--- |
 | Base URL | `http://localhost:8080/v3` |
 | API Format | OpenAI-compatible Chat Completions |
-| Model Name | `qwen` |
-| API Key | Not required |
+| API Key | Not required by OVMS; use `local` where the agent needs a placeholder |
+
+Run `bash` code blocks in an Ubuntu terminal. Enter slash commands such as `/new` inside the agent.
 
 !!! note
-    An Internet connection is required to install the agents. Once configured, model inference runs locally through OVMS. Agent features that use external services may still require Internet access.
+    Installation requires Internet access. Model inference runs locally through OVMS; features that use external services may still need a connection.
 
 ## OpenCode
 
-[OpenCode](https://opencode.ai/) is an AI coding agent that can read and edit files, execute terminal commands, and assist with software development.
+[OpenCode](https://opencode.ai/) is an open-source AI coding agent that helps with software development using your choice of model.
 
-### Install OpenCode
+Tested with version **2.3.2**.
 
-Open a terminal and run:
+1. **Install**
 
-```bash
-curl -fsSL https://opencode.ai/v2/install | bash
-```
+    Open a terminal and run:
 
-Verify the installation:
+    ```bash
+    curl -fsSL https://opencode.ai/v2/install | bash
+    opencode --version
+    ```
 
-```bash
-opencode --version
-```
+2. **Configure the Local Model**
 
-### Configure the Local Model
+    Create the configuration directory and open the file:
 
-Create the configuration file:
+    ```bash
+    mkdir -p ~/.config/opencode
+    nano ~/.config/opencode/opencode.json
+    ```
 
-```bash
-mkdir -p ~/.config/opencode
-nano ~/.config/opencode/opencode.json
-```
+    Add the following configuration:
 
-Add the following content:
-
-```json
-{
-  "$schema": "https://opencode.ai/config.json",
-  "model": "sigma2/qwen",
-  "providers": {
-    "sigma2": {
-      "name": "LattePanda Sigma 2",
-      "package": "@opencode/ai/providers/openai-compatible",
-      "settings": {
-        "baseURL": "http://localhost:8080/v3"
-      },
-      "models": {
-        "qwen": {
-          "name": "Sigma 2 Local Qwen",
-          "modelID": "qwen"
+    ```json
+    {
+      "$schema": "https://opencode.ai/config.json",
+      "model": "sigma2/qwen",
+      "providers": {
+        "sigma2": {
+          "package": "@opencode/ai/providers/openai-compatible",
+          "settings": {
+            "baseURL": "http://localhost:8080/v3"
+          },
+          "models": {
+            "qwen": {
+              "name": "Sigma 2 Local Qwen"
+            }
+          }
         }
       }
     }
-  }
-}
-```
+    ```
 
-Press `Ctrl + O`, then `Enter` to save. Press `Ctrl + X` to exit.
+    Save with `Ctrl + O`, then `Enter`. Exit Nano with `Ctrl + X`.
 
-### Run and Test OpenCode
+3. **Test File Operations and Preferences**
 
-Create a working folder on the desktop and launch OpenCode:
+    Use a test folder with no existing reports:
 
-```bash
-mkdir -p ~/Desktop/OpenCodeTest
-cd ~/Desktop/OpenCodeTest
-opencode
-```
+    ```bash
+    mkdir -p ~/Desktop/OpenCodeTest
+    cd ~/Desktop/OpenCodeTest
+    opencode
+    ```
 
-Confirm that `sigma2/qwen` is selected. You can use `/models` to select it manually.
+    Use `/models` to select `Sigma 2 Local Qwen`, then `/agents` to select **Build** for file operations.
 
-Make sure you are using the **Build** agent for file operations.
+    Enter:
 
-Enter the following prompt:
+    > Add to AGENTS.md: use JSON for system reports.
 
-> Check my Ubuntu version and current local time using terminal commands. Create a Markdown file named `AgentDemo.md` in the current folder. Include the system information and a Chinese translation of "Local AI runs on this device." Read the file again to verify the content.
+    ![opencode_project_instructions](../../assets/images/Sigma2/opencode_project_instructions.webp){width="600"}
 
-OpenCode should execute terminal and file operations to complete the task.
+    Open the desktop `OpenCodeTest` folder and check the rule in `AGENTS.md`. Use `/new` in OpenCode to start a new session, then enter:
 
-Press `Ctrl + D` to exit OpenCode.
+    > Check my Ubuntu version and current time, then save a system report.
 
-Open the `OpenCodeTest` folder on the desktop and check `AgentDemo.md`.
+    ![opencode_system_report](../../assets/images/Sigma2/opencode_system_report.webp){width="600"}
 
-<!-- Screenshot: OpenCode tool execution and the generated Markdown file. -->
+    Open the desktop `OpenCodeTest` folder and check that the JSON report contains the Ubuntu version and current time.
 
-### Test Persistent Instructions
+    ![opencode_report_files](../../assets/images/Sigma2/opencode_report_files.webp){width="400"}
 
-OpenCode supports persistent project instructions through `AGENTS.md`.
+    !!! note
+        This example checks the local model connection, command execution, and file operations, together with persistent project instructions through `AGENTS.md`.
 
-Launch OpenCode again:
+4. **Exit the Agent**
 
-```bash
-cd ~/Desktop/OpenCodeTest
-opencode
-```
-
-Enter:
-
-> For future tasks in this folder, remember that I prefer concise explanations and Markdown documentation. Save these preferences in `AGENTS.md`.
-
-Verify that `AGENTS.md` has been created.
-
-Start a **new session** in the same folder and ask:
-
-> What are my preferences for explanations and documentation?
-
-OpenCode should load the instructions from `AGENTS.md` and answer accordingly.
-
-!!! note
-    This verifies persistent project instructions, not automatic long-term memory. OpenCode also supports saved sessions, which can be resumed to recover previous conversations.
+    Enter `/exit` or press `Ctrl + D` to return to the Ubuntu terminal.
 
 ## Pi
 
-[Pi](https://pi.dev/) is a lightweight terminal AI coding agent with file operations, shell tools, and customizable project instructions.
+[Pi](https://pi.dev/) is a lightweight terminal coding agent that you can customize with extensions and skills.
 
-### Install Pi
+Tested with version **1.6.0**.
 
-Run:
+1. **Install**
 
-```bash
-curl -fsSL https://pi.dev/install.sh | sh
-```
+    Run:
 
-Verify the installation:
+    ```bash
+    curl -fsSL https://pi.dev/install.sh | sh
+    pi --version
+    ```
 
-```bash
-pi --version
-```
+    ![pi_installation](../../assets/images/Sigma2/pi_installation.webp){width="600"}
 
-### Configure the Local Model
+2. **Configure the Local Model**
 
-Create the configuration file:
+    Create the configuration directory and open the file:
 
-```bash
-mkdir -p ~/.pi/agent
-nano ~/.pi/agent/models.json
-```
+    ```bash
+    mkdir -p ~/.pi/agent
+    nano ~/.pi/agent/models.json
+    ```
 
-Add the following content:
+    Add the following configuration:
 
-```json
-{
-  "$schema": "https://pi.dev/schemas/models.schema.json",
-  "providers": {
-    "sigma2": {
-      "baseUrl": "http://localhost:8080/v3",
-      "api": "openai-completions",
-      "apiKey": "local",
-      "models": [
-        {
-          "id": "qwen",
-          "name": "Sigma 2 Local Qwen"
+    ```json
+    {
+      "$schema": "https://pi.dev/schemas/models.schema.json",
+      "providers": {
+        "sigma2": {
+          "baseUrl": "http://localhost:8080/v3",
+          "api": "openai-completions",
+          "apiKey": "local",
+          "models": [
+            {
+              "id": "qwen",
+              "name": "Sigma 2 Local Qwen"
+            }
+          ]
         }
-      ]
+      }
     }
-  }
-}
-```
+    ```
 
-The `local` key is a placeholder used by Pi. OVMS does not require authentication.
+    Pi uses `local` as a placeholder; this OVMS endpoint does not require authentication.
 
-Save and close the configuration file.
+    Save with `Ctrl + O`, then `Enter`. Exit Nano with `Ctrl + X`.
 
-### Run and Test Pi
+3. **Test File Operations and Preferences**
 
-Run:
+    Use a test folder with no existing reports:
 
-```bash
-mkdir -p ~/Desktop/PiTest
-cd ~/Desktop/PiTest
-pi
-```
+    ```bash
+    mkdir -p ~/Desktop/PiTest
+    cd ~/Desktop/PiTest
+    pi
+    ```
 
-Enter `/model` and select `sigma2/qwen`.
+    Use `/model` to select `sigma2/qwen`, then enter:
 
-Enter:
+    > Add to AGENTS.md: use JSON for system reports.
 
-> Check my Ubuntu version and current local time using terminal commands. Create a Markdown file named `AgentDemo.md` in the current folder. Include the system information and a Chinese translation of "Local AI runs on this device." Read the file again to verify the content.
+    ![pi_project_instructions](../../assets/images/Sigma2/pi_project_instructions.webp){width="600"}
 
-Confirm that Pi uses the required tools and generates the Markdown file.
+    Open the desktop `PiTest` folder and check the rule in `AGENTS.md`. Use `/new` in Pi to start a new session, then enter:
 
-Enter `/quit` to exit Pi, then open the `PiTest` folder on the desktop to verify the file.
+    > Check my Ubuntu version and current time, then save a system report.
 
-<!-- Screenshot: Pi tool execution and the generated Markdown file. -->
+    ![pi_system_report](../../assets/images/Sigma2/pi_system_report.webp){width="600"}
 
-### Test Persistent Instructions
+    Open the desktop `PiTest` folder and check that the JSON report contains the Ubuntu version and current time.
 
-Launch Pi again in the same folder:
+    ![pi_report_files](../../assets/images/Sigma2/pi_report_files.webp){width="400"}
 
-```bash
-cd ~/Desktop/PiTest
-pi
-```
+    !!! note
+        This example checks the local model connection, command execution, and file operations, together with persistent project instructions through `AGENTS.md`.
 
-Enter:
+4. **Exit the Agent**
 
-> For future tasks in this folder, remember that I prefer concise explanations and Markdown documentation. Save these preferences in `AGENTS.md`.
-
-After the file is created, enter `/new` to start a new session.
-
-Ask:
-
-> What are my preferences for explanations and documentation?
-
-Pi should follow the saved instructions.
-
-!!! note
-    Pi loads `AGENTS.md` as persistent project context. This is different from automatic long-term memory. To resume a previous conversation instead, use `pi --continue`.
+    Enter `/quit` or press `Ctrl + D` with an empty input box to return to the Ubuntu terminal.
 
 ## Hermes Agent
 
-[Hermes Agent](https://hermes-agent.nousresearch.com/) supports terminal operations, file management, and persistent memory across sessions.
+[Hermes Agent](https://hermes-agent.nousresearch.com/) is a personal AI assistant from Nous Research, with persistent memory and tools for automating everyday tasks.
 
-### Install Hermes Agent
+Tested with version **0.23.3**.
 
-Run:
+1. **Install**
 
-```bash
-curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
-source ~/.bashrc
-```
+    Run:
 
-Verify the installation:
+    ```bash
+    curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+    source ~/.bashrc
+    hermes --version
+    ```
 
-```bash
-hermes --version
-```
+2. **Configure the Local Model**
 
-### Configure the Local Model
+    Run:
 
-Run:
+    ```bash
+    hermes model
+    ```
 
-```bash
-hermes model
-```
+    Select **Custom endpoint (enter URL manually)**, then complete the configuration:
 
-Select **Custom Endpoint** and configure:
+    | Setting | Value |
+    | :--- | :--- |
+    | API base URL | `http://localhost:8080/v3` |
+    | API key | Leave empty |
+    | Add /v1? | Enter `n` to keep the URL unchanged |
+    | API compatibility mode | Enter `1` for **Auto-detect** |
+    | Model name | `qwen` |
+    | Context length in tokens | Leave empty for auto-detection |
+    | Display name | `LattePanda Sigma 2` |
 
-| Setting | Value |
-| :--- | :--- |
-| Base URL | `http://localhost:8080/v3` |
-| Model Name | `qwen` |
-| API Key | Leave empty |
-| API Format | OpenAI-compatible Chat Completions |
+    Settings are saved to `~/.hermes/config.yaml`.
 
-Follow the wizard to save the configuration. Hermes stores its model settings in `~/.hermes/config.yaml`.
+3. **Test File Operations and Preferences**
 
-!!! note
-    Hermes requires a context window of at least 64K tokens. The local inference configuration must support this requirement. If a context-length error occurs, verify the actual OVMS model configuration.
+    Use a test folder with no existing reports:
 
-### Run and Test Hermes
+    ```bash
+    mkdir -p ~/Desktop/HermesTest
+    cd ~/Desktop/HermesTest
+    hermes
+    ```
 
-Run:
+    Enter:
 
-```bash
-mkdir -p ~/Desktop/HermesTest
-cd ~/Desktop/HermesTest
-hermes
-```
+    > I prefer JSON for system reports.
 
-Enter:
+    Confirm that Hermes shows a memory update:
 
-> Check my Ubuntu version and current local time using terminal commands. Create a Markdown file named `AgentDemo.md` in the current folder. Include the system information and a Chinese translation of "Local AI runs on this device." Read the file again to verify the content.
+    ![hermes_memory_write](../../assets/images/Sigma2/hermes_memory_write.webp){width="600"}
 
-Confirm that Hermes executes the required operations and creates the file.
+    Use `/new` in Hermes to start a new session, then enter:
 
-Enter `/quit` or press `Ctrl + D` to exit Hermes.
+    > Check my Ubuntu version and current time, then save a system report.
 
-Open the `HermesTest` folder on the desktop to verify the generated file.
+    ![hermes_system_report](../../assets/images/Sigma2/hermes_system_report.webp){width="600"}
 
-<!-- Screenshot: Hermes tool execution and the generated Markdown file. -->
+    Open the desktop `HermesTest` folder and check that the JSON report contains the Ubuntu version and current time.
 
-### Test Persistent Memory
+    ![hermes_report_files](../../assets/images/Sigma2/hermes_report_files.webp){width="400"}
 
-Launch Hermes again:
+    !!! note
+        This example checks the local model connection, command execution, and file operations, together with built-in memory across sessions.
 
-```bash
-cd ~/Desktop/HermesTest
-hermes
-```
+4. **Exit the Agent**
 
-Enter:
-
-> Please remember that I prefer concise technical explanations and Markdown documentation. Use your persistent memory tool to save this preference for future sessions.
-
-Wait for the memory operation to finish, then exit Hermes.
-
-Check the saved user preferences in a terminal:
-
-```bash
-cat ~/.hermes/memories/USER.md
-```
-
-The preferences should be present in the file.
-
-Start a new Hermes session:
-
-```bash
-hermes
-```
-
-Ask:
-
-> What are my preferences for explanations and documentation?
-
-Hermes should recall the saved preferences without relying on the previous conversation.
-
-<!-- Optional screenshot: Hermes persistent memory and recall result. -->
+    Enter `/quit` or press `Ctrl + D` with an empty input box to return to the Ubuntu terminal.
 
 ## Reasonix
 
-[Reasonix](https://github.com/loserbcc/reasonix) is an AI coding agent that supports custom API providers, terminal operations, and persistent memory.
+[Reasonix](https://github.com/loserbcc/reasonix) is a terminal AI coding agent with support for multiple models and plugins.
 
-### Install Reasonix
+Tested with version **2.61.0**.
 
-Make sure Node.js and npm are available. Then run:
+1. **Install**
 
-```bash
-npm install -g reasonix
-```
+    Make sure Node.js and npm are available. Then run:
 
-Verify the installation:
+    ```bash
+    npm install -g reasonix
+    reasonix --version
+    ```
 
-```bash
-reasonix --version
-```
+2. **Configure the Local Model**
 
-### Configure the Local Model
+    Run:
 
-Run:
+    ```bash
+    reasonix setup
+    ```
 
-```bash
-reasonix setup
-```
+    Select **Add OpenAI-compatible provider** → **OpenAI Chat Completions** → **Enter model name manually**, then configure:
 
-Add an **OpenAI-compatible** provider:
+    | Setting | Value |
+    | :--- | :--- |
+    | Base URL | `http://localhost:8080/v3` |
+    | Model Name | `qwen` |
+    | API Key variable name | Default: `CUSTOM_LOCALHOST_8080_API_KEY` |
+    | API Key | `local` (placeholder) |
+    | Context window in tokens | Default: `128000` (Reasonix client setting) |
 
-| Setting | Value |
-| :--- | :--- |
-| Provider Name | `sigma2-local` |
-| API Type | OpenAI-compatible |
-| Base URL | `http://localhost:8080/v3` |
-| Model Name | `qwen` |
-| API Key | Leave empty |
-| Default Model | `sigma2-local` |
+    Select **custom-localhost-8080** → **Set default model** → **qwen**, then **Save and exit**.
 
-Select **Save and exit** to apply the configuration.
+3. **Test File Operations and Preferences**
 
-The corresponding provider settings in `~/.reasonix/config.toml` are:
+    Use a test folder with no existing reports:
 
-```toml
-default_model = "sigma2-local"
+    ```bash
+    mkdir -p ~/Desktop/ReasonixTest
+    cd ~/Desktop/ReasonixTest
+    reasonix
+    ```
 
-[[providers]]
-name = "sigma2-local"
-kind = "openai"
-base_url = "http://localhost:8080/v3"
-model = "qwen"
-```
+    Confirm that the active model is `qwen`, then enter:
 
-### Run and Test Reasonix
+    > Add to AGENTS.md: use JSON for system reports.
 
-Run:
+    Approve creating or editing `AGENTS.md` if prompted. Open the desktop `ReasonixTest` folder and check the rule in `AGENTS.md`.
 
-```bash
-mkdir -p ~/Desktop/ReasonixTest
-cd ~/Desktop/ReasonixTest
-reasonix
-```
+    Use `/new` in Reasonix to start a new session in the same folder, then enter:
 
-Confirm that the local model is selected.
+    > Check my Ubuntu version and current time, then save a system report.
 
-Enter:
+    ![reasonix_new_session](../../assets/images/Sigma2/reasonix_new_session.webp){width="600"}
 
-> Check my Ubuntu version and current local time using terminal commands. Create a Markdown file named `AgentDemo.md` in the current folder. Include the system information and a Chinese translation of "Local AI runs on this device." Read the file again to verify the content.
+    Approve the required tool operations if prompted.
 
-Approve the required tool operations when prompted.
+    ![reasonix_system_report](../../assets/images/Sigma2/reasonix_system_report.webp){width="600"}
 
-Press `Ctrl + D` to exit Reasonix, then verify `AgentDemo.md` in the desktop folder.
+    Open the desktop `ReasonixTest` folder and check that the JSON report contains the Ubuntu version and current time.
 
-<!-- Screenshot: Reasonix tool execution and the generated Markdown file. -->
+    ![reasonix_report_files](../../assets/images/Sigma2/reasonix_report_files.webp){width="400"}
 
-### Test Persistent Memory
+    !!! note
+        This example checks the local model connection, command execution, and file operations, together with persistent project instructions through `AGENTS.md`.
 
-Launch Reasonix again:
+4. **Exit the Agent**
 
-```bash
-cd ~/Desktop/ReasonixTest
-reasonix
-```
-
-Enter:
-
-> Please remember that I prefer concise technical explanations and Markdown documentation. Save this preference to persistent memory for future sessions.
-
-Confirm the memory write if prompted.
-
-Enter:
-
-```text
-/memory
-```
-
-Check whether the preference has been saved.
-
-Press `Ctrl + D` to exit, then launch Reasonix again without resuming the previous session:
-
-```bash
-reasonix
-```
-
-Ask:
-
-> What are my preferences for explanations and documentation?
-
-Reasonix should retrieve the previously saved preference.
-
-Use `/memory recall` to inspect the memory retrieval results.
-
-<!-- Optional screenshot: Reasonix memory retrieval and recall result. -->
-
-## Troubleshooting
-
-| Issue | Solution |
-| :--- | :--- |
-| Unable to connect to the local model | Check whether OVMS is running with `curl http://localhost:8080/v3/models`. |
-| Agent can chat but cannot execute tools | Check tool permissions and whether the local model supports tool calling through OVMS. |
-| The generated Markdown file is missing | Check the current working folder and confirm that the agent actually executed a file-writing operation. |
-| Agent does not remember preferences | Check whether the memory or instruction file was saved, and start a new session to verify. |
+    Enter `/quit` or press `Ctrl + D` to return to the Ubuntu terminal.
 
 ## Stopping the Service
 
-Exiting an agent closes its interactive terminal interface but does not stop OVMS.
+Exit the agent first. When no application needs the local model, double-click **💤 Stop AI Assistant** to stop OVMS and the pre-installed OpenClaw Gateway.
 
-When you finish using the local model, double-click the **💤 Stop AI Assistant** shortcut on the desktop to stop the local AI services.
+To restart OVMS, double-click **🔮 Start OVMS API**.
+
+## Troubleshooting
+
+- **Agent cannot connect to the local model** — double-click **🔮 Start OVMS API**, then check the service with `curl http://localhost:8080/v3/models`.
+- **Endpoint verification fails or the model is not found** — use `http://localhost:8080/v3` as the base URL.
+- **Agent responds but does not create or edit files** — allow the requested file operations. In OpenCode, use `/agents` to select **Build**.
+
+For startup errors and OVMS log checks, see [Pre-installed AI — Troubleshooting](local_ai_getting_started.md#troubleshooting).
 
 ## References
 
