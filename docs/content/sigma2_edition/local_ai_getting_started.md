@@ -1,4 +1,4 @@
-# Local AI Quick Start
+# Run the Pre-installed AI
 
 LattePanda Sigma 2 is built for local AI workloads. Its pre-installed 1TB SSD comes with everything you need — operating system, drivers, inference server, AI agent, and models — so you can go from power-on to a running local AI agent in minutes, with no Internet connection and no cloud API required. All data processing is performed on your local device, helping protect your privacy and data security.
 
