@@ -22,22 +22,20 @@ In this chapter, we will explore the different ways that you can power your Latt
 
 ## Power Supply Priority
 
-The PD adapter and DC adapter can be connected at the same time. LattePanda Sigma 2 prioritizes using the connector with the higher voltage for its power supply.
-
-The prority is that: 
+The PD adapter and DC adapter can be connected at the same time. When multiple power sources are connected, LattePanda Sigma 2 selects the power input according to the following connector priority:
 ``` text
 USB Type C(Front) > USB Type C(Rear) > DC Jack = PH2.0-8Pin connector
 ```
 The power supply with high priority will be used first.
 
 !!! Example
-    === "Senario 1"
+    === "Scenario 1"
         If the USB Type-C port is powered by 20V PD adapter, and the DC Jack port is powered by 19V adapter, **LattePanda will prioritize the power supply from the USB Type-C port.**<br>
         > 1. In case the power supply from the USB Type-C port is accidentally cut off, LattePanda will automatically switch to the power supply from the DC Jack port.<br>
         > 2. When the power supply from the USB Type-C port is restored, LattePanda will automatically switch back to using the power supply from the USB Type-C port.<br>
         > 3. During the power switching process, LattePanda will continue to operate normally without any unexpected power outages.
 
-    === "Senario 2"
+    === "Scenario 2"
         If both the USB Type-C ports are powered by 20V PD adapter, **LattePanda will utilize the power supply from front USB Type-C ports.**
 
 !!! note
@@ -112,7 +110,7 @@ Power limits are only detected and applied during an initial cold boot. Hot-plug
 
 When the LattePanda is placed inside a device, you can use this connector (8-pin, 2mm pitch) to power it through the internal wiring of the device.
 
-### Recommend Cable
+### Recommended Cable
 
 - [PHB2.0-8PIN Power Supply Cable](https://www.dfrobot.com/product-2736.html)
 

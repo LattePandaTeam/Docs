@@ -1,4 +1,4 @@
-# Local AI Quick Start
+# Pre-installed AI
 
 LattePanda Sigma 2 is built for local AI workloads. Its pre-installed 1TB SSD comes with everything you need — operating system, drivers, inference server, AI agent, and models — so you can go from power-on to a running local AI agent in minutes, with no Internet connection and no cloud API required. All data processing is performed on your local device, helping protect your privacy and data security.
 
@@ -77,6 +77,8 @@ curl http://localhost:8080/v3/chat/completions \
 
 Point your own AI agent (such as Hermes Agent, or any framework supporting OpenAI-compatible endpoints) to `http://localhost:8080/v3`, and all inference then runs entirely on-device.
 
+For step-by-step instructions on configuring OpenCode, Pi, Hermes Agent, and Reasonix, see [Other AI Agents](local_ai_agents.md).
+
 ## Stopping the Service
 
 Double-click the **💤 Stop AI Assistant** icon on the desktop. It safely stops both OVMS and the OpenClaw Gateway. Press any key to close the window when prompted.
@@ -87,7 +89,7 @@ Double-click the **💤 Stop AI Assistant** icon on the desktop. It safely stops
 | :--- | :--- |
 | `~/start-ai.sh` | Starts OVMS and the OpenClaw Gateway, then opens the Dashboard |
 | `~/start-ovms-api.sh` | Starts the OVMS API service only |
-| `~/stop-ai.sh` | Safely stops all related services |
+| `~/stop-ai.sh` | Stops OVMS and the OpenClaw Gateway |
 | `~/ovms.log` | OVMS runtime log (model loading and inference) |
 | `~/openclaw.log` | OpenClaw Gateway runtime log (API calls and connections) |
 | `~/models/` | AI model files (**do not delete or modify**) |

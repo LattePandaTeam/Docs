@@ -13,7 +13,7 @@ The following operating systems are officially tested on LattePanda Sigma 2:
 | ------- | :----: |
 | Windows 11 Pro 25H2 | 🟢 |
 | Ubuntu 24.04 LTS (kernel 7.0.0-28-generic) | 🟢 |
-| Ubuntu 26.04 LTS (kernel 7.0.0-38-generic) | 🟢 |
+| Ubuntu 26.04 LTS (kernel 7.0.0-30-generic) | 🟢 |
 
 !!! note "Mark Pattern"
 

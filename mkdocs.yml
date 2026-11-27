@@ -266,7 +266,9 @@ nav:
     - LattePanda Sigma 2:
       - Tech Specs: content/sigma2_edition/specification.md
       - Initial Setup: content/sigma2_edition/getting_started.md
-      - Local AI Quick Start: content/sigma2_edition/local_ai_getting_started.md
+      - Local AI Quick Start:
+        - Pre-installed AI: content/sigma2_edition/local_ai_getting_started.md
+        - Other AI Agents: content/sigma2_edition/local_ai_agents.md
       - Power Options: content/sigma2_edition/powering.md
       - Display Connections: content/sigma2_edition/touch_and_display.md
       - Multiple OS Support:
