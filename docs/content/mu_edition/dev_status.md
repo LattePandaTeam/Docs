@@ -19,7 +19,7 @@ You can track the development status of LattePanda Mu's interface features here.
 | UART                     |    A     |    :material-check:     |
 | I2C                      |    A     |    :material-check:     |
 | SPI(only for BIOS Flash Chip)                      |    A     |    :material-check:     |
-| HD Aduio                 |    A     |    :material-check:     |
+| HD Audio                 |    A     |    :material-check:     |
 | I2S                      |          | :material-cancel: |
 | MIPI CSI-2               |          | :material-pause: |
 | HDMI                     |    A     |    :material-check:     |
