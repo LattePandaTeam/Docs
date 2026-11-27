@@ -1,6 +1,8 @@
 # Migration Guide from LattePanda Mu to LattePanda Mu Ultra
 
-This guide is written for existing LattePanda Mu users who are evaluating migration to the LattePanda Mu Ultra AI compute module.
+This guide is intended for users who are migrating an existing LattePanda Mu carrier board design to LattePanda Mu Ultra, or designing a carrier board that supports both compute modules.
+
+If you are designing a new carrier board exclusively for LattePanda Mu Ultra and do not need compatibility with LattePanda Mu, you may skip this chapter.
 
 ## Overview
 
@@ -179,6 +181,8 @@ The input voltage range is the same, but the Mu Ultra consumes significantly mor
 | CLKREQ Pins Exposed        | 2 (REFCLK_REQ3-4)    | All 5 (REFCLK_REQ0–4)       |
 | PCIe Device Without CLKREQ | Does not block sleep | Blocks Modern Standby entry |
 
+#### PCIe CLKREQ Requirements
+
 On the Mu Ultra, **every PCIe device must have its CLKREQ pin connected** to the corresponding REFCLK_REQ pin on the compute module. Entering Modern Standby requires PCIe peripherals to use CLKREQ to trigger their low-power state. A PCIe device **without CLKREQ connected, or with CLKREQ permanently pulled low by a pull-down resistor, will prevent the system from entering Modern Standby** (the screen is off, but the processor and fan continue running).
 
 !!! note
@@ -195,7 +199,9 @@ Note that the three new CLKREQ pins on the Mu Ultra (REFCLK_REQ0-2) sit where th
 
 If your carrier board uses the Mu's SMBus, those connections must be removed — the SMBus is no longer available on the Mu Ultra.
 
-Related status-pin change: pin 5 (PSON on Mu) is now SLP_S0_S3. It keeps the same position and 3.3V level, but its state semantics follow Modern Standby, and a dedicated Modern Standby blink output (pin 134, GPP_B07) is available in the default BIOS.
+#### Status Pin Behavior
+
+Pin 5 (PSON on Mu) is now SLP_S0_S3. It keeps the same position and 3.3V level, but its state semantics follow Modern Standby, and a dedicated Modern Standby blink output (pin 134, GPP_B07) is available in the default BIOS.
 
 - **LattePanda Mu:**
 

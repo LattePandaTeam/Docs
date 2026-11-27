@@ -8,6 +8,8 @@ LattePanda Mu Ultra x86 compute module provides two status output pins, `SLP_S0_
 
     The processor of the LattePanda Mu Ultra does not support the traditional S3 sleep state — it supports **Modern Standby** only. As a result, the status pin behavior differs from the LattePanda Mu (which provides `PSON` on pin 5). On the Mu Ultra, pin 5 is `SLP_S0_S3`, and both status pins output HIGH in **both** the Working and Modern Standby states.
 
+    For a detailed comparison of the status-pin behavior, see [Status Pin Behavior](migration_guide_mu_to_mu_ultra.md#status-pin-behavior) in the migration guide.
+
 ### Pin Definition
 
 | Pin Name  | Pin Number | Note                                                              |

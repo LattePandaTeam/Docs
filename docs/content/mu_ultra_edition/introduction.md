@@ -28,6 +28,8 @@ Powered by the Intel Core Ultra 200V series (Lunar Lake) processor, LattePanda M
 
 - **[📍 Pinout Documentation](https://github.com/LattePandaTeam/LattePanda-Mu-Ultra/tree/main/Electricals/Pinouts)** — Detailed pin definitions for the LattePanda Mu Ultra edge connector.
 
+- **[🔄 Carrier Board Migration Guide](./migration_guide_mu_to_mu_ultra.md)** — Review compatibility and required design changes when migrating from LattePanda Mu.
+
 - **[📘 Carrier Board Design Guide](./design_guide_preface.md)** —  Guidelines for carrier board design and electrical characteristic requirements.
 
 - **:simple-github: [LattePanda Mu Ultra Github Repository](https://github.com/LattePandaTeam/LattePanda-Mu-Ultra)**

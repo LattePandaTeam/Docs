@@ -338,7 +338,7 @@ nav:
       - Download Resources: content/mu_edition/download_resources.md
       - FAQ: content/mu_edition/faq.md
     - Carrier Board Design Guide for LattePanda Mu:
-      - Foreword: content/mu_edition/design_guide_foreword.md
+      - Preface: content/mu_edition/design_guide_foreword.md
       - Edge Connector: content/mu_edition/design_guide_edge_connector.md
       - Power Supply: content/mu_edition/design_guide_power.md
       - Dual BIOS: content/mu_edition/design_guide_bios.md
@@ -359,11 +359,11 @@ nav:
           - Windows: content/mu_ultra_edition/os_windows.md
           - Linux: content/mu_ultra_edition/os_linux.md
       - BIOS Setup: content/mu_ultra_edition/bios_setup.md
-      - Migration Guide from LattePanda Mu: content/mu_ultra_edition/migration_guide_mu_to_mu_ultra.md
       - Download Resources: content/mu_ultra_edition/download_resources.md
       - FAQ: content/mu_ultra_edition/faq.md
     - Carrier Board Design Guide for LattePanda Mu Ultra:
       - Preface: content/mu_ultra_edition/design_guide_preface.md
+      - Migration Guide (Mu to Mu Ultra): content/mu_ultra_edition/migration_guide_mu_to_mu_ultra.md
       - Edge Connector: content/mu_ultra_edition/design_guide_edge_connector.md
       - Power Supply: content/mu_ultra_edition/design_guide_power.md
       - Dual BIOS: content/mu_ultra_edition/design_guide_bios.md
