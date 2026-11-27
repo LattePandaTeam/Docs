@@ -22,7 +22,7 @@
 | Expansion        | Expansion Capability       | Up to 9x PCle 3.0 Lane<br> Up to 4x USB 3.2 10Gbps<br> Up to 2x SATA 6Gbps<br> 8x USB 2.0<br> 4x UART<br> 4x I2C<br> Expandable to 64x GPIO |
 | Display          | eDP                        | 1x eDP 1.4(onboard), up to 4K 60Hz                           |
 |                  | HDMI                       | 3x HDMI 2.0/DisplayPort 1.4, up to 4K 60Hz                   |
-|                  | Max Outputs                | 3 Ouputs; Max Resolution 4096 x 2160@60Hz                    |
+|                  | Max Outputs                | 3 Outputs; Max Resolution 4096 x 2160@60Hz                   |
 | Operating System | Microsoft Windows          | Windows 10, Windows 11                                       |
 |                  | Linux                      | Ubuntu 22.04 & 24.04                                         |
 | BIOS             | BIOS Info                  | AMI UEFI 128Mbit SPI BIOS                                    |
