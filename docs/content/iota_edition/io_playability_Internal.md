@@ -1,5 +1,22 @@
 # Internal Interface
 
+## DIP Switch
+
+![](../../assets/images/LattePanda Iota/dipsw.png)
+
+The DIP switch on the LattePanda Iota allows you to customize the behavior for **Auto Power-On** and **MCU Power Control**. Below is a detailed breakdown of each setting:
+
+| Actuator Label | Function | Position | Behavior                                                                                     |
+|-------------------|----------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| **APO** | **Auto Power-On** | OFF *(Default)* | System requires manual press of the power button to boot after power is connected.           |
+|                   |            | ON           | System automatically powers on as soon as external power is applied — ideal for headless or embedded deployments. |
+| **MCU** | **MCU Power Control** | OFF *(Default)* | Onboard MCU remains **inactive** until the system is powered on via the power button.        |
+|                   |            | ON           | Onboard MCU stays **active immediately** upon power connection(before OS boot). Useful for pre-boot sensor control or automation. |
+
+!!! note
+
+    Once Auto Power-On is set to ON, LattePanda board will automatically power on when it receives power, regardless of the RTC battery.
+
 ## M.2 E Key Slot
 
 LattePanda Iota features one M.2 E Key slot for modern wireless modules, enabling high-speed Wi-Fi and Bluetooth connectivity. 
@@ -55,13 +72,13 @@ This connector exposes a native PCIe 3.0 x1 lane, delivering up to 8 GT/s of ban
 | 3   | GND         | Ground                       |
 | 4   | PCIE_CLK_P | Reference Clock, Positive |
 | 5   | PCIE_CLK_N | Reference Clock, Negative |
-| 6   | GND    | GND |
+| 6   | GND    | Ground |
 | 7   | PCIE_RX_P | PCIe Receive Lane 0, Positive |
 | 8   | PCIE_RX_N | PCIe Receive Lane 0, Negative |
-| 9   | GND | GND                                                          |
+| 9   | GND | Ground                                                    |
 | 10  | PCIE_TX_P | PCIe Transmit Lane 0, Positive |
 | 11  | PCIE_TX_N | PCIe Transmit Lane 0, Negative |
-| 12  | GND | GND  |
+| 12  | GND | Ground |
 | 13  | PCIE_PWR_EN | High Level(3.3V) Output to enable PMIC on exp. board or HAT.<br>When OS is running or sleeping, this pin will output HIGH. |
 | 14  | PCIE_DET_WAKE | Wake-up Signal, Active Low<br>Pull this pin LOW to wake the LattePanda board from sleep state. |
 | 15  | PCIE_CLKREQ_N | Reference Clock Request, Active Low |
@@ -144,9 +161,15 @@ LattePanda Iota features a comprehensive 36-pin GPIO header, serving as a versat
 | GND       | Power          |           | Ground                                                       |
 | 5V        | Power          |           | 5V Power Output 1<br>Current Limit: 0.5A<br>Do not connect to 5V Power Output 2 |
 | GP0 ~ 6   | Input/Output   | 3.3V      | RP2040 GPIO 0~6                                              |
-| GP26 ~ 28 | Input/Output   | 3.3V      | RP2040 GPIO 26~28<br>Multiplexed as: ADC Input               |
-| 3.3V      | Power          |           | RP2040 3.3V Power Output<br>Current Limit: 1.2A              |
+| GP26 ~ 28 | Input/Output   | 3.3V      | RP2040 GPIO 26~28<br>Multiplexed as: ADC Input<br>each pin in parallel with a 100nF capacitor |
+| 3.3V      | Power          |           | RP2040's 3.3V Power Output<br>Current Limit: 1.2A            |
 | RST       | Pull-up Input  | 3.3V      | System Reset<br>Pull this pin low is equivalent to press `RST` button. |
+
+
+!!! note
+
+    GPIO26 to GPIO28 of the RP2040 can be muxed as ADC input. To ensure stable ADC sampling values, these pins are paralleled with 100nF capacitors, which can affect rapidly changing signals such as I2C. If using I2C, please avoid these three GPIO pins and choose alternative GPIO pins instead.
+
 
 | Pin Name | Type          | I/O Level | Description                                                  |
 | :------- | :------------ | --------- | :----------------------------------------------------------- |
@@ -188,7 +211,7 @@ When headphones are inserted, the audio output automatically switches to the hea
 ### USB 2.0 Pins
 
 - D+ , D- and power pins exposed for custom USB device integration.
-- It can be used to interface with USB-to-serial converters, custom HID devices, or debug probes.
+- It can be used to interface with USB flash drive, USB-to-serial converters, custom HID devices, etc.
 - It is native to the Porcessor's PCH and does not pass through any USB hub chip.
 
 - You can also connect our dedicated [**:material-cart: 4G LTE Expansion Board**](https://www.dfrobot.com/product-2982.html) to expand cellular connectivity.
@@ -223,7 +246,7 @@ LattePanda Iota equips a power management expansion connector, designed as a res
 
 | Pin  | Signal Name | Type              | Description                                                  |
 | :--- | :---------- | :---------------- | :----------------------------------------------------------- |
-| 1    | VIN         | Power             | DC power input from the LattePanda Iota board<br>Input Range: 9 ~15V |
+| 1    | VIN         | Power             | DC Power Input<br>Input Range: 9 ~15V                        |
 | 2    | VIN         | Power             | same as above                                                |
 | 3    | VIN         | Power             | same as above                                                |
 | 4    | STATE       | Output            | OS State Indicator<br/>Output 3.3V only when OS is running or sleeping |
@@ -242,6 +265,60 @@ It is a plug-and-play uninterruptible power supply module designed for the Latte
 
 For detailed step-by-step assembly and configuration instructions, please refer to the [LattePanda UPS Exp. Board (DFR1247) Tutorial](https://wiki.dfrobot.com/SKU_DFR1247_UPS_Expansion_Board).
 
+## eDP Connector
+
+LattePanda Iota provides an eDP connector, offering a compact, easy-to-use display method for embedded applications.
+
+![](../../assets/images/LattePanda Iota/edp_connector.webp){width="600"}
+
+### Key Specifications
+
+- 30-pin, 0.5 mm FPC connector
+- 2 lanes
+- 3.3 V logic
+
+
+### Pinout Definition
+
+| Pin  | Signal Name | Description                   |
+| ---- | ----------- | ----------------------------- |
+| 1    | GND         | Ground                        |
+| 2    | GND         | Ground                        |
+| 3    | TX1_DN      | Lane 1 Negative Data          |
+| 4    | TX1_DP      | Lane 1 Positive Data          |
+| 5    | GND         | Ground                        |
+| 6    | TX0_DN      | Lane 0 Negative Data          |
+| 7    | TX0_DP      | Lane 0 Positive Data          |
+| 8    | GND         | Ground                        |
+| 9    | AUX_DP      | Auxiliary Channel Positive    |
+| 10   | AUX_DN      | Auxiliary Channel Negative    |
+| 11   | GND         | Ground                        |
+| 12   | LCD_VCC     | LCD Logic Power Supply (3.3V) |
+| 13   | LCD_VCC     | LCD Logic Power Supply (3.3V) |
+| 14   | NC          | No Connect                    |
+| 15   | GND         | Ground                        |
+| 16   | GND         | Ground                        |
+| 17   | HPD         | Hot Plug Detect               |
+| 18   | BL_GND      | Backlight Ground              |
+| 19   | BL_GND      | Backlight Ground              |
+| 20   | BL_GND      | Backlight Ground              |
+| 21   | BL_GND      | Backlight Ground              |
+| 22   | BL_EN       | Backlight Enable              |
+| 23   | BL_PWM      | Backlight PWM Dimming         |
+| 24   | NC          | No Connect                    |
+| 25   | NC          | No Connect                    |
+| 26   | NC          | No Connect                    |
+| 27   | BL_PWR      | Backlight Power Supply        |
+| 28   | BL_PWR      | Backlight Power Supply        |
+| 29   | BL_PWR      | Backlight Power Supply        |
+| 30   | NC          | No Connect                    |
+
+> `BL_PWR` is switched directly from main input power (Type-C PD IN / DC_IN); voltage equals input voltage.
+
+### Compatible eDP Display
+
+- [7-inch eDP Touch Display](https://www.dfrobot.com/product-2993.html)
+- [11.6-inch eDP Touch Display](https://www.dfrobot.com/product-2794.html)
 
 ## Fan Connector
 
@@ -253,6 +330,7 @@ LattePanda Iota is equipped with a 4-pin fan connector to support active cooling
 
 - Connector Type: 4-Pin, 1.25mm Pitch
 - Operating Voltage: 5V DC
+- Continuous Current: 1A Max
 - Control Method: PWM
 
 ### Pinout Definition

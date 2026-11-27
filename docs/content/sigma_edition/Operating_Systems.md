@@ -10,12 +10,12 @@ We've tested the basic functions of various operating systems on LattePanda Sigm
 | ------- | ------- | :----: | --- |
 | Windows 11 | 22H2 | 🟢    |      |
 | Windows 10 | 22H2 | 🟢    |      |
-| Windows Server 2022 | April 2023 | 🟡 | The NIC driver needs to be manually installed, please see [Installation Tutorial](Operating_Systems.md#windows-server) |
+| Windows Server 2022 | April 2023 | 🟡 | The NIC driver needs to be manually installed, please see [Installation Tutorial](Operating_Systems_WinServer.md) |
 | Ubuntu  | 20.04.6 | 🟢    |      |
 | Ubuntu  | 22.04.2 | 🟢    |      |
 | Rocky Linux | 9.1 | 🟢    |      |
-| Proxmox VE | 7.4  | 🟡    | Due to ack of driver support for the new generation of core graphics card, the GUI can not automatically start, please see [Installation Tutorial](Operating_Systems.md#proxmox-ve) |
-| VMware ESXi | 8.0 U1  | 🟡 | Intel CPUs with P-core and E-core are not officially supported, you can install them by adding additional parameters, please see [Installation Tutorial](Operating_Systems.md#vmware-esxi) |
+| Proxmox VE | 7.4  | 🟡    | Due to ack of driver support for the new generation of core graphics card, the GUI can not automatically start, please see [Installation Tutorial](Operating_Systems_PVE.md) |
+| VMware ESXi | 8.0 U1  | 🟡 | Intel CPUs with P-core and E-core are not officially supported, you can install them by adding additional parameters, please see [Installation Tutorial](Operating_Systems_ESXi.md) |
 | TrueNAS CORE | 13.0-U4 | 🟢 |      |
 | Android x86 | 9.0-r2 | 🔴 |      |
 | ChromeOS Flex | 15117.112.0 | 🔴 | |

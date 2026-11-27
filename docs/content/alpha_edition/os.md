@@ -6,7 +6,7 @@ This document will go over the operating systems that are compatible with the La
 
 The LattePanda Alpha is, in fact, globally recognized as the **FIRST development device supporting 4 different operating systems.**
 
-1. Windows 10 and other versions
+1. Windows 11 and other versions
 2. Linux and other versions
 3. Android for x86 (Phoenix OS)
 4. Hackintosh (MacOS) - Contributed by the LP Community
@@ -26,13 +26,21 @@ The LattePanda Alpha is, in fact, globally recognized as the **FIRST development
 ### What You Will Need
 
 * 1 x Blank USB flash drive (8 GB or larger)
-* [LattePanda Alpha Windows 10 Image](https://www.dropbox.com/sh/d2d4xoe2nk7n0je/AACdzPN-bdwkwyHxe9KlSsiIa?dl=0).
+* [LattePanda Alpha Windows 11 Pro Image](https://www.dropbox.com/scl/fi/1m0v94addosggttiodrcx/CDJQ-JX-7-S70KR310-KF65B-310-C-Win-11-Pro.7z?rlkey=1gcua4l6zy9syd5s31b8gi8m2&st=rm0p01w7&dl=0).
+
+??? Info "Legacy Version"
+    Please select the appropriate Windows 10 Image based on the specific version of the LattePanda Alpha you are using.
+    
+    **Download Link:**
+    
+    - [LattePanda Alpha Windows 10 Image](https://www.dropbox.com/sh/d2d4xoe2nk7n0je/AACdzPN-bdwkwyHxe9KlSsiIa?dl=0)
+
 
 ### Installation Steps
 
-* Download the Windows 10 disc image file for the LattePanda Alpha.
+* Download the Windows 11 disc image file for the LattePanda Alpha.
 * Configure your USB drive to be a bootable device. Instructions can be found [here](https://technet.microsoft.com/en-us/library/jj200124%28v=ws.11%29.aspx).
-* Copy and paste the Windows 10 disc image file contents to the USB drive.
+* Copy and paste the Windows 11 disc image file contents to the USB drive.
 * If you are using the LattePanda to create the USB installation media, restart the LattePanda. Otherwise, insert your USB drive into the LattePanda and turn it on. 
 * Press 'Esc' continuously to enter BIOS. 
 * Navigate to the "Boot" tab and change the "Boot Option Priorities" so that the USB drive is "Boot Option #1".

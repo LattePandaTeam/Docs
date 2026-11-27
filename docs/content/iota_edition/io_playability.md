@@ -14,7 +14,6 @@
 ### Bottom Layout
 ![](../../assets/images/LattePanda Iota/bottom.webp)
 
-
 !!! note ""
 
     **1️⃣ DIP Switch Configuration:**

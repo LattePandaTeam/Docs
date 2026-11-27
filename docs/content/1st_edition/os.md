@@ -144,7 +144,7 @@ After testing the beta Linux OS for a month with our forum members, we collected
 ### What you need
 
 1. USB flash Drive (at least 5GB for LattePanda Standard and 8GB for LattePanda Enhanced)
-3. [Download image here](https://drive.google.com/file/d/1dSIoytfqzJJCwOrXRoxpgl3WO63gZPhD/view)
+3. [Download image here](https://www.dropbox.com/scl/fi/e598c7hv1itwc5tx3xufx/Ubuntu-img-16.04-for-CherryTrail-20180418.iso?rlkey=hma39ewpsckzr8358gg3ew8n6&st=1pnya6wq&dl=0)
 
 
 ### Steps

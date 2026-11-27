@@ -5,6 +5,15 @@
 > This is the preset BIOS configuration for the device as it leaves the factory, suitable for restoring the LattePanda Sigma to its original BIOS settings.
 
 !!! note ""
+    #### :fontawesome-solid-microchip: WTADLC1R220-16G-B
+    - **Update Time:** 2026/06/30
+    - **Size:** 8MB
+    - [**Update Information**](https://github.com/LattePandaTeam/LattePanda-Win10-Software/blob/master/BIOS%20for%20LattePanda%20Sigma/16GB%20version/README.md)
+    - **Checksum** 8AD0
+    - :fontawesome-solid-download: [**Download**](https://github.com/LattePandaTeam/LattePanda-Win10-Software/blob/master/BIOS%20for%20LattePanda%20Sigma/16GB%20version/WTADLC1R220-16G-B.zip)
+
+
+??? Info "Legacy Version"
     #### :fontawesome-solid-microchip: LP-BS-WTADLC1R210-16G-D
     - **Version:** 16G-D
     - **Update Time:** 2023/06/13
@@ -14,6 +23,7 @@
         * Turn on the in-band ECC option, the default setting is off
     - **Checksum** 5722
     - :fontawesome-solid-download: [**Download**](https://github.com/LattePandaTeam/LattePanda-Win10-Software/blob/master/BIOS%20for%20LattePanda%20Sigma/16GB%20version/LP-BS-WTADLC1R210-16G-D.zip)
+
 
 ### Auto Power-On BIOS
 > The auto power-on feature is set to be enabled by default(the LattePanda will start up immediately upon power connection, without pressing the power button), and the feature is not affected by changes in the RTC battery status.
@@ -35,6 +45,14 @@
 > This is the preset BIOS configuration for the device as it leaves the factory, suitable for restoring the LattePanda Sigma to its original BIOS settings.
 
 !!! note ""
+    #### :fontawesome-solid-microchip: WTADLC1R220-32G-B
+    - **Update Time:** 2026/06/30
+    - **Size:** 8MB
+    - [**Update Information**](https://github.com/LattePandaTeam/LattePanda-Win10-Software/blob/master/BIOS%20for%20LattePanda%20Sigma/32GB%20version/README.md)
+    - **Checksum:** 652F
+    - :fontawesome-solid-download: [**Download**](https://github.com/LattePandaTeam/LattePanda-Win10-Software/blob/master/BIOS%20for%20LattePanda%20Sigma/32GB%20version/WTADLC1R220-32G-B.zip)
+
+??? Info "Legacy Version"
     #### :fontawesome-solid-microchip: LP-BS-WTADLC1R210-32G-A
     - **Version:** 32G-A
     - **Update Time:** 2023/06/13
@@ -44,6 +62,9 @@
         * Turn on the in-band ECC option, the default setting is off
     - **Checksum** 637E
     - :fontawesome-solid-download: [**Download**](https://github.com/LattePandaTeam/LattePanda-Win10-Software/blob/master/BIOS%20for%20LattePanda%20Sigma/32GB%20version/LP-BS-WTADLC1R210-32G-A.zip)
+
+
+
 
 
 ### Auto Power-On BIOS

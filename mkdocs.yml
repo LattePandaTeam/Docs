@@ -30,7 +30,7 @@ repo_url: https://github.com/LattePandaTeam/Docs
 edit_uri: blob/master/docs
 
 # Copyright
-copyright: 'Copyright &copy; 2016 - 2024 LattePanda Team'
+copyright: 'Copyright &copy; 2015 - 2026 LattePanda Team'
 
 # Configuration
 theme:
@@ -162,24 +162,36 @@ extra_css:
 nav:
   - Single Board Computer:
     - Overview: index.md
-    - LattePanda V1:
-      - Power on Device: content/1st_edition/power_on.md
-      - Building Connectivity: content/1st_edition/wifi.md
-      - Optional Peripherals: content/1st_edition/peripheral.md
-      - Connect Touch Display: content/1st_edition/display.md
-      - Multiple OS Support: content/1st_edition/os.md
-      - Tools: content/1st_edition/tools.md
-      - Hardware Introduction: content/1st_edition/hardware_introduction.md
-      - Physical Programming: content/1st_edition/vs_programming.md
-      - Programming Reference: content/1st_edition/io_programming_reference.md
-      - Read Sensor Data via WebClient: content/1st_edition/webclient_demo.md
-      - Projects:
-        - 3D Printer Server: content/1st_edition/3d_printer_server.md
-        - Face Recognition: content/1st_edition/face_recog.md
-        - Setup Azure IoT Hub: content/1st_edition/setup_azure_iot_hub.md
-        - IoT Edge Data to Azure: content/1st_edition/data_to_cloud.md
-        - Node-RED: content/1st_edition/nodered.md
-      - Troubleshooting: content/1st_edition/troubleshooting.md
+    - LattePanda IOTA:
+      - Tech Specs: content/iota_edition/specification.md
+      - Initial Setup: content/iota_edition/get_started.md
+      - Power Options: content/iota_edition/powering.md
+      - Display Connections: content/iota_edition/touch_and_display.md
+      - Multiple OS Support: 
+          - Compatible List: content/iota_edition/os.md
+          - Windows: content/iota_edition/Operating_Systems_Windows.md
+          - Ubuntu: content/iota_edition/Operating_Systems_Ubuntu.md
+      - Multiple Network: content/iota_edition/connectivity.md
+      - Hardware Interface: 
+          - Pinout and Layout: content/iota_edition/io_playability.md
+          - External Interface: content/iota_edition/io_playability_External.md
+          - Internal Interface: content/iota_edition/io_playability_Internal.md
+      - BIOS Setup: 
+        - Entering BIOS Menu: content/iota_edition/bios.md
+        - Adjusting TDP Settings: content/iota_edition/bios_adjust_tdp.md
+        - USB Power Control Settings: content/iota_edition/bios_usb_port_power_control.md
+        - MCU Power Control Settings: content/iota_edition/bios_mcu_power_control.md
+        - Restore Default Settings: content/iota_edition/bios_restore_default_settings.md
+      - Auto Power-On: content/iota_edition/auto_power_on.md
+      - RP2040 Programming: 
+        - Overview: content/iota_edition/rp2040_programming.md
+        - MicroPython: content/iota_edition/rp2040_programming_micropython.md
+        - Arduino C++: content/iota_edition/rp2040_programming_arduino.md
+        - Firmata: content/iota_edition/rp2040_programming_firmata.md
+      - Migration Guide (V1 to Iota): content/iota_edition/migration_guide_v1_to_iota.md
+      - Download Resources: content/iota_edition/download_resources.md
+      - FAQ: content/iota_edition/faq.md
+      - Product Catalog: content/iota_edition/product_catalog.md
     - LattePanda Alpha:
       - Get Started: content/alpha_edition/get_started.md
       - Powering: content/alpha_edition/powering.md
@@ -192,18 +204,14 @@ nav:
       - Physical Programming /w Python: content/alpha_edition/python_arduino_bridge.md
       - Read Sensor Data /w Python: content/alpha_edition/python_read_sensor.md
       - FAQ: content/alpha_edition/faq.md
-    - LattePanda Delta:
-      - Get Started: content/delta_edition/get_started.md
-      - Powering: content/delta_edition/powering.md
-      - Displays and Touch: content/delta_edition/touch_and_display.md
-      - 2x OS Support: content/delta_edition/os.md
-      - Drivers: content/delta_edition/drivers_and_software.md
-      - Tools Recommended: content/delta_edition/ide.md
-      - Hardware Inteface Introduction: content/delta_edition/io_playability.md
-      - Mutiple Internet Connections: content/delta_edition/connectivity.md
-      - Physical Programming /w Python: content/delta_edition/python_arduino_bridge.md
-      - Read Sensor Data /w Python: content/delta_edition/python_read_sensor.md
-      - FAQ: content/delta_edition/faq.md
+      - Streaming Cable:
+        - Get Started: content/streaming_cable/get_started.md
+        - Setup Server Computer - Win: content/streaming_cable/set_up_windows_host.md
+        - Setup Client Computer RDP - Win: content/streaming_cable/set_up_win_rdp_client.md
+        - Setup Client Computer RDP - Mac: content/streaming_cable/set_up_mac_rdp_client.md
+        - Setup Client Computer RDP - Ubu: content/streaming_cable/set_up_ubu_rdp_client.md
+        - NoMachine - Config Client Computer: content/streaming_cable/set_up_nomachine_client.md
+        - FAQ: content/streaming_cable/faq.md
     - LattePanda 3 Delta:
       - Tech Specs: content/3rd_delta_edition/specification.md
       - Initial Setup: content/3rd_delta_edition/get_started.md
@@ -255,30 +263,63 @@ nav:
         - BIOS Firmware: content/sigma_edition/BIOS_Firmware.md
         - EC Firmware: content/sigma_edition/EC_Firmware.md
       - FAQ: content/sigma_edition/FAQ.md
-    - LattePanda IOTA:
-      - Tech Specs: content/iota_edition/specification.md
-      - Initial Setup: content/iota_edition/get_started.md
-      - Power Options: content/iota_edition/powering.md
-      - Display Connections: content/iota_edition/touch_and_display.md
-      - Multiple OS Support: 
-          - Compatible List: content/iota_edition/os.md
-          - Windows: content/iota_edition/Operating_Systems_Windows.md
-          - Ubuntu: content/iota_edition/Operating_Systems_Ubuntu.md
-      - Multiple Network: content/iota_edition/connectivity.md
-      - Hardware Interface: 
-          - Pinout and Layout: content/iota_edition/io_playability.md
-          - External Interface: content/iota_edition/io_playability_External.md
-          - Internal Interface: content/iota_edition/io_playability_Internal.md
-      - BIOS Setup: 
-        - Entering BIOS Menu: content/3rd_delta_edition/bios.md
-      - RP2040 Programming: 
-        - Overview: content/iota_edition/rp2040_programming.md
-        - MicroPython: content/iota_edition/rp2040_programming_micropython.md
-        - Arduino C++: content/iota_edition/rp2040_programming_arduino.md
-        - Firmata: content/iota_edition/rp2040_programming_firmata.md
-      - Migration Guide (V1 to Iota): content/iota_edition/migration_guide_v1_to_iota.md
-      - FAQ: content/iota_edition/faq.md
-  - Compute Module:      
+    - LattePanda Sigma 2:
+      - Tech Specs: content/sigma2_edition/specification.md
+      - Initial Setup: content/sigma2_edition/getting_started.md
+      - Local AI Quick Start: content/sigma2_edition/local_ai_getting_started.md
+      - Power Options: content/sigma2_edition/powering.md
+      - Display Connections: content/sigma2_edition/touch_and_display.md
+      - Multiple OS Support:
+        - Compatible List: content/sigma2_edition/os.md
+        - Windows: content/sigma2_edition/os_windows.md
+        - Ubuntu: content/sigma2_edition/os_linux.md
+      - Multiple Network: content/sigma2_edition/connectivity.md
+      - Hardware Port:
+        - Pinout and Layout: content/sigma2_edition/io_playability.md
+        - External Port: content/sigma2_edition/io_playability_external.md
+        - Internal Port: content/sigma2_edition/io_playability_internal.md
+      - GPIO Programming:
+        - RP2350 GPIO:
+          - Overview: content/sigma2_edition/rp2350_programming.md
+          - MicroPython: content/sigma2_edition/rp2350_programming_micropython.md
+          - Arduino C++: content/sigma2_edition/rp2350_programming_arduino.md
+        - Processor GPIO: content/sigma2_edition/processor_gpio.md
+      - BIOS Setup: content/sigma2_edition/bios_setup.md
+      - Auto Power-On: content/sigma2_edition/auto_power_on.md
+      - Download Resources: content/sigma2_edition/download_resources.md
+      - FAQ: content/sigma2_edition/faq.md
+    - LattePanda Delta(Discontinued):
+      - Get Started: content/delta_edition/get_started.md
+      - Powering: content/delta_edition/powering.md
+      - Displays and Touch: content/delta_edition/touch_and_display.md
+      - 2x OS Support: content/delta_edition/os.md
+      - Drivers: content/delta_edition/drivers_and_software.md
+      - Tools Recommended: content/delta_edition/ide.md
+      - Hardware Inteface Introduction: content/delta_edition/io_playability.md
+      - Mutiple Internet Connections: content/delta_edition/connectivity.md
+      - Physical Programming /w Python: content/delta_edition/python_arduino_bridge.md
+      - Read Sensor Data /w Python: content/delta_edition/python_read_sensor.md
+      - FAQ: content/delta_edition/faq.md
+    - LattePanda V1(Discontinued):
+      - Power on Device: content/1st_edition/power_on.md
+      - Building Connectivity: content/1st_edition/wifi.md
+      - Optional Peripherals: content/1st_edition/peripheral.md
+      - Connect Touch Display: content/1st_edition/display.md
+      - Multiple OS Support: content/1st_edition/os.md
+      - Tools: content/1st_edition/tools.md
+      - Hardware Introduction: content/1st_edition/hardware_introduction.md
+      - Physical Programming: content/1st_edition/vs_programming.md
+      - Programming Reference: content/1st_edition/io_programming_reference.md
+      - Read Sensor Data via WebClient: content/1st_edition/webclient_demo.md
+      - Projects:
+        - 3D Printer Server: content/1st_edition/3d_printer_server.md
+        - Face Recognition: content/1st_edition/face_recog.md
+        - Setup Azure IoT Hub: content/1st_edition/setup_azure_iot_hub.md
+        - IoT Edge Data to Azure: content/1st_edition/data_to_cloud.md
+        - Node-RED: content/1st_edition/nodered.md
+      - Troubleshooting: content/1st_edition/troubleshooting.md
+  - Compute Module:
+    - content/mu_edition/index.md
     - LattePanda Mu:
       - Introduction: content/mu_edition/introduction.md
       - Tech Specs: content/mu_edition/specification.md
@@ -289,21 +330,58 @@ nav:
           - Windows: content/mu_edition/os_windows.md
           - Linux: content/mu_edition/os_linux.md
       - BIOS Setup: content/mu_edition/bios_setup.md
-      - Download Resources: https://github.com/LattePandaTeam/LattePanda-Mu/tree/main/Softwares/Drivers
-      - Carriers:
-        - Lite Carrier: content/mu_edition/lite_carrier.md
-        - Full Eval Carrier: content/mu_edition/full_eval.md
+      - Linux GPIO Programming: content/mu_edition/gpio_ctl.md
+      - Windows GPIO Programming: 
+          - Python: content/mu_edition/gpio_ctl_windows_python.md
+          - C#: content/mu_edition/gpio_ctl_windows_csharp.md
+          - C++: content/mu_edition/gpio_ctl_windows_cplusplus.md
+      - Download Resources: content/mu_edition/download_resources.md
       - FAQ: content/mu_edition/faq.md
-  - Accessory:
-#    - Overview: index1.md
-    - Streaming Cable:
-      - Get Started: content/streaming_cable/get_started.md
-      - Setup Server Computer - Win: content/streaming_cable/set_up_windows_host.md
-      - Setup Client Computer RDP - Win: content/streaming_cable/set_up_win_rdp_client.md
-      - Setup Client Computer RDP - Mac: content/streaming_cable/set_up_mac_rdp_client.md
-      - Setup Client Computer RDP - Ubu: content/streaming_cable/set_up_ubu_rdp_client.md
-      - NoMachine - Config Client Computer: content/streaming_cable/set_up_nomachine_client.md
-      - FAQ: content/streaming_cable/faq.md
+    - Carrier Board Design Guide for LattePanda Mu:
+      - Foreword: content/mu_edition/design_guide_foreword.md
+      - Edge Connector: content/mu_edition/design_guide_edge_connector.md
+      - Power Supply: content/mu_edition/design_guide_power.md
+      - Dual BIOS: content/mu_edition/design_guide_bios.md
+      - Power Control & Status: content/mu_edition/design_guide_pwctl_stat.md
+      - USB 2.0: content/mu_edition/design_guide_usb_20.md
+      - USB 3.2: content/mu_edition/design_guide_usb_32.md
+      - HDMI 2.1: content/mu_edition/design_guide_hdmi.md
+      - HSIO Multiplexing & PCIe Bifurcation: content/mu_edition/hsio_multiplexing.md
+      - PCIe 3.0: content/mu_edition/design_guide_pcie.md
+      - SATA III: content/mu_edition/design_guide_sata.md
+      - Fan: content/mu_edition/design_guide_fan.md
+      - Auto Power-On: content/mu_edition/design_guide_auto_power_on.md
+    - LattePanda Mu Ultra:
+      - Introduction: content/mu_ultra_edition/introduction.md 
+      - Tech Specs: content/mu_ultra_edition/specification.md
+      - Initial Setup: content/mu_ultra_edition/get_started.md
+      - Multiple OS Support: 
+          - Windows: content/mu_ultra_edition/os_windows.md
+          - Linux: content/mu_ultra_edition/os_linux.md
+      - BIOS Setup: content/mu_ultra_edition/bios_setup.md
+      - Migration Guide from LattePanda Mu: content/mu_ultra_edition/migration_guide_mu_to_mu_ultra.md
+      - Download Resources: content/mu_ultra_edition/download_resources.md
+      - FAQ: content/mu_ultra_edition/faq.md
+    - Carrier Board Design Guide for LattePanda Mu Ultra:
+      - Preface: content/mu_ultra_edition/design_guide_preface.md
+      - Edge Connector: content/mu_ultra_edition/design_guide_edge_connector.md
+      - Power Supply: content/mu_ultra_edition/design_guide_power.md
+      - Dual BIOS: content/mu_ultra_edition/design_guide_bios.md
+      - Power Control & Status: content/mu_ultra_edition/design_guide_pwctl_stat.md
+      - USB 2.0: content/mu_ultra_edition/design_guide_usb_20.md
+      - USB 3.2: content/mu_ultra_edition/design_guide_usb_32.md
+      - HDMI 2.1: content/mu_ultra_edition/design_guide_hdmi.md
+      - PCIe Bifurcation: content/mu_ultra_edition/design_guide_pcie_bifurcation.md
+      - PCIe 4.0: content/mu_ultra_edition/design_guide_pcie.md
+      - Fan: content/mu_ultra_edition/design_guide_fan.md
+      - Auto Power-On: content/mu_ultra_edition/design_guide_auto_power_on.md
+  - Carrier Board:
+    - Compatibility List: content/mu_edition/module_carrier_compatibility.md
+    - Mini Carrier: content/mu_ultra_edition/mini_carrier.md
+    - Lite Carrier: content/mu_edition/lite_carrier.md
+    - Full Eval Carrier: content/mu_edition/full_eval.md
+    - MXM GPU Carrier: content/mu_edition/mxm_gpu_carrier.md
+    - Open-Source Carrier Board by Community Members: https://www.lattepanda.com/forum/topic/401250
   - IO Playability:
     - Pinpong Library - Introduction: content/IO_Playability/InstallPinpongLibrary.md
     - Pinpong Library - Blink: content/IO_Playability/Blink.md
